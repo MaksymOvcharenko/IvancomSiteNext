@@ -2,7 +2,7 @@
   background: var(--teal);
   font-family: "Rounded Mplus 1c", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #111;
@@ -10,4 +10,10 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
+}
+.topCont {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+  align-items: center;
 }

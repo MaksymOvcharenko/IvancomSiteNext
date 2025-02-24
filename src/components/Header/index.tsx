@@ -4,7 +4,8 @@ import LocalSwitcher from '../local-switcher';
 import styles from './index.module.css';
 import { NavBar } from '../NavBar';
 import logo from '../../images/Logo.png';
-
+import { SocLink} from '../SocLink/SocLink';
+import FormButton from '../FormButton/FormButton';
 export default function Header() {
   const t = useTranslations('Navigation');
  
@@ -16,8 +17,14 @@ export default function Header() {
         width={196} // Встановіть необхідні розміри
         height={80} // Встановіть необхідні розміри
       />
+   
+
       <nav className={styles.nav}>
-        <LocalSwitcher />
+        <div className={styles.topCont}>
+          <LocalSwitcher />
+          <SocLink />
+          <FormButton/>
+        </div>
         <NavBar />
       </nav>
     </header>

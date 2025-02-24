@@ -18,6 +18,9 @@
     "faq": "FAQ",
     "promotions": "Promotions"
   },
+  "Header": {
+    "form": "Fill out the form"
+  },
   "Footer": {
     "copyright": "© 2024 Footer in English."
   }

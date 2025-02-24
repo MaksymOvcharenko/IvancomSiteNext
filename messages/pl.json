@@ -18,6 +18,9 @@
     "faq": "FAQ",
     "promotions": "Promocje"
   },
+  "Header": {
+    "form": "Wypełnij formularz"
+  },
   "Footer": {
     "copyright": "© 2024 Stopka po polsku."
   }
