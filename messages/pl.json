@@ -1,0 +1,24 @@
+{
+  "IndexPage": {
+    "title": "Strona Główna",
+    "description": "Test Języka Polskiego"
+  },
+  "NotFoundPage": {
+    "title": "Strona Nie Znaleziono",
+    "description": "Ups! Wygląda na to, że trafiłeś na stronę, która nie istnieje. Nie martw się, nasza magia internacjonalizacji wciąż działa w innych częściach aplikacji. Śmiało wróć na stronę główną, aby eksplorować więcej!"
+  },
+  "Navigation": {
+    "home": "Strona główna",
+    "services": "Usługi",
+    "tariffs": "Cenniki",
+    "calculator": "Kalkulator",
+    "business": "Dla firm",
+    "about": "O nas",
+    "contacts": "Kontakt",
+    "faq": "FAQ",
+    "promotions": "Promocje"
+  },
+  "Footer": {
+    "copyright": "© 2024 Stopka po polsku."
+  }
+}

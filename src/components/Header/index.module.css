@@ -1,0 +1,13 @@
+.header {
+  background: var(--teal);
+  font-family: "Rounded Mplus 1c", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #111;
+  padding: 16px 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
