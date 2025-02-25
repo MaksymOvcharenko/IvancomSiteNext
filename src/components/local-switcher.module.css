@@ -21,11 +21,16 @@
     margin-right: 24px;
     position: relative;
   }
+
   .switcherBtn {
     display: flex;
     align-items: center;
     gap: 16px;
     cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  .switcherBtn:hover {
+    color: var(--blue);
   }
   .lang {
     margin-left: 8px;

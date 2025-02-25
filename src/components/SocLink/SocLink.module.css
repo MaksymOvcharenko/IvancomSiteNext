@@ -2,6 +2,14 @@
   display: flex;
   gap: 18px;
 }
+.soclink svg {
+  fill: none;
+  stroke: var(--blue);
+  transition: stroke 0.3s ease-in-out;
+}
+.soclink svg:hover {
+  stroke: #2724ff;
+}
 @media (max-width: 374px) {
   .soclink {
     display: none;

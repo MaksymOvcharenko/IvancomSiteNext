@@ -15,5 +15,9 @@
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    transition: color 0.3s ease-in-out;
+  }
+  .navbar a:hover {
+    color: var(--blue);
   }
 }

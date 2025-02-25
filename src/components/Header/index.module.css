@@ -21,13 +21,26 @@
     display: block;
     order: 1;
   }
+  .mobMenu svg {
+    stroke: currentColor;
+    transition: stroke 0.3s ease-in-out;
+  }
+  .mobMenu svg:hover {
+    stroke: var(--blue);
+  }
   .logo {
     order: 2;
   }
-  .logoIcon {
+  .logo svg {
     width: 120px;
     height: 52px;
+    fill: #fff;
+    transition: fill 0.3s ease-in-out;
   }
+  .logo svg:hover {
+    fill: var(--blue);
+  }
+
   .nav {
     order: 3;
   }
@@ -60,9 +73,11 @@
   .logo {
     order: 1;
   }
-  .logoIcon {
+
+  .logo svg {
     width: 184px;
     height: 80px;
+    fill: #fff;
   }
 }
 @media (min-width: 1100px) {
