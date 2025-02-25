@@ -116,7 +116,7 @@
     display: flex;
     justify-content: flex-end;
     margin-bottom: 18px;
-    align-items: center;
+    align-items: self-start;
   }
   .mobMenu {
     display: none;
