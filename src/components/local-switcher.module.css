@@ -1,7 +1,7 @@
 @media (max-width: 374px) {
-  .switcherBtn {
+  /* .switcherBtn {
     display: none;
-  }
+  } */
 }
 
 /* Стандартні мобільні пристрої (375px - 767px) */
@@ -10,13 +10,10 @@
 
 /* Планшети (від 375px) */
 @media (min-width: 320px) {
-  .switcherBtn {
-    display: none;
-  }
 }
 
 /* Великі планшети і маленькі ноутбуки (від 768px) */
-@media (min-width: 768px) {
+@media (min-width: 320px) {
   .switcher {
     margin-right: 24px;
     position: relative;

@@ -1,0 +1,28 @@
+/* Планшети (від 375px) */
+@media (min-width: 320px) {
+  .body {
+    font-family: "Rounded Mplus 1c", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+}

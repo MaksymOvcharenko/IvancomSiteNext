@@ -1,0 +1,99 @@
+@media (min-width: 320px) {
+  .menuWrapper {
+    position: relative;
+  }
+
+  .menuButton {
+    position: relative;
+    z-index: 150;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--teal);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+    padding: 20px;
+  }
+
+  .menu.open {
+    transform: translateX(0);
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu li {
+    margin-bottom: 15px;
+  }
+
+  .backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+    z-index: 99;
+  }
+
+  .backdrop.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .navbar a {
+    position: relative;
+    text-decoration: none; /* Забираємо стандартне підкреслення */
+  }
+
+  .navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Відступ від тексту */
+    width: 0;
+    height: 2px; /* Товщина лінії */
+    background-color: var(--blue);
+    transition: width 0.3s ease-in-out;
+  }
+
+  .navbar a:hover::after {
+    width: 100%;
+  }
+  .navbar a:hover {
+    color: var(--blue);
+  }
+}
+
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+}

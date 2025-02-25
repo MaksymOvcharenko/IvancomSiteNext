@@ -11,16 +11,16 @@
   stroke: #2724ff;
 }
 @media (max-width: 374px) {
-  .soclink {
+  /* .soclink {
     display: none;
-  }
+  } */
 }
 
 /* Стандартні мобільні пристрої (375px - 767px) */
 @media (min-width: 375px) and (max-width: 767px) {
-  .soclink {
+  /* .soclink {
     display: none;
-  }
+  } */
 }
 
 /* Планшети (768px - 1279px) */

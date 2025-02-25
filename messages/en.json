@@ -22,6 +22,19 @@
     "form": "Fill out the form"
   },
   "Footer": {
-    "copyright": "© 2024 Footer in English."
+    "copyright": "© 2024 Footer in English.",
+    "home": "Home",
+    "services": "Services",
+    "tariffs": "Tariffs",
+    "calculator": "Calculator",
+    "business": "Business",
+    "about": "About Us",
+    "contacts": "Contacts",
+    "faq": "FAQ",
+    "promotions": "Promotions",
+    "rights": "© 2025 All rights reserved.",
+    "nip": "NIP: 9452232009",
+    "website": "ivancom.eu",
+    "regulation": "Terms and conditions"
   }
 }
