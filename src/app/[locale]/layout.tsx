@@ -129,9 +129,9 @@ export default async function RootLayout({
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
+          <div >
             <Header />
-            <div className="flex-grow mt-20">{children}</div>
+            <div >{children}</div>
             <Footer />
           </div>
         </NextIntlClientProvider>

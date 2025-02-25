@@ -1,5 +1,19 @@
-.navbar {
-  display: flex;
-  gap: 24px;
-  justify-content: space-between;
+/* Планшети (від 375px) */
+@media (min-width: 320px) {
+  .navbar {
+    display: none;
+  }
+}
+
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
 }

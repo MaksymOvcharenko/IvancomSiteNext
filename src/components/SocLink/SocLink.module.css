@@ -2,3 +2,27 @@
   display: flex;
   gap: 18px;
 }
+@media (max-width: 374px) {
+  .soclink {
+    display: none;
+  }
+}
+
+/* Стандартні мобільні пристрої (375px - 767px) */
+@media (min-width: 375px) and (max-width: 767px) {
+  .soclink {
+    display: none;
+  }
+}
+
+/* Планшети (768px - 1279px) */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .soclink {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/* Великі екрани (1280px і більше) */
+@media (min-width: 1280px) {
+}

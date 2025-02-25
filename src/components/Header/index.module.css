@@ -1,19 +1,118 @@
-.header {
-  background: var(--teal);
-  font-family: "Rounded Mplus 1c", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #111;
-  padding: 16px 72px;
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
+/* Базові стилі для мобільних пристроїв (до 375px) */
+/* Тут пишеш загальні стилі, які застосовуються для всіх екранів за замовчуванням */
+
+/* Планшети (від 375px) */
+@media (min-width: 320px) {
+  .header {
+    background: var(--teal);
+    font-family: "Rounded Mplus 1c", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #111;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .mobMenu {
+    display: block;
+    order: 1;
+  }
+  .logo {
+    order: 2;
+  }
+  .logoIcon {
+    width: 120px;
+    height: 52px;
+  }
+  .nav {
+    order: 3;
+  }
 }
-.topCont {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 18px;
-  align-items: center;
+
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .header {
+    padding: 20px 60px;
+  }
+  .topCont {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Два стовпці */
+    gap: 10px; /* Відступи між елементами */
+  }
+  .topCont :nth-child(3) {
+    grid-column: 2 / 3;
+    justify-self: end; /* Розміщує останній елемент у другій колонці */
+  }
+  .topCont :nth-child(1) {
+    justify-self: end; /* Розміщує останній елемент у другій колонці */
+  }
+  .mobMenu {
+    display: block;
+    order: 2;
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: 14px;
+  }
+  .logo {
+    order: 1;
+  }
+  .logoIcon {
+    width: 184px;
+    height: 80px;
+  }
+}
+@media (min-width: 1100px) {
+  .topCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobMenu {
+    order: 2;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .header {
+    background: var(--teal);
+    font-family: "Rounded Mplus 1c", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #111;
+    padding: 16px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .topCont {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 18px;
+    align-items: center;
+  }
+  .mobMenu {
+    display: none;
+  }
+  .logoIcon {
+    width: 184px;
+    height: 80px;
+  }
+}
+@media (min-width: 1380px) {
+  .header {
+    font-size: 20px;
+  }
 }
