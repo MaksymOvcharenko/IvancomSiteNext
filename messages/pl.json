@@ -36,5 +36,32 @@
     "nip": "NIP: 9452232009",
     "website": "ivancom.eu",
     "regulation": "Regulamin"
+  },
+  "Calculator": {
+    "title": "Kalkulator dostawy",
+    "description": "Wybierz kierunek, dla którego chcesz użyć kalkulatora:",
+    "fromPoland": "Z Polski",
+    "toUkraine": "do Ukrainy",
+    "fromUkraine": "Z Ukrainy",
+    "toPoland": "do Polski",
+    "back": "Wstecz",
+    "result": "Wynik:",
+    "package": "Paczka",
+    "actualWeight": "Waga rzeczywista",
+    "volumetricWeight": "Waga objętościowa",
+    "totalWeight": "Całkowita waga",
+    "insurance": "Ubezpieczenie",
+    "totalCost": "Całkowity koszt",
+    "Cost": "Koszt",
+    "kg": "kg",
+    "length": "Długość",
+    "width": "Szerokość",
+    "height": "Wysokość",
+    "addPackage": "Dodaj paczkę",
+    "removePackage": "Usuń",
+    "valuationLabel": "Wartość szacunkowa (zł):",
+    "calculateButton": "Oblicz",
+    "extraChargeLarge": "+6 zł za przekroczenie 120 cm",
+    "extraChargeHeavy": "+12 zł za wagę powyżej 30 kg"
   }
 }

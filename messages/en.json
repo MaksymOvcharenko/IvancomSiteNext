@@ -36,5 +36,32 @@
     "nip": "NIP: 9452232009",
     "website": "ivancom.eu",
     "regulation": "Terms and conditions"
+  },
+  "Calculator": {
+    "title": "Delivery Calculator",
+    "description": "Choose the direction for which you want to use the calculator:",
+    "fromPoland": "From Poland",
+    "toUkraine": "to Ukraine",
+    "fromUkraine": "From Ukraine",
+    "toPoland": "to Poland",
+    "back": "Back",
+    "result": "Result:",
+    "package": "Package",
+    "actualWeight": "Actual Weight",
+    "volumetricWeight": "Volumetric Weight",
+    "totalWeight": "Total Weight",
+    "insurance": "Insurance",
+    "totalCost": "Total Cost",
+    "Cost": "Cost",
+    "kg": "kg",
+    "length": "Length",
+    "width": "Width",
+    "height": "Height",
+    "addPackage": "Add package",
+    "removePackage": "Remove",
+    "valuationLabel": "Estimated value (PLN):",
+    "calculateButton": "Calculate",
+    "extraChargeLarge": "+6 zł for exceeding 120 cm",
+    "extraChargeHeavy": "+12 zł for weight over 30 kg"
   }
 }

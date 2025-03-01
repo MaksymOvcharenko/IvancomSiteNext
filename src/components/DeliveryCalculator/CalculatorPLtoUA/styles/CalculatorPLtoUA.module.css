@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+  text-align: left;
+}
+.title {
+  font-family: "Tilda Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+.package {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.valuation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.label {
+  font-family: "Tilda Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: left;
+  color: #000;
+}
+.input {
+  border-radius: 5px;
+  width: 140px;
+  height: 27px;
+  background: #d6e0f5;
+  text-align: center;
+}
+.calculateButton {
+  border-radius: 5px;
+  padding: 5px 30px;
+  width: 281px;
+  height: 40px;
+  background: var(--teal);
+  color: white;
+  transition: background 0.3s ease-in-out;
+}
+.calculateButton:hover {
+  background: rgb(0, 26, 63);
+}

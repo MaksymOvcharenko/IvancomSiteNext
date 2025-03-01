@@ -1,0 +1,44 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Tilda Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+
+  color: #000;
+}
+.packageDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.total {
+  border-radius: 5px;
+  background: #cfdbf3;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Tilda Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.extraCharge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
