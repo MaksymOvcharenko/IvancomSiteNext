@@ -62,6 +62,8 @@
     "valuationLabel": "Wartość szacunkowa (zł):",
     "calculateButton": "Oblicz",
     "extraChargeLarge": "+6 zł za przekroczenie 120 cm",
-    "extraChargeHeavy": "+12 zł za wagę powyżej 30 kg"
+    "extraChargeHeavy": "+12 zł za wagę powyżej 30 kg",
+    "commerce": "Od 5 identycznych nowych produktów",
+    "deliveryInPoland": "Dostawa w Polsce"
   }
 }

@@ -1,8 +1,31 @@
+@font-face {
+  font-family: "Tilda Sans"; /* Название шрифта */
+  src: url("../../../../fonts/TildaSans-Light.woff2") format("woff2"),
+    /* Современные браузеры */ url("../../../../fonts/TildaSans-Light.woff")
+      format("woff"); /* Резервный формат */
+  font-weight: 400; /* Нормальный вес */
+  font-style: normal; /* Обычный стиль */
+}
+
+@font-face {
+  font-family: "Tilda Sans"; /* Название шрифта */
+  src: url("../../../../fonts/TildaSans-Regular.woff2") format("woff2"),
+    url("../../../../fonts/TildaSans-Regular.woff") format("woff");
+  font-weight: 600; /* Жирный текст */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tilda Sans"; /* Название шрифта */
+  src: url("../../../../fonts/TildaSans-Medium.woff2") format("woff2"),
+    url("../../../../fonts/TildaSans-Medium.woff") format("woff");
+  font-weight: 700; /* Жирный текст */
+  font-style: normal;
+}
 .result {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  font-family: "Tilda Sans", sans-serif;
+  font-family: "Tilda Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
@@ -25,20 +48,25 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-family: "Tilda Sans", sans-serif;
+  font-family: "Tilda Sans";
   font-weight: 700;
   font-size: 14px;
   line-height: 120%;
   text-align: center;
   color: #000;
 }
+.total p {
+  font-family: "Tilda Sans";
+}
 .info {
   display: flex;
   align-items: center;
+  font-family: "Tilda Sans";
   gap: 4px;
 }
 .extraCharge {
   display: flex;
   align-items: center;
   gap: 4px;
+  font-family: "Tilda Sans";
 }

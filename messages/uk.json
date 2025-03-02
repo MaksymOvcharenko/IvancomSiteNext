@@ -62,6 +62,8 @@
         "valuationLabel": "Оціночна вартість (зл):",
         "calculateButton": "Розрахувати",
         "extraChargeLarge": "+6 zł за перевищення 120 см",
-        "extraChargeHeavy": "+12 zł за вагу більше 30 кг"
+        "extraChargeHeavy": "+12 zł за вагу більше 30 кг",
+        "commerce": "Від 5 однотипних нових товарів",
+        "deliveryInPoland": "Доставка по Польщі"
     }
 }

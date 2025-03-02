@@ -1,3 +1,26 @@
+@font-face {
+  font-family: "Tilda Sans"; /* Название шрифта */
+  src: url("../../fonts/TildaSans-Light.woff2") format("woff2"),
+    /* Современные браузеры */ url("../../fonts/TildaSans-Light.woff")
+      format("woff"); /* Резервный формат */
+  font-weight: 400; /* Нормальный вес */
+  font-style: normal; /* Обычный стиль */
+}
+
+@font-face {
+  font-family: "Tilda Sans"; /* Название шрифта */
+  src: url("../../fonts/TildaSans-Regular.woff2") format("woff2"),
+    url("../../fonts/TildaSans-Regular.woff") format("woff");
+  font-weight: 600; /* Жирный текст */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tilda Sans"; /* Название шрифта */
+  src: url("../../fonts/TildaSans-Medium.woff2") format("woff2"),
+    url("../../fonts/TildaSans-Medium.woff") format("woff");
+  font-weight: 700; /* Жирный текст */
+  font-style: normal;
+}
 .container {
   /* background: white; */
   padding: 20px;

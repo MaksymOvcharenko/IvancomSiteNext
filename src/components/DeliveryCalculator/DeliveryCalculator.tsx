@@ -4,6 +4,8 @@ import styles from "./DeliveryCalculator.module.css";
 import SvgIcon from "../SvgIcon";
 import { useTranslations } from "next-intl";
 import CalculatorPLtoUA from "./CalculatorPLtoUA/CalculatorPLtoUA";
+import CalculatorUatoPL from "./CalculatorPLtoUA/CalculatorUatoPl";
+
 
 // import CalculatorPLtoUA from "./CalculatorPLtoUA"; // Калькулятор Польща → Україна
 // import CalculatorUAtoPL from "./CalculatorUAtoPL"; // Калькулятор Україна → Польща
@@ -35,7 +37,7 @@ const t = useTranslations('Calculator');
       ) : (
         <div className={styles.calculatorContainer}>
           {selectedCalculator === "PLtoUA" && <CalculatorPLtoUA />}
-          {/* {selectedCalculator === "UAtoPL" && <CalculatorUAtoPL />} */}
+          {selectedCalculator === "UAtoPL" && <CalculatorUatoPL />}
           <button className={styles.backButton} onClick={() => setSelectedCalculator(null)}>
             {t("back")}
           </button>
