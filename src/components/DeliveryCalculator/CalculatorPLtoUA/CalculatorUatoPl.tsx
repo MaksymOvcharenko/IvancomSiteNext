@@ -124,7 +124,7 @@ const CalculatorUatoPL: React.FC = () => {
       </div>
 
       <div className={styles.valuation}>
-        <label className={styles.label}>{t("valuationLabel")}</label>
+        <label className={styles.label}>{t("valuationLabelUA")}</label>
         <input
           type="number"
           className={styles.input}
@@ -133,20 +133,7 @@ const CalculatorUatoPL: React.FC = () => {
         />
       </div>
 
-      {/* <div className={styles.checkboxGroup}>
-        <label>
-          <input type="checkbox" className={styles.visuallyHidden} checked={isDeliveryInPoland} onChange={() => setIsDeliveryInPoland(!isDeliveryInPoland)} />
-          <span className={styles.spanCheckbox}>
-            </span> 
-                  {t("deliveryInPoland")}
-        </label>
-        <label>
-          <input type="checkbox" className={styles.visuallyHidden} checked={isCommerce} onChange={() => setIsCommerce(!isCommerce)} />
-                 <span className={styles.spanCheckbox}>
-            </span> {t("commerce")}
-                  
-        </label>
-      </div> */}
+      
        <div className={styles.checkboxGroup}>
   <label className={styles.checkLabel}>
     <input

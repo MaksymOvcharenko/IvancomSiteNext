@@ -7,8 +7,7 @@ import CalculatorPLtoUA from "./CalculatorPLtoUA/CalculatorPLtoUA";
 import CalculatorUatoPL from "./CalculatorPLtoUA/CalculatorUatoPl";
 
 
-// import CalculatorPLtoUA from "./CalculatorPLtoUA"; // Калькулятор Польща → Україна
-// import CalculatorUAtoPL from "./CalculatorUAtoPL"; // Калькулятор Україна → Польща
+
 
 const DeliveryCalculator = () => {
   const [selectedCalculator, setSelectedCalculator] = useState<"PLtoUA" | "UAtoPL" | null>(null);

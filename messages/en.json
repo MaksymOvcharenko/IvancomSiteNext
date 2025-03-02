@@ -64,6 +64,7 @@
     "extraChargeLarge": "+6 zł for exceeding 120 cm",
     "extraChargeHeavy": "+12 zł for weight over 30 kg",
     "commerce": "From 5 identical new products",
-    "deliveryInPoland": "Delivery in Poland"
+    "deliveryInPoland": "Delivery in Poland",
+    "valuationLabelUA": "Estimated value (UAH):"
   }
 }

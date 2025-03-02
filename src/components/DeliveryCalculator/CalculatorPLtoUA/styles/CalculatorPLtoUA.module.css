@@ -45,6 +45,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-family: "Tilda Sans", sans-serif;
 }
 .label {
   font-family: "Tilda Sans", sans-serif;
