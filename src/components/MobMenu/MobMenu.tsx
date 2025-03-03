@@ -1,68 +1,4 @@
-// "use client";
 
-// import { motion } from "framer-motion";
-// import { Menu, X } from "lucide-react";
-// import Link from "next/link";
-// import styles from "./MobMenu.module.css";
-
-// type Props = {
-//   isOpen: boolean;
-//   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
-// };
-
-// const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
-//   const toggleMenu = () => setIsOpen((prev) => !prev);
-
-//   return (
-//     <div className={styles.menuWrapper}>
-//       {/* Кнопка відкриття меню */}
-//       <button onClick={toggleMenu} className={styles.menuButton}>
-//         <motion.div
-//           key="menu"
-//           initial={{ rotate: -90, opacity: 0 }}
-//           animate={{ rotate: 0, opacity: 1 }}
-//           exit={{ rotate: 90, opacity: 0 }}
-//           transition={{ duration: 0.3 }}
-//         >
-//           <Menu size={28} />
-//         </motion.div>
-//       </button>
-
-//       {/* Затемнення */}
-//       {isOpen && (
-//         <div className={styles.backdrop} onClick={toggleMenu} />
-//       )}
-
-//       {/* Меню */}
-//       <nav className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
-//         {/* Кнопка закриття меню всередині */}
-//         <button onClick={toggleMenu} className={styles.closeButton}>
-//           <X size={28} />
-//         </button>
-
-//         <ul>
-//           <li>
-//             <Link href="/" onClick={toggleMenu}>
-//               Головна
-//             </Link>
-//           </li>
-//           <li>
-//             <Link href="/about" onClick={toggleMenu}>
-//               Про нас
-//             </Link>
-//           </li>
-//           <li>
-//             <Link href="/contact" onClick={toggleMenu}>
-//               Контакти
-//             </Link>
-//           </li>
-//         </ul>
-//       </nav>
-//     </div>
-//   );
-// };
-
-// export default MobMenu;
 "use client";
 
 import { useEffect } from "react";
@@ -153,7 +89,9 @@ const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
       <Link href={`/${locale}`} onClick={toggleMenu}>{t("home")}</Link>
       <Link href={`/${locale}/services`} onClick={toggleMenu}>{t("services")}</Link>
       <Link href={`/${locale}/tariffs`} onClick={toggleMenu}>{t("tariffs")}</Link>
-      <Link href={`/${locale}/calculator`} onClick={toggleMenu}>{t("calculator")}</Link>
+      <button className={styles.navLink} onClick={() => setIsOpen(true)}>
+        <a>{t("calculator")}</a>
+      </button>
       <Link href={`/${locale}/business`} onClick={toggleMenu}>{t("business")}</Link>
       <Link href={`/${locale}/about`} onClick={toggleMenu}>{t("about")}</Link>
       <Link href={`/${locale}/contacts`} onClick={toggleMenu}>{t("contacts")}</Link>
