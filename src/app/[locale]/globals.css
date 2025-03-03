@@ -1,4 +1,5 @@
 /* Global CSS Reset */
+
 *,
 *::before,
 *::after {
@@ -68,6 +69,26 @@ blockquote {
   margin: 0;
   padding-left: 20px;
   border-left: 4px solid var(--gray);
+}
+body {
+  --sb-track-color: transparent; /* Трек невидимий */
+  --sb-thumb-color: #d6e0f5; /* Колір повзунка */
+  --sb-size: 16px;
+
+  overflow: overlay; /* Робимо скролбар поверх контенту */
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 8px;
 }
 
 /* Root Styles */

@@ -66,5 +66,11 @@
     "commerce": "From 5 identical new products",
     "deliveryInPoland": "Delivery in Poland",
     "valuationLabelUA": "Estimated value (UAH):"
+  },
+  "about": {
+    "headline": "Helping you stay closer!",
+    "description": "Logistics with a human touch: fast delivery between Ukraine and Europe, transparent rates, and a personalized approach.",
+    "calculate": "Calculate cost",
+    "apply": "Submit a request"
   }
 }

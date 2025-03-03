@@ -66,5 +66,11 @@
     "commerce": "Od 5 identycznych nowych produktów",
     "deliveryInPoland": "Dostawa w Polsce",
     "valuationLabelUA": "Wartość szacunkowa (UAH):"
+  },
+  "about": {
+    "headline": "Pomagamy Ci być bliżej!",
+    "description": "Logistyka z ludzką twarzą: szybka dostawa między Ukrainą a Europą, przejrzyste taryfy i indywidualne podejście.",
+    "calculate": "Oblicz koszt",
+    "apply": "Zostaw zgłoszenie"
   }
 }

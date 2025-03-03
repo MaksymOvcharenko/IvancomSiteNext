@@ -1,11 +1,12 @@
-"use client";
-import { useParams } from 'next/navigation';
+import HeroAbout from "@/components/About/AboutHero/AboutHero";
+import styles from "./page.module.css"
 
 const Services = () => {
-  const params = useParams();
-  console.log('Rendering Services for locale:', params.locale); // locale тепер у params
+// locale тепер у params
 
-  return <h1>Сторінка Про нас для {params.locale}</h1>;
+  return <div className={styles.body}>
+    <HeroAbout/>
+  </div>
 };
 
 export default Services;

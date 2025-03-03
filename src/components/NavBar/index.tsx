@@ -54,23 +54,39 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import styles from "./index.module.css";
-import React from "react";
+import React, { useState } from "react";
+import Modal from "../Modal/Modal";
+import DeliveryCalculator from "../DeliveryCalculator/DeliveryCalculator";
+
 
 export const NavBar = () => {
   const t = useTranslations("Navigation");
-  const { locale } = useParams(); // Витягуємо мову з URL
+  const { locale } = useParams(); // Отримуємо поточну мову з URL
+
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className={styles.navbar}>
       <Link href={`/${locale}`}>{t("home")}</Link>
       <Link href={`/${locale}/services`}>{t("services")}</Link>
       <Link href={`/${locale}/tariffs`}>{t("tariffs")}</Link>
-      <Link href={`/${locale}/calculator`}>{t("calculator")}</Link>
+
+      {/* Кнопка, яка виглядає як посилання */}
+      <button className={styles.navLink} onClick={() => setIsOpen(true)}>
+        <a>{t("calculator")}</a>
+      </button>
+
       <Link href={`/${locale}/business`}>{t("business")}</Link>
       <Link href={`/${locale}/about`}>{t("about")}</Link>
       <Link href={`/${locale}/contacts`}>{t("contacts")}</Link>
       <Link href={`/${locale}/faq`}>{t("faq")}</Link>
       <Link href={`/${locale}/promotions`}>{t("promotions")}</Link>
+
+      {/* Модалка з калькулятором */}
+      <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
+        <DeliveryCalculator />
+      </Modal>
     </div>
   );
 };
+
