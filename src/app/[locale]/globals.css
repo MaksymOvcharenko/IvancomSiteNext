@@ -94,6 +94,10 @@ button {
   -webkit-appearance: none;
   appearance: none;
 }
+button,
+a {
+  color: #111; /* або той, що тобі потрібен */
+}
 /* Root Styles */
 :root {
   --white: #fff;
