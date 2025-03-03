@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
@@ -10,10 +10,13 @@ import LocaleSwitcher from "../local-switcher";
 import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { SocLink } from "../SocLink/SocLink";
+import DeliveryCalculator from "../DeliveryCalculator/DeliveryCalculator";
+import Modal from "../Modal/Modal";
 
 type Props = {
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  openModal: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const menuVariants = {
@@ -28,10 +31,12 @@ const backdropVariants = {
   exit: { opacity: 0 },
 };
 
-const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
+const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen, openModal }) => {
   const toggleMenu = () => setIsOpen((prev) => !prev);
     const { locale } = useParams(); // Витягуємо мову з URL
-    const t = useTranslations('Footer');
+  const t = useTranslations('Footer');
+
+  
   useEffect(() => {
     if (isOpen) {
       // Визначаємо ширину скроллбару
@@ -51,12 +56,7 @@ const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
 
   return (
     <div className={styles.menuWrapper}>
-      {/* Кнопка відкриття */}
-      {/* <button onClick={toggleMenu} className={styles.menuButton}>
-        <Menu size={28} />
-      </button> */}
-
-      {/* Затемнення */}
+   
       {isOpen && (
         <motion.div
           className={styles.backdrop}
@@ -89,7 +89,7 @@ const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
       <Link href={`/${locale}`} onClick={toggleMenu}>{t("home")}</Link>
       <Link href={`/${locale}/services`} onClick={toggleMenu}>{t("services")}</Link>
       <Link href={`/${locale}/tariffs`} onClick={toggleMenu}>{t("tariffs")}</Link>
-      <button className={styles.navLink} onClick={() => setIsOpen(true)}>
+            <button className={styles.navLink} onClick={() => { openModal(true); setIsOpen(false) }}>
         <a>{t("calculator")}</a>
       </button>
       <Link href={`/${locale}/business`} onClick={toggleMenu}>{t("business")}</Link>
@@ -102,6 +102,7 @@ const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
                   <SocLink/>
         </div>
       </motion.nav>
+      
     </div>
   );
 };

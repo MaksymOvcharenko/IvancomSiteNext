@@ -12,9 +12,12 @@ import { useState } from 'react';
 import MobMenu from '../MobMenu/MobMenu';
 import ResponsiveLocaleSwitcher from '../ResponsiveLocalSwitcher';
 import ResponsiveSocLink from '../ResponsiveSocLink';
+import Modal from '../Modal/Modal';
+import DeliveryCalculator from '../DeliveryCalculator/DeliveryCalculator';
 export default function Header() {
   const t = useTranslations('Navigation');
   const [mobMenu, setMobMenu] = useState(false)
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <>
       <header className={styles.header}>
@@ -34,7 +37,10 @@ export default function Header() {
         </nav>
         
       </header>
-      {mobMenu && <MobMenu isOpen={mobMenu} setIsOpen={setMobMenu} />}
+      {mobMenu && <MobMenu isOpen={mobMenu} setIsOpen={setMobMenu} openModal={setModalIsOpen} />}
+      <Modal isOpen={modalIsOpen} onClose={() => setModalIsOpen(false)}>
+      <DeliveryCalculator />
+    </Modal>
     </>
   );
 }
