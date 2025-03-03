@@ -69,6 +69,9 @@
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
 }
+.container button {
+  cursor: pointer;
+}
 .title {
   color: #000;
   font-family: "Tilda Sans";

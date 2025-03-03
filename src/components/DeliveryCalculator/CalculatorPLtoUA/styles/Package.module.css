@@ -26,6 +26,9 @@
   flex-direction: column;
   gap: 20px;
 }
+.package input {
+  font-size: 16px;
+}
 .title {
   font-family: "Tilda Sans", sans-serif;
   font-weight: 600;
@@ -45,7 +48,7 @@
   /* border: 1px solid red; */
   font-family: "Tilda Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 120%;
   text-align: left;
   color: #000;
@@ -68,6 +71,9 @@
   display: flex;
   align-items: center;
   gap: 4px;
+  font-size: 16px;
+  font-family: "Tilda Sans", sans-serif;
+  font-weight: 300;
 }
 .addButton svg {
   fill: #05173b;
@@ -83,6 +89,8 @@
   align-items: center;
   gap: 4px;
   fill: #ff543e;
+  font-size: 16px;
+  font-family: "Tilda Sans", sans-serif;
 }
 .removeButton:hover {
   color: #b21b07;

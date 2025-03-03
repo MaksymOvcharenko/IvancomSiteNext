@@ -33,7 +33,8 @@
   }
   .navbar a {
     position: relative;
-    text-decoration: none; /* Забираємо стандартне підкреслення */
+    text-decoration: none;
+    cursor: pointer; /* Забираємо стандартне підкреслення */
   }
 
   .navbar a::after {
