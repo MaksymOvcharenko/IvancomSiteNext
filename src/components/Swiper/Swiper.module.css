@@ -1,0 +1,45 @@
+.swiperWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px; /* Измени, если надо */
+  margin: 0 auto;
+  overflow: hidden;
+  /* Убираем лишнее */
+}
+
+.swiper {
+  /* width: 100% !important; */
+  /* max-width: 100% !important; */
+  height: 400px;
+}
+
+.swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100% !important; */
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 342x;
+  height: 320px;
+
+  overflow: hidden; /* Обрезает края */
+  border-radius: 20px; /* Радиус скругления */
+}
+@media screen and (min-width: 768px) {
+  .swiperWrapper {
+    max-width: 760px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swiperWrapper {
+    max-width: 1280px;
+  }
+}
