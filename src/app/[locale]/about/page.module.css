@@ -5,4 +5,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+}
+.gallery {
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 320px) {
+  .body {
+    padding: 100px 20px;
+    /* max-width: 375px; */
+    overflow: hidden;
+  }
+}
+
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

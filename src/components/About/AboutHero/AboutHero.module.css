@@ -121,7 +121,7 @@
 @media (min-width: 1280px) {
   .body {
     padding: 100px 72px;
-    width: 1440px;
+    /* width: 1440px; */
     height: 500px;
     justify-content: center;
   }
