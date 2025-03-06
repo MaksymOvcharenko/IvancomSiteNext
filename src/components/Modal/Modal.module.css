@@ -12,18 +12,19 @@
 }
 
 .modal {
-  /* background: white; */
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 20px;
-  /* width: 350px; */
-  max-height: 90vh;
-  overflow-y: auto;
+  width: 100vw;
+  max-height: 100vh;
+  overflow-y: hidden;
   overflow-x: hidden;
-  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
+  display: flex;
+  justify-content: center;
   position: relative;
+  padding: 0;
 }
 
-.modal {
+/* .modal {
   --sb-track-color: #f8f8f800;
   --sb-thumb-color: #d6e0f5;
   --sb-size: 16px;
@@ -44,18 +45,28 @@
 .modal::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 8px;
+} */
+.contBtn {
+  position: relative;
 }
-
 .closeBtn {
   position: absolute;
-  top: -2px;
-  right: -4px;
+  top: 0px;
+  right: 0px;
   font-size: 20px;
   border: none;
   background: none;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
+.closeBtn svg {
+  fill: black;
+}
 .closeBtn:hover {
   transform: rotate(90deg);
+}
+@media screen and (min-width: 1280px) {
+  .closeBtn {
+    right: 0;
+  }
 }

@@ -5,16 +5,27 @@ import SvgIcon from "../SvgIcon";
 import { useTranslations } from "next-intl";
 import CalculatorPLtoUA from "./CalculatorPLtoUA/CalculatorPLtoUA";
 import CalculatorUatoPL from "./CalculatorPLtoUA/CalculatorUatoPl";
+import { IconContext } from "react-icons";
+import { IoMdClose } from "react-icons/io";
 
 
+interface DeliveryCalculatorProps {
+  onClose: () => void;
+ 
+}
 
-
-const DeliveryCalculator = () => {
+const DeliveryCalculator:  React.FC<DeliveryCalculatorProps>=({ onClose }) => {
   const [selectedCalculator, setSelectedCalculator] = useState<"PLtoUA" | "UAtoPL" | null>(null);
 const t = useTranslations('Calculator');
   return (
      <div className={styles.container}>
-      
+      <button  onClick={onClose}>
+        <IconContext.Provider value={{ color: "#black", size: "36px" }}>
+          <div className={styles.closeBtn}>
+            <IoMdClose />
+          </div>
+        </IconContext.Provider>
+      </button>
 
       {!selectedCalculator ? (
         <>

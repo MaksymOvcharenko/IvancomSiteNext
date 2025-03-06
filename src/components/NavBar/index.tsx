@@ -57,6 +57,7 @@ import styles from "./index.module.css";
 import React, { useState } from "react";
 import Modal from "../Modal/Modal";
 import DeliveryCalculator from "../DeliveryCalculator/DeliveryCalculator";
+import FormInpost from "../FormInpost/FormInpost";
 
 
 export const NavBar = () => {
@@ -85,6 +86,7 @@ export const NavBar = () => {
       {/* Модалка з калькулятором */}
       <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
         <DeliveryCalculator />
+        {/* <FormInpost/> */}
       </Modal>
     </div>
   );

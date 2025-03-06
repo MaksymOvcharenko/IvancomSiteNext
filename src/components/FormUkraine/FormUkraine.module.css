@@ -1,0 +1,65 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  overflow: hidden; /* Забороняє скролінг всередині */
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  min-width: 375px;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  overflow: hidden;
+}
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding: 5px;
+  background-color: #ffffff9d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeBtn svg {
+  fill: black;
+}
+.closeBtn:hover {
+  transform: rotate(90deg);
+}
+
+.backBtn {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding: 5px;
+  background-color: #ffffff9d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backBtn svg {
+  fill: black;
+}
+.backBtn:hover {
+  transform: rotate(90deg);
+}

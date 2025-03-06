@@ -1,13 +1,17 @@
-"use client";
+// "use client";
 import { useTranslations } from "next-intl";
-import Image from "next/image"; // Додай цей імпорт, якщо Image з next/image
+import Image from "next/image";
 import styles from "./FormButton.module.css";
 
-export default function FormButton() {
+interface FormButtonProps {
+  setModalFormIsOpen: (isOpen: boolean) => void;
+}
+
+export default function FormButton({ setModalFormIsOpen }: FormButtonProps) {
   const t = useTranslations("Header");
 
   const handleClick = () => {
-    console.log("Відкрити форму");
+    setModalFormIsOpen(true);
   };
 
   return (

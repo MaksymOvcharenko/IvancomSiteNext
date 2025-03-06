@@ -14,10 +14,13 @@ import ResponsiveLocaleSwitcher from '../ResponsiveLocalSwitcher';
 import ResponsiveSocLink from '../ResponsiveSocLink';
 import Modal from '../Modal/Modal';
 import DeliveryCalculator from '../DeliveryCalculator/DeliveryCalculator';
+import FormInpost from '../FormInpost/FormInpost';
+import FormSelectorWrapper from '../FormSelectorWrapper/FormSelectorWrapper';
 export default function Header() {
   const t = useTranslations('Navigation');
   const [mobMenu, setMobMenu] = useState(false)
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [modalFormIsOpen, setModalFormIsOpen] = useState(false);
   return (
     <>
       <header className={styles.header}>
@@ -31,7 +34,7 @@ export default function Header() {
           <div className={styles.topCont}>
             <ResponsiveLocaleSwitcher/>
             <ResponsiveSocLink/>
-            <FormButton/>
+            <FormButton setModalFormIsOpen={setModalFormIsOpen} />
           </div>
           <NavBar />
         </nav>
@@ -39,7 +42,12 @@ export default function Header() {
       </header>
       {mobMenu && <MobMenu isOpen={mobMenu} setIsOpen={setMobMenu} openModal={setModalIsOpen} />}
       <Modal isOpen={modalIsOpen} onClose={() => setModalIsOpen(false)}>
-      <DeliveryCalculator />
+        <DeliveryCalculator />
+        {/* <FormInpost/> */}
+      </Modal>
+      
+      <Modal isOpen={modalFormIsOpen} onClose={() => setModalFormIsOpen(false)}>
+       <FormSelectorWrapper onClose={() => setModalFormIsOpen(false)}/>
     </Modal>
     </>
   );

@@ -47,7 +47,7 @@
 .container {
   --sb-track-color: #f8f8f8;
   --sb-thumb-color: #d6e0f5;
-  --sb-size: 11px;
+  --sb-size: 0px;
 }
 
 .container::-webkit-scrollbar {
@@ -140,4 +140,26 @@
 }
 .backButton:hover {
   background: rgb(253, 219, 49);
+}
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: -15px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding: 2px;
+  background-color: #ffffff9d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeBtn svg {
+  fill: black;
+}
+.closeBtn:hover {
+  transform: rotate(90deg);
 }
