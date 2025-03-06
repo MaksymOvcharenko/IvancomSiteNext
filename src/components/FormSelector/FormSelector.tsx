@@ -19,7 +19,8 @@ const FormSelector: React.FC<FormSelectorProps> = ({ onSelectForm, onClose }) =>
       <h2>Виберіть спосіб відправки:</h2>
       <button  className={styles.btn} onClick={() => onSelectForm("inpost")}>Відправка через InPost</button>
           <button className={styles.btn} onClick={() => onSelectForm("ukraine")}>Відправка з України</button>
-          <button className={styles.btn} onClick={() => onSelectForm("world_to_ukraine")}>Відправка Світ -Україна</button>
+      <button className={styles.btn} onClick={() => onSelectForm("world_to_ukraine")}>Відправка Світ -Україна</button>
+      <button className={styles.btn} onClick={() => onSelectForm("transfer")}>Переїзди</button>
     </div>
   );
 };

@@ -115,5 +115,27 @@
     "agreement": "I agree to the terms",
     "agreement_required": "You must accept the terms",
     "submit": "Submit"
+  },
+  "FormTransfer": {
+    "title": "Relocations",
+    "sender_name": "Sender's first name",
+    "sender_name_required": "Enter sender's first name",
+    "sender_surname": "Sender's last name",
+    "sender_surname_required": "Enter sender's last name",
+    "sender_email": "Email",
+    "sender_email_required": "Enter an email",
+    "sender_email_invalid": "Invalid email format",
+    "sender_phone": "Phone number or Telegram username",
+    "sender_phone_required": "Enter a phone number or Telegram username",
+    "hide_phone": "Phone number is not hidden in Telegram",
+    "send_date": "Relocation date",
+    "send_date_required": "Select a relocation date",
+    "from": "Where are you moving from?",
+    "from_required": "Where are you moving from?",
+    "for": "Where are you moving to?",
+    "for_required": "Where are you moving to?",
+    "agreement": "I agree to the terms",
+    "agreement_required": "You must accept the terms",
+    "submit": "Submit"
   }
 }

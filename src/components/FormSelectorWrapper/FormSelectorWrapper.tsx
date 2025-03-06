@@ -8,6 +8,7 @@ import styles from "./FormSelectorWrapper.module.css";
 import { IconContext } from "react-icons";
 import { IoMdClose } from "react-icons/io";
 import FormWorldUA from "../FormWorldUa/FormWorldUa";
+import FormTransfer from "../FormTransfer/FormTransfer";
 
 interface FormSelectorWrapperProps {
   onClose: () => void; // Додаємо пропс onClose
@@ -31,7 +32,9 @@ const FormSelectorWrapper: React.FC<FormSelectorWrapperProps> = ({ onClose }) =>
         <FormUkraine onClose={onClose} onBackToSelector={handleBackToSelector} />
       ) : selectedForm === "world_to_ukraine" ? (
         <FormWorldUA onClose={onClose} onBackToSelector={handleBackToSelector} />
-      ) : null} 
+      ) : selectedForm === "transfer" ? (
+        <FormTransfer onClose={onClose} onBackToSelector={handleBackToSelector} />
+      ) :  null} 
     </div>
   );
 };
