@@ -1,11 +1,12 @@
 "use client";
+import FormWorldUA from '@/components/FormWorldUa/FormWorldUa';
 import { useParams } from 'next/navigation';
 
 const Services = () => {
   const params = useParams();
   console.log('Rendering Services for locale:', params.locale); // locale тепер у params
 
-  return <h1>Сторінка Бізнесу для {params.locale}</h1>;
+  return <></>;
 };
 
 export default Services;
