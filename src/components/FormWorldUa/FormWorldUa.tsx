@@ -52,9 +52,27 @@ const FormWorldUA: React.FC<FormUkraineProps>= ({ onClose, onBackToSelector }) =
 
   const t = useTranslations('FormWorld');
 
-  const onSubmit = (data: FormValues) => {
-    console.log(data);
-  };
+  const onSubmit = async (data: FormValues) => {
+  try {
+    const response = await fetch('https://ivancom-server.onrender.com/forms/worldtoua', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+
+    const responseData = await response.json();
+    console.log('Response from server:', responseData);
+  } catch (error) {
+    console.error('Error submitting form:', error);
+  }
+};
+
 
   return (
      <> <button  onClick={onBackToSelector}>
