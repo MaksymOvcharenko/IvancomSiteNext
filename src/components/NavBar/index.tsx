@@ -59,12 +59,16 @@ import Modal from "../Modal/Modal";
 import DeliveryCalculator from "../DeliveryCalculator/DeliveryCalculator";
 import FormInpost from "../FormInpost/FormInpost";
 
+// Визначення типів для пропсів
+interface NavBarProps {
+  onClose: () => void; // Тип для функції onClose, яка не приймає параметрів і не повертає значень
+}
 
-export const NavBar = () => {
+export const NavBar: React.FC<NavBarProps> = ({ onClose }) => {
   const t = useTranslations("Navigation");
   const { locale } = useParams(); // Отримуємо поточну мову з URL
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false); // Типізація стану isOpen
 
   return (
     <div className={styles.navbar}>
@@ -85,10 +89,9 @@ export const NavBar = () => {
 
       {/* Модалка з калькулятором */}
       <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-        <DeliveryCalculator />
+        <DeliveryCalculator onClose={onClose} />
         {/* <FormInpost/> */}
       </Modal>
     </div>
   );
 };
-

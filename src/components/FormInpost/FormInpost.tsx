@@ -1,4 +1,4 @@
-
+"use client"
 import React from "react";
 import styles from "./FormInpost.module.css";
 import { IconContext } from "react-icons";

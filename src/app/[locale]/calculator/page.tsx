@@ -8,7 +8,7 @@ const Services = () => {
   return <>
    <div className={styles.body}>
       
-      <DeliveryCalculator />
+      
    </div>
   </>
 };

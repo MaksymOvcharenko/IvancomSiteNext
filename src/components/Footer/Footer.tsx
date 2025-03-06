@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
         {/* Модалка з калькулятором */}
         <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-          <DeliveryCalculator />
+          <DeliveryCalculator onClose={() => setIsOpen(false)} />
         </Modal>
    </>
   );

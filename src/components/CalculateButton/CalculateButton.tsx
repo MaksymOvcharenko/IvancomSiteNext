@@ -21,7 +21,7 @@ const CalculateButton: React.FC<CalculateButtonProps> = ({ children }) => {
 
       {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-          <DeliveryCalculator />
+          <DeliveryCalculator onClose={() => setIsModalOpen(false)} />
         </Modal>
       )}
     </>

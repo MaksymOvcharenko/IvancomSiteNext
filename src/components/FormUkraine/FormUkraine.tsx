@@ -13,6 +13,7 @@
 // };
 
 // export default FormUkraine;
+"use client"
 import React from "react";
 import styles from "./FormUkraine.module.css";
 import { IconContext } from "react-icons";

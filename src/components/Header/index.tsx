@@ -36,13 +36,13 @@ export default function Header() {
             <ResponsiveSocLink/>
             <FormButton setModalFormIsOpen={setModalFormIsOpen} />
           </div>
-          <NavBar />
+          <NavBar onClose={() => setModalIsOpen(false)} />
         </nav>
         
       </header>
       {mobMenu && <MobMenu isOpen={mobMenu} setIsOpen={setMobMenu} openModal={setModalIsOpen} />}
       <Modal isOpen={modalIsOpen} onClose={() => setModalIsOpen(false)}>
-        <DeliveryCalculator />
+        <DeliveryCalculator onClose={() => setModalIsOpen(false)} />
         {/* <FormInpost/> */}
       </Modal>
       
