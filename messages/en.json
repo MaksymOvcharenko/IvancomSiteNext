@@ -114,7 +114,12 @@
     "promo_code": "Promo code",
     "agreement": "I agree to the terms",
     "agreement_required": "You must accept the terms",
-    "submit": "Submit"
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "sender": "Sender",
+    "recipient": "Recipient",
+    "send_data": "Sending Data"
   },
   "FormTransfer": {
     "title": "Relocations",
@@ -136,6 +141,18 @@
     "for_required": "Where are you moving to?",
     "agreement": "I agree to the terms",
     "agreement_required": "You must accept the terms",
-    "submit": "Submit"
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next"
+  },
+  "FormInfo": {
+    "greeting": "Welcome!",
+    "order_success": "Your order has been successfully placed!",
+    "error_title": "Oops!",
+    "error_message": "Unfortunately, there was a problem during the checkout process. Please try again in a few minutes. If the issue persists, contact our office.",
+    "contacts": "Contacts",
+    "try_again": "Try again",
+    "home": "Home",
+    "add_shipment": "Add shipment"
   }
 }

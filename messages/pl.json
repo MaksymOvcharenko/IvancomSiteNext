@@ -114,7 +114,12 @@
     "promo_code": "Kod promocyjny",
     "agreement": "Zgadzam się z warunkami",
     "agreement_required": "Musisz zaakceptować warunki",
-    "submit": "Wyślij"
+    "submit": "Wyślij",
+    "back": "Back",
+    "next": "Next",
+    "sender": "Nadawca",
+    "recipient": "Odbiorca",
+    "send_data": "Dane wysyłki"
   },
   "FormTransfer": {
     "title": "Przeprowadzki",
@@ -137,5 +142,15 @@
     "agreement": "Zgadzam się z warunkami",
     "agreement_required": "Musisz zaakceptować warunki",
     "submit": "Wyślij"
+  },
+  "FormInfo": {
+    "greeting": "Witamy!",
+    "order_success": "Twoje zamówienie zostało pomyślnie złożone!",
+    "error_title": "Ups!",
+    "error_message": "Niestety wystąpił problem podczas składania zamówienia. Spróbuj ponownie za kilka minut. Jeśli problem nie ustąpi, skontaktuj się z naszym oddziałem.",
+    "contacts": "Kontakty",
+    "try_again": "Spróbuj ponownie",
+    "home": "Strona główna",
+    "add_shipment": "Dodaj przesyłkę"
   }
 }
