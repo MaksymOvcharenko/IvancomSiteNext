@@ -31,9 +31,10 @@ export default async function RootLayout({
     <html lang={locale}>
       <head>
         <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c:wght@300;400;500;700&family=Inter:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&display=swap"
-        />
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c:wght@300;400;500;700&family=Inter:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&family=Montserrat:wght@300;400;500;600;700&display=swap"
+/>
+
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
