@@ -1,3 +1,4 @@
+
 // import { configureStore, combineReducers } from '@reduxjs/toolkit';
 // import storage from 'redux-persist/lib/storage';
 // import { persistStore, persistReducer } from 'redux-persist';
@@ -7,6 +8,7 @@
 // const persistConfig = {
 //   key: 'root',
 //   storage,
+//   // Якщо потрібно, можна додати тут whitelist або blacklist
 // };
 
 // const rootReducer = combineReducers({
@@ -17,8 +19,14 @@
 
 // export const store = configureStore({
 //   reducer: persistedReducer,
-//   middleware: (getDefaultMiddleware) => getDefaultMiddleware({ thunk: true })
-
+//   middleware: (getDefaultMiddleware) =>
+//     getDefaultMiddleware({
+//       thunk: true,
+//       serializableCheck: {
+//         ignoredActions: ['persist/PERSIST'], // Ігноруємо перевірку серіалізації для цієї дії
+//         ignoredPaths: ['formWorldtoUa.register'], // Можна додати конкретні шляхи в стейті, якщо там зберігаються функції
+//       },
+//     }),
 // });
 
 // export const persistor = persistStore(store);
@@ -30,15 +38,17 @@ import storage from 'redux-persist/lib/storage';
 import { persistStore, persistReducer } from 'redux-persist';
 import thunk from 'redux-thunk';
 import formWorldtoUaReducer from './formWorldtoUaSlice';
-
+import formTransferReducer from './formTransferSlice';
+import formAnimalsReducer from './formAnimals';
 const persistConfig = {
   key: 'root',
   storage,
-  // Якщо потрібно, можна додати тут whitelist або blacklist
 };
 
 const rootReducer = combineReducers({
   formWorldtoUa: formWorldtoUaReducer,
+  formTransfer: formTransferReducer,
+  formAnimals: formAnimalsReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
@@ -49,8 +59,8 @@ export const store = configureStore({
     getDefaultMiddleware({
       thunk: true,
       serializableCheck: {
-        ignoredActions: ['persist/PERSIST'], // Ігноруємо перевірку серіалізації для цієї дії
-        ignoredPaths: ['formWorldtoUa.register'], // Можна додати конкретні шляхи в стейті, якщо там зберігаються функції
+        ignoredActions: ['persist/PERSIST'],
+        ignoredPaths: ['formWorldtoUa.register', 'formTransfer.register','formAnimals.register','formAnimals.formData.file',],
       },
     }),
 });

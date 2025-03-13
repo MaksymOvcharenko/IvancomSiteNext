@@ -1,4 +1,3 @@
-
 import { createSlice, PayloadAction, createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from './store';
 
@@ -9,16 +8,16 @@ interface FormState {
 }
 
 const initialState: FormState = {
-  formData: typeof window !== "undefined" ? JSON.parse(localStorage.getItem('formData') || 'null') : null,
+  formData: typeof window !== "undefined" ? JSON.parse(localStorage.getItem('formTransferData') || 'null') : null,
   status: 'idle',
   error: null,
 };
 
 
-export const submitFormWorldtoUa = createAsyncThunk(
-  'formWorldtoUa/submitFormWorldtoUa',
+export const submitAnimals = createAsyncThunk(
+  'formTransfer/submitAnimals',
   async (formData: any) => {
-    const response = await fetch('https://ivancom-server.onrender.com/forms/worldtoua', {
+    const response = await fetch('https://ivancom-server.onrender.com/forms/transfer', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -34,36 +33,36 @@ export const submitFormWorldtoUa = createAsyncThunk(
   }
 );
 
-const formWorldtoUaSlice = createSlice({
-  name: 'formWorldtoUa',
+const formAnimalsSlice = createSlice({
+  name: 'formAnimalsfer',
   initialState,
   reducers: {
     setFormData: (state, action: PayloadAction<any>) => {
       state.formData = action.payload;
-      localStorage.setItem('formData', JSON.stringify(action.payload)); // Зберігаємо в localStorage
+      localStorage.setItem('formAnimalsData', JSON.stringify(action.payload));
     },
     clearFormData: (state) => {
       state.formData = null;
-      localStorage.removeItem('formData'); // Очищаємо з localStorage
+      localStorage.removeItem('formAnimalsData');
     }
   },
   extraReducers: (builder) => {
     builder
-      .addCase(submitFormWorldtoUa.pending, (state) => {
+      .addCase(submitAnimals.pending, (state) => {
         state.status = 'loading';
         state.error = null;
       })
-      .addCase(submitFormWorldtoUa.fulfilled, (state, action) => {
+      .addCase(submitAnimals.fulfilled, (state, action) => {
         state.status = 'succeeded';
         state.formData = action.payload;
       })
-      .addCase(submitFormWorldtoUa.rejected, (state, action) => {
+      .addCase(submitAnimals.rejected, (state, action) => {
         state.status = 'failed';
         state.error = action.error.message || 'Something went wrong';
       });
   },
 });
 
-export const { setFormData, clearFormData } = formWorldtoUaSlice.actions;
+export const { setFormData, clearFormData } = formAnimalsSlice.actions;
 
-export default formWorldtoUaSlice.reducer;
+export default formAnimalsSlice.reducer;
