@@ -17,12 +17,9 @@ const initialState: FormState = {
 export const submitAnimals = createAsyncThunk(
   'formTransfer/submitAnimals',
   async (formData: any) => {
-    const response = await fetch('https://ivancom-server.onrender.com/forms/transfer', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
+     const response = await fetch("https://ivancom-server.onrender.com/forms/animals", {
+      method: "POST",
+      body: formData,
     });
 
     if (!response.ok) {
@@ -60,6 +57,7 @@ const formAnimalsSlice = createSlice({
         state.status = 'failed';
         state.error = action.error.message || 'Something went wrong';
       });
+    
   },
 });
 

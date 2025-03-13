@@ -83,14 +83,14 @@ const FormTransfer: React.FC<TransferProps>= ({ onClose, onBackToSelector }) => 
   }, [formData, dispatch, storedFormData]);
   //сабміт форми
   const onSubmit = async (data: FormValues) => {
-      console.log("submit");
+      console.log(data);
     
     dispatch(setFormData(data));
     
     setIsLoading(true);
     setStep(2);
       try {
-        const response = await fetch('https://ivancom-server.onrender.com/forms/worldtoua', {
+        const response = await fetch('https://ivancom-server.onrender.com/forms/transfer', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

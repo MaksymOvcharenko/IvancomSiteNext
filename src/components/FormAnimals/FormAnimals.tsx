@@ -15,7 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import StatusMessage from "../StatusMessage/StatusMessage";
 import SvgIcon from "../SvgIcon";
-import { setFormData } from "@/store/formAnimals";
+import { clearFormData, setFormData } from "@/store/formAnimals";
 import { FaDownload } from "react-icons/fa6";
 
 const schema = yup.object().shape({
@@ -40,22 +40,22 @@ const schema = yup.object().shape({
   file: yup
     .mixed()
     .required("upload_file_required") // Наприклад, поле є обов'язковим
-    .test("fileSize", "File is too large", (value) => {
-      // Перевірка на наявність файлів
-      if (!value || !(value instanceof FileList) || value.length === 0)
-        return false;
+    // .test("fileSize", "File is too large", (value) => {
+    //   // Перевірка на наявність файлів
+    //   if (!value || !(value instanceof FileList) || value.length === 0)
+    //     return false;
 
-      // Перевірка на розмір файлу (до 5 МБ)
-      return value[0].size <= 5 * 1024 * 1024;
-    })
-    .test("fileType", "Unsupported File Format", (value) => {
-      // Перевірка на формат файлу
-      if (!value || !(value instanceof FileList) || value.length === 0)
-        return false;
+    //   // Перевірка на розмір файлу (до 5 МБ)
+    //   return value[0].size <= 5 * 1024 * 1024;
+    // })
+    // .test("fileType", "Unsupported File Format", (value) => {
+    //   // Перевірка на формат файлу
+    //   if (!value || !(value instanceof FileList) || value.length === 0)
+    //     return false;
 
-      const allowedTypes = ["image/jpeg", "image/png", "application/pdf"];
-      return allowedTypes.includes(value[0].type);
-    }),
+    //   const allowedTypes = ["image/jpeg", "image/png", "application/pdf"];
+    //   return allowedTypes.includes(value[0].type);
+    // }),
 });
 
 type FormValues = yup.InferType<typeof schema>;
@@ -81,6 +81,7 @@ const FormAnimals: React.FC<TransferProps> = ({
     trigger,
     formState: { errors },
     setValue,
+    reset,
   } = useForm<FormValues>({
     resolver: yupResolver(schema),
   });
@@ -122,40 +123,89 @@ const [fileCount, setFileCount] = useState(0);
     }
   }, [formData, dispatch, storedFormData]);
   //сабміт форми
-  const onSubmit = async (data: FormValues) => {
-    console.log("submit");
-    console.log(data);
+  // const onSubmit = async (data: FormValues) => {
+  //   console.log("submit");
+  //   console.log(data);
 
-    dispatch(setFormData(data));
+  //   dispatch(setFormData(data));
 
-    setIsLoading(true);
-    setStep(2);
-    try {
-      const response = await fetch(
-        "https://ivancom-server.onrender.com/forms/worldtoua",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        }
-      );
-      setSendStatus("success");
+  //   setIsLoading(true);
+  //   setStep(2);
+  //   try {
+  //     const response = await fetch(
+  //       "http://localhost:3000/forms/animals",
+  //       {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //         body: JSON.stringify(data),
+  //       }
+  //     );
+  //     setSendStatus("success");
 
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
+  //     if (!response.ok) {
+  //       throw new Error("Network response was not ok");
+  //     }
 
-      const responseData = await response.json();
-      console.log("Response from server:", responseData);
-    } catch (error) {
-      setSendStatus("error");
-      console.error("Error submitting form:", error);
-    } finally {
-      setIsLoading(false);
+  //     const responseData = await response.json();
+  //     console.log("Response from server:", responseData);
+  //   } catch (error) {
+  //     setSendStatus("error");
+  //     console.error("Error submitting form:", error);
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // };
+ const onSubmit = async (data: FormValues) => {
+  console.log("submit");
+  console.log(data);
+  reset();
+  dispatch(setFormData(data));
+
+  setIsLoading(true);
+  setStep(2);
+
+  const formData = new FormData();
+
+  // Додаємо всі дані з форми в FormData
+  Object.keys(data).forEach((key) => {
+    const value = data[key as keyof FormValues];
+    if (value) {
+      formData.append(key, value);
     }
-  };
+  });
+
+  // Додаємо всі файли
+  if (data.file && data.file.length > 0) {
+    Array.from(data.file).forEach((file) => {
+      formData.append("file", file);
+    });
+  }
+
+  try {
+    const response = await fetch("https://ivancom-server.onrender.com/forms/animals", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    
+    const responseData = await response.json();
+    console.log("Response from server:", responseData);
+    setSendStatus("success");
+    reset();
+    dispatch(clearFormData());
+  } catch (error) {
+    setSendStatus("error");
+    console.error("Error submitting form:", error);
+  } finally {
+    setIsLoading(false);
+  }
+};
+
   return (
     <div className={styles.formCont}>
       {" "}
@@ -177,7 +227,7 @@ const [fileCount, setFileCount] = useState(0);
         Відправ свого улюбленця просто разом з нами
       </h2>
       {step === 1 && (
-        <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
+        <form onSubmit={handleSubmit(onSubmit)} className={styles.form} action="/animals" method="POST" encType="multipart/form-data">
           <div className={styles.formContItem}>
             <h2 className={styles.title}>Контакти</h2>
             <div className={styles.sendCont}>
@@ -304,8 +354,8 @@ const [fileCount, setFileCount] = useState(0);
   
                 <select {...register("weightAnimals")} className={styles.select}>
                   <option value="">{t("weightAnimals")}</option>
-                  <option value="до 10кг">до 10кг</option>
-                  <option value="від 10кг">від 10кг</option>
+                  <option value="9">до 10кг</option>
+                  <option value="11">від 10кг</option>
                 </select>
                 {errors.typeAnimals && (
                   <p className={styles.error}>{t(errors.typeAnimals.message)}</p>
