@@ -110,6 +110,16 @@ a {
   --yellow: #ffc907;
   --teal: #09f;
   --accent-blue: #0884d5;
+  --white: #fff;
+  --black: #111;
+  --gray: #63666a;
+  --brand-teal: #0084d5;
+  --blue: #0300bf;
+  --yellow: #ffc907;
+  --teal: #09f;
+  --accent-blue: #0884d5;
+  --secondary-blue: #0f2f76;
+  --red: #993225;
   --font-family: "Rounded Mplus 1c", sans-serif;
   --second-family: "Inter", sans-serif;
   --third-family: "Open Sans", sans-serif;
@@ -125,7 +135,7 @@ a {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-family) !important;
 }
 
 h1,
@@ -135,7 +145,7 @@ h3 {
 }
 
 p {
-  font-family: var(--second-family);
+  font-family: var(--font-family);
 }
 .swiperWrapper {
   display: flex;
@@ -167,16 +177,26 @@ p {
   height: 300px;
 }
 
-.swiper-button-prev {
-}
-
-/* Правая стрелка */
-.swiper-button-next {
-}
-
 @media (min-width: 320px) {
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .swiper-button-prev {
+    height: 809px !important;
+    top: 0 !important;
+    bottom: -150px !important;
+    left: 80px !important;
+  }
 
+  /* Правая стрелка */
+  .swiper-button-next {
+    height: 809px !important;
+    top: 0 !important;
+    bottom: -150px !important;
+    right: 80px !important;
+  }
+}
+@media (min-width: 320px) {
+}
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
 }

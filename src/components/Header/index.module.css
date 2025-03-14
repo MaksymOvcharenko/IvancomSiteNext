@@ -4,10 +4,9 @@
 /* Планшети (від 375px) */
 @media (min-width: 320px) {
   .header {
-    background: var(--teal);
-    font-family: "Rounded Mplus 1c", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    background: var(--secondary-blue);
+    font-family: var(--font-family);
+    font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #111;
@@ -22,11 +21,11 @@
     order: 1;
   }
   .mobMenu svg {
-    stroke: currentColor;
+    stroke: var(--white);
     transition: stroke 0.3s ease-in-out;
   }
   .mobMenu svg:hover {
-    stroke: var(--blue);
+    stroke: var(--yellow);
   }
   .logo {
     order: 2;
@@ -38,7 +37,7 @@
     transition: fill 0.3s ease-in-out;
   }
   .logo svg:hover {
-    fill: var(--blue);
+    fill: var(--yellow);
   }
 
   .nav {
@@ -100,9 +99,6 @@
 /* Десктопи (від 1280px) */
 @media (min-width: 1280px) {
   .header {
-    background: var(--teal);
-    font-family: "Rounded Mplus 1c", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     letter-spacing: 0.04em;
@@ -117,6 +113,11 @@
     justify-content: flex-end;
     margin-bottom: 18px;
     align-items: self-start;
+  }
+  .switcher {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
   }
   .mobMenu {
     display: none;

@@ -15,7 +15,7 @@
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 320px) {
   .switcher {
-    margin-right: 24px;
+    /* margin-right: 24px; */
     position: relative;
   }
 
@@ -29,11 +29,21 @@
   .switcherBtn:hover {
     color: var(--blue);
   }
+
   .lang {
     margin-left: 8px;
     gap: 4px;
     display: flex;
     align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--yellow);
+  }
+  .lang:hover {
+    color: var(--white);
   }
   .flag {
     width: 30px;
@@ -54,7 +64,7 @@
   }
   .modal {
     position: absolute;
-    background: #1285f1;
+    background: #022b51;
     padding: 4px;
     box-shadow: 2px 2px 4px 0 rgba(17, 17, 17, 0.2);
     border-radius: 8px;
@@ -65,7 +75,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    font-size: 18px;
+
     transition: transform 0.3s ease-in-out;
     z-index: 100;
   }
@@ -88,9 +98,16 @@
     padding: 6px;
     transition: background 0.3s ease-in-out;
     border-radius: 8px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--white);
   }
   .modalBtn:hover {
-    background: #779af7;
+    background: #3b4c7b;
+    color: var(--yellow);
   }
   .modalSpan img {
     width: 100%;

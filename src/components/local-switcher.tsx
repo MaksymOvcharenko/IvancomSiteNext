@@ -35,7 +35,7 @@ const handleLanguageChange = (locale: string) => {
         className={styles.switcherBtn}
       >
         
-        <div className={styles.flag}><Flag code={languages.find((lang) => lang.code === localeActive)?.flag || 'UA'} width={52} height={52} /></div>
+        {/* <div className={styles.flag}><Flag code={languages.find((lang) => lang.code === localeActive)?.flag || 'UA'} width={52} height={52} /></div> */}
         <div className={styles.lang}>
           <span >{languages.find((lang) => lang.code === localeActive)?.label || 'UA'}</span>
           <ChevronDown size={24} />
@@ -50,7 +50,7 @@ const handleLanguageChange = (locale: string) => {
               onClick={() => handleLanguageChange(code)}
               className={styles.modalBtn}
             >
-              <div className={styles.modalSpan}><Flag code={flag} width={20} height={20} /></div>
+              {/* <div className={styles.modalSpan}><Flag code={flag} width={20} height={20} /></div> */}
               {label}
             </button>
           ))}

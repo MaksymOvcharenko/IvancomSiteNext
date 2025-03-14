@@ -72,7 +72,19 @@
     "description": "Logistyka z ludzką twarzą: szybka dostawa między Ukrainą a Europą, przejrzyste taryfy i indywidualne podejście.",
     "calculate": "Oblicz koszt",
     "apply": "Zostaw zgłoszenie",
-    "logistics_journey": "Za kulisami logistyki: Podróż Twojej paczki"
+    "logistics_journey": "Za kulisami logistyki: Podróż Twojej paczki",
+    "titleTeam": "Poznajmy się bliżej!",
+    "contentTeam": "Od otwarcia naszego pierwszego biura w Krakowie 2 grudnia 2020 roku IVANCOM przekształcił się w prawdziwą rodzinę, w której każdy znajduje wsparcie i zrozumienie. Pomagamy wysyłać paczki na Ukrainę, organizujemy dostawy leków, dokumentów i towarów, zapewniamy transport zwierząt, przeprowadzki i inne usługi logistyczne.\n\nW tym czasie nasz zespół powiększył się do ponad 40 pracowników, mamy 5 stałych oddziałów w Polsce (Katowice, Kraków, Warszawa, Wrocław i Gdańsk), kilka oddziałów mobilnych, własną flotę pojazdów i bazę sortującą na Ukrainie. Przetrwaliśmy już pandemię, a teraz, na ile możemy, pomagamy Siłom Zbrojnym Ukrainy przyspieszyć zwycięstwo. Przez cały ten czas aktywnie działamy jako wolontariusze i wspieramy nie tylko armię, ale także ludzi, a nawet zwierzęta – bo dla nas ważne jest bycie ludzkim, oferowanie troski i wsparcia każdemu, kto tego potrzebuje.\n\nDołącz do naszej rodziny IVANCOM i podziel się naszą wiarą w świetlaną przyszłość Ukrainy!",
+    "titleReviews": "Dlaczego nas wybierają?",
+    "titleStrong": "Razem – jesteśmy silniejsi: pomagamy tym, którzy tego potrzebują!",
+    "part1Strong": "Pomoc to nie tylko dobroczynność, to sposób bycia blisko w najtrudniejszych momentach. IVANCOM rozpoczął swoją drogę wolontariatu już w 2019 roku, kiedy wspieraliśmy domy dziecka, pomagaliśmy zwierzętom w schroniskach i zbieraliśmy pomoc humanitarną dla osób znajdujących się w trudnych sytuacjach życiowych.",
+    "part2Strong": "Kiedy dla Ukrainy nastały mroczne czasy, nie pozostaliśmy obojętni. W pierwszych dniach pełnoskalowej wojny nasz zespół organizował ewakuację kobiet, dzieci i osób starszych z gorących punktów, udzielał pomocy przesiedleńcom i dostarczał ładunki humanitarne do najbardziej niebezpiecznych regionów. Zbieraliśmy fundusze na zakup samochodów, sprzętu wojskowego, termowizorów i leków dla naszych obrońców.",
+    "part3Strong": "Ale wolontariat to nie tylko pomoc podczas wojny. To ciągła troska o tych, którzy tego potrzebują. Wspieramy szpitale dziecięce, pomagamy ludziom w trudnej sytuacji, organizujemy zbiórki rzeczy dla przesiedleńców, karmimy zwierzęta w schroniskach. Wiemy, że każdy dobry uczynek ma znaczenie.",
+    "part4Strong": "Dołącz do naszej inicjatywy. Razem możemy zmienić świat na lepsze!",
+    "text1": "Przewoziliśmy przyczepę chirurgiczną i terenówkę na kierunek zaporoski",
+    "text2": "Nasi przyjaciele z całego świata pomagali w tym i nakręcili krótki film.",
+    "ourPartners": "Nasi Partnerzy",
+    "partnersText": "Współpracujemy z zaufanymi firmami na całym świecie."
   },
   "FormWorld": {
     "title": "Cały świat - Ukraina",

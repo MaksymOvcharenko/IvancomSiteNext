@@ -31,8 +31,8 @@ export default function Header() {
      
        <div className={styles.mobMenu}><button onClick={()=>setMobMenu(true)}><SvgIcon name="mobile-menu"/></button></div>
         <nav className={styles.nav}>
-          <div className={styles.topCont}>
-            <ResponsiveLocaleSwitcher/>
+          <div className={styles.topCont}> 
+            <div className={styles.switcher}><ResponsiveLocaleSwitcher/></div>
             <ResponsiveSocLink/>
             <FormButton setModalFormIsOpen={setModalFormIsOpen} />
           </div>

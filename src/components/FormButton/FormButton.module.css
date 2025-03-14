@@ -1,13 +1,14 @@
 /* Планшети (від 375px) */
 @media (min-width: 320px) {
   .btn {
-    border-radius: 32px;
+    font-family: var(--font-family) !important;
+    border-radius: 8px;
     padding: 8px 16px;
     width: 56px;
     height: 40px;
     max-width: 196px;
-    background: #0300bf;
-    color: #fff;
+    background: var(--yellow);
+    color: var(--black);
     font-size: 18px;
     text-align: center;
     display: flex;
@@ -17,11 +18,22 @@
     cursor: pointer;
     transition: background 0.3s ease-in-out;
   }
+  .btn p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
   .btn:hover {
     box-shadow: 4px 4px 8px 0 rgba(3, 0, 214, 0.25);
-    background: #2724ff;
+    background: #09085b;
+    color: var(--white);
   }
   .formIcon {
+  }
+  .formIcon svg {
+    stroke: var(--black) !important;
   }
   .formTitle {
     display: none;
@@ -31,13 +43,11 @@
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
   .btn {
-    border-radius: 32px;
     padding: 8px 16px;
     width: 196px;
     height: 40px;
     max-width: 196px;
-    background: #0300bf;
-    color: #fff;
+    font-family: var(--font-family);
     font-size: 18px;
     text-align: center;
     display: flex;
@@ -59,13 +69,11 @@
 /* Десктопи (від 1280px) */
 @media (min-width: 1280px) {
   .btn {
-    border-radius: 32px;
     padding: 8px 16px;
     width: 196px;
     height: 40px;
     max-width: 196px;
-    background: #0300bf;
-    color: #fff;
+    font-family: var(--font-family);
     font-size: 18px;
     text-align: center;
     display: flex;

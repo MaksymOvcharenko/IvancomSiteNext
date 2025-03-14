@@ -32,6 +32,62 @@
   overflow: hidden; /* Обрезает края */
   border-radius: 20px; /* Радиус скругления */
 }
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+  height: 310px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarHeader {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.avatarWrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Стилі для зірок */
+.filledStar {
+  color: #f5b50a;
+}
+
+.emptyStar {
+  color: #ddd;
+}
 @media screen and (min-width: 768px) {
   .swiperWrapper {
     max-width: 850px;

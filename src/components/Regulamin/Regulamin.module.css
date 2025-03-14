@@ -1,9 +1,13 @@
 /* Планшети (від 375px) */
 @media (min-width: 320px) {
   .body {
-    font-family: "Rounded Mplus 1c", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--white) !important;
     line-height: 200%;
     letter-spacing: 0.04em;
     color: #111;
@@ -16,6 +20,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .list a {
+    color: var(--white);
+  }
+  .list a:hover {
+    color: var(--yellow);
   }
 }
 

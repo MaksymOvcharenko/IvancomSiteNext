@@ -1,12 +1,12 @@
 .calcBtn {
-  font-family: "Rounded Mplus 1c", sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 17px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #0300bf;
-  border: 1px solid #0300bf;
-  border-radius: 32px;
+  color: var(--accent-blue);
+  border: 1px solid var(--accent-blue);
+  border-radius: 8px;
   padding: 8px 16px;
   width: 342px;
   height: 40px;

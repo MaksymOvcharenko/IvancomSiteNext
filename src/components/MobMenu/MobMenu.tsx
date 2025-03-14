@@ -80,7 +80,7 @@ const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen, openModal }) => {
       >
         {/* Кнопка закриття */}
         <button onClick={toggleMenu} className={styles.closeButton}>
-          <X size={28} />
+          <X size={28} color="#fff"/>
         </button>
 
               <div className={styles.body}>

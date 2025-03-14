@@ -72,7 +72,19 @@
     "description": "Logistics with a human touch: fast delivery between Ukraine and Europe, transparent rates, and a personalized approach.",
     "calculate": "Calculate cost",
     "apply": "Submit a request",
-    "logistics_journey": "Behind the Scenes of Logistics: The Journey of Your Parcel"
+    "logistics_journey": "Behind the Scenes of Logistics: The Journey of Your Parcel",
+    "titleTeam": "Let's get to know each other better!",
+    "contentTeam": "Since opening our first office in Krakow on December 2, 2020, IVANCOM has grown into a true family where everyone finds support and understanding. We help send parcels to Ukraine, organize the delivery of medicines, documents, and goods, provide pet transportation, relocations, and other logistics services.\n\nDuring this time, our team has grown to over 40 employees, we have 5 stationary branches in Poland (Katowice, Krakow, Warsaw, Wroclaw, and Gdansk), several mobile branches, our own fleet, and a sorting base in Ukraine. We have already survived the pandemic, and now, as much as we can, we help the Armed Forces of Ukraine accelerate victory. Throughout all this time, we have been actively volunteering and supporting not only the army but also people and even animals – because for us, it is important to be humane, to provide care and support to everyone who needs it.\n\nJoin our IVANCOM family and share our belief in Ukraine's bright future!",
+    "titleReviews": "Why do people choose us?",
+    "titleStrong": "Together – Stronger: Helping Those in Need!",
+    "part1Strong": "Helping is not just charity; it's a way to be there during the most difficult moments. IVANCOM began its path of volunteering back in 2019, when we supported orphanages, helped animals in shelters, and collected humanitarian aid for those who found themselves in difficult life situations.",
+    "part2Strong": "When dark times came for Ukraine, we did not stand aside. During the first days of the full-scale war, our team organized the evacuation of women, children, and the elderly from hotspots, provided assistance to displaced people, and delivered humanitarian aid to the most dangerous regions. We raised funds to purchase vehicles, military equipment, thermal imagers, and medicines for our defenders.",
+    "part3Strong": "But volunteering is not only about helping during wartime. It’s about continuously caring for those in need. We support children's hospitals, help people in need, organize donation drives for displaced persons, and feed animals in shelters. We know that every good deed matters.",
+    "part4Strong": "Join our initiative. Together, we can change the world for the better!",
+    "text1": "We transported a surgical trailer and an off-road vehicle to the Zaporizhzhia direction",
+    "text2": "Our friends from all over the world helped with this and made a short film.",
+    "ourPartners": "Our Partners",
+    "partnersText": "We collaborate with reliable companies all over the world."
   },
   "FormWorld": {
     "title": "The Whole World - Ukraine",
