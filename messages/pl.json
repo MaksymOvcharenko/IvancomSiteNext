@@ -16,7 +16,22 @@
     "about": "O nas",
     "contacts": "Kontakt",
     "faq": "FAQ",
-    "promotions": "Promocje"
+    "promotions": "Promocje",
+    "fromUkraineToEurope": "Z Ukrainy do Europy",
+    "fromEuropeToUkraine": "Z Europy do Ukrainy",
+    "fromEuropeToEurope": "Z Europy do Europy",
+    "parcelDelivery": "Dostawa paczek",
+    "medicineCosmetics": "Leki i kosmetyki wstrzykiwalne",
+    "animals": "Zwierzęta",
+    "generators": "Generatory",
+    "moving": "Przeprowadzki",
+    "wheels": "Koła i opony",
+    "documents": "Dokumenty",
+    "otherServices": "Inne usługi",
+    "brandUA": "Brand UA",
+    "courierDelivery": "Dostawa kurierska",
+    "parcelMachine": "Wysyłka przez paczkomaty",
+    "insurance": "Ubezpieczenie"
   },
   "Header": {
     "form": "Wypełnij formularz"

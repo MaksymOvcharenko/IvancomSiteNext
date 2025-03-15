@@ -89,55 +89,56 @@ export const NavBar: React.FC<NavBarProps> = ({ onClose }) => {
 
         {isServicesOpen && (
           <div className={styles.servicesMenu}>
-            <div className={styles.servicesColumn}>
-              <h3>З України в Європу</h3>
-              <ul className={styles.list}>
-                <li className={styles.itemServices}>Доставка посилок</li>
-                <li className={styles.itemServices}>Ліки та ін'єкційна косметика</li>
-                <li className={styles.itemServices}>Тварини</li>
-                <li className={styles.itemServices}>Генератори</li>
-                <li className={styles.itemServices}>Переїзд</li>
-                <li className={styles.itemServices}>Колеса та шини</li>
-                <li className={styles.itemServices}>Документи</li>
-              </ul>
-            </div>
+  <div className={styles.servicesColumn}>
+    <h3>{t("fromUkraineToEurope")}</h3>
+    <ul className={styles.list}>
+      <li className={styles.itemServices}>{t("parcelDelivery")}</li>
+      <li className={styles.itemServices}>{t("medicineCosmetics")}</li>
+      <li className={styles.itemServices}>{t("animals")}</li>
+      <li className={styles.itemServices}>{t("generators")}</li>
+      <li className={styles.itemServices}>{t("moving")}</li>
+      <li className={styles.itemServices}>{t("wheels")}</li>
+      <li className={styles.itemServices}>{t("documents")}</li>
+    </ul>
+  </div>
 
-            <div className={styles.servicesColumn}> 
-              <h3>З Європи в Україну</h3>
-              <ul className={styles.list}>
-                <li className={styles.itemServices}>Доставка посилок</li>
-                <li className={styles.itemServices}>Ліки та ін'єкційна косметика</li>
-                <li className={styles.itemServices}>Тварини</li>
-                <li className={styles.itemServices}>Генератори</li>
-                <li className={styles.itemServices}>Переїзд</li>
-                <li className={styles.itemServices}>Колеса та шини</li>
-                <li className={styles.itemServices}>Документи</li>
-              </ul>
-            </div>
+  <div className={styles.servicesColumn}>
+    <h3>{t("fromEuropeToUkraine")}</h3>
+    <ul className={styles.list}>
+      <li className={styles.itemServices}>{t("parcelDelivery")}</li>
+      <li className={styles.itemServices}>{t("medicineCosmetics")}</li>
+      <li className={styles.itemServices}>{t("animals")}</li>
+      <li className={styles.itemServices}>{t("generators")}</li>
+      <li className={styles.itemServices}>{t("moving")}</li>
+      <li className={styles.itemServices}>{t("wheels")}</li>
+      <li className={styles.itemServices}>{t("documents")}</li>
+    </ul>
+  </div>
 
-            <div className={styles.servicesColumn}>
-              <h3>З Європи в Європу</h3>
-              <ul className={styles.list}>
-                <li className={styles.itemServices}>Доставка посилок</li>
-                <li className={styles.itemServices}>Ліки та ін'єкційна косметика</li>
-                <li className={styles.itemServices}>Тварини</li>
-                <li className={styles.itemServices}>Генератори</li>
-                <li className={styles.itemServices}>Переїзд</li>
-                <li className={styles.itemServices}>Колеса та шини</li>
-                <li className={styles.itemServices}>Документи</li>
-              </ul>
-            </div>
+  <div className={styles.servicesColumn}>
+    <h3>{t("fromEuropeToEurope")}</h3>
+    <ul className={styles.list}>
+      <li className={styles.itemServices}>{t("parcelDelivery")}</li>
+      <li className={styles.itemServices}>{t("medicineCosmetics")}</li>
+      <li className={styles.itemServices}>{t("animals")}</li>
+      <li className={styles.itemServices}>{t("generators")}</li>
+      <li className={styles.itemServices}>{t("moving")}</li>
+      <li className={styles.itemServices}>{t("wheels")}</li>
+      <li className={styles.itemServices}>{t("documents")}</li>
+    </ul>
+  </div>
 
-            <div className={styles.servicesColumn}>
-              <h3>Інші послуги</h3>
-              <ul>
-                <li className={styles.itemServices}>Brand UA</li>
-                <li className={styles.itemServices}>Кур'єрська доставка</li>
-                <li className={styles.itemServices}>Відправлення через поштомати</li>
-                <li className={styles.itemServices}>Страхування</li>
-              </ul>
-            </div>
-          </div>
+  <div className={styles.servicesColumn}>
+    <h3>{t("otherServices")}</h3>
+    <ul>
+      <li className={styles.itemServices}>{t("brandUA")}</li>
+      <li className={styles.itemServices}>{t("courierDelivery")}</li>
+      <li className={styles.itemServices}>{t("parcelMachine")}</li>
+      <li className={styles.itemServices}>{t("insurance")}</li>
+    </ul>
+  </div>
+</div>
+
         )}
       </div>
 

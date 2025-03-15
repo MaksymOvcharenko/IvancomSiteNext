@@ -16,7 +16,22 @@
     "about": "About Us",
     "contacts": "Contacts",
     "faq": "FAQ",
-    "promotions": "Promotions"
+    "promotions": "Promotions",
+    "fromUkraineToEurope": "From Ukraine to Europe",
+    "fromEuropeToUkraine": "From Europe to Ukraine",
+    "fromEuropeToEurope": "From Europe to Europe",
+    "parcelDelivery": "Parcel Delivery",
+    "medicineCosmetics": "Medicines and Injectable Cosmetics",
+    "animals": "Animals",
+    "generators": "Generators",
+    "moving": "Moving",
+    "wheels": "Wheels and Tires",
+    "documents": "Documents",
+    "otherServices": "Other Services",
+    "brandUA": "Brand UA",
+    "courierDelivery": "Courier Delivery",
+    "parcelMachine": "Parcel Machines",
+    "insurance": "Insurance"
   },
   "Header": {
     "form": "Fill out the form"

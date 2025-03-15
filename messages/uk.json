@@ -16,7 +16,22 @@
         "about": "Про нас",
         "contacts": "Контакти",
         "faq": "Часті питання",
-        "promotions": "Акції"
+        "promotions": "Акції",
+        "fromUkraineToEurope": "З України в Європу",
+        "fromEuropeToUkraine": "З Європи в Україну",
+        "fromEuropeToEurope": "З Європи в Європу",
+        "parcelDelivery": "Доставка посилок",
+        "medicineCosmetics": "Ліки та ін'єкційна косметика",
+        "animals": "Тварини",
+        "generators": "Генератори",
+        "moving": "Переїзд",
+        "wheels": "Колеса та шини",
+        "documents": "Документи",
+        "otherServices": "Інші послуги",
+        "brandUA": "Brand UA",
+        "courierDelivery": "Кур'єрська доставка",
+        "parcelMachine": "Відправлення через поштомати",
+        "insurance": "Страхування"
     },
     "Header": {
         "form": "Заповнити форму"
