@@ -169,20 +169,37 @@ const [fileCount, setFileCount] = useState(0);
   const formData = new FormData();
 
   // Додаємо всі дані з форми в FormData
-  Object.keys(data).forEach((key) => {
-    const value = data[key as keyof FormValues];
-    if (value) {
-      formData.append(key, value);
+  // Object.keys(data).forEach((key) => {
+  //   const value = data[key as keyof FormValues];
+  //   if (value) {
+  //     formData.append(key, value);
+  //   }
+  // });
+
+  // // Додаємо всі файли
+  // if (data.file && data.file.length > 0) {
+  //   Array.from(data.file).forEach((file) => {
+  //     formData.append("file", file);
+  //   });
+  // }
+Object.keys(data).forEach((key) => {
+  const value = data[key as keyof FormValues];
+  
+  // Якщо значення не null, undefined або false, додаємо його в formData
+  if (value !== null && value !== undefined && value !== false) {
+    formData.append(key, String(value)); // Перетворюємо в рядок, якщо це не строка
+  }
+});
+
+// Перевірка на файли
+if (data.file && Array.isArray(data.file)) {
+  data.file.forEach((file) => {
+    // Перевірка чи це файл
+    if (file instanceof File) {
+      formData.append("file", file);
     }
   });
-
-  // Додаємо всі файли
-  if (data.file && data.file.length > 0) {
-    Array.from(data.file).forEach((file) => {
-      formData.append("file", file);
-    });
-  }
-
+}
   try {
     const response = await fetch("https://ivancom-server.onrender.com/forms/animals", {
       method: "POST",
@@ -205,7 +222,61 @@ const [fileCount, setFileCount] = useState(0);
     setIsLoading(false);
   }
 };
+// const onSubmit = async (data: FormValues) => {
+//   console.log(data);
+//   reset();
+//   dispatch(setFormData(data));
 
+//   setIsLoading(true);
+//   setStep(2);
+
+//   const formData = new FormData();
+
+//   // Додаємо всі дані з форми в FormData
+//   Object.keys(data).forEach((key) => {
+//     const value = data[key as keyof FormValues];
+    
+//     // Преобразование значения в строку, если это необходимо
+//     if (value !== undefined && value !== null && value !== true && value !== false) {
+//       formData.append(key, String(value));
+//     }
+//   });
+
+//   // Додаємо файли, якщо вони є
+//   if (data.file && data.file instanceof FileList) {
+//     Array.from(data.file).forEach((file) => {
+//       formData.append("file", file);
+//     });
+//   } else if (Array.isArray(data.file)) {
+//     data.file.forEach((file) => {
+//       if (file instanceof File) {
+//         formData.append("file", file);
+//       }
+//     });
+//   }
+
+//   try {
+//     const response = await fetch("https://ivancom-server.onrender.com/forms/animals", {
+//       method: "POST",
+//       body: formData,
+//     });
+
+//     if (!response.ok) {
+//       throw new Error("Network response was not ok");
+//     }
+    
+//     const responseData = await response.json();
+//     console.log("Response from server:", responseData);
+//     setSendStatus("success");
+//     reset();
+//     dispatch(clearFormData());
+//   } catch (error) {
+//     setSendStatus("error");
+//     console.error("Error submitting form:", error);
+//   } finally {
+//     setIsLoading(false);
+//   }
+// };
   return (
     <div className={styles.formCont}>
       {" "}
