@@ -101,6 +101,27 @@
     "ourPartners": "Our Partners",
     "partnersText": "We collaborate with reliable companies all over the world."
   },
+  "contacts": {
+    "apply": "Submit a request",
+    "calculate": "Calculate cost",
+    "delivery_title": "Delivery without borders with IVANCOM!",
+    "delivery_description": "Send parcels in a convenient way – we guarantee speed and safety.",
+    "krakow": "Kraków",
+    "wroclaw": "Wrocław",
+    "warsaw": "Warsaw",
+    "katowice": "Katowice",
+    "kielce": "Kielce",
+    "monday_to_friday": "Mon-Fri",
+    "monday_to_sunday": "Mon-Sun",
+    "saturday_to_sunday": "Sat-Sun",
+    "find_on_map": "Find on map",
+    "viber": "Viber",
+    "telegram": "Telegram",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "arrange_with_courier": "Arrange with courier"
+  },
   "FormWorld": {
     "title": "The Whole World - Ukraine",
     "sender_name": "Sender's first name",

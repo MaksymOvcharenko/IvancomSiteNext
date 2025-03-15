@@ -29,6 +29,7 @@ import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
 import styles from "./AboutHero.module.css";
 import CalculateButton from "@/components/CalculateButton/CalculateButton";
+import ButtonFormOnPage from "@/components/ButtonFormOnPage/ButtonFormOnPage";
 
 const HeroAbout = () => {
   const t = useTranslations("about");
@@ -47,9 +48,7 @@ const HeroAbout = () => {
           
             
            <CalculateButton>{t("calculate")}</CalculateButton>
-          <Link href={`/${locale}/apply`} className={styles.formBtn}>
-            {t("apply")}
-          </Link>
+          <ButtonFormOnPage>{t("apply")}</ButtonFormOnPage>
         </div>
       </div>
     </section>

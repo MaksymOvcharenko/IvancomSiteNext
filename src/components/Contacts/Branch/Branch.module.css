@@ -1,0 +1,122 @@
+/* BranchInfo.module.css */
+
+.branchContainer {
+}
+
+.desktopOnly {
+  display: block;
+}
+
+.mobileOnly {
+  display: none;
+}
+
+/* Медійні запити для мобільних пристроїв */
+
+.branchCard {
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.branchHeader {
+  background-color: #eaf9ff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: var(--font-family);
+}
+.branchCity {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+}
+.branchDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.branchMap {
+  padding: 1rem;
+  text-align: center;
+}
+
+.branchMapImage {
+  width: 100%;
+  height: auto;
+}
+
+.findOnMapBtn {
+  margin-top: 0.5rem;
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+}
+.accordionButton {
+  display: flex;
+  flex-direction: column; /* Розташовує кнопки вертикально */
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.accordionButton:hover {
+  background-color: #eaf2ff; /* Підсвічування при наведенні */
+}
+
+.accordionPanel {
+  padding: 15px;
+  background-color: #ecf2ff48;
+}
+
+.branchSchedule,
+.branchPhone a,
+.branchContacts a,
+.branchEmail a,
+.branchAddress,
+.branchMapAddress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.branchMapAddress {
+  margin-bottom: 24px;
+  justify-content: end;
+  color: var(--accent-blue);
+}
+@media (max-width: 1280px) {
+  .desktopOnly {
+    display: none;
+  }
+  .mobileOnly {
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .branchCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+  }
+  .branchMapImage {
+    border-radius: 16px;
+    width: 290px;
+    height: 292px;
+  }
+  .findOnMapBtn {
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+  }
+}

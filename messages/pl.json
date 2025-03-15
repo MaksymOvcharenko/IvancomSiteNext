@@ -101,6 +101,27 @@
     "ourPartners": "Nasi Partnerzy",
     "partnersText": "Współpracujemy z zaufanymi firmami na całym świecie."
   },
+  "contacts": {
+    "apply": "Zostaw zgłoszenie",
+    "calculate": "Oblicz koszt",
+    "delivery_title": "Dostawa bez granic z IVANCOM!",
+    "delivery_description": "Wysyłaj paczki wygodnym sposobem – gwarantujemy szybkość i bezpieczeństwo.",
+    "krakow": "Kraków",
+    "wroclaw": "Wrocław",
+    "warsaw": "Warszawa",
+    "katowice": "Katowice",
+    "kielce": "Kielce",
+    "monday_to_friday": "Pon-Pt",
+    "monday_to_sunday": "Pon-Ndz",
+    "saturday_to_sunday": "Sob-Ndz",
+    "find_on_map": "Znajdź na mapie",
+    "viber": "Viber",
+    "telegram": "Telegram",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "address": "Adres",
+    "arrange_with_courier": "Ustal z kurierem"
+  },
   "FormWorld": {
     "title": "Cały świat - Ukraina",
     "sender_name": "Imię nadawcy",

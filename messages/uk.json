@@ -101,6 +101,27 @@
         "ourPartners": "Наші партнери",
         "partnersText": "Ми співпрацюємо з надійними компаніями по цілому світу."
     },
+    "contacts": {
+        "apply": "Залишити заявку",
+        "calculate": "Розрахувати вартість",
+        "delivery_title": "Доставка без кордонів з IVANCOM!",
+        "delivery_description": "Відправляй посилки зручним способом – ми гарантуємо швидкість та безпеку.",
+        "krakow": "Краків",
+        "wroclaw": "Вроцлав",
+        "warsaw": "Варшава",
+        "katowice": "Катовіце",
+        "kielce": "Кєльце",
+        "monday_to_friday": "Пн-Пт",
+        "monday_to_sunday": "Пн-Нд",
+        "saturday_to_sunday": "Сб-Нд",
+        "find_on_map": "Знайти на карті",
+        "viber": "Viber",
+        "telegram": "Telegram",
+        "phone": "Телефон",
+        "email": "Електронна пошта",
+        "address": "Адреса",
+        "arrange_with_courier": "Домовляйтесь з кур’єром"
+    },
     "FormWorld": {
         "title": "Весь світ - Україна",
         "sender_name": "Ім'я відправника",
