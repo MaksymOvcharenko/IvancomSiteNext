@@ -1,7 +1,28 @@
 {
     "IndexPage": {
         "title": "Головна сторінка",
-        "description": "Тест Укр Мова"
+        "description": "Тест Укр Мова",
+        "services": {
+            "services": "Послуги",
+            "parcels": "Посилки",
+            "medicines": "Ліки",
+            "cosmetics": "Ін’єкційна косметика",
+            "animals": "Тварини",
+            "generators": "Генератори",
+            "move": "Переїзд",
+            "wheels": "Колеса та шини",
+            "bicycles": "Велосипеди",
+            "documents": "Документи"
+        },
+        "directions": {
+            "eu_to_eu": "З Європи",
+            "eu_to_ua": "З Європи",
+            "ua_to_eu": "З України",
+            "eu_to_eu2": "в Європу",
+            "eu_to_ua2": "в Україну",
+            "ua_to_eu2": "в Європу",
+            "title": "Оберіть напрямок"
+        }
     },
     "NotFoundPage": {
         "title": "Сторінку не знайдено",

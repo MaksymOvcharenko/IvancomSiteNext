@@ -1,7 +1,28 @@
 {
   "IndexPage": {
     "title": "Strona Główna",
-    "description": "Test Języka Polskiego"
+    "description": "Test Języka Polskiego",
+    "services": {
+      "services": "Usługi",
+      "parcels": "Paczki",
+      "medicines": "Leki",
+      "cosmetics": "Kosmetyki wstrzykiwane",
+      "animals": "Zwierzęta",
+      "generators": "Generatory",
+      "move": "Przeprowadzka",
+      "wheels": "Koła i opony",
+      "bicycles": "Rowery",
+      "documents": "Dokumenty"
+    },
+    "directions": {
+      "eu_to_eu": "Z Europy",
+      "eu_to_ua": "Z Europy",
+      "ua_to_eu": "Z Ukrainy",
+      "eu_to_eu2": "do Europy",
+      "eu_to_ua2": "do Ukrainy",
+      "ua_to_eu2": "do Europy",
+      "title": "Wybierz kierunek"
+    }
   },
   "NotFoundPage": {
     "title": "Strona Nie Znaleziono",

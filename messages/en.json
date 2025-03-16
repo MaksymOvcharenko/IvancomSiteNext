@@ -1,7 +1,28 @@
 {
   "IndexPage": {
     "title": "Home Page",
-    "description": "Test English Language"
+    "description": "Test English Language",
+    "services": {
+      "services": "Services",
+      "parcels": "Parcels",
+      "medicines": "Medicines",
+      "cosmetics": "Injectable Cosmetics",
+      "animals": "Animals",
+      "generators": "Generators",
+      "move": "Move",
+      "wheels": "Wheels and Tires",
+      "bicycles": "Bicycles",
+      "documents": "Documents"
+    },
+    "directions": {
+      "eu_to_eu": "From Europe",
+      "eu_to_ua": "From Europe",
+      "ua_to_eu": "From Ukraine",
+      "eu_to_eu2": "to Europe",
+      "eu_to_ua2": "to Ukraine",
+      "ua_to_eu2": "to Europe",
+      "title": "Choose a direction"
+    }
   },
   "NotFoundPage": {
     "title": "Page Not Found",
