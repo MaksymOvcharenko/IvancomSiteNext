@@ -120,7 +120,10 @@
     "phone": "Telefon",
     "email": "E-mail",
     "address": "Adres",
-    "arrange_with_courier": "Ustal z kurierem"
+    "arrange_with_courier": "Ustal z kurierem",
+    "stationary_branches": "Stacjonarne oddziały w Polsce",
+    "mobile_branches": "Mobilne oddziały w Polsce",
+    "no_need_to_search": "Nie musisz szukać stacjonarnego biura – przyjedziemy do Ciebie!"
   },
   "FormWorld": {
     "title": "Cały świat - Ukraina",

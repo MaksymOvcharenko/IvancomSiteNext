@@ -120,7 +120,10 @@
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
-    "arrange_with_courier": "Arrange with courier"
+    "arrange_with_courier": "Arrange with courier",
+    "stationary_branches": "Stationary branches in Poland",
+    "mobile_branches": "Mobile branches in Poland",
+    "no_need_to_search": "You don't need to look for a stationary office – we'll come to you!"
   },
   "FormWorld": {
     "title": "The Whole World - Ukraine",

@@ -29,9 +29,22 @@ interface BranchInfoProps {
 
 const BranchInfo: React.FC<BranchInfoProps> = ({ branches }) => {
   const t = useTranslations("contacts");
-
+const mobileBranches = 
+    {
+    city: t('kielce'),
+    schedule: `${t('arrange_with_courier')}`,
+    phone: "+48 730 036 262",
+    viberLink: "https://viber.com/ivancom.kielce",
+    telegramLink: "https://t.me/ivancom.kielce",
+    email: "",
+    address: "",
+    mapLink: "",
+    mapImage: ""
+  }
+  
   return (
     <div className={styles.branchContainer}>
+      <h3 className={styles.branchTitle}>{t("stationary_branches")}</h3>
       {/* Комп'ютерна версія */}
       <div className={styles.desktopOnly}>
         {branches.map((branch, index) => (
@@ -89,9 +102,10 @@ const BranchInfo: React.FC<BranchInfoProps> = ({ branches }) => {
           </div>
         ))}
       </div>
-
+      
       {/* Мобільна версія (аккордеон) */}
       <div className={styles.mobileOnly}>
+        
         {branches.map((branch, index) => (
           <Disclosure key={index}>
             {() => (
@@ -170,7 +184,22 @@ const BranchInfo: React.FC<BranchInfoProps> = ({ branches }) => {
             )}
           </Disclosure>
         ))}
+       
       </div>
+      <div className={styles.mobileBranches}>
+        <h3 className={styles.branchTitle}>{t("mobile_branches")}</h3>
+        <p className={styles.branchdescr}>{t("no_need_to_search")}</p>
+        <div className={styles.mobileBranchesCont}>
+          <h3 className={styles.branchMobileCity}>{mobileBranches.city}</h3>
+         <div className={styles.mobileBranchesDetail}>
+            <p className={styles.branchSchedule}><CiClock2 size={20} /><p>{t("monday_to_sunday") }</p><p>{mobileBranches.schedule}</p></p>
+                      <p className={styles.branchPhone}>
+                        <a href={`tel:${mobileBranches.phone}`}><BsTelephone size={20}  />{mobileBranches.phone}</a>
+                      </p>
+         </div>
+        </div>
+      </div>
+      
     </div>
   );
 };

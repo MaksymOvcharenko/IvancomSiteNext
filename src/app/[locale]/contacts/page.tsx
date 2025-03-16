@@ -7,19 +7,7 @@ import { useTranslations } from "next-intl";
 
 const Services = () => {
   const t = useTranslations("contacts");
-  const mobileBranches = [
-    {
-    city: t('kielce'),
-    schedule: `${t('arrange_with_courier')}`,
-    phone: "+48 730 036 262",
-    viberLink: "https://viber.com/ivancom.kielce",
-    telegramLink: "https://t.me/ivancom.kielce",
-    email: "",
-    address: "",
-    mapLink: "",
-    mapImage: ""
-  }
-  ]
+  
 const branches = [
   {
     city: t('krakow'),
