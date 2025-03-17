@@ -1,4 +1,3 @@
-
 import { createSlice, PayloadAction, createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from './store';
 
@@ -9,14 +8,13 @@ interface FormState {
 }
 
 const initialState: FormState = {
-  formData: typeof window !== "undefined" ? JSON.parse(localStorage.getItem('formDataWorldToUa') || 'null') : null,
+  formData: null,
   status: 'idle',
   error: null,
 };
 
-
 export const submitFormWorldtoUa = createAsyncThunk(
-  'formWorldtoUa/submitFormWorldtoUa',
+  'formUatoWorld/submitFormWorldtoUa',
   async (formData: any) => {
     const response = await fetch('https://ivancom-server.onrender.com/forms/worldtoua', {
       method: 'POST',
@@ -34,17 +32,15 @@ export const submitFormWorldtoUa = createAsyncThunk(
   }
 );
 
-const formWorldtoUaSlice = createSlice({
-  name: 'formWorldtoUa',
+const formUatoWorldSlice = createSlice({
+  name: 'formUatoWorld',
   initialState,
   reducers: {
     setFormData: (state, action: PayloadAction<any>) => {
       state.formData = action.payload;
-      localStorage.setItem('formDataWorldToUa', JSON.stringify(action.payload)); // Зберігаємо в localStorage
     },
     clearFormData: (state) => {
       state.formData = null;
-      localStorage.removeItem('formDataWorldToUa'); // Очищаємо з localStorage
     }
   },
   extraReducers: (builder) => {
@@ -64,6 +60,6 @@ const formWorldtoUaSlice = createSlice({
   },
 });
 
-export const { setFormData, clearFormData } = formWorldtoUaSlice.actions;
+export const { setFormData, clearFormData } = formUatoWorldSlice.actions;
 
-export default formWorldtoUaSlice.reducer;
+export default formUatoWorldSlice.reducer;

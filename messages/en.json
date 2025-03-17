@@ -22,6 +22,40 @@
       "eu_to_ua2": "to Ukraine",
       "ua_to_eu2": "to Europe",
       "title": "Choose a direction"
+    },
+    "faq": {
+      "question1": {
+        "question": "How can I send a parcel from Ukraine abroad?",
+        "answer": "Your parcels are sent through our warehouse in Hostynceve (Lviv region). Send parcels there via Nova Poshta: Lviv region, Hostynceve, branch №1 (Up to 1000 kg and dimensions up to 70 cm x 170 cm x 300 cm) Recipient: FOP Kisil Ludmila Anatoliivna EDPRPOU: 3221718269 +380 (95) 801-04-74"
+      },
+      "question2": {
+        "question": "How do we calculate the delivery time of a parcel from Ukraine abroad?",
+        "answer": "The delivery time is calculated from the moment your parcel leaves our warehouse in Ukraine (Hostynceve, Lviv region). The minimum time is from 2 days (we work without days off)."
+      },
+      "question3": {
+        "question": "Is my parcel insured, and how much does it cost?",
+        "answer": "Of course! All parcels from Ukraine to Poland are insured, and the insurance fee is 3% of the declared value. All parcels from Poland to Ukraine are insured, and the insurance fee is 1% of the declared value. This is a mandatory insurance fee that protects your parcel."
+      },
+      "question4": {
+        "question": "How to reduce the cost of shipping from Ukraine?",
+        "answer": "If your parcel is packed at the post office, carefully control whether the package dimensions match the actual dimensions of your parcel! Every extra centimeter adds costs :( Ask the operator to cut the box if it is too big. Yes, you have the right to do this! How to cut the box yourself, see this video!"
+      },
+      "question5": {
+        "question": "Who has to pay for shipping?",
+        "answer": "If the parcel is traveling from Ukraine, it can be paid for by either the recipient or the sender. If the parcel is traveling to Ukraine, only the sender pays."
+      },
+      "question6": {
+        "question": "What cannot be transported from Ukraine to the European Union?",
+        "answer": "Alcohol, tobacco (in all its forms), electronic cigarettes, precious metals, money, meat products and lard, dairy products, fish caviar, fur products, and more. Parcels containing prohibited substances or items are returned to the sender at an additional cost."
+      },
+      "question7": {
+        "question": "Can I send an expensive parcel to Ukraine?",
+        "answer": "If the value of the parcel exceeds 1000 PLN, the sender pays an additional 10% of the difference. How do we calculate? Example: 1500 PLN - 1000 PLN = 500 PLN × 10% = 50 PLN (surcharge). This amount is added to the tariff price."
+      },
+      "question8": {
+        "question": "How to order a parcel from a Ukrainian online store and deliver it to Europe?",
+        "answer": "When buying a product from an online store, enter these delivery details: Nova Poshta, Lviv region, Hostynceve, branch №1 (Up to 1000 kg and dimensions up to 70 cm x 170 cm x 300 cm). Recipient: FOP Kisil Ludmila Anatoliivna EDPRPOU: 3221718269 +380 (95) 801-04-74. Fill out this form. This way, we will know where to send your parcel :) When the parcel reaches Poland, you will receive an SMS from IVANCOM."
+      }
     }
   },
   "NotFoundPage": {
@@ -193,7 +227,30 @@
     "recipient": "Recipient",
     "send_data": "Sending Data"
   },
+  "FormUaToWorld": {
+    "ttnLengthError": "TTN must contain exactly 14 digits",
+    "fieldRequired": "This field is required",
+    "onlyCyrillic": "Only Cyrillic characters",
+    "selectPayer": "Select who pays for the parcel",
+    "fetchError": "Error fetching data from Nova Poshta",
+    "formSubmit": "Submitted data",
+    "ttnLabel": "Enter TTN",
+    "senderNameLabel": "Sender's First Name",
+    "senderSurnameLabel": "Sender's Last Name",
+    "senderPhoneLabel": "Sender's Phone",
+    "receiverNameLabel": "Receiver's First Name",
+    "receiverSurnameLabel": "Receiver's Last Name",
+    "receiverPhoneLabel": "Receiver's Phone",
+    "promocodeLabel": "Promocode",
+    "payerLabel": "Who pays",
+    "payerReceiver": "Receiver",
+    "payerSender": "Sender",
+    "submitButton": "Next",
+    "senderEmailLabel": "Email"
+  },
   "FormTransfer": {
+    "payerReceiver": "Receiver",
+    "payerSender": "Sender",
     "title": "Relocations",
     "sender_name": "Sender's first name",
     "sender_name_required": "Enter sender's first name",

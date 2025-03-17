@@ -22,6 +22,40 @@
       "eu_to_ua2": "do Ukrainy",
       "ua_to_eu2": "do Europy",
       "title": "Wybierz kierunek"
+    },
+    "faq": {
+      "question1": {
+        "question": "Jak mogę wysłać paczkę z terytorium Ukrainy za granicę?",
+        "answer": "Twoje przesyłki kursują przez nasz magazyn w miejscowości Hostyncewe (obwód lwowski). Wysyłaj paczki tam za pośrednictwem Nowa Poszta: Obwód lwowski, m. Hostyncewe, oddział №1 (Do 1000 kg i wymiarów do 70 cm x 170 cm x 300 cm) Odbiorca: FOP Kisil Ludmiła Anatolijewna EDPRPOU: 3221718269 +380 (95) 801-04-74"
+      },
+      "question2": {
+        "question": "Jak liczymy czas dostawy paczki z Ukrainy za granicę?",
+        "answer": "Czas dostawy liczony jest od momentu wyjazdu Twojej paczki z naszego magazynu na Ukrainie (m. Hostyncewe, obwód lwowski). Minimalny czas – od 2 dni (pracujemy bez dni wolnych)."
+      },
+      "question3": {
+        "question": "Czy moja paczka jest ubezpieczona i ile to kosztuje?",
+        "answer": "Oczywiście! Wszystkie paczki z Ukrainy do Polski są ubezpieczone, a opłata ubezpieczeniowa wynosi 3% deklarowanej wartości. Wszystkie paczki z Polski na Ukrainę są ubezpieczone, a opłata ubezpieczeniowa wynosi 1% deklarowanej wartości. Jest to obowiązkowa opłata ubezpieczeniowa, która chroni Twoją paczkę."
+      },
+      "question4": {
+        "question": "Jak zmniejszyć koszt przesyłki z Ukrainy?",
+        "answer": "Jeśli Twoja paczka jest pakowana już na poczcie, dokładnie kontroluj, czy wymiary opakowania odpowiadają rzeczywistym wymiarom Twojej paczki! Każdy zbędny centymetr doda kosztów :( Proś operatora o przycięcie kartonu, jeśli jest za duży. Tak, masz do tego prawo! Jak samodzielnie przyciąć karton, zobacz w tym filmie!"
+      },
+      "question5": {
+        "question": "Kto musi zapłacić za wysyłkę?",
+        "answer": "Jeśli paczka jedzie z Ukrainy, może ją zapłacić zarówno odbiorca, jak i nadawca. Jeśli paczka jedzie na Ukrainę, płaci wyłącznie nadawca."
+      },
+      "question6": {
+        "question": "Czego nie można przewozić z Ukrainy do Unii Europejskiej?",
+        "answer": "Alkohol, tytoń (we wszystkich jego formach) oraz papierosy elektroniczne, metale szlachetne, pieniądze, produkty mięsne i słonina, produkty mleczne, kawior rybny, wyroby futrzane i inne. Paczki z zabronionymi substancjami lub rzeczami są zwracane nadawcy na dodatkowy koszt."
+      },
+      "question7": {
+        "question": "Czy mogę wysłać do Ukrainy kosztowną paczkę?",
+        "answer": "Jeśli wartość paczki przekracza 1000 zł, nadawca płaci dodatkowo 10% od różnicy. Jak liczymy? Przykład: 1500 zł - 1000 zł = 500 zł × 10% = 50 zł (dopłata). Tę kwotę dodajemy do ceny taryfy."
+      },
+      "question8": {
+        "question": "Jak zamówić paczkę z ukraińskiego sklepu internetowego i dostarczyć ją do Europy?",
+        "answer": "Kiedy kupujesz produkt w sklepie internetowym, wpisz te dane dostawy: Nowa Poszta, Obwód lwowski, m. Hostyncewe, oddział №1 (Do 1000 kg i wymiarów do 70 cm x 170 cm x 300 cm). Odbiorca: FOP Kisil Ludmiła Anatolijewna EDPRPOU: 3221718269 +380 (95) 801-04-74. Wypełnij ten formularz. Tak dowiemy się, dokąd wysłać Twoją paczkę :) Kiedy paczka będzie na terenie Polski, otrzymasz SMS od IVANCOM."
+      }
     }
   },
   "NotFoundPage": {
@@ -192,6 +226,29 @@
     "sender": "Nadawca",
     "recipient": "Odbiorca",
     "send_data": "Dane wysyłki"
+  },
+  "FormUaToWorld": {
+    "sender": "Nadawca",
+    "recipient": "Odbiorca",
+    "ttnLengthError": "TTN musi zawierać dokładnie 14 cyfr",
+    "fieldRequired": "To pole jest wymagane",
+    "onlyCyrillic": "Tylko znaki cyrylickie",
+    "selectPayer": "Wybierz, kto płaci za paczkę",
+    "fetchError": "Błąd podczas pobierania danych z Nova Poshta",
+    "formSubmit": "Wysłane dane",
+    "ttnLabel": "Wprowadź TTN",
+    "senderNameLabel": "Imię Nadawcy",
+    "senderSurnameLabel": "Nazwisko Nadawcy",
+    "senderPhoneLabel": "Telefon Nadawcy",
+    "receiverNameLabel": "Imię Odbiorcy",
+    "receiverSurnameLabel": "Nazwisko Odbiorcy",
+    "receiverPhoneLabel": "Telefon Odbiorcy",
+    "promocodeLabel": "Kod promocyjny",
+    "payerLabel": "Kto płaci",
+    "payerReceiver": "Odbiorca",
+    "payerSender": "Nadawca",
+    "submitButton": "Dalej",
+    "senderEmailLabel": "Email"
   },
   "FormTransfer": {
     "title": "Przeprowadzki",

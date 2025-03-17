@@ -1,0 +1,147 @@
+@media (min-width: 320px) {
+  .formContainer {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #e5e5e6;
+    padding: 40px 16px;
+    border-radius: 16px;
+    overflow-y: auto !important;
+    max-height: 90vh;
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  .formContTitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 127%;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 32px;
+  }
+  .formContItemTitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--black);
+    margin-bottom: 12px;
+  }
+  .sender {
+    border: 1px solid rgba(99, 102, 106, 0.5);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+    background: var(--white);
+    margin-bottom: 20px;
+  }
+  .phoneInput {
+    border-radius: 8px !important;
+    padding: 8px;
+    border: none !important;
+    width: 100% !important;
+    background: #d6e0f5 !important;
+  }
+  .input {
+    border-radius: 8px;
+    padding: 8px;
+    background: #d6e0f5;
+  }
+  .inputCont {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .inputRadio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.inputRadio {
+  display: flex;
+  gap: 10px;
+}
+
+.radiobtn {
+  /* Сховуємо стандартні радіо кнопки */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d6e0f5; /* Світлофіолетовий фон */
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Стилі для стану при виборі */
+.radiobtn:checked {
+  background-color: #d6e0f5; /* Синій колір всередині */
+}
+
+/* Стилі для "позначення" вибраної кнопки */
+.radiobtn:checked::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1e3a8a; /* Синій вміст */
+}
+
+/* Додаткові стилі для лейблів */
+.inputRadio label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  background: var(--accent-blue);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease-in-out;
+  color: var(--white);
+  margin-left: auto;
+}
+.button:hover {
+  background: #05173b;
+}
+.flexCont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .flexCont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .phoneInput {
+    width: 213px !important;
+  }
+  .inputRadio {
+    flex-direction: row;
+
+    gap: 25%;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+}

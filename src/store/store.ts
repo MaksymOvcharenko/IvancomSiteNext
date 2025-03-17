@@ -40,6 +40,7 @@ import thunk from 'redux-thunk';
 import formWorldtoUaReducer from './formWorldtoUaSlice';
 import formTransferReducer from './formTransferSlice';
 import formAnimalsReducer from './formAnimals';
+import formUatoWorldReducer from './formUatoWorld';
 const persistConfig = {
   key: 'root',
   storage,
@@ -49,6 +50,7 @@ const rootReducer = combineReducers({
   formWorldtoUa: formWorldtoUaReducer,
   formTransfer: formTransferReducer,
   formAnimals: formAnimalsReducer,
+  formUatoWorld: formUatoWorldReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
