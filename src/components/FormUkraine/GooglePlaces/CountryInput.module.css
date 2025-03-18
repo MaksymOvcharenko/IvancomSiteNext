@@ -5,6 +5,7 @@
   border-radius: 16px;
   overflow-y: auto !important;
   max-height: 90vh;
+  min-width: 375px;
 }
 .countryCont {
   border: 1px solid rgba(99, 102, 106, 0.5);
@@ -47,6 +48,9 @@
 }
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
+  .body {
+    width: 640px;
+  }
 }
 
 /* Десктопи (від 1280px) */
