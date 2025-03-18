@@ -1,0 +1,55 @@
+.input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  background: #d6e0f5;
+}
+.radiobtn {
+  /* Сховуємо стандартні радіо кнопки */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d6e0f5; /* Світлофіолетовий фон */
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Стилі для стану при виборі */
+.radiobtn:checked {
+  background-color: #d6e0f5; /* Синій колір всередині */
+}
+
+/* Стилі для "позначення" вибраної кнопки */
+.radiobtn:checked::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1e3a8a; /* Синій вміст */
+}
+.radioWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.optionsCont {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formContItemTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--black);
+}

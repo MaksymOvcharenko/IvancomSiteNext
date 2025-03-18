@@ -1,0 +1,54 @@
+.body {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #e5e5e6;
+  padding: 40px 16px;
+  border-radius: 16px;
+  overflow-y: auto !important;
+  max-height: 90vh;
+}
+.countryCont {
+  border: 1px solid rgba(99, 102, 106, 0.5);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  margin-bottom: 20px;
+}
+.formContTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 32px;
+}
+.formContItemTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--black);
+  margin-bottom: 12px;
+}
+.input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  background: #d6e0f5;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+}
