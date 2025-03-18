@@ -53,7 +53,7 @@ const InPostGeoWidget: React.FC<InPostGeoWidgetProps> = ({ paczkomat, setPaczkom
 
   return (
     <div className={styles.body}>
-      <h4>Оберіть поштомат</h4>
+      <h4 className={styles.formContItemTitle}>Оберіть поштомат</h4>
       <div className={styles.paczkomat}>
           <inpost-geowidget
             token={token}

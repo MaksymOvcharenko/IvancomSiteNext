@@ -4,3 +4,11 @@
 .paczkomat {
   height: 60vh !important;
 }
+.formContItemTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--black);
+  margin-bottom: 20px;
+}

@@ -145,6 +145,7 @@ import styles from "./CountryInput.module.css";
 import AddressForm from "./AdressForm";
 import CityAutocomplete from "./CityInput";
 import InPostGeoWidget from "./inpostGeowidget";
+import SvgIcon from "@/components/SvgIcon";
 // Новий компонент для вибору міста
 // Новий компонент для вибору методу доставки
 
@@ -290,22 +291,24 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
   <>
     <div className={styles.countryCont}>
       <h4 className={styles.formContItemTitle}>Оберіть метод доставки</h4>
-      <div>
-        <label>
+      <div className={styles.optionsCont}>
+        <label className={styles.radioWrapper}>
           <input
             type="radio"
             name="inpostMethod"
             value="paczkomat"
+             className={styles.radiobtn}
             checked={inpostMethod === "paczkomat"}
             onChange={() => setInpostMethod("paczkomat")}
           />
           Paczkomat
         </label>
-        <label>
+        <label className={styles.radioWrapper}>
           <input
             type="radio"
             name="inpostMethod"
             value="courier"
+             className={styles.radiobtn}
             checked={inpostMethod === "courier"}
             onChange={() => setInpostMethod("courier")}
           />
@@ -367,25 +370,28 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
             )}
           </>
         )}
-
-        <button
-          className={styles.nextStepButton}
-          onClick={nextStep}
-          disabled={!isAddressValid}
-        >
-          Наступний крок
-        </button>
-        <button
-          className={styles.nextStepButton}
-          onClick={() => {
-            console.log({ ...addressData, deliveryMethod, selectedSubCity });
-          }}
-        >
-          показати
-        </button>
-        <button className={styles.nextStepButton} onClick={prevStep}>
-          Назад
-        </button>
+        <div className={styles.btnCont}>
+            <button className={styles.button} onClick={prevStep}>
+              Назад
+                  </button>
+                  <button
+              className={styles.button}
+              onClick={() => {
+                console.log({ ...addressData, deliveryMethod, selectedSubCity });
+              }}
+            >
+              Технічна кнопка
+            </button>
+            <button
+              className={styles.button}
+              onClick={nextStep}
+              disabled={!isAddressValid}
+            >
+              Наступний крок <SvgIcon name="sparow" />
+            </button>
+            
+        </div>
+        
       </div>
     </div>
   );
