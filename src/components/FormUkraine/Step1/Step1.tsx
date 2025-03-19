@@ -188,7 +188,8 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                 <div className={styles.inputCont}>
                   <label>{t("senderPhoneLabel")}</label>
                   <PhoneInput
-                    country={"ua"}
+                                  country={"ua"}
+                                
                     value={values.senderPhone || senderPhone}
                     onChange={(phone) => setFieldValue("senderPhone", phone)}
                     inputClass={styles.phoneInput}

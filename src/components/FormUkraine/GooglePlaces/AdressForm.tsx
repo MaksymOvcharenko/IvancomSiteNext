@@ -109,9 +109,10 @@ interface AddressFormProps {
   countryCode?: string;
  // Приймаємо countryCode як пропс
   setAddressData: React.Dispatch<React.SetStateAction<any>>;
+  validate: any;
 }
 
-const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, countryCode }) => {
+const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, countryCode,validate }) => {
   const [cityAutocomplete, setCityAutocomplete] = useState<google.maps.places.Autocomplete | null>(null);
   const [streetAutocomplete, setStreetAutocomplete] = useState<google.maps.places.Autocomplete | null>(null);
   const [city, setCity] = useState("null");
@@ -164,7 +165,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
   return (
     <div className={styles.addressForm}>
       {/* Вибір міста */}
-      <label>Місто
+      <label>Місто <span className={styles.required}>*</span>
       <Autocomplete
         onLoad={handleCityLoad}
         onPlaceChanged={handleCityChange}
@@ -187,7 +188,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
       {/* Вибір вулиці та номеру будинку */}
       {addressData.city && (
         <>
-          <label>Вулиця
+          <label>Вулиця <span className={styles.required}>*</span>
           <Autocomplete
             onLoad={handleStreetLoad}
             onPlaceChanged={handleStreetChange}
@@ -209,12 +210,19 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
               
             </Autocomplete>
             </label>
-          <label>Будинок
+          <label>Будинок <span className={styles.required}>*</span>
           <input
             type="text"
              className={styles.input}
             value={addressData.houseNumber}
-            onChange={(e) => setAddressData((prev: any) => ({ ...prev, houseNumber: e.target.value }))}
+             onChange={(e) => {
+    // Оновлюємо стан
+    const newHouseNumber = e.target.value;
+    setAddressData((prev:any) => ({ ...prev, houseNumber: newHouseNumber }));
+
+    // Викликаємо валідацію безпосередньо в callback
+    validate();  // Викликає валідацію при зміні значення
+  }}
             placeholder="Номер будинку..."
             />
             </label>
@@ -222,7 +230,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
       )}
 
       {/* Поштовий індекс */}
-      <label>Поштовий індекс
+      <label>Поштовий індекс <span className={styles.required}>*</span>
       <input
         type="text"
          className={styles.input}
@@ -232,7 +240,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
       />
       </label>
       {/* Апартаменти */}
-      <label>Апартаменти
+      <label>Апартаменти 
       <input
         type="text"
          className={styles.input}

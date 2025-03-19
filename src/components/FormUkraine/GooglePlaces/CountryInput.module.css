@@ -108,9 +108,18 @@
 .button:hover {
   background: #05173b;
 }
+.button:disabled {
+  background: #585858;
+}
 .btnCont {
   display: flex;
   justify-content: space-between;
+}
+.required {
+  color: red;
+}
+.requiredspan {
+  margin-bottom: 20px;
 }
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {

@@ -139,13 +139,15 @@
 // };
 
 // export default CountryInput;
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { LoadScript, Autocomplete } from "@react-google-maps/api";
 import styles from "./CountryInput.module.css";
 import AddressForm from "./AdressForm";
 import CityAutocomplete from "./CityInput";
 import InPostGeoWidget from "./inpostGeowidget";
 import SvgIcon from "@/components/SvgIcon";
+import { useDispatch } from "react-redux";
+import { setFormData, setPackageData } from "@/store/formUatoWorld";
 // Новий компонент для вибору міста
 // Новий компонент для вибору методу доставки
 
@@ -179,11 +181,11 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
   });
   const [countryCode, setCountryCode] = useState<string>("");
   const [isAddressValid, setIsAddressValid] = useState(false);
-  const [selectedCity, setSelectedCity] = useState<string>("");
+//   const [selectedCity, setSelectedCity] = useState<string>("");
   const [selectedSubCity, setSelectedSubCity] = useState<string>("");
   const [deliveryMethod, setDeliveryMethod] = useState<string>("");
-    const [inpostMethod, setInpostMethod] = useState<string>("");
-    const [paczkomat, setPaczkomat]  = useState<string>("");
+  const [inpostMethod, setInpostMethod] = useState<string>("");
+  const [paczkomat, setPaczkomat] = useState<string>("1");
   const handleLoad = (
     autocompleteInstance: google.maps.places.Autocomplete
   ) => {
@@ -199,19 +201,28 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         );
         const country = countryComponent?.long_name || "";
         const code = countryComponent?.short_name || "";
-
+        setAddressData(() => ({
+          country: "",
+          city: "",
+          region: "",
+          street: "",
+          postalCode: "",
+          houseNumber: "",
+          apartment: "",
+        }));
+        setDeliveryMethod("");
+        setIsAddressValid(false);
         setInputValue(country);
         setCountryCode(code);
         setAddressData((prev) => ({ ...prev, country }));
       }
     }
-  };
-
+  }; // Викликається, коли змінюється addressData
   const validateAddress = () => {
     const { city, region, street, postalCode, houseNumber } = addressData;
     // Для України і інших країн, окрім Польщі
     if (addressData.country !== "Poland") {
-      setDeliveryMethod("International");
+      setDeliveryMethod("dhl");
       if (city && region && street && postalCode && houseNumber) {
         setIsAddressValid(true);
       } else {
@@ -219,19 +230,56 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
       }
     } else {
       // Спеціальна валідація для Польщі
-      if (city && region && street && postalCode && houseNumber) {
+    //   if (city && region && street && postalCode && houseNumber) {
+    //     setIsAddressValid(true);
+    //   } else {
+    //     setIsAddressValid(false);
+    //   }
+    }
+    if (addressData.country === "Poland") {
+      if (
+        deliveryMethod === "BranchKrakow" ||
+        deliveryMethod === "BranchKatowice" ||
+        deliveryMethod === "BranchWroclaw" ||
+        deliveryMethod === "BranchWarzsawa"
+      ) {
         setIsAddressValid(true);
-      } else {
-        setIsAddressValid(false);
       }
+      if (deliveryMethod === "Courier Ivancom") {
+        if (city && region && street && postalCode && houseNumber) {
+          setIsAddressValid(true);
+        } else {
+          setIsAddressValid(false);
+        }
+      }
+      if (deliveryMethod === "InPost") {
+        if (city && region && street && postalCode && houseNumber) {
+          setIsAddressValid(true);
+        } else {
+          setIsAddressValid(false);
+          }
+          
+        }
+        if (inpostMethod === "pazckomat") {
+            if (paczkomat) {
+            setIsAddressValid(true);
+        }
+        else {
+          setIsAddressValid(false);
+          }
+        }
     }
   };
+  useEffect(() => {
+    validateAddress(); // Викликається після кожної зміни в addressData
+  }, [addressData, deliveryMethod,paczkomat]);
 
-  const handleCitySelection = (city: string) => {
-    setSelectedCity(city);
-    // Тут можна додати логіку для прив'язки методів доставки до міста
-  };
-
+    const dispatch = useDispatch();
+    const submit = () => {
+        const values = {...addressData,selectedSubCity,paczkomat,deliveryMethod,inpostMethod}
+        dispatch(setPackageData(values));
+        nextStep();
+    }
   return (
     <div className={styles.body}>
       <h4 className={styles.formContTitle}>Крок 1</h4>
@@ -263,84 +311,93 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
                     <CityAutocomplete
                       subcity={setSelectedSubCity}
                       delivery={setDeliveryMethod}
+                      address={addressData}
                       setAddressData={(data: AddressData) => {
                         setAddressData(data);
+                        validateAddress();
                       }}
                     />
                   </div>
-                              </>
-                              
-                          )}
-                          
+                </>
+              )}
             </>
           )}
         </div>
-              {deliveryMethod === "Courier Ivancom" && (<>
-                  <div className={styles.countryCont}>
-                  <h4 className={styles.formContItemTitle}>
-                    Вкажіть адресу
-                  </h4><AddressForm
+        {deliveryMethod === "Courier Ivancom" && (
+          <>
+            <div className={styles.countryCont}>
+              <h4 className={styles.formContItemTitle}>Вкажіть адресу</h4>
+              <AddressForm
+                addressData={addressData}
+                validate={validateAddress}
+                setAddressData={(data: AddressData) => {
+                  setAddressData(data);
+                  validateAddress();
+                }}
+                countryCode={countryCode}
+              />
+            </div>
+          </>
+        )}
+        {deliveryMethod === "InPost" && (
+          <>
+            <div className={styles.countryCont}>
+              <h4 className={styles.formContItemTitle}>
+                Оберіть метод доставки
+              </h4>
+              <div className={styles.optionsCont}>
+                <label className={styles.radioWrapper}>
+                  <input
+                    type="radio"
+                    name="inpostMethod"
+                    value="paczkomat"
+                    className={styles.radiobtn}
+                    checked={inpostMethod === "paczkomat"}
+                    onChange={() => setInpostMethod("paczkomat")}
+                  />
+                  Paczkomat
+                </label>
+                <label className={styles.radioWrapper}>
+                  <input
+                    type="radio"
+                    name="inpostMethod"
+                    value="courier"
+                    className={styles.radiobtn}
+                    checked={inpostMethod === "courier"}
+                    onChange={() => setInpostMethod("courier")}
+                  />
+                  Кур'єр
+                </label>
+              </div>
+
+              {inpostMethod === "courier" && (
+                <div>
+                  <h4 className={styles.formContItemTitle}>Вкажіть адресу</h4>
+                  <AddressForm
+                    validate={validateAddress}
                     addressData={addressData}
                     setAddressData={(data: AddressData) => {
                       setAddressData(data);
                       validateAddress();
                     }}
                     countryCode={countryCode}
-                      /></div></>)}
-                {deliveryMethod === "InPost" && (
-  <>
-    <div className={styles.countryCont}>
-      <h4 className={styles.formContItemTitle}>Оберіть метод доставки</h4>
-      <div className={styles.optionsCont}>
-        <label className={styles.radioWrapper}>
-          <input
-            type="radio"
-            name="inpostMethod"
-            value="paczkomat"
-             className={styles.radiobtn}
-            checked={inpostMethod === "paczkomat"}
-            onChange={() => setInpostMethod("paczkomat")}
-          />
-          Paczkomat
-        </label>
-        <label className={styles.radioWrapper}>
-          <input
-            type="radio"
-            name="inpostMethod"
-            value="courier"
-             className={styles.radiobtn}
-            checked={inpostMethod === "courier"}
-            onChange={() => setInpostMethod("courier")}
-          />
-          Кур'єр
-        </label>
-      </div>
-      
-      {inpostMethod === "courier" && (
-        <div>
-          <h4 className={styles.formContItemTitle}>Вкажіть адресу</h4>
-          <AddressForm
-            addressData={addressData}
-            setAddressData={(data: AddressData) => {
-              setAddressData(data);
-              validateAddress();
-            }}
-            countryCode={countryCode}
-          />
-        </div>
-                          )}
-                          
+                  />
+                </div>
+              )}
 
-                          {inpostMethod === "paczkomat" && (
-                              <InPostGeoWidget paczkomat={ paczkomat} setPaczkomat={setPaczkomat} />
-        // <InPostWidget
-        //   paczkomat={paczkomat}
-        //   setPaczkomat={setPaczkomat}
-        // />
-      )}
-    </div>
-  </>
-)}
+              {inpostMethod === "paczkomat" && (
+                <InPostGeoWidget
+                  paczkomat={paczkomat}
+                  setPaczkomat={setPaczkomat}
+                />
+                // <InPostWidget
+                //   paczkomat={paczkomat}
+                //   setPaczkomat={setPaczkomat}
+                // />
+              )}
+            </div>
+          </>
+        )}
         {addressData.country && (
           <>
             {addressData.country !== "Poland" &&
@@ -350,6 +407,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
                     Доставка за межі Польщі
                   </h4>
                   <AddressForm
+                    validate={validateAddress}
                     addressData={addressData}
                     setAddressData={(data: AddressData) => {
                       setAddressData(data);
@@ -370,28 +428,39 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
             )}
           </>
         )}
+        {!isAddressValid && (
+          <p className={styles.requiredspan}>
+            {" "}
+            Треба заповнити обов'язкові поля{" "}
+            <span className={styles.required}>*</span>{" "}
+          </p>
+        )}
         <div className={styles.btnCont}>
-            <button className={styles.button} onClick={prevStep}>
-              Назад
-                  </button>
-                  <button
-              className={styles.button}
-              onClick={() => {
-                console.log({ ...addressData, deliveryMethod, selectedSubCity });
-              }}
-            >
-              Технічна кнопка
-            </button>
-            <button
-              className={styles.button}
-              onClick={nextStep}
-              disabled={!isAddressValid}
-            >
-              Наступний крок <SvgIcon name="sparow" />
-            </button>
-            
+          <button className={styles.button} onClick={prevStep}>
+            Назад
+          </button>
+          <button
+            className={styles.button}
+            onClick={() => {
+              console.log({ ...addressData, deliveryMethod, selectedSubCity, paczkomat,inpostMethod });
+            }}
+          >
+            Технічна кнопка
+          </button>
+          <button
+            className={styles.button}
+            onClick={submit}
+            disabled={!isAddressValid}
+          >
+            {isAddressValid ? (
+              <>
+                Наступний крок <SvgIcon name="sparow" />
+              </>
+            ) : (
+              "Заповніть обов'язкові поля"
+            )}
+          </button>
         </div>
-        
       </div>
     </div>
   );

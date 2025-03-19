@@ -17,7 +17,8 @@ type LinkedCities = {
 interface CityAutoComplete {
  delivery: React.Dispatch<React.SetStateAction<any>>;
     subcity: React.Dispatch<React.SetStateAction<any>>;
-    setAddressData: React.Dispatch<React.SetStateAction<any>>
+    setAddressData: React.Dispatch<React.SetStateAction<any>>,
+    address: any
 }
 export const linkedCitiesData = {
   Kraków: {
@@ -77,7 +78,7 @@ export const linkedCitiesData = {
     }
   },
   Wrocław: {
-    deliveryOptions: ["BranchWrocław",  "Courier Ivancom","InPost",],
+    deliveryOptions: ["BranchWroclaw",  "Courier Ivancom","InPost",],
     subCities: {
       Oława: {
         deliveryOptions: ["Courier Ivancom", "InPost"]
@@ -135,8 +136,8 @@ export const linkedCitiesData = {
       }
     }
   },
-  Warszawa: {
-    deliveryOptions: ["BranchWarszawa",  "Courier Ivancom","InPost",],
+  Warsaw: {
+    deliveryOptions: ["BranchWarzsawa",  "Courier Ivancom","InPost",],
     subCities: {
       Pruszków: {
         deliveryOptions: ["Courier Ivancom", "InPost"]
@@ -241,10 +242,10 @@ export const linkedCitiesData = {
 
 const linkedCities: LinkedCities = linkedCitiesData;
 
-const CityAutocomplete: React.FC<CityAutoComplete> = ({subcity , delivery, setAddressData}) => {
+const CityAutocomplete: React.FC<CityAutoComplete> = ({subcity , delivery, setAddressData, address}) => {
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
   const [deliveryOptions, setDeliveryOptions] = useState<string[]>([]);
-  const [inputValue, setInputValue] = useState<string>("");
+  const [inputValue, setInputValue] = useState<string>( "");
   const [selectedDeliveryOption, setSelectedDeliveryOption] = useState<string | null>(null); // Стан для вибору доставки
   const autocompleteRef = useRef<google.maps.places.Autocomplete | null>(null);
 
@@ -254,9 +255,21 @@ const CityAutocomplete: React.FC<CityAutoComplete> = ({subcity , delivery, setAd
 
   const handlePlaceChanged = () => {
     if (autocompleteRef.current) {
-      const place = autocompleteRef.current.getPlace();
+        const place = autocompleteRef.current.getPlace();
+        if (place && place.address_components) {
+    // Знаходимо компонент для administrative_area_level_1 (регіон)
+    const region = place.address_components.find(comp => comp.types.includes("administrative_area_level_1"))?.long_name || "";
+    setAddressData((prev: any) => ({ ...prev, region }))
+    console.log("Region:", region);  // Вивести знайдений регіон в консоль
+  } else {
+    console.log("No address components found");
+  }
+         
       const cityName: any = place.name;
         setSelectedCity(cityName);
+        setDeliveryOptions([]);
+        setSelectedDeliveryOption("");
+        delivery("")
         setAddressData((prev: any) => ({ ...prev, city: cityName }))
       setInputValue(cityName || "");  // Заповнюємо input значенням вибраного міста
 
@@ -283,7 +296,7 @@ const CityAutocomplete: React.FC<CityAutoComplete> = ({subcity , delivery, setAd
 
         // Якщо підмістів або міста не знайдено, очищуємо варіанти доставки
         if (!found) {
-          setDeliveryOptions([]);
+          setDeliveryOptions(["InPost"]);
         }
       }
     }
