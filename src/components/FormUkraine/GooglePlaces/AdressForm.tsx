@@ -146,14 +146,25 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
   const handleStreetChange = () => {
     if (streetAutocomplete) {
       const place = streetAutocomplete.getPlace();
+      console.log(place);
+      
       if (place.address_components) {
         const street = place.address_components.find((comp) => comp.types.includes("route"))?.long_name || "";
         const postalCode = place.address_components.find((comp) => comp.types.includes("postal_code"))?.long_name || "";
         const houseNumber = place.address_components.find((comp) => comp.types.includes("street_number"))?.long_name || "";
         const city = place.address_components.find((comp) => comp.types.includes("locality"))?.long_name || "";
-        setAddressData((prev: any) => ({
+        if (city) {
+          setAddressData((prev: any) => ({
           ...prev,
           city,
+          
+        }));
+          
+        }
+        
+        setAddressData((prev: any) => ({
+          ...prev,
+          
           street,
           houseNumber,
           postalCode
@@ -186,7 +197,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
       </Autocomplete>
      </label>
       {/* Вибір вулиці та номеру будинку */}
-      {addressData.city && (
+      {/* {addressData.city && (
         <>
           <label>Вулиця <span className={styles.required}>*</span>
           <Autocomplete
@@ -227,7 +238,49 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
             />
             </label>
         </>
-      )}
+      )} */}
+    
+        <>
+          <label>Вулиця <span className={styles.required}>*</span>
+          <Autocomplete
+            onLoad={handleStreetLoad}
+            onPlaceChanged={handleStreetChange}
+            options={{
+              types: ["address"],
+              componentRestrictions: {
+      country: countryCode ?? null, // використовуємо null, якщо countryCode undefined
+       // те саме для міста
+    },
+            }}
+          >
+            <input
+              className={styles.input}
+              type="text"
+              value={addressData.street}
+              onChange={(e) => setAddressData((prev: any) => ({ ...prev, street: e.target.value }))}
+              placeholder="Введіть вулицю..."
+              />
+              
+            </Autocomplete>
+            </label>
+          <label>Будинок <span className={styles.required}>*</span>
+          <input
+            type="text"
+             className={styles.input}
+            value={addressData.houseNumber}
+             onChange={(e) => {
+    // Оновлюємо стан
+    const newHouseNumber = e.target.value;
+    setAddressData((prev:any) => ({ ...prev, houseNumber: newHouseNumber }));
+
+    // Викликаємо валідацію безпосередньо в callback
+    validate();  // Викликає валідацію при зміні значення
+  }}
+            placeholder="Номер будинку..."
+            />
+            </label>
+        </>
+      
 
       {/* Поштовий індекс */}
       <label>Поштовий індекс <span className={styles.required}>*</span>

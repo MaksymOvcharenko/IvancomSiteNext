@@ -18,7 +18,7 @@
     line-height: 127%;
     text-align: center;
     color: var(--black);
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
   .formContItemTitle {
     font-family: var(--font-family);
@@ -26,7 +26,6 @@
     font-size: 20px;
     line-height: 140%;
     color: var(--black);
-    margin-bottom: 12px;
   }
   .sender {
     border: 1px solid rgba(99, 102, 106, 0.5);
@@ -34,7 +33,7 @@
     padding: 16px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
     background: var(--white);
     margin-bottom: 20px;
@@ -115,7 +114,6 @@
   gap: 10px;
   transition: background 0.3s ease-in-out;
   color: var(--white);
-  margin-left: auto;
 }
 .button:hover {
   background: #05173b;
@@ -125,16 +123,24 @@
   flex-direction: column;
   gap: 20px;
 }
+.label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
+  .formContainer {
+    min-width: 540px;
+  }
   .flexCont {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: space-between;
-  }
-  .formContainer {
-    min-width: 540px;
   }
   .phoneInput {
     width: 213px !important;

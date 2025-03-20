@@ -42,6 +42,9 @@ const formUatoWorldSlice = createSlice({
      setPackageData: (state, action: PayloadAction<any>) => {
       state.formData = {...state.formData, ...action.payload}
     },
+     setDescriptionData: (state, action: PayloadAction<any>) => {
+      state.formData = {...state.formData, ...action.payload}
+    },
     clearFormData: (state) => {
       state.formData = null;
     }
@@ -63,6 +66,6 @@ const formUatoWorldSlice = createSlice({
   },
 });
 
-export const { setFormData, clearFormData, setPackageData } = formUatoWorldSlice.actions;
+export const { setFormData, clearFormData, setPackageData, setDescriptionData } = formUatoWorldSlice.actions;
 
 export default formUatoWorldSlice.reducer;

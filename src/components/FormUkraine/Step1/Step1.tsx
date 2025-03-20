@@ -217,7 +217,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
             </div>
           </div>
           <div className={styles.sender}>
-            <h4 className={styles.formContItemTitle}>{t("sender")}</h4>
+            <h4 className={styles.formContItemTitle}>Дані Отримувача</h4>
             <div className={styles.flexCont}>
                 <div className={styles.inputCont}>
                   <label>{t("receiverNameLabel")}</label>
@@ -285,7 +285,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                        <h4 className={styles.formContItemTitle}>{t("selectPayer")}</h4>
                       <div className={styles.inputRadio}>
   <label>
-    <Field type="radio" name="payer" value="receiver" className={styles.radiobtn} />
+    <Field type="radio" name="payer" value="recipient" className={styles.radiobtn} />
     {t("payerReceiver")}
   </label>
   <label>

@@ -1,144 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-// import React, { useState } from "react";
-// import { LoadScript, Autocomplete } from "@react-google-maps/api";
 
-// import styles from "./CountryInput.module.css";
-// import AddressForm from "./AdressForm";
-
-// interface AddressData {
-//   country: string;
-//   city: string;
-//   region: string;
-//   street: string;
-//   postalCode: string;
-//   houseNumber: string;
-//   apartment: string;
-// }
-
-// interface CountryInputProps {
-//     nextStep: () => void;
-//   prevStep: () => void;  // Функція для переходу до наступного кроку
-// }
-
-// const CountryInput: React.FC<CountryInputProps> = ({ nextStep ,prevStep }) => {
-//   const [autocomplete, setAutocomplete] = useState<google.maps.places.Autocomplete | null>(null);
-//   const [inputValue, setInputValue] = useState("");
-//   const [addressData, setAddressData] = useState<AddressData>({
-//     country: "",
-//     city: "",
-//     region: "",
-//     street: "",
-//     postalCode: "",
-//       houseNumber: "",
-//      apartment: "",
-//   });
-//   const [countryCode, setCountryCode] = useState<string>("");
-//   const [isAddressValid, setIsAddressValid] = useState(false);
-
-//   const handleLoad = (autocompleteInstance: google.maps.places.Autocomplete) => {
-//     setAutocomplete(autocompleteInstance);
-//   };
-
-//   const handlePlaceChanged = () => {
-//     if (autocomplete) {
-//       const place = autocomplete.getPlace();
-//       if (place.address_components) {
-//         const countryComponent = place.address_components.find((comp) => comp.types.includes("country"));
-//         const country = countryComponent?.long_name || "";
-//         const code = countryComponent?.short_name || "";
-
-//         setInputValue(country);
-//         setCountryCode(code);
-//         setAddressData((prev) => ({ ...prev, country }));
-//       }
-//     }
-//   };
-
-//   const validateAddress = () => {
-//     const { city, region, street, postalCode, houseNumber } = addressData;
-//     // Для України і інших країн, окрім Польщі
-//     if (addressData.country !== "Poland") {
-//       if (city && region && street && postalCode && houseNumber) {
-//         setIsAddressValid(true);
-//       } else {
-//         setIsAddressValid(false);
-//       }
-//     } else {
-//       // Спеціальна валідація для Польщі (можна доповнити за потреби)
-//       if (city && region && street && postalCode && houseNumber && addressData.apartment) {
-//         setIsAddressValid(true);
-//       } else {
-//         setIsAddressValid(false);
-//       }
-//     }
-//   };
-
-//   return (
-//     <div className={styles.body}>
-//       <h4 className={styles.formContTitle}>Крок 1</h4>
-
-//         <div className={styles.countryInput}>
-//           <div className={styles.countryCont}>
-//             <h4 className={styles.formContItemTitle}>Куди прямує посилка?</h4>
-//             <label className={styles.label}>Країна
-//               <Autocomplete onLoad={handleLoad} onPlaceChanged={handlePlaceChanged}>
-//                 <input
-//                   className={styles.input}
-//                   type="text"
-//                   value={inputValue}
-//                   onChange={(e) => setInputValue(e.target.value)}
-//                   placeholder="Введіть країну..."
-//                 />
-//               </Autocomplete>
-//             </label>
-//           </div>
-
-//           {addressData.country && (
-//             <>
-//               {addressData.country === "Ukraine" ? (
-//                 <div className={styles.countryCont}>
-//                   <h4 className={styles.formContItemTitle}>
-//                     Данна форма працює для відправлень з України
-//                   </h4>
-//                 </div>
-//               ) : addressData.country !== "Poland" && (
-//                 <div className={styles.countryCont}>
-//                   <h4 className={styles.formContItemTitle}>
-//                     Доставка за межі Польщі
-//                   </h4>
-//                   <AddressForm
-//                     addressData={addressData}
-//                     setAddressData={(data: AddressData) => {
-//                       setAddressData(data);
-//                       validateAddress();
-//                     }}
-//                     countryCode={countryCode}
-//                   />
-//                   <button
-//                     className={styles.nextStepButton}
-//                     onClick={nextStep}
-//                     disabled={!isAddressValid}
-//                   >
-//                     Наступний крок
-//                                   </button>
-//                                   <button
-//                     className={styles.nextStepButton}
-//                     onClick={prevStep}
-
-//                   >
-//                     Назад
-//                   </button>
-//                 </div>
-//               )}
-//             </>
-//           )}
-//         </div>
-
-//     </div>
-//   );
-// };
-
-// export default CountryInput;
 import React, { useEffect, useState } from "react";
 import { LoadScript, Autocomplete } from "@react-google-maps/api";
 import styles from "./CountryInput.module.css";
@@ -223,7 +83,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
     // Для України і інших країн, окрім Польщі
     if (addressData.country !== "Poland") {
       setDeliveryMethod("dhl");
-      if (city && region && street && postalCode.length >4 && houseNumber) {
+      if (city && region && street && postalCode.length >2 && houseNumber) {
         setIsAddressValid(true);
       } else {
         setIsAddressValid(false);
@@ -262,7 +122,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         }
        
       }
-       if (inpostMethod === "pazckomat") {
+       if (inpostMethod === "paczkomat") {
             if (paczkomat) {
             setIsAddressValid(true);
         }
@@ -273,7 +133,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
   };
   useEffect(() => {
     validateAddress(); // Викликається після кожної зміни в addressData
-  }, [addressData, deliveryMethod,paczkomat]);
+  }, [addressData, deliveryMethod,paczkomat, inpostMethod]);
 
     const dispatch = useDispatch();
     const submit = () => {
@@ -440,14 +300,14 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           <button className={styles.button} onClick={prevStep}>
             Назад
           </button>
-          <button
+          {/* <button
             className={styles.button}
             onClick={() => {
               console.log({ ...addressData, deliveryMethod, selectedSubCity, paczkomat,inpostMethod });
             }}
           >
             Технічна кнопка
-          </button>
+          </button> */}
           <button
             className={styles.button}
             onClick={submit}
