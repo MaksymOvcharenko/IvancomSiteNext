@@ -223,7 +223,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
     // Для України і інших країн, окрім Польщі
     if (addressData.country !== "Poland") {
       setDeliveryMethod("dhl");
-      if (city && region && street && postalCode && houseNumber) {
+      if (city && region && street && postalCode.length >4 && houseNumber) {
         setIsAddressValid(true);
       } else {
         setIsAddressValid(false);
@@ -260,7 +260,9 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           }
           
         }
-        if (inpostMethod === "pazckomat") {
+       
+      }
+       if (inpostMethod === "pazckomat") {
             if (paczkomat) {
             setIsAddressValid(true);
         }
@@ -268,7 +270,6 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           setIsAddressValid(false);
           }
         }
-    }
   };
   useEffect(() => {
     validateAddress(); // Викликається після кожної зміни в addressData
