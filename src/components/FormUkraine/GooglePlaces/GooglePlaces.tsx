@@ -227,7 +227,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
                     checked={inpostMethod === "courier"}
                     onChange={() => setInpostMethod("courier")}
                   />
-                  Кур'єр
+                  Кур&apos;єр
                 </label>
               </div>
 
@@ -292,7 +292,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         {!isAddressValid && (
           <p className={styles.requiredspan}>
             {" "}
-            Треба заповнити обов'язкові поля{" "}
+            Треба заповнити обов&apos;язкові поля{" "}
             <span className={styles.required}>*</span>{" "}
           </p>
         )}

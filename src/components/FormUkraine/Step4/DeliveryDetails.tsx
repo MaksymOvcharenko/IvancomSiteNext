@@ -66,7 +66,7 @@ const DeliveryDetails: React.FC<DeliveryDetailsProps> = ({
         </div>
         <div className={styles.flexCont}>
           <div className={styles.textWrapper}>
-            <div className={styles.text}>Ім'я: </div>
+            <div className={styles.text}>Ім&apos;я: </div>
             {formData.senderName}
           </div>
           <div className={styles.textWrapper}>
@@ -93,7 +93,7 @@ const DeliveryDetails: React.FC<DeliveryDetailsProps> = ({
         </h3>
         <div className={styles.flexCont}>
           <div className={styles.textWrapper}>
-            <div className={styles.text}>Ім'я: </div>
+            <div className={styles.text}>Ім&apos;я: </div>
             {formData.receiverName}
           </div>
           <div className={styles.textWrapper}>
