@@ -26,35 +26,35 @@
     "faq": {
       "question1": {
         "question": "How can I send a parcel from Ukraine abroad?",
-        "answer": "Your parcels are sent through our warehouse in Hostynceve (Lviv region). Send parcels there via Nova Poshta: Lviv region, Hostynceve, branch №1 (Up to 1000 kg and dimensions up to 70 cm x 170 cm x 300 cm) Recipient: FOP Kisil Ludmila Anatoliivna EDPRPOU: 3221718269 +380 (95) 801-04-74"
+        "answer": "<p>Your shipments travel through the country via our warehouse in the village of Hostyntseve (Lviv region).</p><p>Send parcels to this address via Nova Poshta: <br/> <br/><strong>Lviv region, village Hostyntseve, branch No. 1</strong></p><p><strong>Recipient:</strong> FOP Kysil Lyudmyla Anatoliyivna</p><p><strong>EDRPOU:</strong> 3221718269</p><p><strong>Phone:</strong> +380 (95) 801-04-74</p>"
       },
       "question2": {
         "question": "How do we calculate the delivery time of a parcel from Ukraine abroad?",
-        "answer": "The delivery time is calculated from the moment your parcel leaves our warehouse in Ukraine (Hostynceve, Lviv region). The minimum time is from 2 days (we work without days off)."
+        "answer": "<p>Delivery time is calculated <strong>from the moment your parcel leaves our warehouse in Ukraine</strong> (village Hostyntseve, Lviv region). <br/> The minimum delivery time is <strong>from 2 days</strong> (we work without weekends).</p>"
       },
       "question3": {
-        "question": "Is my parcel insured, and how much does it cost?",
-        "answer": "Of course! All parcels from Ukraine to Poland are insured, and the insurance fee is 3% of the declared value. All parcels from Poland to Ukraine are insured, and the insurance fee is 1% of the declared value. This is a mandatory insurance fee that protects your parcel."
+        "question": "Is my parcel insured and how much does it cost?",
+        "answer": "<p>Of course!<br/><br/><ul><li>All parcels <strong>from Ukraine to Poland are insured, the insurance payment is 3% of the declared value.</strong></li> <li>All parcels <strong>from Poland to Ukraine are insured, the insurance payment is 1% of the declared value.</strong></li> </ul><br/>This is a mandatory insurance payment that protects your parcel.</p>"
       },
       "question4": {
-        "question": "How to reduce the cost of shipping from Ukraine?",
-        "answer": "If your parcel is packed at the post office, carefully control whether the package dimensions match the actual dimensions of your parcel! Every extra centimeter adds costs :( Ask the operator to cut the box if it is too big. Yes, you have the right to do this! How to cut the box yourself, see this video!"
+        "question": "How can I reduce the cost of shipping from Ukraine?",
+        "answer": "<p>If your parcel is packed at the post office, <strong>carefully check the packing dimensions</strong> against the actual size of your parcel! Every extra centimeter adds cost :( <br/><br/> <strong>So ask the operator to trim the box</strong> if it is too large. Yes, you have the right to do so!<br/><br/> How to trim the box yourself, <strong>watch this video!</strong></p>"
       },
       "question5": {
-        "question": "Who has to pay for shipping?",
-        "answer": "If the parcel is traveling from Ukraine, it can be paid for by either the recipient or the sender. If the parcel is traveling to Ukraine, only the sender pays."
+        "question": "Who should pay for the shipment?",
+        "answer": "<p><ul><li>If the parcel <strong>is sent from Ukraine,</strong> it can be paid by either the recipient or the sender.</li> <li>If the parcel <strong>is sent to Ukraine,</strong> only the sender must pay.</li></ul></p>"
       },
       "question6": {
         "question": "What cannot be transported from Ukraine to the European Union?",
-        "answer": "Alcohol, tobacco (in all its forms), electronic cigarettes, precious metals, money, meat products and lard, dairy products, fish caviar, fur products, and more. Parcels containing prohibited substances or items are returned to the sender at an additional cost."
+        "answer": "<ul><li>Alcohol,</li> <li>Tobacco (in any form) and electronic cigarettes,</li><li> Precious metals,</li> <li>Money,</li> <li>Meat products and lard,</li> <li>Dairy products,</li> <li>Fish roe,</li> <li>Fur products, and others.</li><br/><br/> Parcels with prohibited items or substances <strong>will be returned to the sender at additional cost.</strong></ul>"
       },
       "question7": {
         "question": "Can I send an expensive parcel to Ukraine?",
-        "answer": "If the value of the parcel exceeds 1000 PLN, the sender pays an additional 10% of the difference. How do we calculate? Example: 1500 PLN - 1000 PLN = 500 PLN × 10% = 50 PLN (surcharge). This amount is added to the tariff price."
+        "answer": "If <strong>the value of the parcel exceeds 1000 PLN,</strong> the sender must pay 10% of the difference.<br/><br/> <strong>How do we calculate?</strong> <br/><br/>Example: 1500 PLN - 1000 PLN = 500 PLN x 10% = 50 PLN (additional payment).<br/> We add this amount to the tariff cost."
       },
       "question8": {
-        "question": "How to order a parcel from a Ukrainian online store and deliver it to Europe?",
-        "answer": "When buying a product from an online store, enter these delivery details: Nova Poshta, Lviv region, Hostynceve, branch №1 (Up to 1000 kg and dimensions up to 70 cm x 170 cm x 300 cm). Recipient: FOP Kisil Ludmila Anatoliivna EDPRPOU: 3221718269 +380 (95) 801-04-74. Fill out this form. This way, we will know where to send your parcel :) When the parcel reaches Poland, you will receive an SMS from IVANCOM."
+        "question": "How can I order a parcel from a Ukrainian online store and have it delivered to Europe?",
+        "answer": "<p>When you buy a product from an online store: <ul><li>Enter the following delivery details:<br/><br/> Nova Poshta, Lviv region, village Hostyntseve, branch No. 1 (Up to 1000 kg and dimensions up to 70 cm x 170 cm x 300 cm).<br/> Recipient: FOP Kysil Lyudmyla Anatoliyivna <br/>EDRPOU: 3221718269 <br/>+380 (95) 801-04-74.<br/><br/></li><li> Fill out this form. This will let us know where to send your parcel :)</li> <li>When the parcel arrives in Poland, you will receive an SMS from IVANCOM.</li></ul></p>"
       }
     }
   },

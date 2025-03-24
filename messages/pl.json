@@ -25,36 +25,36 @@
     },
     "faq": {
       "question1": {
-        "question": "Jak mogę wysłać paczkę z terytorium Ukrainy za granicę?",
-        "answer": "Twoje przesyłki kursują przez nasz magazyn w miejscowości Hostyncewe (obwód lwowski). Wysyłaj paczki tam za pośrednictwem Nowa Poszta: Obwód lwowski, m. Hostyncewe, oddział №1 (Do 1000 kg i wymiarów do 70 cm x 170 cm x 300 cm) Odbiorca: FOP Kisil Ludmiła Anatolijewna EDPRPOU: 3221718269 +380 (95) 801-04-74"
+        "question": "Jak mogę wysłać paczkę z Ukrainy za granicę?",
+        "answer": "<p>Twoje przesyłki podróżują przez kraj przez nasz magazyn w miejscowości Hostyntseve (region Lwów).</p><p>Wysyłaj paczki na ten adres za pomocą Nova Poshta: <br/> <br/><strong>Region Lwów, miejscowość Hostyntseve, oddział nr 1</strong></p><p><strong>Odbiorca:</strong> FOP Kysil Lyudmyla Anatoliyivna</p><p><strong>EDRPOU:</strong> 3221718269</p><p><strong>Telefon:</strong> +380 (95) 801-04-74</p>"
       },
       "question2": {
-        "question": "Jak liczymy czas dostawy paczki z Ukrainy za granicę?",
-        "answer": "Czas dostawy liczony jest od momentu wyjazdu Twojej paczki z naszego magazynu na Ukrainie (m. Hostyncewe, obwód lwowski). Minimalny czas – od 2 dni (pracujemy bez dni wolnych)."
+        "question": "Jak obliczamy czas dostawy paczki z Ukrainy za granicę?",
+        "answer": "<p>Czas dostawy liczy się <strong>od momentu, gdy paczka opuści nasz magazyn na Ukrainie</strong> (miejscowość Hostyntseve, region Lwów). <br/> Minimalny czas dostawy to <strong>od 2 dni</strong> (pracujemy bez weekendów).</p>"
       },
       "question3": {
         "question": "Czy moja paczka jest ubezpieczona i ile to kosztuje?",
-        "answer": "Oczywiście! Wszystkie paczki z Ukrainy do Polski są ubezpieczone, a opłata ubezpieczeniowa wynosi 3% deklarowanej wartości. Wszystkie paczki z Polski na Ukrainę są ubezpieczone, a opłata ubezpieczeniowa wynosi 1% deklarowanej wartości. Jest to obowiązkowa opłata ubezpieczeniowa, która chroni Twoją paczkę."
+        "answer": "<p>Oczywiście!<br/><br/><ul><li>Wszystkie paczki <strong>z Ukrainy do Polski są ubezpieczone, składka ubezpieczeniowa wynosi 3% od zadeklarowanej wartości.</strong></li> <li>Wszystkie paczki <strong>z Polski do Ukrainy są ubezpieczone, składka ubezpieczeniowa wynosi 1% od zadeklarowanej wartości.</strong></li> </ul><br/>To obowiązkowa składka ubezpieczeniowa, która chroni Twoją paczkę.</p>"
       },
       "question4": {
-        "question": "Jak zmniejszyć koszt przesyłki z Ukrainy?",
-        "answer": "Jeśli Twoja paczka jest pakowana już na poczcie, dokładnie kontroluj, czy wymiary opakowania odpowiadają rzeczywistym wymiarom Twojej paczki! Każdy zbędny centymetr doda kosztów :( Proś operatora o przycięcie kartonu, jeśli jest za duży. Tak, masz do tego prawo! Jak samodzielnie przyciąć karton, zobacz w tym filmie!"
+        "question": "Jak mogę zmniejszyć koszt wysyłki z Ukrainy?",
+        "answer": "<p>Jeśli paczkę pakujesz już na poczcie, <strong>dokładnie sprawdź wymiary opakowania</strong> w porównaniu do rzeczywistych rozmiarów paczki! Każdy dodatkowy centymetr zwiększa koszt :( <br/><br/> <strong>Więc poproś operatora o przycięcie pudła</strong>, jeśli jest za duże. Tak, masz do tego prawo!<br/><br/> Jak przyciąć pudło samodzielnie, <strong>zobacz to w tym wideo!</strong></p>"
       },
       "question5": {
-        "question": "Kto musi zapłacić za wysyłkę?",
-        "answer": "Jeśli paczka jedzie z Ukrainy, może ją zapłacić zarówno odbiorca, jak i nadawca. Jeśli paczka jedzie na Ukrainę, płaci wyłącznie nadawca."
+        "question": "Kto ma płacić za wysyłkę?",
+        "answer": "<p><ul><li>Jeśli paczka <strong>jest wysyłana z Ukrainy,</strong> może ją opłacić zarówno odbiorca, jak i nadawca.</li> <li>Jeśli paczka <strong>jest wysyłana do Ukrainy,</strong> opłaca ją wyłącznie nadawca.</li></ul></p>"
       },
       "question6": {
-        "question": "Czego nie można przewozić z Ukrainy do Unii Europejskiej?",
-        "answer": "Alkohol, tytoń (we wszystkich jego formach) oraz papierosy elektroniczne, metale szlachetne, pieniądze, produkty mięsne i słonina, produkty mleczne, kawior rybny, wyroby futrzane i inne. Paczki z zabronionymi substancjami lub rzeczami są zwracane nadawcy na dodatkowy koszt."
+        "question": "Co nie można transportować z Ukrainy do Unii Europejskiej?",
+        "answer": "<ul><li>Alkohol,</li> <li>Tytoń (w każdej formie) i e-papierosy,</li><li> Metale szlachetne,</li> <li>Pieniądze,</li> <li>Produkty mięsne i smalec,</li> <li>Produkty mleczne,</li> <li>Ikra rybna,</li> <li>Produkty futrzane i inne.</li><br/><br/> Paczki z zabronionymi rzeczami lub substancjami <strong>zostaną zwrócone nadawcy na jego koszt.</strong></ul>"
       },
       "question7": {
-        "question": "Czy mogę wysłać do Ukrainy kosztowną paczkę?",
-        "answer": "Jeśli wartość paczki przekracza 1000 zł, nadawca płaci dodatkowo 10% od różnicy. Jak liczymy? Przykład: 1500 zł - 1000 zł = 500 zł × 10% = 50 zł (dopłata). Tę kwotę dodajemy do ceny taryfy."
+        "question": "Czy mogę wysłać drogocenną paczkę do Ukrainy?",
+        "answer": "Jeśli <strong>wartość paczki przekracza 1000 PLN,</strong> nadawca dopłaca 10% różnicy.<br/><br/> <strong>Jak to obliczamy?</strong> <br/><br/>Przykład: 1500 PLN - 1000 PLN = 500 PLN x 10% = 50 PLN (dopłata).<br/> Tę kwotę dodajemy do kosztu taryfy."
       },
       "question8": {
-        "question": "Jak zamówić paczkę z ukraińskiego sklepu internetowego i dostarczyć ją do Europy?",
-        "answer": "Kiedy kupujesz produkt w sklepie internetowym, wpisz te dane dostawy: Nowa Poszta, Obwód lwowski, m. Hostyncewe, oddział №1 (Do 1000 kg i wymiarów do 70 cm x 170 cm x 300 cm). Odbiorca: FOP Kisil Ludmiła Anatolijewna EDPRPOU: 3221718269 +380 (95) 801-04-74. Wypełnij ten formularz. Tak dowiemy się, dokąd wysłać Twoją paczkę :) Kiedy paczka będzie na terenie Polski, otrzymasz SMS od IVANCOM."
+        "question": "Jak zamówić paczkę z ukraińskiego sklepu internetowego i wysłać ją do Europy?",
+        "answer": "<p>Kiedy kupujesz produkt w sklepie internetowym: <ul><li>Wpisz następujące dane dostawy:<br/><br/> Nova Poshta, region Lwów, miejscowość Hostyntseve, oddział nr 1 (Do 1000 kg i wymiarów do 70 cm x 170 cm x 300 cm).<br/> Odbiorca: FOP Kysil Lyudmyla Anatoliyivna <br/>EDRPOU: 3221718269 <br/>+380 (95) 801-04-74.<br/><br/></li><li> Wypełnij ten formularz. W ten sposób dowiemy się, gdzie wysłać Twoją paczkę :)</li> <li>Gdy paczka dotrze do Polski, otrzymasz SMS od IVANCOM.</li></ul></p>"
       }
     }
   },

@@ -8,8 +8,8 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px 15px;
-  background-color: #f0f0f0;
+  padding: 10px 40px;
+  /* background-color: #f0f0f0; */
   border-radius: 8px;
   cursor: pointer;
   margin-bottom: 5px;
@@ -21,7 +21,7 @@
 }
 
 .disclosurePanel {
-  padding: 10px 15px;
+  padding: 10px 40px;
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -36,6 +36,15 @@
 .iconClosed {
   transition: transform 0.3s;
 }
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 40px;
+}
 @media (min-width: 320px) {
 }
 /* Великі планшети і маленькі ноутбуки (від 768px) */
@@ -44,4 +53,7 @@
 
 /* Десктопи (від 1280px) */
 @media (min-width: 1280px) {
+  .disclosurePanel {
+    width: 746px;
+  }
 }

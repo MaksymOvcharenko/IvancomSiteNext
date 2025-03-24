@@ -5,6 +5,8 @@ import styles from './Faq.module.css';
 
 import { ChevronDownIcon, ChevronUpIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import FormattedText from '../FormattedText/FormattedText';
+
 
 interface AccordionComponentProps {}
 
@@ -24,6 +26,7 @@ const Faq: FC<AccordionComponentProps> = () => {
 
   return (
     <div className={styles.accordionWrapper}>
+      <h2 className={styles.title}>{t("faq.faq1")}</h2>
   <Disclosure>
     {({ open }) => (
       <>
@@ -32,7 +35,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question1.answer')}</p>
+          <FormattedText>{t.raw('faq.question1.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}
@@ -46,7 +49,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question2.answer')}</p>
+          <FormattedText>{t.raw('faq.question2.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}
@@ -60,7 +63,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question3.answer')}</p>
+          <FormattedText>{t.raw('faq.question3.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}
@@ -74,7 +77,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question4.answer')}</p>
+          <FormattedText>{t.raw('faq.question4.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}
@@ -88,7 +91,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question5.answer')}</p>
+          <FormattedText>{t.raw('faq.question5.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}
@@ -102,7 +105,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question6.answer')}</p>
+          <FormattedText>{t.raw('faq.question6.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}
@@ -116,7 +119,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question7.answer')}</p>
+          <FormattedText>{t.raw('faq.question7.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}
@@ -130,7 +133,7 @@ const Faq: FC<AccordionComponentProps> = () => {
           <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
-          <p>{t('faq.question8.answer')}</p>
+          <FormattedText>{t.raw('faq.question8.answer')}</FormattedText>
         </Disclosure.Panel>
       </>
     )}

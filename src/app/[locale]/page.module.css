@@ -1,11 +1,29 @@
 .section {
   padding: 64px 20px;
 }
-
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.faq img {
+  border-radius: 16px;
+  width: 352px;
+  height: 331px;
+}
+.faqImg {
+  display: flex;
+  justify-content: center;
+}
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
   .section {
     padding: 100px 58px;
+  }
+  .faq img {
+    width: 628px;
+    height: 592px;
+    flex-shrink: 0;
   }
 }
 
@@ -13,5 +31,13 @@
 @media (min-width: 1280px) {
   .section {
     padding: 100px 72px;
+  }
+  .faq {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .faq img {
+    width: 526px;
+    height: 496px;
   }
 }
