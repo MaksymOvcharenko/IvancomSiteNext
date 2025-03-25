@@ -4,6 +4,7 @@ import BranchInfo from "@/components/Contacts/Branch/Branch";
 import styles from "./style.module.css"
 import HeroContacts from '@/components/Contacts/ContactsHero/ContactsHero';
 import { useTranslations } from "next-intl";
+import DeliveryInstructions from "@/components/DeliveryInstructions/DeliveryInstructions";
 
 const Services = () => {
   const t = useTranslations("contacts");
@@ -60,7 +61,8 @@ const branches = [
 
   return <>
     <section id="hero" className={styles.section}><HeroContacts /></section>
-    <section id="contacts"className={styles.section}><BranchInfo branches={branches}/></section>
+    <section id="contacts" className={styles.section}><BranchInfo branches={branches} /></section>
+    <section id="contacts"className={styles.section}><DeliveryInstructions/></section>
   </>
 };
 

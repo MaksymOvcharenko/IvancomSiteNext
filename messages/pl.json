@@ -171,7 +171,23 @@
     "text1": "Przewoziliśmy przyczepę chirurgiczną i terenówkę na kierunek zaporoski",
     "text2": "Nasi przyjaciele z całego świata pomagali w tym i nakręcili krótki film.",
     "ourPartners": "Nasi Partnerzy",
-    "partnersText": "Współpracujemy z zaufanymi firmami na całym świecie."
+    "partnersText": "Współpracujemy z zaufanymi firmami na całym świecie.",
+    "faq": {
+      "title": "Nie znalazłeś oddziału w swojej okolicy?",
+      "subtitle": "To nie problem! Wysyłaj paczki z Polski i Europy na Ukrainę w 3 prostych krokach:",
+      "step1": {
+        "title": "Wysyłaj do naszego centralnego magazynu w Krakowie",
+        "description": "Dowolną firmą kurierską na ten adres:"
+      },
+      "step2": {
+        "title": "Opłać wysyłkę na Ukrainę",
+        "description": "Gdy paczka zostanie zarejestrowana w magazynie, otrzymasz fakturę do zapłaty."
+      },
+      "step3": {
+        "title": "Nie martw się o nic!",
+        "description": "Odbiorca otrzyma powiadomienie o dostawie paczki w aplikacji Nova Poshta lub przez SMS."
+      }
+    }
   },
   "contacts": {
     "apply": "Zostaw zgłoszenie",

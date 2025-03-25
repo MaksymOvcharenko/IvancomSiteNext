@@ -171,7 +171,23 @@
     "text1": "We transported a surgical trailer and an off-road vehicle to the Zaporizhzhia direction",
     "text2": "Our friends from all over the world helped with this and made a short film.",
     "ourPartners": "Our Partners",
-    "partnersText": "We collaborate with reliable companies all over the world."
+    "partnersText": "We collaborate with reliable companies all over the world.",
+    "faq": {
+      "title": "Didn't find a branch in your area?",
+      "subtitle": "No problem! Send parcels from Poland and Europe to Ukraine in just 3 simple steps:",
+      "step1": {
+        "title": "Send to our central warehouse in Krakow",
+        "description": "Using any courier service to this address:"
+      },
+      "step2": {
+        "title": "Pay for shipping to Ukraine",
+        "description": "Once the package is processed at the central warehouse, you will receive an invoice for payment."
+      },
+      "step3": {
+        "title": "Don't worry about anything!",
+        "description": "The recipient will receive a notification about the parcel's arrival via the Nova Poshta app or SMS."
+      }
+    }
   },
   "contacts": {
     "apply": "Submit a request",
