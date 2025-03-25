@@ -1,0 +1,21 @@
+.section {
+  padding: 64px 20px;
+  height: 70vh;
+  border: 1px solid red;
+}
+.sideBar {
+  position: relative;
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .section {
+    padding: 100px 58px;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .section {
+    padding: 100px 72px;
+  }
+}

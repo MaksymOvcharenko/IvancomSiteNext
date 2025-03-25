@@ -1,0 +1,169 @@
+/* Фіксований сайдбар */
+.cont {
+}
+.sidebar {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 250px;
+
+  background-color: #f4f4f4;
+  transition: width 0.3s ease;
+  z-index: 1000;
+  border-radius: 0 24px 24px 0;
+  padding: 24px 16px 24px 24px;
+  width: 254px;
+  max-height: 100%;
+  overflow-y: auto;
+  background: var(--secondary-blue);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  scrollbar-width: thin;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+/* Стилі для скролбару в Chrome/Edge */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.sidebar.closed {
+  padding: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+/* Кнопка для розгортання/закриття сайдбару */
+.toggleButton {
+  position: fixed;
+  top: 20%;
+  left: 0;
+
+  background: var(--secondary-blue);
+  transition: width 0.3s ease;
+  z-index: 1000;
+  border-radius: 0 24px 24px 0;
+  padding: 16px 12px;
+  color: var(--yellow);
+  cursor: pointer;
+}
+.closeBtn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--yellow);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+.closeBtn:hover {
+  color: var(--white);
+}
+.sidebar.open .toggleButton {
+  left: calc(100% - 40px);
+  transform: translateX(0);
+}
+
+/* Стилі для меню */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.menu li {
+}
+
+.menu .hasSubmenu > span {
+  cursor: pointer;
+
+  display: block;
+}
+.menu .hasSubmenu > span:hover {
+  color: var(--yellow);
+}
+.submenu {
+  padding-left: 16px;
+  list-style-type: none;
+}
+
+.submenu li {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.active a {
+  font-weight: bold;
+  color: var(--yellow) !important;
+  text-decoration: underline !important;
+}
+
+.submenu a {
+  text-decoration: none;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.submenu a:hover {
+  text-decoration: underline;
+  color: var(--yellow);
+}
+.otherMenu {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style-type: none;
+}
+.otherMenu a:hover {
+  text-decoration: underline;
+  color: var(--yellow);
+}
+.otherMenu a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+@media (min-width: 320px) {
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .sidebar {
+    width: 390px;
+  }
+}

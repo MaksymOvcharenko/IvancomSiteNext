@@ -62,6 +62,23 @@
     "title": "Page Not Found",
     "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
   },
+  "SideBar": {
+    "toggleSidebar": "Collapse",
+    "ukraineToEurope": "From Ukraine to Europe",
+    "europeToUkraine": "From Europe to Ukraine",
+    "europeToEurope": "From Europe to Europe",
+    "parcels": "Parcels",
+    "medicines": "Medicines",
+    "animals": "Animals",
+    "generators": "Generators",
+    "move": "Relocations",
+    "wheels": "Wheels",
+    "bicycles": "Bicycles",
+    "documents": "Documents",
+    "brandua": "BrandUa",
+    "courier": "Courier Delivery",
+    "selfService": "Parcel Locker Shipping"
+  },
   "Navigation": {
     "home": "Home",
     "services": "Services",

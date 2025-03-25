@@ -62,6 +62,23 @@
     "title": "Strona Nie Znaleziono",
     "description": "Ups! Wygląda na to, że trafiłeś na stronę, która nie istnieje. Nie martw się, nasza magia internacjonalizacji wciąż działa w innych częściach aplikacji. Śmiało wróć na stronę główną, aby eksplorować więcej!"
   },
+  "SideBar": {
+    "toggleSidebar": "Zwiń",
+    "ukraineToEurope": "Z Ukrainy do Europy",
+    "europeToUkraine": "Z Europy do Ukrainy",
+    "europeToEurope": "Z Europy do Europy",
+    "parcels": "Paczki",
+    "medicines": "Leki",
+    "animals": "Zwierzęta",
+    "generators": "Generatory",
+    "move": "Przeprowadzki",
+    "wheels": "Koła",
+    "bicycles": "Rowery",
+    "documents": "Dokumenty",
+    "brandua": "BrandUa",
+    "courier": "Usługa kurierska",
+    "selfService": "Wysyłka przez paczkomat"
+  },
   "Navigation": {
     "home": "Strona główna",
     "services": "Usługi",
