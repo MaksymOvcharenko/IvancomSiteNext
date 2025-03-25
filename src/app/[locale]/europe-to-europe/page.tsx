@@ -3,11 +3,9 @@ import { GetServerSideProps } from 'next';
 import styles from './styles.module.css';
 import Sidebar from '@/components/SideBar/SideBar';
 
-interface UaToEuProps {
-  section: string | null;
-}
 
-const UaToEu = ({ section }: UaToEuProps) => {
+
+const EuToEu = () => {
   return (
     <div className={styles.container}>
      
@@ -62,4 +60,4 @@ const UaToEu = ({ section }: UaToEuProps) => {
 
 
 
-export default UaToEu;
+export default EuToEu;

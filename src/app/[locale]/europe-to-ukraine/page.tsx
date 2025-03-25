@@ -3,11 +3,9 @@ import { GetServerSideProps } from 'next';
 import styles from './styles.module.css';
 import Sidebar from '@/components/SideBar/SideBar';
 
-interface UaToEuProps {
-  section: string | null;
-}
 
-const UaToEu = ({ section }: UaToEuProps) => {
+
+const UaToEu = () => {
   return (
     <div className={styles.container}>
      
