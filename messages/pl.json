@@ -56,6 +56,17 @@
         "question": "Jak zamówić paczkę z ukraińskiego sklepu internetowego i wysłać ją do Europy?",
         "answer": "<p>Kiedy kupujesz produkt w sklepie internetowym: <ul><li>Wpisz następujące dane dostawy:<br/><br/> Nova Poshta, region Lwów, miejscowość Hostyntseve, oddział nr 1 (Do 1000 kg i wymiarów do 70 cm x 170 cm x 300 cm).<br/> Odbiorca: FOP Kysil Lyudmyla Anatoliyivna <br/>EDRPOU: 3221718269 <br/>+380 (95) 801-04-74.<br/><br/></li><li> Wypełnij ten formularz. W ten sposób dowiemy się, gdzie wysłać Twoją paczkę :)</li> <li>Gdy paczka dotrze do Polski, otrzymasz SMS od IVANCOM.</li></ul></p>"
       }
+    },
+    "delivery": {
+      "courierAlt": "Kurier IVANCOM",
+      "courierTitle": "Wysyłaj łatwo: kurier i paczkomaty InPost",
+      "courierDescription": "IVANCOM zapewnia szybką i niezawodną dostawę kurierską w Polsce, działając w największych miastach, takich jak Warszawa, Kraków, Wrocław i inne. Twoje paczki nie przechodzą przez terminale, co minimalizuje ryzyko uszkodzeń, a ukraińskojęzyczni kurierzy ułatwiają komunikację. W niektórych miastach dostępny jest bezpłatny odbiór paczek. Zamówienie kuriera jest proste – skontaktuj się z biurem IVANCOM w swoim mieście, a my zajmiemy się resztą!",
+      "inpostAlt": "Paczkomaty InPost",
+      "inpostTitle": "Dzięki paczkomatom InPost zapomnij o kolejkach",
+      "inpostDescription": "Wysyłaj paczki z Polski na Ukrainę o każdej porze, ponieważ paczkomaty są dostępne 24/7. Proces wysyłki zajmuje tylko kilka kroków: wypełnij dane, odbierz kod, umieść paczkę w najbliższym paczkomacie – i gotowe! Twoja paczka jest śledzona na całej trasie, a odbiorca może ją odebrać w oddziale Nova Poshta lub zamówić dostawę kurierską. Wybierz wygodny format wysyłki w konkurencyjnych cenach!",
+      "details": "Szczegóły",
+      "contacts": "Kontakt",
+      "send": "Wyślij"
     }
   },
   "NotFoundPage": {
@@ -314,5 +325,8 @@
     "try_again": "Spróbuj ponownie",
     "home": "Strona główna",
     "add_shipment": "Dodaj przesyłkę"
+  },
+  "Reviews": {
+    "why_choose_us": "Dlaczego warto nas wybrać?"
   }
 }

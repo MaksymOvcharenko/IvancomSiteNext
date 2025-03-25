@@ -56,6 +56,17 @@
         "question": "How can I order a parcel from a Ukrainian online store and have it delivered to Europe?",
         "answer": "<p>When you buy a product from an online store: <ul><li>Enter the following delivery details:<br/><br/> Nova Poshta, Lviv region, village Hostyntseve, branch No. 1 (Up to 1000 kg and dimensions up to 70 cm x 170 cm x 300 cm).<br/> Recipient: FOP Kysil Lyudmyla Anatoliyivna <br/>EDRPOU: 3221718269 <br/>+380 (95) 801-04-74.<br/><br/></li><li> Fill out this form. This will let us know where to send your parcel :)</li> <li>When the parcel arrives in Poland, you will receive an SMS from IVANCOM.</li></ul></p>"
       }
+    },
+    "delivery": {
+      "courierAlt": "IVANCOM Courier",
+      "courierTitle": "Send easily: courier and InPost lockers",
+      "courierDescription": "IVANCOM provides fast and reliable courier delivery in Poland, operating in major cities such as Warsaw, Krakow, Wroclaw, and others. Your parcels do not go through terminals, minimizing the risk of damage, and Ukrainian-speaking couriers make communication easy. In some cities, free parcel pickup is available. Ordering a courier is easy – just contact the IVANCOM office in your city, and we will take care of the rest!",
+      "inpostAlt": "InPost Lockers",
+      "inpostTitle": "With InPost lockers, forget about queues",
+      "inpostDescription": "Send parcels from Poland to Ukraine at any time, as the lockers are available 24/7. The shipment process takes just a few steps: fill in the details, receive a code, place the parcel in the nearest locker – and you're done! Your parcel is tracked along the entire route, and the recipient can pick it up at a Nova Poshta branch or order courier delivery. Choose a convenient shipping format at competitive rates!",
+      "details": "Details",
+      "contacts": "Contacts",
+      "send": "Send"
     }
   },
   "NotFoundPage": {
@@ -316,5 +327,8 @@
     "try_again": "Try again",
     "home": "Home",
     "add_shipment": "Add shipment"
+  },
+  "Reviews": {
+    "why_choose_us": "Why choose us?"
   }
 }

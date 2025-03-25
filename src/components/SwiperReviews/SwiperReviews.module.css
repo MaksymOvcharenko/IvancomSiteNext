@@ -88,6 +88,14 @@
 .emptyStar {
   color: #ddd;
 }
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 147%;
+  text-align: center;
+  color: var(--white);
+}
 @media screen and (min-width: 768px) {
   .swiperWrapper {
     max-width: 850px;

@@ -15,6 +15,10 @@
   display: flex;
   justify-content: center;
 }
+.sectionReviews {
+  background: var(--secondary-blue);
+  padding: 72px 0px;
+}
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
   .section {
