@@ -67,6 +67,12 @@
       "details": "Details",
       "contacts": "Contacts",
       "send": "Send"
+    },
+    "about": {
+      "careTrustTitle": "Care and trust in every journey",
+      "careTrustPart1": "We are a family company that has turned transportation into a lifelong commitment. Since our founding in 2017, we have helped thousands of people travel comfortably and safely between Ukraine and Poland.",
+      "careTrustPart2": "From parcel and document delivery to pet transportation, we provide services that meet your needs and quality standards. At IVANCOM, we care not only about every client but also about those in need. Supporting the Armed Forces of Ukraine, charity, and caring for people is our contribution to a shared future. Learn more about our history, values, and team.",
+      "learnMore": "Learn more"
     }
   },
   "NotFoundPage": {
@@ -330,5 +336,13 @@
   },
   "Reviews": {
     "why_choose_us": "Why choose us?"
+  },
+  "courier": {
+    "courierTitle": "Courier delivery – easy, fast, reliable",
+    "courierDescription": "We will arrive at a convenient time for you, carefully deliver the cargo, and provide reliable service.",
+    "title": "In which cities is IVANCOM courier available?",
+    "deliveryAndPickup": "Delivery and pickup",
+    "phone": "Phone",
+    "description": "By choosing IVANCOM couriers, you receive professional service where every logistics detail is considered. Our Ukrainian-speaking couriers ensure easy communication and an individual approach to each client. We care about safe and fast delivery, allowing you to focus on what matters most – growing your business or fulfilling personal needs. Choose IVANCOM – convenience, quality, and reliability in every shipment!"
   }
 }

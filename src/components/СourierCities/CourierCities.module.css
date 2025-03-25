@@ -1,0 +1,68 @@
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 40px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style-type: none;
+  margin-top: 64px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.cityCard {
+  border-top: 1px solid var(--gray);
+  padding: 24px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.iconsCont {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+}
+
+.iconsCont:hover {
+  color: var(--accent-blue);
+}
+.city {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #000;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 16px;
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .contacts {
+    flex-direction: row;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .title {
+    font-size: 30px;
+  }
+}

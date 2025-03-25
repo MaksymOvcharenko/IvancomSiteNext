@@ -67,6 +67,12 @@
       "details": "Szczegóły",
       "contacts": "Kontakt",
       "send": "Wyślij"
+    },
+    "about": {
+      "careTrustTitle": "Opieka i zaufanie w każdej podróży",
+      "careTrustPart1": "Jesteśmy rodzinną firmą, która uczyniła transport swoją misją życiową. Od momentu naszego powstania w 2017 roku pomogliśmy tysiącom ludzi podróżować komfortowo i bezpiecznie między Ukrainą a Polską.",
+      "careTrustPart2": "Od dostarczania paczek i dokumentów po transport zwierząt domowych – oferujemy usługi, które spełniają Twoje potrzeby i standardy jakości. W IVANCOM dbamy nie tylko o każdego klienta, ale także o tych, którzy potrzebują pomocy. Wspieranie Sił Zbrojnych Ukrainy, działalność charytatywna i troska o ludzi to nasz wkład we wspólną przyszłość. Dowiedz się więcej o naszej historii, wartościach i zespole.",
+      "learnMore": "Dowiedz się więcej"
     }
   },
   "NotFoundPage": {
@@ -328,5 +334,13 @@
   },
   "Reviews": {
     "why_choose_us": "Dlaczego warto nas wybrać?"
+  },
+  "courier": {
+    "courierTitle": "Dostawa kurierska – łatwo, szybko, niezawodnie",
+    "courierDescription": "Przyjedziemy w dogodnym dla Ciebie czasie, starannie dostarczymy ładunek i zapewnimy niezawodną obsługę.",
+    "title": "W których miastach dostępny jest kurier IVANCOM?",
+    "deliveryAndPickup": "Dostawa i odbiór",
+    "phone": "Telefon",
+    "description": "Wybierając kurierów IVANCOM, otrzymujesz profesjonalną obsługę, w której każdy szczegół logistyki jest uwzględniony. Nasi ukraińskojęzyczni kurierzy zapewniają łatwą komunikację i indywidualne podejście do każdego klienta. Dbamy o bezpieczną i szybką dostawę, co pozwala Ci skupić się na tym, co najważniejsze – rozwoju Twojego biznesu lub zaspokojeniu osobistych potrzeb. Wybierz IVANCOM – wygodę, jakość i niezawodność w każdej przesyłce!"
   }
 }

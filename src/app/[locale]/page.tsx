@@ -5,6 +5,8 @@ import Faq from '@/components/Faq/Faq';
 import Partners from '@/components/Partners/Partners';
 import SwiperReviewsComponent from '@/components/SwiperReviews/SwiperReviews';
 import Delivery from '@/components/DeliveryComponent/DeliveryComponent';
+import HomeAbout from '@/components/HomeAbout/HomeAbout';
+import HomeHero from '@/components/HomeHero/HomeHero';
 export default function Home() {
   const t = useTranslations('IndexPage');
  const partnersLogos = [
@@ -57,7 +59,8 @@ export default function Home() {
   ];
   return (
     <div className={styles.body}>
-      
+      <section id="hero" className={styles.section}><HomeHero/></section>
+      <section id="about" className={styles.section}><HomeAbout/></section>
       <section id="services" className={styles.section}><ServiceCards /></section>
        <section id="couriers" className={styles.section}><Delivery/></section>
       <section id="reviews" className={styles.sectionReviews}><SwiperReviewsComponent reviews={reviews} /></section>
