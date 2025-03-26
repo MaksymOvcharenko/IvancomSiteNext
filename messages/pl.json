@@ -73,6 +73,17 @@
       "careTrustPart1": "Jesteśmy rodzinną firmą, która uczyniła transport swoją misją życiową. Od momentu naszego powstania w 2017 roku pomogliśmy tysiącom ludzi podróżować komfortowo i bezpiecznie między Ukrainą a Polską.",
       "careTrustPart2": "Od dostarczania paczek i dokumentów po transport zwierząt domowych – oferujemy usługi, które spełniają Twoje potrzeby i standardy jakości. W IVANCOM dbamy nie tylko o każdego klienta, ale także o tych, którzy potrzebują pomocy. Wspieranie Sił Zbrojnych Ukrainy, działalność charytatywna i troska o ludzi to nasz wkład we wspólną przyszłość. Dowiedz się więcej o naszej historii, wartościach i zespole.",
       "learnMore": "Dowiedz się więcej"
+    },
+    "Calendar": {
+      "title": "Як пришвидшити відправлення?",
+      "intro": "Час – це цінність! Хочете, щоб ваші вантажі вирушали без затримок? У нас є кілька простих порад, як організувати швидке та ефективне відправлення.",
+      "detailsTitle": "Секрет у деталях:",
+      "detail1": "Правильно заповнені документи",
+      "detail2": "Чітке пакування",
+      "detail3": "Попереднє узгодження графіків",
+      "moreInfo": "Дізнайтеся більше про оптимізацію відправлень на нашій сторінці",
+      "learnMore": "Перейти до порад",
+      "followUs": "А ще – підписуйтесь на наші соцмережі, щоб отримувати актуальні новини про розклад і корисні рекомендації."
     }
   },
   "NotFoundPage": {

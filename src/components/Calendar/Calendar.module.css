@@ -1,0 +1,80 @@
+.image {
+  border-radius: 16px;
+}
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 24px;
+}
+.title2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--black);
+}
+.textCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 16px;
+}
+.textCont svg {
+  stroke: var(--secondary-blue) !important;
+}
+.textCont svg:hover {
+  stroke: var(--accent-blue) !important;
+}
+.detailsList {
+  padding-left: 24px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.imgCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socCont {
+  display: flex;
+  justify-content: center;
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .image {
+    border-radius: 16px;
+    width: 628px;
+    height: 620px;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .container {
+    flex-direction: row;
+    flex-shrink: 0;
+    max-width: 1440px;
+  }
+  .textCont {
+    flex: 1;
+  }
+}

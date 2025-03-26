@@ -7,6 +7,7 @@ import SwiperReviewsComponent from '@/components/SwiperReviews/SwiperReviews';
 import Delivery from '@/components/DeliveryComponent/DeliveryComponent';
 import HomeAbout from '@/components/HomeAbout/HomeAbout';
 import HomeHero from '@/components/HomeHero/HomeHero';
+import Calendar from '@/components/Calendar/Calendar';
 export default function Home() {
   const t = useTranslations('IndexPage');
  const partnersLogos = [
@@ -62,6 +63,7 @@ export default function Home() {
       <section id="hero" className={styles.section}><HomeHero/></section>
       <section id="about" className={styles.section}><HomeAbout/></section>
       <section id="services" className={styles.section}><ServiceCards /></section>
+      <section id="calendar" className={styles.section}><Calendar/></section>
        <section id="couriers" className={styles.section}><Delivery/></section>
       <section id="reviews" className={styles.sectionReviews}><SwiperReviewsComponent reviews={reviews} /></section>
       <section id="partners" className={styles.section}><Partners  logos={partnersLogos}/></section>
