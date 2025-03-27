@@ -3,6 +3,7 @@ import { GetServerSideProps } from 'next';
 import styles from './styles.module.css';
 import Sidebar from '@/components/SideBar/SideBar';
 import HeroInpost from '@/components/Inpost/HeroInpost/HeroInpost';
+import InpostMain from '@/components/Inpost/InpostMain/InpostMain';
 
 
 
@@ -18,12 +19,11 @@ const InpostPage = () => {
         <HeroInpost/>
         </section>
 
-        {/* <section id="medicines" className={styles.section}>
-          <h2>Medicines</h2>
-          <p>Тут буде інформація про доставку ліків.</p>
+         <section id="main" className={styles.section}>
+        <InpostMain/>
         </section>
 
-        <section id="animals" className={styles.section}>
+        {/* <section id="animals" className={styles.section}>
           <h2>Animals</h2>
           <p>Тут буде інформація про перевезення тварин.</p>
         </section>
@@ -51,7 +51,7 @@ const InpostPage = () => {
         <section id="documents" className={styles.section}>
           <h2>Documents</h2>
           <p>Тут буде інформація про доставку документів.</p>
-        </section> */}
+        </section>  */}
       </div>
       
     </div>

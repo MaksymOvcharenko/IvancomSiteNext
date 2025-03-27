@@ -353,5 +353,63 @@
     "deliveryAndPickup": "Dostawa i odbiór",
     "phone": "Telefon",
     "description": "Wybierając kurierów IVANCOM, otrzymujesz profesjonalną obsługę, w której każdy szczegół logistyki jest uwzględniony. Nasi ukraińskojęzyczni kurierzy zapewniają łatwą komunikację i indywidualne podejście do każdego klienta. Dbamy o bezpieczną i szybką dostawę, co pozwala Ci skupić się na tym, co najważniejsze – rozwoju Twojego biznesu lub zaspokojeniu osobistych potrzeb. Wybierz IVANCOM – wygodę, jakość i niezawodność w każdej przesyłce!"
+  },
+  "inpost": {
+    "titleHero": "Швидка доставка з Польщі в Україну за допомогою InPost",
+    "btnForm": "Заповнити форму",
+    "main": {
+      "sendTitle": "Gdzie wysłać paczkę w Polsce?",
+      "sendDesc": "Możesz wysłać paczkę przez najbliższy paczkomat InPost w Polsce. Wystarczy wybrać dogodną lokalizację, zostawić paczkę, a my zajmiemy się jej dostarczeniem do Ukrainy!",
+      "receiveTitle": "Gdzie odebrać paczkę na Ukrainie?",
+      "receiveDesc": "Możesz odebrać swoją przesyłkę na Ukrainie w:",
+      "receiveOptions": [
+        "Oddziale Nova Poshta.",
+        "Dostawa kurierska do drzwi (+15 PLN)"
+      ],
+      "priceTitle": "Ile kosztuje usługa?",
+      "insurance": "Ubezpieczenie paczki:",
+      "insuranceNote": "+1% zadeklarowanej wartości",
+      "sendBtn": "Wyślij",
+      "boxA": {
+        "title": "Skrzynka A",
+        "weight": "do 5 kg",
+        "size": "8*36*60 cm",
+        "price": "50 PLN"
+      },
+      "boxB": {
+        "title": "Skrzynka B",
+        "weight": "do 10 kg",
+        "size": "19*38*60 cm",
+        "price": "80 PLN"
+      },
+      "boxC": {
+        "title": "Skrzynka C",
+        "weight": "do 25 kg",
+        "size": "41*38*60 cm",
+        "price": "130 PLN"
+      },
+      "warningTitle": "WAŻNE!",
+      "warningDesc": "Te rzeczy są zabronione do wysyłki przez paczkomaty InPost na Ukrainę: żywność bez fabrycznego opakowania, antyki, pieniądze, leki bez fabrycznego opakowania, nie więcej niż 1 blok wyrobów tytoniowych, nie więcej niż 2 papierosy elektroniczne, nie więcej niż 200 g tytoniu, butle z gazem propanem, sprzęt wojskowy, alkohol (do 2L mocnego alkoholu i do 2L napojów niskoalkoholowych), rośliny w doniczkach.",
+      "stepsTitle": "Jak wysłać paczkę?",
+      "stepsDesc": "To bardzo proste :) Tylko kilka kroków",
+      "steps": [
+        {
+          "title": "Przygotuj paczkę do podróży!",
+          "desc": "Wybierz solidne pudełko, zabezpiecz kruche przedmioty i dobrze je zaklej. Zapoznaj się z naszymi wskazówkami, aby uniknąć problemów w drodze!"
+        },
+        {
+          "title": "Wypełnij formularz"
+        },
+        {
+          "title": "Otrzymaj link do płatności od operatora IVANCOM i zapłać za swoją przesyłkę"
+        },
+        {
+          "title": "Za pomocą kodu wysłanego na Twój email, umieść paczkę w najbliższym paczkomacie InPost"
+        },
+        {
+          "title": "Śledź swoją paczkę za pomocą numeru śledzenia Nova Poshta, który otrzymasz od IVANCOM"
+        }
+      ]
+    }
   }
 }

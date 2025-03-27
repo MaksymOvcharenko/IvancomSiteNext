@@ -1,14 +1,14 @@
-"use client"
+
 import Image from 'next/image'
 import React from 'react'
 import styles from "./HeroInpost.module.css"
-import Link from 'next/link'
+
 import { useTranslations } from 'next-intl'
-import { useParams } from 'next/navigation'
+
 import ButtonFormOnPage from '@/components/ButtonFormOnPage/ButtonFormOnPage'
 const HeroInpost = () => {
       const  t  = useTranslations("inpost");
-     const { locale } = useParams();
+  
     return (
         <>
             <section className={styles.container}>
@@ -23,7 +23,7 @@ const HeroInpost = () => {
                         <div className={styles.buttons}>
     
                             
-                            <ButtonFormOnPage>{"Заповнити форму"}</ButtonFormOnPage>
+                            <ButtonFormOnPage>{t("btnForm")}</ButtonFormOnPage>
                         </div>
                     </div>
                     <Image src="/image/inpost/inpostHero.jpg" alt={t("courierAlt")} width={600} height={400} />

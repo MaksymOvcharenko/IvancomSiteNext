@@ -344,5 +344,63 @@
     "deliveryAndPickup": "Delivery and pickup",
     "phone": "Phone",
     "description": "By choosing IVANCOM couriers, you receive professional service where every logistics detail is considered. Our Ukrainian-speaking couriers ensure easy communication and an individual approach to each client. We care about safe and fast delivery, allowing you to focus on what matters most – growing your business or fulfilling personal needs. Choose IVANCOM – convenience, quality, and reliability in every shipment!"
+  },
+  "inpost": {
+    "titleHero": "Швидка доставка з Польщі в Україну за допомогою InPost",
+    "btnForm": "Заповнити форму",
+    "main": {
+      "sendTitle": "Where to send a package in Poland?",
+      "sendDesc": "You can send a package via the nearest InPost parcel locker in Poland. Just choose a convenient location, leave the package, and we will take care of its delivery to Ukraine!",
+      "receiveTitle": "Where to receive a package in Ukraine?",
+      "receiveDesc": "You can receive your shipment in Ukraine at:",
+      "receiveOptions": [
+        "A Nova Poshta branch.",
+        "Courier delivery to your door (+15 PLN)"
+      ],
+      "priceTitle": "How much does the service cost?",
+      "insurance": "Package insurance:",
+      "insuranceNote": "+1% of the declared value",
+      "sendBtn": "Send",
+      "boxA": {
+        "title": "Box A",
+        "weight": "up to 5 kg",
+        "size": "8*36*60 cm",
+        "price": "50 PLN"
+      },
+      "boxB": {
+        "title": "Box B",
+        "weight": "up to 10 kg",
+        "size": "19*38*60 cm",
+        "price": "80 PLN"
+      },
+      "boxC": {
+        "title": "Box C",
+        "weight": "up to 25 kg",
+        "size": "41*38*60 cm",
+        "price": "130 PLN"
+      },
+      "warningTitle": "IMPORTANT!",
+      "warningDesc": "These items are prohibited from being sent via InPost parcel lockers to Ukraine: unpackaged food, antiques, money, unpackaged medicine, no more than 1 block of tobacco products, no more than 2 electronic cigarettes, no more than 200 g of tobacco, propane gas cylinders, military equipment, alcohol (up to 2L of strong alcohol and up to 2L of light alcoholic beverages), potted plants.",
+      "stepsTitle": "How to send a package?",
+      "stepsDesc": "It's very easy :) Just a few simple steps",
+      "steps": [
+        {
+          "title": "Prepare your package for the journey!",
+          "desc": "Choose a sturdy box, protect fragile items, and seal it well. Check our tips to avoid any issues during transportation!"
+        },
+        {
+          "title": "Fill in the form"
+        },
+        {
+          "title": "Receive a payment link from IVANCOM operator and pay for your shipment"
+        },
+        {
+          "title": "Using the code sent to your email, deposit your package in the nearest InPost parcel locker"
+        },
+        {
+          "title": "Track your package using the Nova Poshta tracking number provided by IVANCOM"
+        }
+      ]
+    }
   }
 }
