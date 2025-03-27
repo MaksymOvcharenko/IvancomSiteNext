@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import styles from './Services.module.css';
 import { ChevronDown } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
 
 interface ServicesProps {
   onClose: () => void;
@@ -11,7 +13,7 @@ const Services: React.FC<ServicesProps> = ({ onClose }) => {
   const [activeDirection, setActiveDirection] = useState<string | null>(null);
   const [activeService, setActiveService] = useState<string | null>(null);
   const t = useTranslations("Navigation");
-
+    const { locale } = useParams();
   const toggleDirection = (direction: string) => {
     setActiveDirection(direction === activeDirection ? null : direction);
   };
@@ -85,13 +87,14 @@ const Services: React.FC<ServicesProps> = ({ onClose }) => {
         <h3>{t("fromUkraineToEurope")} <ChevronDown size={24} /></h3>
         {activeDirection === 'fromUkraineToEurope' && (
           <ul className={styles.list}>
-            <li className={styles.itemServices} onClick={onClose}>{t("parcelDelivery")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('medicineCosmetics')}>{t("medicineCosmetics")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('animals')}>{t("animals")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('generators')}>{t("generators")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('moving')}>{t("moving")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('wheels')}>{t("wheels")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('documents')}>{t("documents")}</li>
+            <li className={styles.itemServices} onClick={onClose}><Link href={`/${locale}/ukraine-to-europe?section=parcels&direction=ukraineToEurope`}>{t("parcelDelivery")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('medicineCosmetics')}><Link href={`/${locale}/ukraine-to-europe?section=medicines&direction=ukraineToEurope`}>{t("medicineCosmetics")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('animals')}><Link href={`/${locale}/ukraine-to-europe?section=animals&direction=ukraineToEurope`}>{t("animals")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('generators')}><Link href={`/${locale}/ukraine-to-europe?section=generators&direction=ukraineToEurope`}>{ t("generators")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('moving')}><Link href={`/${locale}/ukraine-to-europe?section=move&direction=ukraineToEurope`}>{t("moving")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('wheels')}><Link href={`/${locale}/ukraine-to-europe?section=wheels&direction=ukraineToEurope`}>{ t("wheels")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('wheels')}><Link href={`/${locale}/ukraine-to-europe?section=bicycles&direction=ukraineToEurope`}>{ t("bicycles")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('documents')}> <Link href={`/${locale}/ukraine-to-europe?section=documents&direction=ukraineToEurope`}>{ t("documents")}</Link></li>
           </ul>
         )}
       </div>
@@ -100,13 +103,14 @@ const Services: React.FC<ServicesProps> = ({ onClose }) => {
         <h3>{t("fromEuropeToUkraine")} <ChevronDown size={24} /></h3>
         {activeDirection === 'fromEuropeToUkraine' && (
           <ul className={styles.list}>
-            <li className={styles.itemServices} onClick={() => toggleService('parcelDelivery')}>{t("parcelDelivery")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('medicineCosmetics')}>{t("medicineCosmetics")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('animals')}>{t("animals")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('generators')}>{t("generators")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('moving')}>{t("moving")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('wheels')}>{t("wheels")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('documents')}>{t("documents")}</li>
+            <li className={styles.itemServices} onClick={() => toggleService('parcelDelivery')}><Link href={`/${locale}/europe-to-ukraine?section=parcels&direction=europeToUkraine`}>{t("parcelDelivery")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('medicineCosmetics')}><Link href={`/${locale}/europe-to-ukraine?section=medicines&direction=europeToUkraine`}>{t("medicineCosmetics")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('animals')}><Link href={`/${locale}/europe-to-ukraine?section=animals&direction=europeToUkraine`}>{ t("animals")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('generators')}><Link href={`/${locale}/europe-to-ukraine?section=generators&direction=europeToUkraine`}>{ t("generators")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('moving')}> <Link href={`/${locale}/europe-to-ukraine?section=move&direction=europeToUkraine`}>{t("moving")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('wheels')}><Link href={`/${locale}/europe-to-ukraine?section=wheels&direction=europeToUkraine`}>{ t("wheels")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('wheels')}><Link href={`/${locale}/europe-to-ukraine?section=bicycles&direction=europeToUkraine`}>{ t("bicycles")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('documents')}><Link href={`/${locale}/europe-to-ukraine?section=documents&direction=europeToUkraine`}>{ t("documents")}</Link></li>
           </ul>
         )}
       </div>
@@ -115,23 +119,24 @@ const Services: React.FC<ServicesProps> = ({ onClose }) => {
         <h3>{t("fromEuropeToEurope")} <ChevronDown size={24} /></h3>
         {activeDirection === 'fromEuropeToEurope' && (
           <ul className={styles.list}>
-            <li className={styles.itemServices} onClick={() => toggleService('parcelDelivery')}>{t("parcelDelivery")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('medicineCosmetics')}>{t("medicineCosmetics")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('animals')}>{t("animals")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('generators')}>{t("generators")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('moving')}>{t("moving")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('wheels')}>{t("wheels")}</li>
-            <li className={styles.itemServices} onClick={() => toggleService('documents')}>{t("documents")}</li>
+            <li className={styles.itemServices} onClick={() => toggleService('parcelDelivery')}><Link href={`/${locale}/europe-to-europe?section=parcels&direction=europeToEurope`}>{t("parcelDelivery")} </Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('medicineCosmetics')}><Link href={`/${locale}/europe-to-europe?section=medicines&direction=europeToEurope`}>{t("medicineCosmetics")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('animals')}><Link href={`/${locale}/europe-to-europe?section=animals&direction=europeToEurope`}>{ t("animals")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('generators')}><Link href={`/${locale}/europe-to-europe?section=generators&direction=europeToEurope`}>{ t("generators")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('moving')}><Link href={`/${locale}/europe-to-europe?section=move&direction=europeToEurope`}>{t("moving")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('wheels')}><Link href={`/${locale}/europe-to-europe?section=wheels&direction=europeToEurope`}>{ t("wheels")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('wheels')}><Link href={`/${locale}/europe-to-europe?section=bicycles&direction=europeToEurope`}>{ t("bicycles")}</Link></li>
+            <li className={styles.itemServices} onClick={() => toggleService('documents')}><Link href={`/${locale}/europe-to-europe?section=documents&direction=europeToEurope`}>{ t("documents")}</Link></li>
           </ul>
         )}
       </div>
 
       <div className={styles.servicesColumn} onClick={() => toggleDirection('otherServices')}>
         <ul>
-          <li className={styles.itemServicesLast} onClick={() => toggleService('brandUA')}>{t("brandUA")}</li>
-          <li className={styles.itemServicesLast} onClick={() => toggleService('courierDelivery')}>{t("courierDelivery")}</li>
-          <li className={styles.itemServicesLast} onClick={() => toggleService('parcelMachine')}>{t("parcelMachine")}</li>
-          <li className={styles.itemServicesLast} onClick={() => toggleService('insurance')}>{t("insurance")}</li>
+          <li className={styles.itemServicesLast} onClick={() => toggleService('brandUA')}><Link href={`/${locale}/brandua`}>{t("brandUA")}</Link></li>
+          <li className={styles.itemServicesLast} onClick={() => toggleService('courierDelivery')}><Link href={`/${locale}/courier`}>{t("courierDelivery")}</Link></li>
+          <li className={styles.itemServicesLast} onClick={() => toggleService('parcelMachine')}><Link href={`/${locale}/self-service`}>{t("parcelMachine")}</Link></li>
+          
         </ul>
       </div>
     </div>

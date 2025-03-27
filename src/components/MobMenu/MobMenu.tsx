@@ -100,18 +100,15 @@ const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen, openModal }) => {
               <GoHome className={styles.icons} size={20} />
               {t("home")}
             </Link>
-            <Link href={`/${locale}/services`} onClick={toggleMenuServices}>
+            <a onClick={toggleMenuServices}>
         <BsTruck className={styles.icons} size={20} />
         {t("services")}
         <ChevronDown size={24} />
-      </Link>
+      </a>
 
       {/* Компонент Services рендериться тільки коли isServicesVisible = true */}
       {isServicesVisible && <Services onClose={toggleMenu} />}
-            <Link href={`/${locale}/tariffs`} onClick={toggleMenu}>
-              <LiaCoinsSolid className={styles.icons} size={20} />
-              {t("tariffs")}
-            </Link>
+            
             <button
               className={styles.navLink}
               onClick={() => {
@@ -133,7 +130,7 @@ const MobMenu: React.FC<Props> = ({ isOpen, setIsOpen, openModal }) => {
               <LucideMapPin className={styles.icons} size={20} />
               {t("contacts")}
             </Link>
-            <Link href={`/${locale}/faq`} onClick={toggleMenu}>
+            <Link href={`/${locale}/#faq`} onClick={toggleMenu}>
               <AiOutlineQuestion className={styles.icons} size={20} />
               {t("faq")}
             </Link>
