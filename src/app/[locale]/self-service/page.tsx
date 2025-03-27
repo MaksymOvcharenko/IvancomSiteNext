@@ -2,6 +2,7 @@ import { GetServerSideProps } from 'next';
   // Компонент для сайдбару
 import styles from './styles.module.css';
 import Sidebar from '@/components/SideBar/SideBar';
+import HeroInpost from '@/components/Inpost/HeroInpost/HeroInpost';
 
 
 
@@ -11,14 +12,13 @@ const InpostPage = () => {
      
  <div className={styles.SideBar}><Sidebar /></div>
       <div className={styles.content}>
-        <h1>Доставка з України в Європу</h1>
         
-        <section id="parcels" className={styles.section}>
-          <h2>Parcels</h2>
-          <p>Тут буде інформація про доставку посилок.</p>
+        
+        <section id="hero" className={styles.section}>
+        <HeroInpost/>
         </section>
 
-        <section id="medicines" className={styles.section}>
+        {/* <section id="medicines" className={styles.section}>
           <h2>Medicines</h2>
           <p>Тут буде інформація про доставку ліків.</p>
         </section>
@@ -51,7 +51,7 @@ const InpostPage = () => {
         <section id="documents" className={styles.section}>
           <h2>Documents</h2>
           <p>Тут буде інформація про доставку документів.</p>
-        </section>
+        </section> */}
       </div>
       
     </div>
