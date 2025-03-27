@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 import Sidebar from '@/components/SideBar/SideBar';
 import HeroInpost from '@/components/Inpost/HeroInpost/HeroInpost';
 import InpostMain from '@/components/Inpost/InpostMain/InpostMain';
+import FaqInpost from '@/components/Inpost/FaqInpost/FaqInpost';
 
 
 
@@ -23,11 +24,10 @@ const InpostPage = () => {
         <InpostMain/>
         </section>
 
-        {/* <section id="animals" className={styles.section}>
-          <h2>Animals</h2>
-          <p>Тут буде інформація про перевезення тварин.</p>
+        <section id="faq" className={styles.section}>
+       <FaqInpost/>
         </section>
-
+{/* 
         <section id="generators" className={styles.section}>
           <h2>Generators</h2>
           <p>Тут буде інформація про транспортування генераторів.</p>

@@ -346,8 +346,8 @@
     "description": "By choosing IVANCOM couriers, you receive professional service where every logistics detail is considered. Our Ukrainian-speaking couriers ensure easy communication and an individual approach to each client. We care about safe and fast delivery, allowing you to focus on what matters most – growing your business or fulfilling personal needs. Choose IVANCOM – convenience, quality, and reliability in every shipment!"
   },
   "inpost": {
-    "titleHero": "Швидка доставка з Польщі в Україну за допомогою InPost",
-    "btnForm": "Заповнити форму",
+    "titleHero": "Fast delivery from Poland to Ukraine with InPost",
+    "btnForm": "Fill out the form",
     "main": {
       "sendTitle": "Where to send a package in Poland?",
       "sendDesc": "You can send a package via the nearest InPost parcel locker in Poland. Just choose a convenient location, leave the package, and we will take care of its delivery to Ukraine!",
@@ -401,6 +401,30 @@
           "title": "Track your package using the Nova Poshta tracking number provided by IVANCOM"
         }
       ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "titleVideo": "How to pack a parcel?",
+      "question1": "How to determine the dimensions of the parcel?",
+      "answer1": "There are several convenient ways to measure the dimensions of a parcel: you can measure the height, width, and depth using a tape measure, tailor's meter, or an A4 sheet, which has dimensions (length – 29.7 cm, width – 21 cm).",
+      "question2": "Where to get a box?",
+      "answer2": "You can buy a box in any large store, such as Auchan, OBI, or Poczta Polska. You can also use a box left over from previous online orders.",
+      "question3": "What to do if the parcel does not fit into the selected parcel locker?",
+      "answer3": "Before entering the locker delivery code, make sure your box fits into the selected locker size. If you see that it doesn't fit, contact our manager. They will send you a link for payment for a larger size, and after the additional payment, they will provide you with a new delivery code.",
+      "question4": "How to track a parcel via InPost?",
+      "answer4": "After paying for the selected service, you will receive an email with the delivery code and the tracking number of Nova Poshta. At the bottom of the email, there will be an active 'Track' button – click on it to see the current status of your parcel.",
+      "question5": "Can I send a parcel without a box?",
+      "answer5": "<p>It is not recommended to send a parcel without a box, as it may get damaged during transportation. The box provides reliable protection against impacts, vibrations, and possible compression by other shipments.<br/><br/>Here are some reasons why a box is important:<br/><br/>- Protection from moisture and dirt – without packaging, the item may get wet or dirty.<br/>- Parcel integrity – without a box, items may be lost or scattered, especially if they are small.<br/>- It is better to use a box, filler (paper, film, fabric), and pack it well to ensure the item arrives intact and undamaged.</p>",
+      "question6": "Why isn't the Nova Poshta branch appearing in the form?",
+      "answer6": "<p>There are several reasons why you cannot select the branch you need:<br/>- This branch does not accept the parcel size you selected.<br/>- A system failure of our partner – in this case, contact our manager, and we will fix this issue, allowing you to select the necessary branch.</p>",
+      "question7": "Can I send a parcel via InPost while in Ukraine?",
+      "answer7": "Unfortunately, at the moment, it is technically impossible to send a parcel via InPost for customers in Ukraine.",
+      "question8": "Can I send a parcel to a parcel locker in Ukraine?",
+      "answer8": "No, the parcel can only be picked up at a Nova Poshta branch or delivered to your home by a courier.",
+      "question9": "What to do if the InPost locker does not have a screen for entering the delivery code?",
+      "answer9": "The delivery code can be entered in any parcel locker, not just the one you selected when placing the order.",
+      "question10": "Can I pay for the service with a Ukrainian bank card?",
+      "answer10": "No, but we are working on it, and soon you will be able to pay for the service with a Ukrainian bank card."
     }
   }
 }

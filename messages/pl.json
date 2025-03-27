@@ -355,8 +355,8 @@
     "description": "Wybierając kurierów IVANCOM, otrzymujesz profesjonalną obsługę, w której każdy szczegół logistyki jest uwzględniony. Nasi ukraińskojęzyczni kurierzy zapewniają łatwą komunikację i indywidualne podejście do każdego klienta. Dbamy o bezpieczną i szybką dostawę, co pozwala Ci skupić się na tym, co najważniejsze – rozwoju Twojego biznesu lub zaspokojeniu osobistych potrzeb. Wybierz IVANCOM – wygodę, jakość i niezawodność w każdej przesyłce!"
   },
   "inpost": {
-    "titleHero": "Швидка доставка з Польщі в Україну за допомогою InPost",
-    "btnForm": "Заповнити форму",
+    "titleHero": "Szybka dostawa z Polski do Ukrainy z InPost",
+    "btnForm": "Wypełnij formularz",
     "main": {
       "sendTitle": "Gdzie wysłać paczkę w Polsce?",
       "sendDesc": "Możesz wysłać paczkę przez najbliższy paczkomat InPost w Polsce. Wystarczy wybrać dogodną lokalizację, zostawić paczkę, a my zajmiemy się jej dostarczeniem do Ukrainy!",
@@ -410,6 +410,30 @@
           "title": "Śledź swoją paczkę za pomocą numeru śledzenia Nova Poshta, który otrzymasz od IVANCOM"
         }
       ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "titleVideo": "Jak zapakować paczkę?",
+      "question1": "Jak określić wymiary paczki?",
+      "answer1": "Istnieje kilka wygodnych sposobów na zmierzenie wymiarów paczki: można zmierzyć wysokość, szerokość i głębokość za pomocą miarki, centymetra krawieckiego lub arkusza A4, który ma wymiary (długość – 29,7 cm, szerokość – 21 cm).",
+      "question2": "Gdzie zdobyć pudełko?",
+      "answer2": "Pudełko można kupić w każdym dużym sklepie, takim jak Auchan, OBI lub Poczta Polska. Można także użyć pudełka pozostałego po wcześniejszych zamówieniach online.",
+      "question3": "Co zrobić, jeśli paczka nie mieści się w wybranym paczkomacie?",
+      "answer3": "Przed wprowadzeniem kodu nadania upewnij się, że twoje pudełko mieści się w wybranej skrytce. Jeśli widzisz, że nie pasuje – skontaktuj się z naszym menedżerem, który prześle ci link do dopłaty za większy rozmiar, a po dokonaniu płatności przekaże nowy kod nadania.",
+      "question4": "Jak śledzić paczkę przez InPost?",
+      "answer4": "Po opłaceniu wybranej usługi otrzymasz e-mail z kodem nadania i numerem śledzenia Nova Poshta. Na dole e-maila znajdziesz aktywny przycisk \"Śledź\" – kliknij go, aby sprawdzić aktualny status swojej paczki.",
+      "question5": "Czy mogę wysłać paczkę bez pudełka?",
+      "answer5": "<p>Nie zaleca się wysyłania paczki bez pudełka, ponieważ może ona zostać uszkodzona podczas transportu. Pudełko zapewnia niezawodną ochronę przed uderzeniami, wibracjami i ewentualnym zgnieceniem przez inne przesyłki.<br/><br/>Oto kilka powodów, dla których pudełko jest ważne:<br/><br/>- Ochrona przed wilgocią i zabrudzeniem – bez opakowania przedmiot może zamoknąć lub się zabrudzić.<br/>- Integralność przesyłki – bez pudełka przedmioty mogą się zgubić lub rozsypać, zwłaszcza jeśli są małe.<br/>- Lepiej jest użyć pudełka, wypełniacza (papier, folia, tkanina) i dobrze zapakować, aby przedmiot dotarł w całości i bez uszkodzeń.</p>",
+      "question6": "Dlaczego oddział Nova Poshta nie pojawia się w formularzu?",
+      "answer6": "<p>Istnieje kilka powodów, dla których nie możesz wybrać potrzebnego oddziału:<br/>- Ten oddział nie przyjmuje wybranego przez ciebie rozmiaru paczki.<br/>- Awaria systemu naszego partnera – w takim przypadku skontaktuj się z naszym menedżerem, a my naprawimy ten problem, po czym będziesz mógł wybrać odpowiedni oddział.</p>",
+      "question7": "Czy mogę wysłać paczkę przez InPost, będąc na Ukrainie?",
+      "answer7": "Niestety, w tej chwili technicznie niemożliwe jest nadanie paczki przez InPost dla klientów na Ukrainie.",
+      "question8": "Czy mogę wysłać paczkę do paczkomatu na Ukrainie?",
+      "answer8": "Nie, paczkę można odebrać tylko w oddziale Nova Poshta lub zamówić dostawę do domu przez kuriera.",
+      "question9": "Co zrobić, jeśli w paczkomacie InPost nie ma ekranu do wprowadzenia kodu nadania?",
+      "answer9": "Kod nadania można wprowadzić w dowolnym paczkomacie, a nie tylko w tym, który został wybrany podczas składania zamówienia.",
+      "question10": "Czy mogę zapłacić za usługę ukraińską kartą?",
+      "answer10": "Nie, ale pracujemy nad tym i wkrótce będzie można zapłacić za usługę kartą ukraińskiego banku."
     }
   }
 }

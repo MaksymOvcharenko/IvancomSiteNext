@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 import { PiPackageThin } from 'react-icons/pi'
 import { LiaCoinsSolid } from 'react-icons/lia'
 import ButtonFormOnPage from '@/components/ButtonFormOnPage/ButtonFormOnPage'
+import FaqInpost from '../FaqInpost/FaqInpost'
 
 const InpostMain = () => {
     const t = useTranslations("inpost.main")
@@ -73,6 +74,7 @@ const InpostMain = () => {
                     ))}
                 </ul>
             </div>
+          
         </div>
     );
 }
