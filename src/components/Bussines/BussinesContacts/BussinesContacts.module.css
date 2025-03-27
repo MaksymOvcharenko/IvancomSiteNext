@@ -1,0 +1,74 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 147%;
+  text-align: center;
+  color: var(--black);
+}
+.contactsCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  list-style-type: none;
+}
+.numberContacts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  list-style-type: none;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.contactItem a:hover {
+  color: var(--accent-blue);
+}
+.contactItem a svg:hover {
+  fill: var(--accent-blue);
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .img {
+    width: 600px;
+    height: 600px;
+  }
+  .body {
+    max-width: 600px;
+  }
+  .numberContacts {
+    flex-direction: row;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .img {
+    width: 636px;
+    height: 635px;
+    flex-shrink: 0;
+  }
+  .body {
+    max-width: 1180px;
+    flex-direction: row;
+  }
+}

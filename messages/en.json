@@ -442,5 +442,42 @@
       "title": "Don't miss your benefit!",
       "description": "Follow us and be the first to know about promotions."
     }
+  },
+  "bussines": {
+    "hero": {
+      "title": "IVANCOM – logistics that opens new horizons",
+      "description": "Support your business with reliable, fast delivery from IVANCOM!",
+      "btn": "Get a consultation"
+    },
+    "main": {
+      "title": "Logistics that works without failures!",
+      "imageAlt": "Logistics",
+      "description": "Since 2019, we have been helping companies establish international shipments quickly and safely. IVANCOM – when service quality matters.",
+      "subtitle": "We don’t just transport – we create solutions for business.",
+      "points": {
+        "optimization": "customs load optimization",
+        "personalPlan": "development of a personal transportation plan tailored to the client's needs",
+        "individualManager": "individual manager",
+        "smallLargeBatches": "large and small batches of goods",
+        "largeCargo": "transportation of bulky goods",
+        "fulfillment": {
+          "title": "fulfillment services",
+          "details": "delivery of your goods to our warehouse in Poland, storage, and further shipment"
+        },
+        "consolidation": {
+          "title": "shipment consolidation",
+          "details": "combining various parcels into one shipment / splitting a shipment into multiple ones"
+        },
+        "cryptoPayment": "payment available via crypto wallet"
+      }
+    },
+    "cars": {
+      "title": "Our vehicles – your opportunities"
+    },
+    "contacts": {
+      "title": "Entrust us with delivery and focus on what matters",
+      "description": "You don’t need to worry about delivery details. Contact our head office, and we will find the best delivery method to ensure your goods arrive on time and without extra costs.",
+      "grafik": "Mon-Sun 09:00-18:00"
+    }
   }
 }

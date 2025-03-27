@@ -451,5 +451,42 @@
       "title": "Nie przegap swojej korzyści!",
       "description": "Śledź nas i bądź pierwszym, który dowie się o promocjach."
     }
+  },
+  "bussines": {
+    "hero": {
+      "title": "IVANCOM – logistyka, która otwiera nowe horyzonty",
+      "description": "Wspieraj swój biznes dzięki niezawodnej i szybkiej dostawie od IVANCOM!",
+      "btn": "Uzyskaj konsultację"
+    },
+    "main": {
+      "title": "Logistyka, która działa bez zakłóceń!",
+      "imageAlt": "Logistyka",
+      "description": "Od 2019 roku pomagamy firmom w organizowaniu międzynarodowych przesyłek szybko i bezpiecznie. IVANCOM – gdy liczy się jakość usług.",
+      "subtitle": "Nie tylko przewozimy – tworzymy rozwiązania dla biznesu.",
+      "points": {
+        "optimization": "optymalizacja obciążenia celnego",
+        "personalPlan": "opracowanie indywidualnego planu transportu dostosowanego do potrzeb klienta",
+        "individualManager": "indywidualny menedżer",
+        "smallLargeBatches": "duże i małe partie towarów",
+        "largeCargo": "transport towarów wielkogabarytowych",
+        "fulfillment": {
+          "title": "usługi fulfillmentu",
+          "details": "dostawa Twoich towarów do naszego magazynu w Polsce, przechowywanie i dalsza wysyłka"
+        },
+        "consolidation": {
+          "title": "konsolidacja przesyłek",
+          "details": "łączenie różnych paczek w jedną przesyłkę / rozdzielanie przesyłki na kilka mniejszych"
+        },
+        "cryptoPayment": "możliwość płatności kryptowalutą"
+      }
+    },
+    "cars": {
+      "title": "Nasze pojazdy – Twoje możliwości"
+    },
+    "contacts": {
+      "title": "Powierz nam dostawę i skup się na tym, co ważne",
+      "description": "Nie musisz martwić się o szczegóły dostawy. Skontaktuj się z naszym biurem głównym, a my znajdziemy najlepszy sposób dostawy, aby Twoje towary dotarły na czas i bez dodatkowych kosztów.",
+      "grafik": "Pon-Ndz 09:00-18:00"
+    }
   }
 }
