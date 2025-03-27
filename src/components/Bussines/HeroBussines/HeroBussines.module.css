@@ -1,0 +1,84 @@
+.body {
+  background: linear-gradient(
+    180deg,
+    #fff 60.79%,
+    rgba(255, 255, 255, 0.17) 100%
+  );
+  height: 566px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1180px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 154%;
+  color: var(--black);
+}
+.description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 127%;
+  color: var(--black);
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 412px;
+}
+.link {
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: var(--white);
+  background: var(--accent-blue);
+  width: 100%;
+  text-align: center;
+}
+.link:hover {
+  background: var(--secondary-blue);
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .cont {
+    max-width: 412px;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .description {
+    font-size: 22px;
+  }
+  .body {
+    height: 452px;
+    background: linear-gradient(
+      90deg,
+      #fff 81.79%,
+      rgba(255, 255, 255, 0.17) 100%
+    );
+
+    justify-content: start;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .body {
+    height: 452px;
+    background: linear-gradient(
+      90deg,
+      #fff 81.79%,
+      rgba(255, 255, 255, 0.17) 100%
+    );
+    margin: 0 auto;
+  }
+  .cont {
+    margin: 0;
+  }
+}

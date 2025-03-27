@@ -1,12 +1,23 @@
-"use client";
-import FormWorldUA from '@/components/FormWorldUa/FormWorldUa';
-import { useParams } from 'next/navigation';
+import PromoHero from "@/components/Promo/PromoHero/PromoHero";
+import styles from "./styles.module.css"
+import PromoMain from "@/components/Promo/PromoMain/PromoMain";
+import PromoSocLinks from "@/components/Promo/PromoSocLinks/PromoSocLinks";
+import HeroBussines from "@/components/Bussines/HeroBussines/HeroBussines";
 
-const Services = () => {
-  const params = useParams();
-  console.log('Rendering Services for locale:', params.locale); // locale тепер у params
+const Bussines = () => {
+ 
 
-  return <></>;
+  return <div>
+    <section id="hero" className={styles.section}>
+      <HeroBussines/>
+    </section>
+    {/* <section id="main" className={styles.section}>
+      <PromoMain/>
+    </section>
+    <section id="socLink" className={styles.section}>
+      <PromoSocLinks/>
+    </section> */}
+  </div>
 };
 
-export default Services;
+export default Bussines;
