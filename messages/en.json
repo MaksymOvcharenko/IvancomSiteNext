@@ -427,5 +427,20 @@
       "question10": "Can I pay for the service with a Ukrainian bank card?",
       "answer10": "No, but we are working on it, and soon you will be able to pay for the service with a Ukrainian bank card."
     }
+  },
+  "promo": {
+    "title": "Maximum benefit from every shipment!",
+    "description": "Take advantage of our promotions and get more opportunities.",
+    "main": {
+      "title": "Customer Card – your way to great discounts!",
+      "desc1": "Get your Customer Card right now at the IVANCOM branch and step into a world of discounts!",
+      "desc2": "When it has 4 stamps, your next shipment or pickup will be 50% off!",
+      "warnDesc1": "*The discount does not apply to high-value shipments and medicines.",
+      "warnDesc2": "*The 50% discount applies to a form where the total weight does not exceed 50 kg. If the parcel exceeds 50 kg, the next stamp will be applied to the next form. The discount does not apply to additional costs (percentage after 1000 PLN), insurance, or additional packaging (box + pallet board, etc.)."
+    },
+    "soclink": {
+      "title": "Don't miss your benefit!",
+      "description": "Follow us and be the first to know about promotions."
+    }
   }
 }

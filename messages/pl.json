@@ -436,5 +436,20 @@
       "question10": "Czy mogę zapłacić za usługę ukraińską kartą?",
       "answer10": "Nie, ale pracujemy nad tym i wkrótce będzie można zapłacić za usługę kartą ukraińskiego banku."
     }
+  },
+  "promo": {
+    "title": "Maksymalne korzyści z każdej wysyłki!",
+    "description": "Korzystaj z naszych promocji i zyskaj więcej możliwości.",
+    "main": {
+      "title": "Karta Klienta – droga do dużych rabatów!",
+      "desc1": "Odbierz swoją Kartę Klienta już teraz w oddziale stacjonarnym IVANCOM i wkrocz w świat zniżek!",
+      "desc2": "Gdy uzbierasz 4 pieczątki, następna wysyłka lub odbiór będzie tańsza o 50%!",
+      "warnDesc1": "*Zniżka nie obejmuje przesyłek o wysokiej wartości oraz leków.",
+      "warnDesc2": "*50% zniżki dotyczy formularza, na którym łączna waga nie przekracza 50 kg. Jeśli paczka waży więcej niż 50 kg, kolejna pieczątka zostanie dodana do następnego formularza. Zniżka nie obejmuje dodatkowych kosztów (procent powyżej 1000 PLN), ubezpieczenia ani dodatkowego opakowania (pudełko + paleta, itp.)."
+    },
+    "soclink": {
+      "title": "Nie przegap swojej korzyści!",
+      "description": "Śledź nas i bądź pierwszym, który dowie się o promocjach."
+    }
   }
 }

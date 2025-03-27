@@ -1,11 +1,22 @@
-"use client";
-import { useParams } from 'next/navigation';
+import PromoHero from "@/components/Promo/PromoHero/PromoHero";
+import styles from "./styles.module.css"
+import PromoMain from "@/components/Promo/PromoMain/PromoMain";
+import PromoSocLinks from "@/components/Promo/PromoSocLinks/PromoSocLinks";
 
 const Services = () => {
-  const params = useParams();
-  console.log('Rendering Services for locale:', params.locale); // locale тепер у params
+ 
 
-  return <h1>Сторінка Акції для {params.locale}</h1>;
+  return <div>
+    <section id="hero" className={styles.section}>
+      <PromoHero/>
+    </section>
+    <section id="main" className={styles.section}>
+      <PromoMain/>
+    </section>
+    <section id="socLink" className={styles.section}>
+      <PromoSocLinks/>
+    </section>
+  </div>
 };
 
 export default Services;
