@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   max-width: 1180px;
+  border: 1px solid red;
 }
 .title {
   font-family: var(--font-family);

@@ -1,0 +1,108 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 40px;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.imageWrapper {
+  border-radius: 16px;
+  width: 352px;
+  height: 270px;
+}
+.description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--black);
+}
+.textCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.subtitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--black);
+}
+.list {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--black);
+}
+.list li::before {
+  content: "✔";
+  color: var(--secondary-blue);
+
+  margin-right: 8px;
+}
+.list ul {
+  margin-top: 8px;
+  list-style-type: none;
+  margin-left: 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--black);
+}
+.list ul li::before {
+  content: "";
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 628px;
+  }
+  .imageWrapper {
+    width: 628px;
+    height: 460px;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1180px;
+  }
+  .cont {
+    flex-direction: row;
+    flex: 1;
+  }
+  .imageWrapper {
+    width: 636px;
+    height: 572px;
+    flex-shrink: 0;
+  }
+}

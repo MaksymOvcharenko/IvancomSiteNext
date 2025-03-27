@@ -1,8 +1,9 @@
-import PromoHero from "@/components/Promo/PromoHero/PromoHero";
+
 import styles from "./styles.module.css"
-import PromoMain from "@/components/Promo/PromoMain/PromoMain";
-import PromoSocLinks from "@/components/Promo/PromoSocLinks/PromoSocLinks";
+
 import HeroBussines from "@/components/Bussines/HeroBussines/HeroBussines";
+import BussinesMain from "@/components/Bussines/BussinesMain/BussinesMain";
+import BussinesCars from "@/components/Bussines/BussinesCars/BussinesCars";
 
 const Bussines = () => {
  
@@ -11,12 +12,12 @@ const Bussines = () => {
     <section id="hero" className={styles.section}>
       <HeroBussines/>
     </section>
-    {/* <section id="main" className={styles.section}>
-      <PromoMain/>
+    <section id="main" className={styles.section}>
+      <BussinesMain/>
     </section>
-    <section id="socLink" className={styles.section}>
-      <PromoSocLinks/>
-    </section> */}
+     <section id="cars" className={styles.section}>
+      <BussinesCars/>
+    </section>
   </div>
 };
 
