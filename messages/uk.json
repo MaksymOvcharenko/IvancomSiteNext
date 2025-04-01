@@ -136,7 +136,14 @@
         "insurance": "Страхування"
     },
     "Header": {
-        "form": "Заповнити форму"
+        "form": "Заповнити форму",
+        "track": "Відстежити",
+        "select_delivery_method": "Оберіть спосіб відправки:",
+        "method_inpost": "Поштомат InPost",
+        "method_ukraine": "Україна",
+        "method_world_to_ukraine": "Європа",
+        "method_transfer": "Переїзди",
+        "method_animals": "Тварини"
     },
     "Footer": {
         "copyright": "© 2024 Футер українська.",

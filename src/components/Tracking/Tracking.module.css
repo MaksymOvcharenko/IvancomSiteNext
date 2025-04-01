@@ -1,5 +1,5 @@
 .container {
-  background: #ffffff;
+  background: #e5e5e6;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
   padding: 5px;
-  background-color: #ffffff9d;
+
   border-radius: 50%;
   display: flex;
   justify-content: center;

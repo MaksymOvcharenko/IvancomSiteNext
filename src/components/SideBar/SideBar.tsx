@@ -10,7 +10,7 @@ import { LucideEarth } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 const Sidebar = () => {
   const [isClient, setIsClient] = useState(false); // Стан для перевірки, чи рендериться на клієнті
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Стан для відкриття/закриття сайдбару
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false ); // Стан для відкриття/закриття сайдбару
   const [activeSection, setActiveSection] = useState(''); // Для збереження активної секції
   const [openDirection, setOpenDirection] = useState<string | null>(null); // Для відкриття напрямку
 

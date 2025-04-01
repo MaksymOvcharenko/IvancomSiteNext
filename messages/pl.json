@@ -135,7 +135,14 @@
     "insurance": "Ubezpieczenie"
   },
   "Header": {
-    "form": "Wypełnij formularz"
+    "form": "Wypełnij formularz",
+    "track": "Śledź",
+    "select_delivery_method": "Wybierz sposób wysyłki:",
+    "method_inpost": "Paczkomat InPost",
+    "method_ukraine": "Ukraina",
+    "method_world_to_ukraine": "Europa",
+    "method_transfer": "Przeprowadzki",
+    "method_animals": "Zwierzęta"
   },
   "Footer": {
     "copyright": "© 2024 Stopka po polsku.",

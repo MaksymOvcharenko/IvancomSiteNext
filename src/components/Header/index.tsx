@@ -16,11 +16,14 @@ import Modal from '../Modal/Modal';
 import DeliveryCalculator from '../DeliveryCalculator/DeliveryCalculator';
 import FormInpost from '../FormInpost/FormInpost';
 import FormSelectorWrapper from '../FormSelectorWrapper/FormSelectorWrapper';
+import TrackingButton from '../TrackingButton/TrackingButton';
+import Tracking from '../Tracking/Tracking';
 export default function Header() {
   const t = useTranslations('Navigation');
   const [mobMenu, setMobMenu] = useState(false)
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [modalFormIsOpen, setModalFormIsOpen] = useState(false);
+   const [modalTrackingIsOpen, setModalTrackingIsOpen] = useState(false);
   return (
     <>
       <header className={styles.header}>
@@ -33,8 +36,14 @@ export default function Header() {
         <nav className={styles.nav}>
           <div className={styles.topCont}> 
             <div className={styles.switcher}><ResponsiveLocaleSwitcher/></div>
-            <ResponsiveSocLink/>
-            <FormButton setModalFormIsOpen={setModalFormIsOpen} />
+            <ResponsiveSocLink />
+            
+              <div className={styles.btn}>
+                <TrackingButton setModalFormIsOpen={setModalTrackingIsOpen} />
+                <FormButton setModalFormIsOpen={setModalFormIsOpen} />
+              </div>
+            
+            
           </div>
           <NavBar onClose={() => setModalIsOpen(false)} />
         </nav>
@@ -48,6 +57,9 @@ export default function Header() {
       
       <Modal isOpen={modalFormIsOpen} onClose={() => setModalFormIsOpen(false)}>
        <FormSelectorWrapper onClose={() => setModalFormIsOpen(false)}/>
+      </Modal>
+      <Modal isOpen={modalTrackingIsOpen} onClose={() => setModalTrackingIsOpen(false)}>
+       <Tracking onClose={() => setModalTrackingIsOpen(false)}/>
     </Modal>
     </>
   );

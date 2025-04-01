@@ -124,7 +124,14 @@
     "insurance": "Insurance"
   },
   "Header": {
-    "form": "Fill out the form"
+    "form": "Fill out the form",
+    "track": "Track",
+    "select_delivery_method": "Choose delivery method:",
+    "method_inpost": "InPost Parcel Locker",
+    "method_ukraine": "Ukraine",
+    "method_world_to_ukraine": "Europe",
+    "method_transfer": "Transfers",
+    "method_animals": "Animals"
   },
   "Footer": {
     "copyright": "© 2024 Footer in English.",
