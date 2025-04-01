@@ -1,0 +1,70 @@
+.body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  flex-shrink: 0;
+}
+.textCont {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 154%;
+  text-align: center;
+}
+.descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 127%;
+  text-align: center;
+}
+.imgCont {
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+    max-width: 768px;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .title {
+    font-size: 46px;
+    text-align: left;
+  }
+  .descr {
+    font-size: 30px;
+    text-align: left;
+  }
+  .textCont {
+    justify-content: flex-start;
+  }
+  .main {
+    max-width: 1280px;
+  }
+  .img {
+    width: 708px;
+    height: 520px;
+  }
+}

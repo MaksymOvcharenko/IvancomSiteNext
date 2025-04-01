@@ -10,13 +10,25 @@ const Services = () => {
   // locale тепер у params
   const t = useTranslations("about");
   const images = [
-    "/image/about/slide2.jpg",
-    "/image/about/slide1.jpg",
+    "/image/about/сomands/slide2.png",
+    "/image/about/сomands/slide13.png",
 
-    "/image/about/slide3.jpg",
-    "/image/about/slide4.jpg",
-    "/image/about/slide5.jpg",
-    "/image/about/slide6.jpg",
+    "/image/about/сomands/slide3.png",
+    "/image/about/сomands/slide4.png",
+    "/image/about/сomands/slide5.png",
+    "/image/about/сomands/slide6.png",
+     "/image/about/сomands/slide7.png",
+    "/image/about/сomands/slide8.png",
+    "/image/about/сomands/slide9.png",
+    "/image/about/сomands/slide10.png",
+     "/image/about/сomands/slide11.png",
+    "/image/about/сomands/slide12.png",
+    "/image/about/сomands/slide14.png",
+    "/image/about/сomands/slide15.png",
+      "/image/about/сomands/slide16.png",
+    "/image/about/сomands/slide17.png",
+      "/image/about/сomands/slide18.png",
+   
   ];
   const partnersLogos = [
   "/image/about/partners/dhl.png",
