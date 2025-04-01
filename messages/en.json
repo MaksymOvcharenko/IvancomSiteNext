@@ -479,5 +479,34 @@
       "description": "You don’t need to worry about delivery details. Contact our head office, and we will find the best delivery method to ensure your goods arrive on time and without extra costs.",
       "grafik": "Mon-Sun 09:00-18:00"
     }
+  },
+  "brandua": {
+    "title": "BrandUA – Ukrainian quality without borders!",
+    "subtitle": "We open up new opportunities for your shopping!",
+    "partners_title": "Our partners who trust us",
+    "partners_descr": "We are proud to cooperate with leading companies and organizations that have chosen us as their trusted logistics partner. Our partners value our efficiency, reliability, and individual approach to each shipment. Together we provide high-quality service and customer satisfaction.",
+    "partner1": "Women's clothing",
+    "partner2": "Merch",
+    "partner3": "Navigators",
+    "partner4": "Beauty salons",
+    "partner5": "Delicious sushi",
+    "partner6": "Tattoo studio network",
+    "partner7": "Clinic network",
+    "partner8": "Dental centers",
+    "how_title": "How does it work?",
+    "how_subtitle": "It's very simple, just a few steps",
+    "step1_title": "Order in a Ukrainian online store and specify our details for delivery to the warehouse in Ukraine",
+    "step1_sub": "At the branch, provide the following information:",
+    "step1_code": "EDRPOU Code: 3221718269",
+    "step1_note": "This code will automatically pull all our data when sending in the system.",
+    "step1_check": "But be sure to check if the data is correct:",
+    "step1_info": "FOP Kisil Lyudmyla Anatoliivna",
+    "step1_info1": "+380 (95) 801-04-74",
+    "step1_info2": "Lviv region, Hostynne village",
+    "step1_info3": "NP №1",
+    "step2_title": "Fill out the shipping form after you receive the Nova Poshta TTN",
+    "step2_sub": "This will help us track your parcel and guarantee its safe and timely delivery.",
+    "step3_title": "Don't worry about anything!",
+    "step3_sub": "Now it's our job!"
   }
 }

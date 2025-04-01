@@ -488,5 +488,34 @@
       "description": "Nie musisz martwić się o szczegóły dostawy. Skontaktuj się z naszym biurem głównym, a my znajdziemy najlepszy sposób dostawy, aby Twoje towary dotarły na czas i bez dodatkowych kosztów.",
       "grafik": "Pon-Ndz 09:00-18:00"
     }
+  },
+  "brandua": {
+    "title": "BrandUA – ukraińska jakość bez granic!",
+    "subtitle": "Otwieramy nowe możliwości dla Twoich zakupów!",
+    "partners_title": "Nasi partnerzy, którzy nam ufają",
+    "partners_descr": "Jesteśmy dumni ze współpracy z wiodącymi firmami i organizacjami, które wybrały nas jako swojego niezawodnego partnera logistycznego. Nasi partnerzy cenią naszą szybkość, niezawodność i indywidualne podejście do każdej przesyłki. Razem zapewniamy wysoki poziom obsługi i satysfakcji klientów.",
+    "partner1": "Odzież damska",
+    "partner2": "Merch",
+    "partner3": "Nawigatorzy",
+    "partner4": "Salony piękności",
+    "partner5": "Pyszne sushi",
+    "partner6": "Sieć studiów tatuażu",
+    "partner7": "Sieć klinik",
+    "partner8": "Centra stomatologiczne",
+    "how_title": "Jak to działa?",
+    "how_subtitle": "To bardzo łatwe, tylko kilka kroków",
+    "step1_title": "Zamawiaj w ukraińskim sklepie internetowym i podawaj nasze dane do wysyłki na magazyn w Ukrainie",
+    "step1_sub": "W oddziale podaj następujące informacje:",
+    "step1_code": "Kod EDRPOU: 3221718269",
+    "step1_note": "Kod automatycznie wprowadzi nasze dane podczas nadania w systemie.",
+    "step1_check": "Ale koniecznie sprawdź, czy dane są poprawne:",
+    "step1_info": "FOP Kisil Ludmyła Anatolijewna",
+    "step1_info1": "+380 (95) 801-04-74",
+    "step1_info2": "Obwód lwowski, wieś Hostyncwe",
+    "step1_info3": "NP №1",
+    "step2_title": "Wypełnij formularz wysyłki po otrzymaniu TTN Nowej Poczty",
+    "step2_sub": "To pomoże nam śledzić Twoją paczkę i zagwarantuje jej bezpieczne i terminowe dostarczenie.",
+    "step3_title": "Nie martw się o nic!",
+    "step3_sub": "Teraz wszystko jest w naszych rękach!"
   }
 }
