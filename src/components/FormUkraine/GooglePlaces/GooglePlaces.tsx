@@ -8,6 +8,7 @@ import InPostGeoWidget from "./inpostGeowidget";
 import SvgIcon from "@/components/SvgIcon";
 import { useDispatch } from "react-redux";
 import { setFormData, setPackageData } from "@/store/formUatoWorld";
+import InPostGeoWidgetInt from "./inpostGeowidgetInternational";
 // Новий компонент для вибору міста
 // Новий компонент для вибору методу доставки
 
@@ -261,7 +262,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         )}
         {addressData.country && (
           <>
-            {addressData.country !== "Poland" &&
+            {/* {addressData.country !== "Poland" &&
               addressData.country !== "Ukraine" && (
                 <div className={styles.countryCont}>
                   <h4 className={styles.formContItemTitle}>
@@ -277,7 +278,66 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
                     countryCode={countryCode}
                   />
                 </div>
-              )}
+              )} */}
+
+            {addressData.country === "Ukraine" && (
+              <div className={styles.countryCont}>
+                <h4 className={styles.formContItemTitle}>
+                  Данна форма доставки з України!
+                </h4>
+                {/* Інші компоненти для України */}
+              </div>
+            )}
+          </>
+        )}
+        {addressData.country && (
+          <>
+            {addressData.country === "Poland" ||
+ addressData.country === "Belgium" ||
+ addressData.country === "Italy" ||
+ addressData.country === "France" ||
+ addressData.country === "Luxembourg" ||
+ addressData.country === "Portugal" ||
+ addressData.country === "Spain" ||
+ addressData.country === "Netherlands" ? (
+    <div className={styles.countryCont}>
+      <h4 className={styles.formContItemTitle}>Оберіть спосіб доставки</h4>
+      {/* Кур'єр */}
+      <AddressForm
+        validate={validateAddress}
+        addressData={addressData}
+        setAddressData={(data: AddressData) => {
+          setAddressData(data);
+          validateAddress();
+        }}
+        countryCode={countryCode}
+      />
+      <InPostGeoWidgetInt paczkomat={paczkomat}
+                    setPaczkomat={setPaczkomat}
+                    validate={validateAddress}
+        addressData={addressData}
+        setAddressData={(data: AddressData) => {
+          setAddressData(data);
+          validateAddress();
+        }}
+                  />
+                  
+      <div>Тут буде поштомат</div>
+    </div>
+) : addressData.country !== "Poland" && addressData.country !== "Ukraine" && (
+    <div className={styles.countryCont}>
+      <h4 className={styles.formContItemTitle}>Доставка за межі Польщі</h4>
+      <AddressForm
+        validate={validateAddress}
+        addressData={addressData}
+        setAddressData={(data: AddressData) => {
+          setAddressData(data);
+          validateAddress();
+        }}
+        countryCode={countryCode}
+      />
+    </div>
+)}
 
             {addressData.country === "Ukraine" && (
               <div className={styles.countryCont}>
