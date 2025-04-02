@@ -30,6 +30,19 @@ const Services = () => {
       "/image/about/сomands/slide18.png",
    
   ];
+  const imagesVolontariusz = [
+    "/image/about/volontariusz/1.jpg",
+    "/image/about/volontariusz/2.jpg",
+
+    "/image/about/volontariusz/3.jpg",
+    "/image/about/volontariusz/4.jpg",
+    "/image/about/volontariusz/5.jpg",
+    "/image/about/volontariusz/6.jpg",
+    "/image/about/volontariusz/7.jpg",
+    "/image/about/volontariusz/8.jpg",
+   "/image/about/volontariusz/9.jpg",
+   
+  ];
   const partnersLogos = [
   "/image/about/partners/dhl.png",
   "/image/about/partners/dpd.png",
@@ -78,12 +91,27 @@ const Services = () => {
       text: "Чудовий сервіс! Все пройшло швидко і без проблем. Рекомендую!",
     },
   ];
+  const reviewsImg = [
+     "/image/about/reviews/1.png",
+    "/image/about/reviews/2.png",
+
+    "/image/about/reviews/3.png",
+    "/image/about/reviews/4.png",
+    "/image/about/reviews/5.png",
+    "/image/about/reviews/6.png",
+    "/image/about/reviews/7.png",
+    "/image/about/reviews/8.png",
+    "/image/about/reviews/9.png",
+    "/image/about/reviews/10.png",
+    "/image/about/reviews/11.png",
+   "/image/about/reviews/12.png",
+  ]
 
   return (
     <div className={styles.body}>
       <HeroAbout />
       <section id="ourTeam" className={styles.team}>
-        <h2 className={styles.galleryTitle}>{t("titleTeam")}</h2>
+        <h1 className={styles.galleryTitle}>{t("titleTeam")}</h1>
         <div className={styles.teamCont}>
           <Image
             src="/image/about/ourTeam.jpg"
@@ -101,7 +129,8 @@ const Services = () => {
       </section>
       <section id="reviews" className={styles.reviews}>
         <h2 className={styles.reviewsTitle}>{t("titleReviews")}</h2>
-        <SwiperReviewsComponent reviews={reviews} />
+        <SwiperComponent images={reviewsImg} />
+        {/* <SwiperReviewsComponent reviews={reviews} /> */}
       </section>
       <section id="helpAbout" className={styles.helpAbout}>
         <h2 className={styles.galleryTitle}>{t("titleStrong")}</h2>
@@ -113,7 +142,7 @@ const Services = () => {
             <li><p>{t("part4Strong")}</p></li>
           
         </ul>
-        <SwiperComponent images={images} />
+        <SwiperComponent images={imagesVolontariusz} />
         <h2 className={styles.galleryTitle}>{t("text1")}</h2>
         <p className={styles.helpDescVideo}>{t("text2")}</p>
         <iframe 

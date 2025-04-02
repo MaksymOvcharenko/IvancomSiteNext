@@ -1,7 +1,9 @@
 {
   "IndexPage": {
-    "title": "Strona Główna",
-    "description": "Test Języka Polskiego",
+    "title": "IVANCOM — paczki, które zbliżają",
+    "description": "Szybka dostawa paczek z Ukrainy do Polski, krajów UE i w drugą stronę bez zbędnych problemów",
+    "calculate": "Oblicz koszt",
+    "apply": "Zostaw zgłoszenie",
     "services": {
       "services": "Usługi",
       "parcels": "Paczki",
@@ -191,8 +193,8 @@
     "valuationLabelUA": "Wartość szacunkowa (UAH):"
   },
   "about": {
-    "headline": "Pomagamy Ci być bliżej!",
-    "description": "Logistyka z ludzką twarzą: szybka dostawa między Ukrainą a Europą, przejrzyste taryfy i indywidualne podejście.",
+    "headline": "Jesteśmy rodziną IVANCOM!",
+    "description": "Pomagamy Ukraińcom być bliżej, otrzymywać uwagę i ciepło od bliskich w paczkach z całego świata",
     "calculate": "Oblicz koszt",
     "apply": "Zostaw zgłoszenie",
     "logistics_journey": "Za kulisami logistyki: Podróż Twojej paczki",

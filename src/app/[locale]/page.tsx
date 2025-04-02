@@ -8,6 +8,7 @@ import Delivery from '@/components/DeliveryComponent/DeliveryComponent';
 import HomeAbout from '@/components/HomeAbout/HomeAbout';
 import HomeHero from '@/components/HomeHero/HomeHero';
 import Calendar from '@/components/Calendar/Calendar';
+import SwiperComponent from '@/components/Swiper/Swiper';
 export default function Home() {
   const t = useTranslations('IndexPage');
  const partnersLogos = [
@@ -58,6 +59,21 @@ export default function Home() {
       text: "Чудовий сервіс! Все пройшло швидко і без проблем. Рекомендую!",
     },
   ];
+  const reviewsImg = [
+     "/image/about/reviews/1.png",
+    "/image/about/reviews/2.png",
+
+    "/image/about/reviews/3.png",
+    "/image/about/reviews/4.png",
+    "/image/about/reviews/5.png",
+    "/image/about/reviews/6.png",
+    "/image/about/reviews/7.png",
+    "/image/about/reviews/8.png",
+    "/image/about/reviews/9.png",
+    "/image/about/reviews/10.png",
+    "/image/about/reviews/11.png",
+   "/image/about/reviews/12.png",
+  ]
   return (
     <div className={styles.body}>
       <section id="hero" className={styles.section}><HomeHero/></section>
@@ -65,7 +81,8 @@ export default function Home() {
       <section id="services" className={styles.section}><ServiceCards /></section>
       <section id="calendar" className={styles.section}><Calendar/></section>
        <section id="couriers" className={styles.section}><Delivery/></section>
-      <section id="reviews" className={styles.sectionReviews}><SwiperReviewsComponent reviews={reviews} /></section>
+      {/* <section id="reviews" className={styles.sectionReviews}><SwiperReviewsComponent reviews={reviews} /></section> */}
+      <section id="reviews" className={styles.sectionReviews}><SwiperComponent images={reviewsImg} /></section>
       <section id="partners" className={styles.section}><Partners  logos={partnersLogos}/></section>
       <section id="faq" className={styles.section}><div className={styles.faq} ><div className={styles.faqImg}><img src="/image/faq.jpg" width={300} alt="Як відправити з України посилку" /></div><Faq/></div></section>
     </div>

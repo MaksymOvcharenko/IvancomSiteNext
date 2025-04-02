@@ -1,7 +1,9 @@
 {
   "IndexPage": {
-    "title": "Home Page",
-    "description": "Test English Language",
+    "title": "IVANCOM — parcels that bring people closer",
+    "description": "Fast delivery of parcels from Ukraine to Poland, EU countries, and back without unnecessary hassle",
+    "calculate": "Calculate cost",
+    "apply": "Submit a request",
     "services": {
       "services": "Services",
       "parcels": "Parcels",
@@ -180,8 +182,8 @@
     "valuationLabelUA": "Estimated value (UAH):"
   },
   "about": {
-    "headline": "Helping you stay closer!",
-    "description": "Logistics with a human touch: fast delivery between Ukraine and Europe, transparent rates, and a personalized approach.",
+    "headline": "We are the IVANCOM family!",
+    "description": "We help Ukrainians feel closer, receiving care and warmth from loved ones through parcels from all over the world",
     "calculate": "Calculate cost",
     "apply": "Submit a request",
     "logistics_journey": "Behind the Scenes of Logistics: The Journey of Your Parcel",

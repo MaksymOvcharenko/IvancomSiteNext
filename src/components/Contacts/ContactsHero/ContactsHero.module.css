@@ -10,7 +10,7 @@
     gap: 20px;
   }
   .heroImg {
-    background-image: url("../../../../public/image/contacts/herobg2.jpg"); /* Вкажи правильний шлях */
+    background-image: url("../../../../public/image/contacts/herobg2.png"); /* Вкажи правильний шлях */
     background-size: cover; /* Щоб зображення покривало всю область */
     background-position: center; /* Центрування */
     background-repeat: no-repeat; /* Щоб не повторювалося */
@@ -134,7 +134,7 @@
     border-radius: 16px;
     width: 636px;
     height: 536px;
-    background-image: url("../../../../public/image/contacts/herobg2.jpg");
+    background-image: url("../../../../public/image/contacts/herobg2.png");
   }
   .cont {
     max-width: 746px;

@@ -7,7 +7,7 @@ import CalculateButton from "@/components/CalculateButton/CalculateButton";
 import ButtonFormOnPage from "@/components/ButtonFormOnPage/ButtonFormOnPage";
 
 const HomeHero = () => {
-  const t = useTranslations("about");
+  const t = useTranslations("IndexPage");
   const locale = useLocale(); // Отримуємо поточну локаль
 
   return (
@@ -15,7 +15,7 @@ const HomeHero = () => {
       <div className={styles.heroImg}></div>
       <div className={styles.cont}>
         <div className={styles.textCont}>
-          <h1 className={styles.title}>{t("headline")}</h1>
+          <h1 className={styles.title}>{t("title")}</h1>
           <p className={styles.descr}>{t("description")}</p>
         </div>
         <div className={styles.btnCont}>
