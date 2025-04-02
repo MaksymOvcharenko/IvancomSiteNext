@@ -115,7 +115,7 @@ const Services: React.FC<ServicesProps> = ({ onClose }) => {
         )}
       </div>
 
-      <div className={styles.servicesColumn} onClick={() => toggleDirection('fromEuropeToEurope')}>
+      {/* <div className={styles.servicesColumn} onClick={() => toggleDirection('fromEuropeToEurope')}>
         <h3>{t("fromEuropeToEurope")} <ChevronDown size={24} /></h3>
         {activeDirection === 'fromEuropeToEurope' && (
           <ul className={styles.list}>
@@ -129,13 +129,14 @@ const Services: React.FC<ServicesProps> = ({ onClose }) => {
             <li className={styles.itemServices} onClick={() => toggleService('documents')}><Link href={`/${locale}/europe-to-europe?section=documents&direction=europeToEurope`}>{ t("documents")}</Link></li>
           </ul>
         )}
-      </div>
+      </div> */}
 
       <div className={styles.servicesColumn} onClick={() => toggleDirection('otherServices')}>
         <ul>
           <li className={styles.itemServicesLast} onClick={() => toggleService('brandUA')}><Link href={`/${locale}/brandua`}>{t("brandUA")}</Link></li>
           <li className={styles.itemServicesLast} onClick={() => toggleService('courierDelivery')}><Link href={`/${locale}/courier`}>{t("courierDelivery")}</Link></li>
           <li className={styles.itemServicesLast} onClick={() => toggleService('parcelMachine')}><Link href={`/${locale}/self-service`}>{t("parcelMachine")}</Link></li>
+          <li className={styles.itemServicesLast}><Link href={`/${locale}/europe-to-europe`}>{t("pltopl")}</Link></li>
           
         </ul>
       </div>

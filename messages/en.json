@@ -83,6 +83,7 @@
   },
   "SideBar": {
     "toggleSidebar": "Collapse",
+    "pltopl": "Delivery across Poland",
     "ukraineToEurope": "From Ukraine to Europe",
     "europeToUkraine": "From Europe to Ukraine",
     "europeToEurope": "From Europe to Europe",
@@ -110,7 +111,7 @@
     "promotions": "Promotions",
     "fromUkraineToEurope": "From Ukraine to Europe",
     "fromEuropeToUkraine": "From Europe to Ukraine",
-    "fromEuropeToEurope": "From Europe to Europe",
+    "pltopl": "Delivery across Poland",
     "parcelDelivery": "Parcel Delivery",
     "medicineCosmetics": "Medicines and Injectable Cosmetics",
     "animals": "Animals",
@@ -348,8 +349,8 @@
     "why_choose_us": "Why choose us?"
   },
   "courier": {
-    "courierTitle": "Courier delivery – easy, fast, reliable",
-    "courierDescription": "We will arrive at a convenient time for you, carefully deliver the cargo, and provide reliable service.",
+    "courierTitle": "IVANCOM Courier — convenient and fast",
+    "courierDescription": "Order a Ukrainian-speaking IVANCOM courier and don't worry about a thing! Your parcel is in safe hands!",
     "title": "In which cities is IVANCOM courier available?",
     "deliveryAndPickup": "Delivery and pickup",
     "phone": "Phone",

@@ -95,6 +95,7 @@
     },
     "SideBar": {
         "toggleSidebar": "Згорнути",
+        "pltopl": "Перевезення по Польщі",
         "ukraineToEurope": "З України в Європу",
         "europeToUkraine": "З Європи в Україну",
         "europeToEurope": "З Європи в Європу",
@@ -122,7 +123,7 @@
         "promotions": "Акції",
         "fromUkraineToEurope": "З України в Європу",
         "fromEuropeToUkraine": "З Європи в Україну",
-        "fromEuropeToEurope": "З Європи в Європу",
+        "pltopl": "Перевезення по Польщі",
         "parcelDelivery": "Доставка посилок",
         "medicineCosmetics": "Ліки та ін'єкційна косметика",
         "animals": "Тварини",
@@ -392,8 +393,8 @@
         "why_choose_us": "Чому обирають нас?"
     },
     "courier": {
-        "courierTitle": "Кур’єрська доставка – легко, швидко, надійно",
-        "courierDescription": "Ми приїдемо в зручний для вас час, акуратно доставимо вантаж та забезпечимо надійний сервіс.",
+        "courierTitle": "Кур'єр IVANCOM — це зручно та швидко",
+        "courierDescription": "Замовляй україномовного кур'єра IVANCOM і ні про що не турбуйся! Твоя посилочка в надійних руках!",
         "title": "В яких містах є кур'єр IVANCOM?",
         "deliveryAndPickup": "Доставка та відбір",
         "phone": "Телефон",

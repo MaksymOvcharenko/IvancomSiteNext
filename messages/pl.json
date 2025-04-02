@@ -94,6 +94,7 @@
   },
   "SideBar": {
     "toggleSidebar": "Zwiń",
+    "pltopl": "Przewozy po Polsce",
     "ukraineToEurope": "Z Ukrainy do Europy",
     "europeToUkraine": "Z Europy do Ukrainy",
     "europeToEurope": "Z Europy do Europy",
@@ -121,7 +122,7 @@
     "promotions": "Promocje",
     "fromUkraineToEurope": "Z Ukrainy do Europy",
     "fromEuropeToUkraine": "Z Europy do Ukrainy",
-    "fromEuropeToEurope": "Z Europy do Europy",
+    "pltopl": "Przewozy po Polsce",
     "parcelDelivery": "Dostawa paczek",
     "medicineCosmetics": "Leki i kosmetyki wstrzykiwalne",
     "animals": "Zwierzęta",
@@ -357,8 +358,8 @@
     "why_choose_us": "Dlaczego warto nas wybrać?"
   },
   "courier": {
-    "courierTitle": "Dostawa kurierska – łatwo, szybko, niezawodnie",
-    "courierDescription": "Przyjedziemy w dogodnym dla Ciebie czasie, starannie dostarczymy ładunek i zapewnimy niezawodną obsługę.",
+    "courierTitle": "Kurier IVANCOM — to wygoda i szybkość",
+    "courierDescription": "Zamów ukraińskojęzycznego kuriera IVANCOM i nie martw się o nic! Twoja paczka jest w bezpiecznych rękach!",
     "title": "W których miastach dostępny jest kurier IVANCOM?",
     "deliveryAndPickup": "Dostawa i odbiór",
     "phone": "Telefon",

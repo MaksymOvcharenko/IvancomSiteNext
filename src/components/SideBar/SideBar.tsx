@@ -137,7 +137,7 @@ const Sidebar = () => {
             </li>
     
             {/* Європа → Європа */}
-            <li className={styles.hasSubmenu}>
+            {/* <li className={styles.hasSubmenu}>
               <span onClick={() => toggleDirection('europeToEurope')}>{ t("europeToEurope")}</span>
               {openDirection === 'europeToEurope' && (
                 <ul className={styles.submenu}>
@@ -167,7 +167,7 @@ const Sidebar = () => {
                   </li>
                 </ul>
               )}
-            </li>
+            </li> */}
               </ul>
               
       <ul className={styles.otherMenu}>
@@ -180,7 +180,9 @@ const Sidebar = () => {
         <li className={isActive('self-service')}>
           <Link href={`/${locale}/self-service`}>{ t("selfService")}</Link>
         </li>
-      
+        <li className={isActive('self-service')}>
+          <Link href={`/${locale}/europe-to-europe`}>{ t("pltopl")}</Link>
+        </li>
       </ul>
         </div>
     </div>

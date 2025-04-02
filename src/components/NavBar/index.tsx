@@ -117,7 +117,7 @@ export const NavBar: React.FC<NavBarProps> = ({ onClose }) => {
     </ul>
   </div>
 
-  <div className={styles.servicesColumn}>
+  {/* <div className={styles.servicesColumn}>
     <h3>{t("fromEuropeToEurope")}</h3>
     <ul className={styles.list}>
        <li className={styles.itemServices} ><Link href={`/${locale}/europe-to-europe?section=parcels&direction=europeToEurope`}>{t("parcelDelivery")} </Link></li>
@@ -129,7 +129,7 @@ export const NavBar: React.FC<NavBarProps> = ({ onClose }) => {
             <li className={styles.itemServices} ><Link href={`/${locale}/europe-to-europe?section=bicycles&direction=europeToEurope`}>{ t("bicycles")}</Link></li>
             <li className={styles.itemServices} ><Link href={`/${locale}/europe-to-europe?section=documents&direction=europeToEurope`}>{ t("documents")}</Link></li>
     </ul>
-  </div>
+  </div> */}
 
   <div className={styles.servicesColumn}>
     <h3>{t("otherServices")}</h3>
@@ -137,7 +137,7 @@ export const NavBar: React.FC<NavBarProps> = ({ onClose }) => {
       <li className={styles.itemServices}><Link href={`/${locale}/brandua`}>{t("brandUA")}</Link></li>
       <li className={styles.itemServices}><Link href={`/${locale}/courier`}>{t("courierDelivery")}</Link></li>
       <li className={styles.itemServices}><Link href={`/${locale}/self-service`}>{t("parcelMachine")}</Link></li>
-      
+      <li className={styles.itemServices}><Link href={`/${locale}/europe-to-europe`}>{t("pltopl")}</Link></li>
     </ul>
   </div>
 </div>
