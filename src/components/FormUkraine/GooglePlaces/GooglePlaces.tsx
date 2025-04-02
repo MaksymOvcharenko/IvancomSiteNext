@@ -47,6 +47,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
   const [deliveryMethod, setDeliveryMethod] = useState<string>("");
   const [inpostMethod, setInpostMethod] = useState<string>("");
   const [paczkomat, setPaczkomat] = useState<string>("1");
+  const [deliveryTypeInt, setDeliveryTypeInt] = useState<'courier' | 'paczkomat'>('courier');
   const handleLoad = (
     autocompleteInstance: google.maps.places.Autocomplete
   ) => {
@@ -78,7 +79,16 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         setAddressData((prev) => ({ ...prev, country }));
       }
     }
-  }; // Викликається, коли змінюється addressData
+  }; // Викликається, коли змінюється addressData|
+  const deliveryCountries = [
+  "Belgium",
+  "Italy",
+  "France",
+  "Luxembourg",
+  "Portugal",
+  "Spain",
+  "Netherlands"
+];
   const validateAddress = () => {
     const { city, region, street, postalCode, houseNumber } = addressData;
     // Для України і інших країн, окрім Польщі
@@ -90,13 +100,17 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         setIsAddressValid(false);
       }
     } else {
-      // Спеціальна валідація для Польщі
-    //   if (city && region && street && postalCode && houseNumber) {
-    //     setIsAddressValid(true);
-    //   } else {
-    //     setIsAddressValid(false);
-    //   }
+      
+    };
+    if (deliveryCountries.includes(addressData.country)) {
+    setDeliveryMethod("dhl");
+    if (city && region && street && postalCode.length > 2 && houseNumber) {
+        setIsAddressValid(true);
+    } else {
+        setIsAddressValid(false);
     }
+    };
+    
     if (addressData.country === "Poland") {
       if (
         deliveryMethod === "BranchKrakow" ||
@@ -301,29 +315,58 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
  addressData.country === "Spain" ||
  addressData.country === "Netherlands" ? (
     <div className={styles.countryCont}>
-      <h4 className={styles.formContItemTitle}>Оберіть спосіб доставки</h4>
-      {/* Кур'єр */}
-      <AddressForm
-        validate={validateAddress}
-        addressData={addressData}
-        setAddressData={(data: AddressData) => {
-          setAddressData(data);
-          validateAddress();
-        }}
-        countryCode={countryCode}
+  <h4 className={styles.formContItemTitle}>Оберіть спосіб доставки</h4>
+
+  <div className={styles.optionsCont}>
+    <label className={styles.radioWrapper}>
+      <input
+        type="radio"
+        name="deliveryType"
+                          value="courier"
+                          className={styles.radiobtn}
+        checked={deliveryTypeInt === 'courier'}
+        onChange={() => setDeliveryTypeInt('courier')}
       />
-      <InPostGeoWidgetInt paczkomat={paczkomat}
-                    setPaczkomat={setPaczkomat}
-                    validate={validateAddress}
-        addressData={addressData}
-        setAddressData={(data: AddressData) => {
-          setAddressData(data);
-          validateAddress();
-        }}
-                  />
-                  
-      <div>Тут буде поштомат</div>
-    </div>
+      Кур`єр
+    </label>
+    <label className={styles.radioWrapper}>
+      <input
+        type="radio"
+        name="deliveryType"
+                          value="paczkomat"
+                          className={styles.radiobtn}
+        checked={deliveryTypeInt === 'paczkomat'}
+        onChange={() => setDeliveryTypeInt('paczkomat')}
+      />
+      Поштомат
+    </label>
+  </div>
+
+  {deliveryTypeInt === 'courier' && (
+    <AddressForm
+      validate={validateAddress}
+      addressData={addressData}
+      setAddressData={(data: AddressData) => {
+        setAddressData(data);
+        validateAddress();
+      }}
+      countryCode={countryCode}
+    />
+  )}
+
+  {deliveryTypeInt === 'paczkomat' && (
+    <InPostGeoWidgetInt
+      paczkomat={paczkomat}
+      setPaczkomat={setPaczkomat}
+      validate={validateAddress}
+      addressData={addressData}
+      setAddressData={(data: AddressData) => {
+        setAddressData(data);
+        validateAddress();
+      }}
+    />
+  )}
+</div>
 ) : addressData.country !== "Poland" && addressData.country !== "Ukraine" && (
     <div className={styles.countryCont}>
       <h4 className={styles.formContItemTitle}>Доставка за межі Польщі</h4>

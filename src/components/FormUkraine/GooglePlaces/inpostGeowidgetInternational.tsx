@@ -24,7 +24,7 @@ interface InPostGeoWidgetProps {
 
 const token = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJzQlpXVzFNZzVlQnpDYU1XU3JvTlBjRWFveFpXcW9Ua2FuZVB3X291LWxvIn0.eyJleHAiOjIwNTc2NzYyNjEsImlhdCI6MTc0MjMxNjI2MSwianRpIjoiMTdlMWMxM2YtMzBhZS00NjE5LThiNGEtN2Y5YjMwY2Q0NDBhIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5pbnBvc3QucGwvYXV0aC9yZWFsbXMvZXh0ZXJuYWwiLCJzdWIiOiJmOjEyNDc1MDUxLTFjMDMtNGU1OS1iYTBjLTJiNDU2OTVlZjUzNTpnV05US05EV1pqRDBUZGxCNUNDS2NDeGVOSmRPRmFTRmhkSUM5ZG8zTHBJIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic2hpcHgiLCJzZXNzaW9uX3N0YXRlIjoiNGYxMDBmNjQtN2U3OC00Y2JjLWIwYzMtM2NhMzg3Zjk0OGYxIiwic2NvcGUiOiJvcGVuaWQgYXBpOmFwaXBvaW50cyIsInNpZCI6IjRmMTAwZjY0LTdlNzgtNGNiYy1iMGMzLTNjYTM4N2Y5NDhmMSIsImFsbG93ZWRfcmVmZXJyZXJzIjoiaXZhbmNvbS1zaXRlLW5leHQudmVyY2VsLmFwcCIsInV1aWQiOiIyNjIzMDA4OS1mMmY0LTQyMWUtYTYwNy00YmFkMmM0OTc2YjIifQ.NfOP9nKi30tsKLmVMHUVm73k3eaQkF8xyGGaCXOscC_Sq-sJk7GO0xbeojHLASt547aPW_A0JeSUz0YrnGL185DGDhdktjHFmHx9HdUi-xSA5B7QGA4BRpDlV4AtioYzk2KJBUsN7z1Dc5TbyshQnxNyxQwrvYk2rVYf24LKu23gmBVUl4NBuupmCE50N6aW20MbVaHCJyWvIfOACsyOpn0_qw1NOGZrcrHFV7kYvpcFJX4kB4Q6t9usu-1MXAf26Ajlu2N287bNV1KxYcxJd3SOfDdvvM4BZZP-rVqQqeLwf7F_J7Ln4vh0sJErODFThUzsPSX6V66ddwRaoFlDXA";
 
-const InPostGeoWidgetInt: React.FC<InPostGeoWidgetProps> = ({ paczkomat, setPaczkomat }) => {
+const InPostGeoWidgetInt: React.FC<InPostGeoWidgetProps> = ({ paczkomat, setPaczkomat,setAddressData }) => {
   useEffect(() => {
     // Додаємо стилі та скрипт до HTML-документу, якщо вони ще не підключені
     if (!document.querySelector("link[href='https://geowidget.inpost-group.com/inpost-geowidget.css']")) {
@@ -45,7 +45,15 @@ const InPostGeoWidgetInt: React.FC<InPostGeoWidgetProps> = ({ paczkomat, setPacz
     const handlePointSelect = (event: any) => {
       const point = event.detail;
       console.log(point);
-      
+      setAddressData({
+        country: point.country,
+        city: point.address_details.city,
+        region: point.address_details.province,
+        street: point.address_details.street,
+        postalCode: point.address_details.post_code,
+        houseNumber: "000",
+        apartment: point.address_details.flat_number,
+      })
       setPaczkomat(point.name); // Зберігаємо ім'я поштомату
     };
 
