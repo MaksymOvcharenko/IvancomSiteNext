@@ -96,7 +96,7 @@
   border: 1px dashed var(--accent-blue);
   border-radius: 8px;
   margin-bottom: 16px;
-  background: #f9f9f9;
+  /* background: #f9f9f9; */
 }
 
 /* Timeline */
