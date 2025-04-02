@@ -162,7 +162,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
 
     const dispatch = useDispatch();
     const submit = () => {
-        const values = {...addressData,selectedSubCity,paczkomat,deliveryMethod,inpostMethod}
+        const values = {...addressData,selectedSubCity,paczkomat,deliveryMethod,inpostMethod,deliveryTypeInt}
         dispatch(setPackageData(values));
         nextStep();
     }

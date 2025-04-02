@@ -30,6 +30,7 @@ interface RootState {
       inpostMethod: string;
       description: string;
       agree: boolean;
+      deliveryTypeInt: string;
     };
   };
 }
@@ -154,7 +155,8 @@ const DeliveryDetails: React.FC<DeliveryDetailsProps> = ({
   <p className={styles.text}>
     Поштомат:<span>{formData.paczkomat}</span>
   </p>
-) : formData.deliveryMethod === "BranchKrakow" ? (
+) 
+: formData.deliveryMethod === "BranchKrakow" ? (
   "Відділення Ivancom Kraków Jana Pawła II 154, 31-982"
 ) : formData.deliveryMethod === "BranchWarzsawa" ? (
   "Відділення Ivancom Warszawa Skierniewicka 21/7, 01-230 (станція метро Plocka)"
@@ -197,7 +199,10 @@ const DeliveryDetails: React.FC<DeliveryDetailsProps> = ({
         <div className={styles.text}>Поштовий код: </div>
         {formData.postalCode}
       </div>
-    </div>
+                      </div>
+                      {formData.deliveryTypeInt==="paczkomat" && <p className={styles.text}>
+    Поштомат:<span>{formData.paczkomat}</span>
+  </p>}
   </div>
 )}
 
