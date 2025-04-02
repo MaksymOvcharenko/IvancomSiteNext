@@ -111,11 +111,14 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         setIsAddressValid(false);
     }
       }
-    if (city && region && street && postalCode.length > 2 && houseNumber) {
+       if (deliveryTypeInt === "courier") {
+        if (city && region && street && postalCode.length > 2 && houseNumber) {
         setIsAddressValid(true);
     } else {
         setIsAddressValid(false);
     }
+      }
+    
     };
     
     if (addressData.country === "Poland") {
