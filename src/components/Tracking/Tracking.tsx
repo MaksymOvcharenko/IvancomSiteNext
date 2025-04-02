@@ -139,7 +139,7 @@ const Tracking: React.FC<TrackingProps> = ({ onClose }) => {
       )}
 
       {selectedForm === "step2" && !loading && (
-        <TrackData selected={onClose} data={data} />
+        <TrackData selected={onClose} data={data} ttn={lastTtn} />
       )}
 
       {selectedForm === "error" && !loading && (
