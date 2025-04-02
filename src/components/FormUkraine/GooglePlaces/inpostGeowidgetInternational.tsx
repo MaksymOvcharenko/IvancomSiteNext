@@ -45,15 +45,13 @@ const InPostGeoWidgetInt: React.FC<InPostGeoWidgetProps> = ({ paczkomat, setPacz
     const handlePointSelect = (event: any) => {
       const point = event.detail;
       console.log(point);
-      setAddressData({
-        country: point.country,
-        city: point.address_details.city,
+      setAddressData((prev: any) => ({ ...prev, city: point.address_details.city,
         region: point.address_details.province,
         street: point.address_details.street,
         postalCode: point.address_details.post_code,
         houseNumber: "000",
-        apartment: point.address_details.flat_number,
-      })
+        apartment: point.address_details.flat_number, }))
+     
       setPaczkomat(point.name); // Зберігаємо ім'я поштомату
     };
 
