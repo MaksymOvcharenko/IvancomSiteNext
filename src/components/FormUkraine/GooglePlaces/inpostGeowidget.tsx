@@ -6,6 +6,7 @@ declare global {
         language?: string;
         config?: string;
         onpoint?: string;
+        country?: string;
       };
     }
   }
@@ -59,7 +60,8 @@ const InPostGeoWidget: React.FC<InPostGeoWidgetProps> = ({ paczkomat, setPaczkom
             token={token}
             language="ua"
             config="parcelcollect"
-            onpoint="onpointselect"
+          onpoint="onpointselect"
+          country='NL,PL'
           ></inpost-geowidget>
     
       </div>
