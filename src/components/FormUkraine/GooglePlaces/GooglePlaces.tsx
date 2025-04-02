@@ -103,8 +103,15 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
       
     };
     if (deliveryCountries.includes(addressData.country)) {
-    setDeliveryMethod("dhl");
-    if (city &&   street && postalCode.length > 2 && houseNumber) {
+      setDeliveryMethod("dhl");
+      if (deliveryTypeInt === "paczkomat") {
+        if (city &&  street ) {
+        setIsAddressValid(true);
+    } else {
+        setIsAddressValid(false);
+    }
+      }
+    if (city && region && street && postalCode.length > 2 && houseNumber) {
         setIsAddressValid(true);
     } else {
         setIsAddressValid(false);
