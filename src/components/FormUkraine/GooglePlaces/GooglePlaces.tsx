@@ -292,7 +292,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         )}
         {addressData.country && (
           <>
-            {addressData.country === "Poland" ||
+            {
  addressData.country === "Belgium" ||
  addressData.country === "Italy" ||
  addressData.country === "France" ||

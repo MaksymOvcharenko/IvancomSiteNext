@@ -27,16 +27,16 @@ const token = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJzQlpXVzFNZzVlQ
 const InPostGeoWidgetInt: React.FC<InPostGeoWidgetProps> = ({ paczkomat, setPaczkomat }) => {
   useEffect(() => {
     // Додаємо стилі та скрипт до HTML-документу, якщо вони ще не підключені
-    if (!document.querySelector("link[href='https://geowidget.inpost.pl/inpost-geowidget.css']")) {
+    if (!document.querySelector("link[href='https://geowidget.inpost-group.com/inpost-geowidget.css']")) {
       const styleLink = document.createElement('link');
       styleLink.rel = 'stylesheet';
-      styleLink.href = 'https://geowidget.inpost.pl/inpost-geowidget.css';
+      styleLink.href = 'https://geowidget.inpost-group.com/inpost-geowidget.css';
       document.head.appendChild(styleLink);
     }
 
-    if (!document.querySelector("script[src='https://geowidget.inpost.pl/inpost-geowidget.js']")) {
+    if (!document.querySelector("script[src='https://geowidget.inpost-group.com/inpost-geowidget.js']")) {
       const script = document.createElement('script');
-      script.src = 'https://geowidget.inpost.pl/inpost-geowidget.js';
+      script.src = 'https://geowidget.inpost-group.com/inpost-geowidget.js';
       script.defer = true;
       document.body.appendChild(script);
     }
