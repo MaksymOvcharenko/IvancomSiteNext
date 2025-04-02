@@ -104,7 +104,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
     };
     if (deliveryCountries.includes(addressData.country)) {
     setDeliveryMethod("dhl");
-    if (city && region && street && postalCode.length > 2 && houseNumber) {
+    if (city &&   street && postalCode.length > 2 && houseNumber) {
         setIsAddressValid(true);
     } else {
         setIsAddressValid(false);
