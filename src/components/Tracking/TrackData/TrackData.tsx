@@ -307,19 +307,76 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
                     //     date: item.created_at,
                     //     comment: item.Comment || null
                     // }));
-                   const formattedOur = Array.from(
+//                    const formattedOur = Array.from(
+//     reversedData.reduce((map, item) => {
+//         if (!map.has(item.Status) || new Date(item.created_at) > new Date(map.get(item.Status)!.date)) {
+//             map.set(item.Status, {
+//                 type: 'our',
+//                 status: item.Status,
+//                 date: item.created_at,
+//                 comment: item.Comment || null
+//             });
+//         }
+//         return map;
+//     }, new Map<string, { type: string, status: string, date: string, comment: string | null }>())
+//     .values()
+                    // );
+                    const formattedOur = Array.from(
     reversedData.reduce((map, item) => {
-        if (!map.has(item.Status) || new Date(item.created_at) > new Date(map.get(item.Status)!.date)) {
-            map.set(item.Status, {
+        if (!item.Status || !item.created_at) return map;
+
+        let statusText = item.Status;
+
+        if (item.Direction === 'UA-PL') {
+            if (statusText === "Отримано на склад Іванком в Україні") {
+                statusText = "Оброблено та очікує на міжнародне відправлення";
+            } 
+            else if (statusText === "Посилка, частини посилки вирушили на склад MED UA-") {
+                statusText = "В дорозі до складу міжнародних відправлень Польщі";
+            } 
+            else if (statusText === "Готова до видачі" && item.DivisionTo === "MED UA-PL") {
+                statusText = "Отримано на склад міжнародних відправлень та очікує на відправлення кур'єрською службою";
+            } 
+            else if (statusText === "Посилка видана отримувачу з складу MED UA-PL") {
+                statusText = "Надана кур'єрській службі, для подальшого слідування";
+            }
+             else if (statusText === "Посилка, частини посилки вирушили на склад Катовіц") {
+                statusText = "Посилка, частини посилки вирушили до складу в м. Катовіце";
+            }
+            else if (statusText === "Посилка видана отримувачу з складу Варшава UA-PL") {
+                statusText = "Посилка видана отримувачу з складу в м. Варшава";
+            }
+              else if (statusText === "Посилка видана отримувачу з складу Катовіце UA-PL") {
+                statusText = "Посилка видана отримувачу з складу в м. Катовіце";
+            }
+            else if (statusText === "Посилка, частини посилки вирушили на склад Кельце") {
+                statusText = "Посилка видана отримувачу з складу в м. Кельце";
+            }
+
+        }
+        if (item.Direction === 'PL-UA') {
+            if (statusText === "Отримано на склад Іванком в Польщі") {
+                statusText = "Отримано на склад Іванком в Польщі, та очікує відправлення в Україну";
+            } 
+            else if (statusText === "Готова до видачі") {
+                statusText = "Надано кур'єрській службі для доставки по Україні";
+            } 
+             else if (statusText === "Посилка, частини посилки вирушили на склад Україна") {
+                statusText = "Посилка, частини посилки вирушили на склад в Україну";
+            } 
+         }
+        if (!map.has(statusText) || new Date(item.created_at) > new Date(map.get(statusText)!.date)) {
+            map.set(statusText, {
                 type: 'our',
-                status: item.Status,
+                status: statusText,
                 date: item.created_at,
                 comment: item.Comment || null
             });
         }
+
         return map;
     }, new Map<string, { type: string, status: string, date: string, comment: string | null }>())
-    .values()
+    .values() // <- обов'язково повернутися до .values()
 );
                     if (latest.Direction === "UA-PL" && latest.Carrier === "inpost" && latest.CarrierTrackerNom) {
                         const timeline = await fetchInPostData(latest.CarrierTrackerNom);
@@ -402,7 +459,7 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
         <div className={s.trackBox}>
             <div className={s.inner}>
                 <div className={s.card}>
-                    <h2>Дані відправлення</h2>
+                    {/* <h2>Дані відправлення</h2> */}
                     <p><b>Номер відправлення:</b> {latest.TTN}</p>
                     <p><b>Дата відправлення:</b> {latest.DateDay}.{latest.DateMonth}.{latest.DateYear}</p>
                     <p><b>Відправлено:</b> {npSenderAddress || latest.Division}</p>
@@ -431,7 +488,7 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
                                         <>
                                             <p><b>{item.status}</b></p>
                                             <p>{new Date(item.date).toLocaleString()}</p>
-                                            {item.comment && <p><i>{item.comment}</i></p>}
+                                            {/* {item.comment && <p><i>{item.comment}</i></p>} */}
                                         </>
                                     )}
                                 </div>

@@ -191,7 +191,9 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                                   country={"ua"}
                                 
                     value={values.senderPhone || senderPhone}
-                    onChange={(phone) => setFieldValue("senderPhone", phone)}
+                  onChange={(phone) => {
+                    setFieldValue("senderPhone", phone); 
+                  }}
                     inputClass={styles.phoneInput}
                   />
                   <ErrorMessage
@@ -254,8 +256,18 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                   <label>{t("receiverPhoneLabel")}</label>
                   <PhoneInput
                     country={"ua"}
-                    value={values.receiverPhone || receiverPhone}
-                    onChange={(phone) => setFieldValue("receiverPhone", phone)}
+                  value={values.receiverPhone || receiverPhone}
+                   
+                  // onChange={(phone) => {
+                  //   setFieldValue("receiverPhone", phone);
+                  //   console.log(phone);
+                  // }
+                  //   }
+                  onChange={(value, country, e, formattedValue) => {
+        const phoneWithPlus = "+" + value;
+        setFieldValue("receiverPhone", phoneWithPlus);
+        // console.log(phoneWithPlus);
+    }}
                     inputClass={styles.phoneInput}
                   />
                   <ErrorMessage
