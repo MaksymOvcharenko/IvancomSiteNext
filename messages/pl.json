@@ -92,6 +92,62 @@
     "title": "Strona Nie Znaleziono",
     "description": "Ups! Wygląda na to, że trafiłeś na stronę, która nie istnieje. Nie martw się, nasza magia internacjonalizacji wciąż działa w innych częściach aplikacji. Śmiało wróć na stronę główną, aby eksplorować więcej!"
   },
+  "EuEU": {
+    "parcels": {
+      "header": {
+        "descr": "Wysyłaj paczki szybko i wygodnie między oddziałami stacjonarnymi IVANCOM w całej Polsce! Niezawodna dostawa bez opóźnień – po prostu przynieś paczkę do najbliższego oddziału, a my zajmiemy się resztą."
+      },
+      "tariff": {
+        "title": "Taryfa",
+        "price": "3 zł/kg wagi rzeczywistej lub objętościowej",
+        "insurance": {
+          "title": "Opłata ubezpieczeniowa",
+          "desc": "1% wartości szacunkowej"
+        },
+        "min": {
+          "title": "Minimalny koszt",
+          "desc": "40 zł do 5 kg wagi rzeczywistej lub objętościowej"
+        }
+      },
+      "delivery": {
+        "title": "Czas",
+        "time": "Czas dostawy od 1 do 8 dni"
+      },
+      "price": {
+        "title": "Oddział daleko? To nie problem!",
+        "descr": "Wezwij kuriera IVANCOM, a my zajmiemy się wszystkim. Wygoda i szybkość – to nasza gwarancja!",
+        "tableTitle": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
+        "contacts": "Kontakt"
+      },
+      "cities": {
+        "krakow": "Kraków",
+        "krakowPrice": "Od 40 zł",
+        "warsaw": "Warszawa",
+        "warsawPrice": "Od 30 zł",
+        "katowice": "Katowice",
+        "katowicePrice": "Od 30 zł",
+        "wroclaw": "Wrocław",
+        "wroclawPrice": "Od 30 zł",
+        "kielce": "Kielce",
+        "kielcePrice": "Za darmo"
+      },
+      "steps": {
+        "title": "Wysyłaj łatwo: raz, dwa, trzy!",
+        "step1": {
+          "title": "Spakuj",
+          "desc": "Spakuj paczkę tak, jak Ci wygodnie!"
+        },
+        "step2": {
+          "title": "Wyślij",
+          "desc": "Przynieś paczkę, zapłać – i już jest w drodze!"
+        },
+        "step3": {
+          "title": "Bez zmartwień",
+          "desc": "Odbiorca otrzyma SMS, gdy paczka dotrze do oddziału IVANCOM"
+        }
+      }
+    }
+  },
   "SideBar": {
     "toggleSidebar": "Zwiń",
     "pltopl": "Przewozy po Polsce",

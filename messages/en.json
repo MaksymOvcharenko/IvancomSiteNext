@@ -81,6 +81,62 @@
     "title": "Page Not Found",
     "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
   },
+  "EuEU": {
+    "parcels": {
+      "header": {
+        "descr": "Send parcels quickly and conveniently between IVANCOM’s stationary branches across Poland! Reliable delivery with no unnecessary delays – just bring the parcel to the nearest branch and we’ll take care of the rest."
+      },
+      "tariff": {
+        "title": "Tariff",
+        "price": "3 zł/kg of actual or volumetric weight",
+        "insurance": {
+          "title": "Insurance fee",
+          "desc": "1% of estimated value"
+        },
+        "min": {
+          "title": "Minimum cost",
+          "desc": "40 zł up to 5 kg of actual or volumetric weight"
+        }
+      },
+      "delivery": {
+        "title": "Delivery Time",
+        "time": "Delivery time from 1 to 8 days"
+      },
+      "price": {
+        "title": "Branch too far? Not a problem!",
+        "descr": "Call IVANCOM’s courier, and we’ll handle everything. Convenience and speed – that’s our guarantee!",
+        "tableTitle": "Delivery from branches in Poland to partner branches in Ukraine",
+        "contacts": "Contacts"
+      },
+      "cities": {
+        "krakow": "Kraków",
+        "krakowPrice": "From 40 zł",
+        "warsaw": "Warsaw",
+        "warsawPrice": "From 30 zł",
+        "katowice": "Katowice",
+        "katowicePrice": "From 30 zł",
+        "wroclaw": "Wrocław",
+        "wroclawPrice": "From 30 zł",
+        "kielce": "Kielce",
+        "kielcePrice": "Free"
+      },
+      "steps": {
+        "title": "Send easily: one, two, three!",
+        "step1": {
+          "title": "Pack",
+          "desc": "Pack your parcel however is convenient for you!"
+        },
+        "step2": {
+          "title": "Send",
+          "desc": "Bring the parcel, pay – and it’s already on the way!"
+        },
+        "step3": {
+          "title": "No worries",
+          "desc": "The recipient gets an SMS when the parcel arrives at the IVANCOM branch"
+        }
+      }
+    }
+  },
   "SideBar": {
     "toggleSidebar": "Collapse",
     "pltopl": "Delivery across Poland",
