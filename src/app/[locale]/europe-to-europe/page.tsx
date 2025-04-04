@@ -1,4 +1,4 @@
-"use client";
+
 import styles from "./styles.module.css";
 import Sidebar from "@/components/SideBar/SideBar";
 import HeroServices from "@/components/HeroServices/HeroServices";
@@ -14,7 +14,8 @@ type Props = {
 
 const EuropeToEuropePage = ({ searchParams }: Props) => {
   const openedSection = searchParams.section ?? null;
-
+ 
+ 
   return (
     <div className={styles.container}>
       <div className={styles.SideBar}>

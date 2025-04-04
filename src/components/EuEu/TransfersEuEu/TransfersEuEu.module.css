@@ -65,8 +65,8 @@
   line-height: 140%;
   color: var(--black);
 }
-.steptext button {
-  width: 100% !important;
+.steptext .calcBtn {
+  width: 200px !important;
 }
 .warning {
   display: flex;
@@ -114,7 +114,7 @@
   .steptext {
     min-width: 590px;
   }
-  .steptext button {
+  .steptext .calcBtn {
     width: 60% !important;
   }
 }

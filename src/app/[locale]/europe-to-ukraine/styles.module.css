@@ -1,21 +1,93 @@
 .section {
-  padding: 64px 20px;
-  height: 70vh;
-  border: 1px solid red;
+  padding: 20px;
+
+  max-width: 400px;
+  margin: 0 auto;
 }
+.sectionHero {
+  padding: 64px 20px;
+
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .sideBar {
   position: relative;
 }
+
+.accordionCont {
+  border: 1px solid rgb(234, 249, 255);
+  border-radius: 16px;
+  margin-bottom: 20px;
+  background: rgba(242, 251, 254, 0.552);
+}
+
+.accordionTitle {
+  list-style: none;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 147%;
+
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  background: rgb(234, 249, 255);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordionTitle::-webkit-details-marker {
+  display: none;
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+  min-width: 32px;
+}
+
+.accordionCont[open] .arrow {
+  transform: rotate(180deg);
+}
+
+.accordionContent {
+  padding: 32px 0px;
+}
+
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
   .section {
+    padding: 16px 58px;
+    max-width: 800px;
+  }
+  .sectionHero {
     padding: 100px 58px;
+    max-width: 800px;
+
+    margin: 0 auto;
   }
 }
 
 /* Десктопи (від 1280px) */
 @media (min-width: 1280px) {
   .section {
+    padding: 12px 72px;
+    max-width: 1280px;
+  }
+  .sectionHero {
     padding: 100px 72px;
+    max-width: 1280px;
+
+    margin: 0 auto;
+  }
+  .accordionTitle {
+    font-size: 22px;
+  }
+  .section:last-child {
+    margin-bottom: 100px;
   }
 }

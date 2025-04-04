@@ -4,13 +4,13 @@
 import { LiaCoinsSolid } from "react-icons/lia";
 
 import { FaRegClock } from "react-icons/fa6";
-import { useParams } from "next/navigation";
+
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import s from "./EuEuParcels.module.css";
 
 const EuEuParcels = () => {
-  const { locale } = useParams();
+
   const t = useTranslations("EuEU.parcels");
 
   return (
@@ -74,7 +74,7 @@ const EuEuParcels = () => {
               <div className={s.secondColumn}>{t("cities.kielcePrice")}</div>
             </li>
           </ul>
-          <Link href={`/${locale}/contacts`} className={s.priceBtn}>
+          <Link href={`/uk/contacts`} className={s.priceBtn}>
             {t("price.contacts")}
           </Link>
         </div>

@@ -9,7 +9,8 @@
   background: var(--accent-blue);
   border-radius: 8px;
   padding: 8px 16px;
-  width: 342px;
+  width: 100%;
+  max-width: 342px;
   height: 40px;
   transition: background 0.3s ease-in-out;
   cursor: pointer;
