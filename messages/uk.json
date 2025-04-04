@@ -389,6 +389,10 @@
         "File is too large": "Файл надто великий",
         "choose_file": "Обрані файли"
     },
+    "HeroServices": {
+        "calculate": "Розрахувати вартість",
+        "apply": "Залишити заявку"
+    },
     "Reviews": {
         "why_choose_us": "Чому обирають нас?"
     },

@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   const { locale } = useParams(); // Отримуємо локаль з useParams
   const searchParams = useSearchParams(); // Отримуємо search params
-  const section = searchParams?.get('section') || 'parcels'; // Отримуємо параметр 'section' або за замовчуванням 'parcels'
+  const section = searchParams?.get('section') || 'hero'; // Отримуємо параметр 'section' або за замовчуванням 'parcels'
  const t = useTranslations('SideBar');
   // Дочекаємося клієнтського рендеру
   useEffect(() => {

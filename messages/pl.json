@@ -193,6 +193,10 @@
     "deliveryInPoland": "Dostawa w Polsce",
     "valuationLabelUA": "Wartość szacunkowa (UAH):"
   },
+  "HeroServices": {
+    "calculate": "Oblicz koszt",
+    "apply": "Zostaw zgłoszenie"
+  },
   "about": {
     "headline": "Jesteśmy rodziną IVANCOM!",
     "description": "Pomagamy Ukraińcom być bliżej, otrzymywać uwagę i ciepło od bliskich w paczkach z całego świata",

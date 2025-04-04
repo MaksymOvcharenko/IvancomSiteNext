@@ -1,63 +1,65 @@
-import { GetServerSideProps } from 'next';
-  // Компонент для сайдбару
+
+"use client"
 import styles from './styles.module.css';
 import Sidebar from '@/components/SideBar/SideBar';
+import HeroServices from '@/components/HeroServices/HeroServices';
+import { FiChevronDown, FiChevronRight } from 'react-icons/fi';
+import EuEuParcels from '@/components/EuEu/EuEuParcels/EuEuParcels';
 
+type Props = {
+  searchParams: {
+    section?: string;
+  };
+};
 
+const EuropeToEuropePage = ({ searchParams }: Props) => {
+  const openedSection = searchParams.section ?? null;
 
-const EuToEu = () => {
   return (
     <div className={styles.container}>
-     
- <div className={styles.SideBar}><Sidebar /></div>
+      <div className={styles.SideBar}>
+        <Sidebar />
+      </div>
+
       <div className={styles.content}>
-        <h1>Доставка з України в Європу</h1>
-        
+      
+
+        <section id="hero" className={styles.section}>
+          <HeroServices
+  title="Комфортна та безпечна доставка – наш пріоритет"
+  imageSrc="/image/eueu/hero.png"
+/>
+        </section>
+
         <section id="parcels" className={styles.section}>
-          <h2>Parcels</h2>
-          <p>Тут буде інформація про доставку посилок.</p>
-        </section>
+     <details open={openedSection === 'parcels'} className={styles.accordionCont}>
+  <summary className={styles.accordionTitle}>
+    Доставка відправлень між відділеннями Ivancom
+    <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
+  </summary>
+  <div className={styles.accordionContent}>
+    <EuEuParcels/>
+  </div>
+</details>
 
-        <section id="medicines" className={styles.section}>
-          <h2>Medicines</h2>
-          <p>Тут буде інформація про доставку ліків.</p>
-        </section>
-
-        <section id="animals" className={styles.section}>
-          <h2>Animals</h2>
-          <p>Тут буде інформація про перевезення тварин.</p>
-        </section>
-
-        <section id="generators" className={styles.section}>
-          <h2>Generators</h2>
-          <p>Тут буде інформація про транспортування генераторів.</p>
+          
         </section>
 
         <section id="move" className={styles.section}>
-          <h2>Move</h2>
-          <p>Тут буде інформація про переїзди.</p>
-        </section>
-
-        <section id="wheels" className={styles.section}>
-          <h2>Wheels</h2>
-          <p>Тут буде інформація про доставку коліс та шин.</p>
-        </section>
-
-        <section id="bicycles" className={styles.section}>
-          <h2>Bicycles</h2>
-          <p>Тут буде інформація про перевезення велосипедів.</p>
-        </section>
-
-        <section id="documents" className={styles.section}>
-          <h2>Documents</h2>
-          <p>Тут буде інформація про доставку документів.</p>
+          
+          <details open={openedSection === 'move'} className={styles.accordionCont}>
+  <summary className={styles.accordionTitle}>
+    Переїзди
+    <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
+  </summary>
+  <div className={styles.accordionContent}>
+    <p>Розкриваючийся аккордеон посилок по Польщі.</p>
+  </div>
+</details>
         </section>
       </div>
-      
     </div>
   );
 };
 
-
-
-export default EuToEu;
+export default EuropeToEuropePage;

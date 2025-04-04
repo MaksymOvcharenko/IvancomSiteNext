@@ -182,6 +182,10 @@
     "deliveryInPoland": "Delivery in Poland",
     "valuationLabelUA": "Estimated value (UAH):"
   },
+  "HeroServices": {
+    "calculate": "Calculate cost",
+    "apply": "Submit a request"
+  },
   "about": {
     "headline": "We are the IVANCOM family!",
     "description": "We help Ukrainians feel closer, receiving care and warmth from loved ones through parcels from all over the world",
