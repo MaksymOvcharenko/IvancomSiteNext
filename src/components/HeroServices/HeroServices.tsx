@@ -31,8 +31,8 @@ const HeroServices = ({ title, imageSrc }: HeroServicesProps) => {
             alt="Відправити посилку з Польщі"
             src={imageSrc}
             className={s.img}
-            width={352}
-            height={254}
+            width={636}
+            height={460}
              quality={100}
           />
         </div>

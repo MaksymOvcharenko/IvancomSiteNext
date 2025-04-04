@@ -24,7 +24,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
         <section id="hero" className={styles.section}>
           <HeroServices
             title="Комфортна та безпечна доставка – наш пріоритет"
-            imageSrc="/image/eueu/hero.png"
+            imageSrc="/image/eueu/hero.jpg"
           />
         </section>
 
