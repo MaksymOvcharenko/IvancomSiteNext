@@ -4,6 +4,7 @@ import Sidebar from "@/components/SideBar/SideBar";
 import HeroServices from "@/components/HeroServices/HeroServices";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import EuEuParcels from "@/components/EuEu/EuEuParcels/EuEuParcels";
+import TransfersEuEu from "@/components/EuEu/TransfersEuEu/TransfersEuEu";
 
 type Props = {
   searchParams: {
@@ -21,7 +22,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
       </div>
 
       <div className={styles.content}>
-        <section id="hero" className={styles.section}>
+        <section id="hero" className={styles.sectionHero}>
           <HeroServices
             title="Комфортна та безпечна доставка – наш пріоритет"
             imageSrc="/image/eueu/hero.jpg"
@@ -61,7 +62,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               />
             </summary>
             <div className={styles.accordionContent}>
-              <p>Розкриваючийся аккордеон посилок по Польщі.</p>
+              <TransfersEuEu/>
             </div>
           </details>
         </section>

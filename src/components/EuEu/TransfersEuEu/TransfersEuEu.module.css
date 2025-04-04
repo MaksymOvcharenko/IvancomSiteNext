@@ -1,0 +1,127 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin: 0 auto;
+}
+.descr {
+  width: 80%;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.stepTitleMain {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--black);
+}
+.stepsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.stepItem {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.step {
+  background: var(--secondary-blue);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28 px;
+  font-weight: 700;
+  color: var(--white);
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+}
+.steptext {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.stepTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--black);
+}
+.steptext button {
+  width: 100% !important;
+}
+.warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid var(--secondary-blue);
+  border-radius: 10px 10px;
+  background: var(--white);
+  max-width: 80%;
+}
+.warnTitle {
+  border-radius: 8px 8px 0 0;
+  padding: 8px;
+  background: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--white);
+  width: 100%;
+}
+.warnDescr {
+  padding: 16px 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--black);
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .step {
+    width: 68px;
+    height: 68px;
+  }
+  .steptext {
+    min-width: 590px;
+  }
+  .steptext button {
+    width: 60% !important;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .steptext {
+    width: 642px;
+  }
+}

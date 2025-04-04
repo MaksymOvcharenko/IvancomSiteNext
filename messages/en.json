@@ -135,6 +135,29 @@
           "desc": "The recipient gets an SMS when the parcel arrives at the IVANCOM branch"
         }
       }
+    },
+    "transfers": {
+      "description": "Moving to a new city or changing your home within Poland? IVANCOM will make this process simple and worry-free! We’ll take care of transporting your belongings quickly, safely, and at a fair price. We carefully move furniture, electronics, personal items, and anything important to you. Choose IVANCOM – a smooth move with no hassle!",
+      "steps": {
+        "title": "What to do?",
+        "step1": {
+          "title": "Fill out the form below",
+          "desc": "and our manager will calculate the cost of the move",
+          "button": "Fill the form"
+        },
+        "step2": {
+          "title": "We’re already on the way!",
+          "desc": "Prepare and pack everything you’re moving. Our manager will advise you on packaging – make sure to ask them :)"
+        },
+        "step3": {
+          "title": "Unpack your new life!",
+          "desc": "We will deliver your belongings quickly and safely"
+        }
+      },
+      "warning": {
+        "title": "IMPORTANT!",
+        "text": "Furniture is only accepted for transport in disassembled condition!"
+      }
     }
   },
   "SideBar": {

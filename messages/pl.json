@@ -146,6 +146,29 @@
           "desc": "Odbiorca otrzyma SMS, gdy paczka dotrze do oddziału IVANCOM"
         }
       }
+    },
+    "transfers": {
+      "description": "Przeprowadzasz się do nowego miasta lub zmieniasz miejsce zamieszkania w Polsce? IVANCOM sprawi, że ten proces będzie prosty i bezstresowy! Zadbamy o transport Twoich rzeczy szybko, bezpiecznie i w korzystnych cenach. Ostrożnie przewozimy meble, sprzęt, rzeczy osobiste i wszystko, co dla Ciebie ważne. Wybierz IVANCOM – komfortowa przeprowadzka bez problemów!",
+      "steps": {
+        "title": "Co trzeba zrobić?",
+        "step1": {
+          "title": "Wypełnij formularz poniżej",
+          "desc": "a nasz menedżer obliczy koszt przeprowadzki",
+          "button": "Wypełnij formularz"
+        },
+        "step2": {
+          "title": "Już do Ciebie jedziemy!",
+          "desc": "Przygotuj i spakuj wszystkie rzeczy do przeprowadzki. Nasz menedżer doradzi, jak je zapakować – koniecznie go o to zapytaj :)"
+        },
+        "step3": {
+          "title": "Rozpakuj nowe życie!",
+          "desc": "Dostarczymy Twoje rzeczy szybko i bezpiecznie"
+        }
+      },
+      "warning": {
+        "title": "WAŻNE!",
+        "text": "Meble przyjmujemy do transportu tylko w stanie rozłożonym!"
+      }
     }
   },
   "SideBar": {

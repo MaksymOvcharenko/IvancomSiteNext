@@ -22,6 +22,7 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
+  width: 80%;
 }
 .contHeader {
   padding: 16px;
@@ -265,10 +266,10 @@
   .stepsList {
     align-items: flex-start;
   }
-  /* .step {
-    width: 86px;
-    height: 86px;
-  } */
+  .step {
+    width: 68px;
+    height: 68px;
+  }
   .steptext {
     gap: 16px;
   }
