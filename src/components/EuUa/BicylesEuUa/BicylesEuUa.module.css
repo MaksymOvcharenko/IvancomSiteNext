@@ -34,7 +34,9 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.subNote {
+  margin-bottom: 12px;
+}
 .title {
   font-family: var(--font-family);
   font-weight: 700;
@@ -94,8 +96,8 @@
     flex-wrap: wrap;
   }
   .card {
-    width: 304px;
-    height: 300px;
+    width: 352px;
+    height: 408px;
   }
   .attButtons {
     flex-direction: row;

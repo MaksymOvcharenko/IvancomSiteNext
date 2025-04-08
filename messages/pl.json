@@ -181,6 +181,19 @@
     }
   },
   "EuUa": {
+    "EuropeToEuropePage": {
+      "heroTitle": "Komfortowa i bezpieczna dostawa – to nasz priorytet",
+      "sections": {
+        "parcels": "Dostawa paczek",
+        "medicines": "Leki i kosmetyki iniekcyjne",
+        "animals": "Transport zwierząt",
+        "generators": "Generatory",
+        "move": "Przeprowadzka z Ukrainy do Europy",
+        "wheels": "Opony i felgi",
+        "bicycles": "Rowery",
+        "documents": "Dostawa dokumentów"
+      }
+    },
     "ParcelsEuEa": {
       "headings": [
         "Sprawdź koszt dostawy z krajów Europy do Ukrainy i wysyłaj bez problemu!",
@@ -355,6 +368,143 @@
           "title": "Opłać wysyłkę na Ukrainę",
           "desc": "Po zarejestrowaniu przesyłki w magazynie centralnym otrzymasz fakturę do opłacenia."
         }
+      }
+    },
+    "TransfersEuUa": {
+      "subtitle": "Przeprowadzka z Europy do Ukrainy z IVANCOM – to wygoda, bezpieczeństwo i brak zbędnych problemów.",
+      "subtitle1": "Co trzeba zrobić?",
+      "warningText": "Meble przyjmujemy do transportu tylko w stanie zdemontowanym!",
+      "steps": {
+        "step1": {
+          "title": "Wypełnij formularz poniżej",
+          "desc": "a nasz menedżer obliczy koszt przeprowadzki",
+          "form": "Wypełnij formularz"
+        },
+        "step2": {
+          "title": "Już do Ciebie jedziemy!",
+          "desc": "Przygotuj i spakuj wszystkie rzeczy do przeprowadzki. Nasz menedżer doradzi, jak je odpowiednio zapakować – koniecznie zapytaj o to :)"
+        },
+        "step3": {
+          "title": "Rozpakuj nowe życie!",
+          "desc": "Dostarczymy Twoje rzeczy szybko i bezpiecznie :)"
+        }
+      }
+    },
+    "WheelsEuUa": {
+      "subtitle": "Transport opon i felg z Europy na Ukrainę z IVANCOM – to wygoda, szybkość i bezpieczeństwo.",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu.",
+      "subtitle3": "Koszt usługi kurierskiej IVANCOM",
+      "descr3": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj.",
+      "subtitle4": "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
+      "formBtn": "Wypełnij formularz",
+      "attention": [
+        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do kosztu dostawy.\n• Opony i felgi muszą być czyste. Umyj je proszę :)",
+        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (za pośrednictwem naszych partnerów – Nowa Poczta).\nDostawa pod adres płatna osobno: +10 zł za każde miejsce ładunkowe.",
+        "Zapakuj felgi tytanowe w tekturę falistą i folię stretch lub pracownicy IVANCOM zrobią to za 20 zł/szt.",
+        "Zwykłe felgi zapakuj w folię stretch lub pracownicy IVANCOM zrobią to za 5 zł/szt.",
+        "Jeśli przesyłka przekracza 120 cm, doliczane jest +6 zł do kosztu.",
+        "Dla przesyłek powyżej 1000 zł naliczana jest prowizja: +10% od całej różnicy. Przykład: 1500–1000=500×10%=50 zł (prowizja) + koszt wysyłki.",
+        "Jeśli przesyłka waży ponad 30 kg rzeczywistej lub objętościowej wagi, doliczane jest 12 zł."
+      ],
+      "table": {
+        "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
+        "rows": [
+          {
+            "weight": "Kraków",
+            "price": "Od 40 zł"
+          },
+          {
+            "weight": "Warszawa",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Katowice",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Wrocław",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Kielce",
+            "price": "bezpłatnie w mieście"
+          }
+        ]
+      },
+      "Eu": {
+        "step1": {
+          "title": "Wyślij na nasz centralny magazyn w Krakowie",
+          "desc": "Dowolną firmą kurierską pod ten adres:"
+        },
+        "step2": {
+          "title": "Wypełnij formularz",
+          "form": "Wypełnij formularz"
+        },
+        "step3": {
+          "title": "Opłać wysyłkę na Ukrainę",
+          "desc": "Po zarejestrowaniu paczki w magazynie centralnym otrzymasz fakturę do opłacenia."
+        }
+      }
+    },
+    "BicyclesEuUa": {
+      "subtitle": "Transport rowerów z Europy na Ukrainę z IVANCOM — to szybko, bezpiecznie i bezproblemowo.",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu",
+      "subtitle3": "Jak wysłać rower?",
+      "formBtn": "Wypełnij formularz",
+      "tariffs": [
+        {
+          "title": "Rower dziecięcy (rozmiar kół do R24)",
+          "price": "250 zł",
+          "note": "Stawka obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy uzgodnić z menedżerem.",
+          "subNoteTitle": "Ubezpieczenie przesyłki:",
+          "subNoteText": "+1% zadeklarowanej wartości"
+        },
+        {
+          "title": "Rower dla dorosłych (rozmiar kół od R25)",
+          "price": "300 zł",
+          "note": "Stawka obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy uzgodnić z menedżerem.",
+          "subNoteTitle": "Ubezpieczenie przesyłki:",
+          "subNoteText": "+1% zadeklarowanej wartości"
+        },
+        {
+          "title": "Rowery elektryczne",
+          "price": "*5 zł/kg",
+          "note": "Liczona według wagi rzeczywistej lub objętościowej",
+          "subNoteTitle": "Ubezpieczenie przesyłki:",
+          "subNoteText": "+1% zadeklarowanej wartości"
+        }
+      ],
+      "attention": [
+        "Jeśli paczka przekracza 120 cm, doliczane jest +6 zł do kosztu.",
+        "Automatycznie ubezpieczamy przesyłki: +1% zadeklarowanej wartości do kosztu dostawy",
+        "Jeśli paczka przekracza 30 kg wagi rzeczywistej lub objętościowej, doliczane jest 12 zł",
+        "Dla rowerów powyżej 1000 zł naliczana jest prowizja: +10% od nadwyżki. Przykład: 1500–1000=500×10%=50 zł (prowizja) + koszt wysyłki",
+        "Koszt rowerów od jednego nadawcy jest sumowany, jeśli jadą jednym transportem. Dla łącznej wartości powyżej 1000 zł obowiązuje +10% prowizji"
+      ]
+    },
+    "DocumentsEuUa": {
+      "headings": [
+        "Dostawa dokumentów z Europy na Ukrainę z IVANCOM – to szybko, niezawodnie i bezpiecznie.",
+        "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu",
+        "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
+        "IVANCOM szybko i bezpiecznie dostarczy leki z Polski na Ukrainę, abyś mógł otrzymać potrzebne bez zbędnych problemów."
+      ],
+      "attention": [
+        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do kosztu dostawy.",
+        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (za pośrednictwem naszych partnerów – Nowa Poczta).",
+        "Dostawa pod adres płatna osobno: +15 zł za każde miejsce ładunkowe."
+      ],
+      "table": {
+        "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
+        "rows": [
+          {
+            "weight": "koperta z dokumentami",
+            "price": "*55 zł"
+          }
+        ],
+        "notes": [
+          "*cena zawiera już dostawę na terytorium Ukrainy"
+        ]
       }
     }
   },
@@ -831,8 +981,8 @@
         "form": "Wypełnij formularz"
       },
       "noOffice": {
-        "title": "Jak nadać, jeśli w Twoim mieście nie ma IVANKOM?",
-        "desc": "Możesz wysłać paczkę nawet bez oddziału IVANKOM – skorzystaj z paczkomatu InPost lub dostawy kurierskiej.",
+        "title": "Jak nadać, jeśli w Twoim mieście nie ma IVANCOM?",
+        "desc": "Możesz wysłać paczkę nawet bez oddziału IVANCOM – skorzystaj z paczkomatu InPost lub dostawy kurierskiej.",
         "inpost": "Więcej o InPost",
         "courier": "Usługi kurierskie"
       }
@@ -856,6 +1006,81 @@
         "title": "Opłać wysyłkę do Ukrainy",
         "desc": "Gdy paczka zostanie zarejestrowana w magazynie centralnym, otrzymasz fakturę za wysyłkę."
       }
+    }
+  },
+  "SelectorEuUABicycles": {
+    "tabs": {
+      "pl": "Z oddziałów w Polsce",
+      "eu": "Z innych miast"
+    },
+    "Pl": {
+      "step1": {
+        "title": "Umyj",
+        "desc": "wysyłamy tylko czyste rowery"
+      },
+      "step2": {
+        "title": "Rozłóż i zapakuj (lub powierz to nam)",
+        "desc": "Zdejmij przednie koło, kierownicę, pedały i siodełko (demontaż IVANCOM +50 zł)",
+        "desc1": "Zapakuj w pudełko nie większe niż 150x80x20 cm (pakowanie IVANCOM +35 zł)",
+        "btn": "Kontakt"
+      },
+      "step3": {
+        "title": "Wyślij z oddziału",
+        "desc": "Twoja paczka jest w rękach profesjonalistów",
+        "calc": "Oblicz koszt",
+        "form": "Wypełnij formularz"
+      },
+      "noOffice": {
+        "title": "Koszt usługi kurierskiej IVANCOM",
+        "desc": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj.",
+        "inpost": "Więcej o InPost",
+        "courier": "Usługa kurierska"
+      }
+    },
+    "Eu": {
+      "topText": "Wybierz wygodną firmę kurierską (FedEx, DHL, DPD itp.) i wyślij paczkę bezpośrednio do naszego magazynu centralnego w Polsce – my zajmiemy się resztą.",
+      "step1": {
+        "title": "Zapakuj",
+        "desc": "Postępuj zgodnie z naszymi zaleceniami, aby uniknąć kontroli przy załadunku.",
+        "btn": "Zobacz szczegóły"
+      },
+      "step2": {
+        "title": "Wyślij na nasz centralny magazyn w Krakowie",
+        "desc": "Dowolną firmą kurierską na ten adres:"
+      },
+      "step3": {
+        "title": "Wypełnij formularz",
+        "form": "Wypełnij formularz"
+      },
+      "step4": {
+        "title": "Opłać wysyłkę na Ukrainę",
+        "desc": "Gdy paczka zostanie zarejestrowana w magazynie centralnym, otrzymasz fakturę do opłacenia."
+      }
+    },
+    "table": {
+      "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
+      "rows": [
+        {
+          "weight": "Kraków",
+          "price": "Od 40 zł"
+        },
+        {
+          "weight": "Warszawa",
+          "price": "Od 30 zł"
+        },
+        {
+          "weight": "Katowice",
+          "price": "Od 30 zł"
+        },
+        {
+          "weight": "Wrocław",
+          "price": "Od 30 zł"
+        },
+        {
+          "weight": "Kielce",
+          "price": "bezpłatnie w mieście"
+        }
+      ]
     }
   }
 }
