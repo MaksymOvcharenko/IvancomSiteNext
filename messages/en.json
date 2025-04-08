@@ -81,6 +81,15 @@
     "title": "Page Not Found",
     "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
   },
+  "EuropeToEurope": {
+    "hero": {
+      "title": "Comfortable and safe delivery is our priority"
+    },
+    "accordion": {
+      "parcels": "Delivery of parcels between Ivancom branches",
+      "moves": "Relocations"
+    }
+  },
   "EuEU": {
     "parcels": {
       "header": {
@@ -612,5 +621,54 @@
     "step5Desc": "(needed to estimate the approximate price)",
     "step6": "Read how to send it :)",
     "understood": "Got it"
+  },
+  "SelectorEuUA": {
+    "tabs": {
+      "pl": "From Poland",
+      "eu": "From EU countries"
+    },
+    "Pl": {
+      "step1": {
+        "title": "Pack your parcel",
+        "desc": "Follow our recommendations to avoid checks during loading.",
+        "btn": "View "
+      },
+      "step2": {
+        "title": "Send from our branches in Poland",
+        "btn": "Contacts"
+      },
+      "step3": {
+        "title": "Don’t worry about anything",
+        "desc": "Your parcel is in professional hands",
+        "calc": "Calculate cost",
+        "form": "Fill out the form"
+      },
+      "noOffice": {
+        "title": "How to send if there is no IVANKOM in your city?",
+        "desc": "You can send a parcel even without an IVANKOM branch – use InPost parcel lockers or courier delivery.",
+        "inpost": "More about InPost",
+        "courier": "Courier services"
+      }
+    },
+    "Eu": {
+      "topText": "Choose a convenient courier service (FedEx, DHL, DPD, etc.) and send your parcel directly to our central warehouse in Poland — we’ll handle the rest.",
+      "step1": {
+        "title": "Pack it",
+        "desc": "Follow our recommendations to avoid checks during loading.",
+        "btn": "View "
+      },
+      "step2": {
+        "title": "Send to our central warehouse in Krakow",
+        "desc": "With any courier service to:"
+      },
+      "step3": {
+        "title": "Fill out the form",
+        "form": "Fill out the form"
+      },
+      "step4": {
+        "title": "Pay for shipping to Ukraine",
+        "desc": "Once the parcel is registered at the warehouse, you’ll receive an invoice for the shipment."
+      }
+    }
   }
 }

@@ -92,6 +92,15 @@
     "title": "Strona Nie Znaleziono",
     "description": "Ups! Wygląda na to, że trafiłeś na stronę, która nie istnieje. Nie martw się, nasza magia internacjonalizacji wciąż działa w innych częściach aplikacji. Śmiało wróć na stronę główną, aby eksplorować więcej!"
   },
+  "EuropeToEurope": {
+    "hero": {
+      "title": "Wygodna i bezpieczna dostawa – nasz priorytet"
+    },
+    "accordion": {
+      "parcels": "Dostawa przesyłek między oddziałami Ivancom",
+      "moves": "Przeprowadzki"
+    }
+  },
   "EuEU": {
     "parcels": {
       "header": {
@@ -621,5 +630,54 @@
     "step5Desc": "(potrzebne do obliczenia przybliżonej ceny)",
     "step6": "Przeczytaj, jak to wysłać :)",
     "understood": "Zrozumiałem"
+  },
+  "SelectorEuUA": {
+    "tabs": {
+      "pl": "Z Polski",
+      "eu": "Z krajów UE"
+    },
+    "Pl": {
+      "step1": {
+        "title": "Spakuj",
+        "desc": "Postępuj zgodnie z naszymi zaleceniami, aby uniknąć kontroli podczas załadunku.",
+        "btn": "Zobacz zalecenia"
+      },
+      "step2": {
+        "title": "Nadaj z naszych oddziałów w Polsce",
+        "btn": "Kontakty"
+      },
+      "step3": {
+        "title": "Nie martw się o nic",
+        "desc": "Twoja paczka jest w rękach profesjonalistów",
+        "calc": "Oblicz koszt",
+        "form": "Wypełnij formularz"
+      },
+      "noOffice": {
+        "title": "Jak nadać, jeśli w Twoim mieście nie ma IVANKOM?",
+        "desc": "Możesz wysłać paczkę nawet bez oddziału IVANKOM – skorzystaj z paczkomatu InPost lub dostawy kurierskiej.",
+        "inpost": "Więcej o InPost",
+        "courier": "Usługi kurierskie"
+      }
+    },
+    "Eu": {
+      "topText": "Wybierz wygodną firmę kurierską (FedEx, DHL, DPD itp.) i wyślij paczkę bezpośrednio na nasz centralny magazyn w Polsce — zajmiemy się resztą.",
+      "step1": {
+        "title": "Spakuj",
+        "desc": "Postępuj zgodnie z naszymi zaleceniami, aby uniknąć kontroli podczas załadunku.",
+        "btn": "Zobacz zalecenia"
+      },
+      "step2": {
+        "title": "Wyślij na nasz magazyn w Krakowie",
+        "desc": "Dowolną firmą kurierską pod ten adres:"
+      },
+      "step3": {
+        "title": "Wypełnij formularz",
+        "form": "Wypełnij formularz"
+      },
+      "step4": {
+        "title": "Opłać wysyłkę do Ukrainy",
+        "desc": "Gdy paczka zostanie zarejestrowana w magazynie centralnym, otrzymasz fakturę za wysyłkę."
+      }
+    }
   }
 }

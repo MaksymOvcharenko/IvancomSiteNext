@@ -6,6 +6,8 @@ import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import EuEuParcels from "@/components/EuEu/EuEuParcels/EuEuParcels";
 import TransfersEuEu from "@/components/EuEu/TransfersEuEu/TransfersEuEu";
 import PackItButton from "@/components/PackIt/PackItButton/PackItButton";
+import SelectorEuUa from "@/components/SelectorEuUa/SelectorEuUa";
+import ParcelsEuEa from "@/components/EuUa/ParcelsEuEa/ParcelsEuEa";
 
 type Props = {
   searchParams: {
@@ -43,7 +45,8 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               />
             </summary>
             <div className={styles.accordionContent}>
-              <PackItButton>Запакуй</PackItButton>
+              <ParcelsEuEa/>
+              
             </div>
           </details>
         </section>
