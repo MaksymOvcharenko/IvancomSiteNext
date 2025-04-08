@@ -237,6 +237,125 @@
           "**** jeśli paczka waży ponad 30 kg rzeczywistej lub objętościowej wagi, doliczane jest 12 zł"
         ]
       }
+    },
+    "AnimalsEuUa": {
+      "subtitle": "Transport zwierząt z Polski i Europy do Ukrainy z IVANCOM to komfort i bezpieczeństwo dla Twojego pupila.",
+      "formBtn": "Wypełnij formularz",
+      "tariffs": [
+        {
+          "title": "Kot, pies do 10 kg",
+          "price": "200€",
+          "note": "*cena dotyczy transportu z oddziału IVANCOM w Polsce do Lwowa"
+        },
+        {
+          "title": "Kot, pies powyżej 10 kg",
+          "price": "250€",
+          "note": "*cena dotyczy transportu z oddziału IVANCOM w Polsce do Lwowa"
+        },
+        {
+          "title": "Inne zwierzęta",
+          "price": "Cena indywidualna",
+          "note": "*taryfa za transport innych zwierząt ustalana indywidualnie"
+        }
+      ],
+      "important": {
+        "title": "WAŻNE!",
+        "text": "Bez pełnego zestawu dokumentów nie możemy przetransportować zwierzęcia – takie są zasady. Ale możesz załączyć dokumenty w formularzu, a my sprawdzimy, czy wszystko się zgadza!",
+        "rulesBtn": "Przeczytaj zasady"
+      }
+    },
+    "GeneratorsEuUa": {
+      "subtitle": "IVANCOM zapewni szybki i niezawodny transport generatorów z dowolnego kraju na świecie.",
+      "subtitle2": "Taryfy obowiązują od 15.08.24. Obniżone stawki dotyczą WYŁĄCZNIE nowych stacji! Cena obejmuje dostawę na terenie Ukrainy.",
+      "subtitle3": "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu.",
+      "subtitle4": "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
+      "subtitle5": "Jak dostarczyć stację zasilania z europejskiego sklepu przez IVANCOM",
+      "formBtn": "Wypełnij formularz",
+      "tariffs": [
+        {
+          "title": "Generatory od 7,5 kW",
+          "price": "5 zł/kg + 3% od wartości (ubezpieczenie w cenie)"
+        },
+        {
+          "title": "Generatory do 7,5 kW",
+          "price": "Standardowa stawka za paczki"
+        },
+        {
+          "title": "Akumulatory powyżej 300W (ecoflow/anker/bluetti)",
+          "price": "Standardowa stawka + 3% od wartości (ubezpieczenie w cenie)"
+        },
+        {
+          "title": "Akumulatory poniżej 300W (np. powerbanki)",
+          "price": "Standardowa stawka za paczki"
+        },
+        {
+          "title": "Inwertery (oprócz spawarek inwertorowych)",
+          "price": "Standardowa stawka + 3% od wartości (ubezpieczenie w cenie)"
+        }
+      ],
+      "attention": [
+        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do kosztu dostawy.",
+        "Koszt dostawy obliczany jest na podstawie rzeczywistej lub objętościowej wagi (wybierana jest większa wartość).",
+        "W tabeli cen podano dokładne przedziały wagowe (od-do). W przypadku przekroczenia wagi, przesyłka trafia do wyższej kategorii. Przykład: paczka 10,1 kg = przedział 10–15 kg.",
+        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (za pośrednictwem naszych partnerów – Nowa Poczta).",
+        "Dostawa pod adres jest płatna osobno: + 15 zł za każde miejsce ładunkowe.",
+        "Dla paczek powyżej 1000 zł naliczana jest prowizja: +10% od całej różnicy przekroczenia. Przykład: 1500–1000=500×10%=50 zł (prowizja) + koszt wysyłki.",
+        {
+          "text": "Koszt przesyłek od jednego nadawcy jest sumowany, jeśli jadą jednym transportem. Kwota powyżej 1000 zł objęta jest prowizją +10%.",
+          "linkText": "sprawdź tutaj"
+        },
+        "Wysyłka zestawu tablic rejestracyjnych kosztuje 100 zł + 1% ubezpieczenia od zadeklarowanej wartości.",
+        "Możliwość wysyłki paczki w torbie/walizce (tylko na oddział ładunkowy NP, za dopłatą 35–50 zł w zależności od gabarytów i wagi paczki)."
+      ],
+      "table": {
+        "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
+        "rows": [
+          {
+            "weight": "do 5 kg",
+            "price": "*55 zł"
+          },
+          {
+            "weight": "5 – 10 kg",
+            "price": "*70 zł"
+          },
+          {
+            "weight": "10 – 15 kg",
+            "price": "*90 zł"
+          },
+          {
+            "weight": "15 – 20 kg",
+            "price": "*110 zł"
+          },
+          {
+            "weight": "20 – 25 kg",
+            "price": "*130 zł"
+          },
+          {
+            "weight": "Powyżej 25 kg",
+            "price": "*5,5 zł/kg"
+          }
+        ],
+        "notes": [
+          "* cena nie obejmuje ubezpieczenia (1% od zadeklarowanej wartości paczki)",
+          "** cena za duże paczki o dużych gabarytach (sprzęt, dywan, meble itd.)",
+          "*** jeśli paczka przekracza 120 cm, doliczane jest +8 zł",
+          "**** jeśli paczka waży ponad 30 kg rzeczywistej lub objętościowej wagi, doliczane jest 12 zł"
+        ]
+      },
+      "Eu": {
+        "step1": {
+          "title": "Wyślij na nasz centralny magazyn w Krakowie",
+          "desc": "Dowolną firmą kurierską pod ten adres:"
+        },
+        "step2": {
+          "title": "Wypełnij formularz",
+          "form": "Wypełnij formularz"
+        },
+        "step3": {
+          "title": "Opłać wysyłkę na Ukrainę",
+          "desc": "Po zarejestrowaniu przesyłki w magazynie centralnym otrzymasz fakturę do opłacenia."
+        }
+      }
     }
   },
   "SideBar": {

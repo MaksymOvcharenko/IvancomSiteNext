@@ -9,6 +9,8 @@ import PackItButton from "@/components/PackIt/PackItButton/PackItButton";
 import SelectorEuUa from "@/components/SelectorEuUa/SelectorEuUa";
 import ParcelsEuEa from "@/components/EuUa/ParcelsEuEa/ParcelsEuEa";
 import MedicinesEuEa from "@/components/EuUa/MedicinesEuEa/MedicinesEuEa";
+import AnimalsEuUa from "@/components/EuUa/AnimalsEuUa/AnimalsEuUa";
+import GeneratorsEuUa from "@/components/EuUa/GeneratorsEuUa/GeneratorsEuUa";
 
 type Props = {
   searchParams: {
@@ -82,7 +84,9 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
                 aria-hidden="true"
               />
             </summary>
-            <div className={styles.accordionContent}></div>
+            <div className={styles.accordionContent}>
+              <AnimalsEuUa/>
+            </div>
           </details>
         </section>
         <section id="generators" className={styles.section}>
@@ -98,7 +102,9 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
                 aria-hidden="true"
               />
             </summary>
-            <div className={styles.accordionContent}></div>
+            <div className={styles.accordionContent}>
+              <GeneratorsEuUa/>
+            </div>
           </details>
         </section>
         <section id="move" className={styles.section}>

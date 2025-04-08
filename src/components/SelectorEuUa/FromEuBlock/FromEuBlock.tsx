@@ -130,7 +130,7 @@ const FromEuBlock = () => {
             <div className={s.textCont}>
               <p className={s.title}>{t('step3.title')}</p>
               <div className={s.btnCont}>
-                <ButtonFormOnPage>{t('step3.form')}</ButtonFormOnPage>
+                <ButtonFormOnPage defaultForm="world_to_ukraine">{t('step3.form')}</ButtonFormOnPage>
               </div>
             </div>
           </li>

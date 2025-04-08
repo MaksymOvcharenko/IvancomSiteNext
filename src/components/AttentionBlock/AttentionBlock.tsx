@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import styles from './AttentionBlock.module.css';
 import { FiInfo } from 'react-icons/fi';
 
@@ -12,11 +13,12 @@ type Props = {
 };
 
 const AttentionBlock = ({ items }: Props) => {
+  const t = useTranslations('EuUa.AnimalsEuUa');
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
         <FiInfo size={28} />
-        <p>Важливо!</p>
+        <p>{ t("important.title")}</p>
       </div>
       <ul className={styles.list}>
         {items.map((item, index) => (

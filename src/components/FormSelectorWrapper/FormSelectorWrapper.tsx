@@ -13,10 +13,11 @@ import FormAnimals from "../FormAnimals/FormAnimals";
 
 interface FormSelectorWrapperProps {
   onClose: () => void; // Додаємо пропс onClose
+  defaultForm?: string; // не обов'язковий пропс
 }
 
-const FormSelectorWrapper: React.FC<FormSelectorWrapperProps> = ({ onClose }) => {
-  const [selectedForm, setSelectedForm] = useState<string | null>(null);
+const FormSelectorWrapper: React.FC<FormSelectorWrapperProps> = ({ onClose, defaultForm }) => {
+  const [selectedForm, setSelectedForm] = useState<string | null>(defaultForm || null);
 
   const handleBackToSelector = () => {
     setSelectedForm(null); // Повертаємося до вибору форми

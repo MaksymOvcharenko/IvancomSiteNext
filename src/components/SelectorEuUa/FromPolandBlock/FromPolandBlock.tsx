@@ -44,7 +44,7 @@ const FromPolandBlock = () => {
               
                  <div className={s.btnCont}>
                       <CalculateButton>{t('step3.calc')}</CalculateButton>
-                      <ButtonFormOnPage>{t('step3.form')}</ButtonFormOnPage>
+                      <ButtonFormOnPage defaultForm="world_to_ukraine" >{t('step3.form')}</ButtonFormOnPage>
                  </div>
               
           </div>

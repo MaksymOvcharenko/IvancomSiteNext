@@ -226,6 +226,125 @@
           "**** if the parcel weighs more than 30 kg actual or volumetric, +12 zł is added"
         ]
       }
+    },
+    "AnimalsEuUa": {
+      "subtitle": "Pet transportation from Poland and Europe to Ukraine with IVANCOM means comfort and safety for your furry friend.",
+      "formBtn": "Fill out the form",
+      "tariffs": [
+        {
+          "title": "Cat, dog up to 10 kg",
+          "price": "200€",
+          "note": "*the price is for transfer from IVANCOM branch in Poland to Lviv"
+        },
+        {
+          "title": "Cat, dog over 10 kg",
+          "price": "250€",
+          "note": "*the price is for transfer from IVANCOM branch in Poland to Lviv"
+        },
+        {
+          "title": "Other animals",
+          "price": "Individual rate",
+          "note": "*rate for other animals is calculated individually"
+        }
+      ],
+      "important": {
+        "title": "IMPORTANT!",
+        "text": "Without a full set of documents, we cannot transport the animal — those are the rules. But you can upload the documents in the form and we'll check if everything is fine!",
+        "rulesBtn": "Read the rules"
+      }
+    },
+    "GeneratorsEuUa": {
+      "subtitle": "IVANCOM ensures fast and reliable transportation of generators from anywhere in the world.",
+      "subtitle2": "Rates are valid from 15.08.24. Discounted rates apply ONLY to new stations! Price includes delivery within Ukraine.",
+      "subtitle3": "Delivery time from Poland to a Ukrainian branch is up to 5 days from the departure date.",
+      "subtitle4": "Sending with IVANCOM: fast and easy in a few steps!",
+      "subtitle5": "How to deliver a power station from a European store via IVANCOM",
+      "formBtn": "Fill out the form",
+      "tariffs": [
+        {
+          "title": "Generators over 7.5 kW",
+          "price": "5 zł/kg + 3% of value (insurance included)"
+        },
+        {
+          "title": "Generators up to 7.5 kW",
+          "price": "Standard parcel rate"
+        },
+        {
+          "title": "Batteries above 300W (ecoflow/anker/bluetti)",
+          "price": "Standard parcel rate + 3% of value (insurance included)"
+        },
+        {
+          "title": "Batteries below 300W (e.g. powerbanks)",
+          "price": "Standard parcel rate"
+        },
+        {
+          "title": "Inverters (excluding welding inverters)",
+          "price": "Standard parcel rate + 3% of value (insurance included)"
+        }
+      ],
+      "attention": [
+        "Shipments are automatically insured: +1% of declared value to the delivery cost.",
+        "Delivery cost is based on actual or volumetric weight (the greater value is taken).",
+        "Weight ranges are clearly stated in the table. If the weight exceeds the range, the shipment moves to the next category. Example: parcel weight 10.1 kg = 10–15 kg range.",
+        "Prices include delivery within Ukraine to a branch or parcel locker (via our partners – Nova Poshta).",
+        "Address delivery is paid separately: + 15 zł per cargo unit.",
+        "For parcels over 1000 zł, a commission of +10% is charged on the excess. Example: 1500–1000=500×10%=50 zł (commission) + delivery cost.",
+        {
+          "text": "The value of parcels from one sender is summed up if sent in the same shipment. For totals over 1000 zł, +10% commission applies.",
+          "linkText": "see here"
+        },
+        "Sending a set of car license plates costs 100 zł + 1% insurance of the declared value.",
+        "It is possible to send a parcel in a bag/suitcase (only to NP cargo branches, with a surcharge of 35–50 zł depending on size and weight)."
+      ],
+      "table": {
+        "title": "Delivery from Polish branches to partner branches in Ukraine",
+        "rows": [
+          {
+            "weight": "up to 5 kg",
+            "price": "*55 zł"
+          },
+          {
+            "weight": "5 – 10 kg",
+            "price": "*70 zł"
+          },
+          {
+            "weight": "10 – 15 kg",
+            "price": "*90 zł"
+          },
+          {
+            "weight": "15 – 20 kg",
+            "price": "*110 zł"
+          },
+          {
+            "weight": "20 – 25 kg",
+            "price": "*130 zł"
+          },
+          {
+            "weight": "Over 25 kg",
+            "price": "*5.5 zł/kg"
+          }
+        ],
+        "notes": [
+          "* price does not include insurance (1% of declared parcel value)",
+          "** rate applies to large, bulky items (equipment, carpet, furniture, etc.)",
+          "*** if the parcel exceeds 120 cm, +8 zł is added",
+          "**** if the parcel is over 30 kg actual or volumetric weight, +12 zł is added"
+        ]
+      },
+      "Eu": {
+        "step1": {
+          "title": "Send to our central warehouse in Krakow",
+          "desc": "With any courier service to:"
+        },
+        "step2": {
+          "title": "Fill out the form",
+          "form": "Fill out the form"
+        },
+        "step3": {
+          "title": "Pay for shipping to Ukraine",
+          "desc": "Once the parcel is registered in the central warehouse, you will receive an invoice to pay."
+        }
+      }
     }
   },
   "SideBar": {
