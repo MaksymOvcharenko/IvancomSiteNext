@@ -1,0 +1,18 @@
+.Btn {
+  border: 1px solid var(--accent-blue);
+  border-radius: 8px;
+  padding: 8px 24px;
+
+  height: 40px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--accent-blue);
+  cursor: pointer;
+}
+.Btn:hover {
+  border-color: var(--secondary-blue);
+  color: var(--secondary-blue);
+}

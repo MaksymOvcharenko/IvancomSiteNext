@@ -610,5 +610,16 @@
     "step2_sub": "To pomoże nam śledzić Twoją paczkę i zagwarantuje jej bezpieczne i terminowe dostarczenie.",
     "step3_title": "Nie martw się o nic!",
     "step3_sub": "Teraz wszystko jest w naszych rękach!"
+  },
+  "PackIt": {
+    "title": "Spakuj sam i nie płać za powietrze!",
+    "step1": "Wybierz mocne pudełko odpowiedniego rozmiaru",
+    "step2": "Owiń każdy kruchy przedmiot osobno",
+    "step3": "Wypełnij puste przestrzenie między przedmiotami",
+    "step4": "Zaklej pudełko taśmą klejącą",
+    "step5Main": "Zmierz 3 boki pudełka i zważ je",
+    "step5Desc": "(potrzebne do obliczenia przybliżonej ceny)",
+    "step6": "Przeczytaj, jak to wysłać :)",
+    "understood": "Zrozumiałem"
   }
 }

@@ -5,6 +5,7 @@ import HeroServices from "@/components/HeroServices/HeroServices";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import EuEuParcels from "@/components/EuEu/EuEuParcels/EuEuParcels";
 import TransfersEuEu from "@/components/EuEu/TransfersEuEu/TransfersEuEu";
+import PackItButton from "@/components/PackIt/PackItButton/PackItButton";
 
 type Props = {
   searchParams: {
@@ -41,7 +42,9 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
                 aria-hidden="true"
               />
             </summary>
-            <div className={styles.accordionContent}></div>
+            <div className={styles.accordionContent}>
+              <PackItButton>Запакуй</PackItButton>
+            </div>
           </details>
         </section>
         <section id="medicines" className={styles.section}>

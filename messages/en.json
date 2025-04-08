@@ -601,5 +601,16 @@
     "step2_sub": "This will help us track your parcel and guarantee its safe and timely delivery.",
     "step3_title": "Don't worry about anything!",
     "step3_sub": "Now it's our job!"
+  },
+  "PackIt": {
+    "title": "Pack it yourself and don’t pay for air!",
+    "step1": "Choose a sturdy box of appropriate size",
+    "step2": "Wrap each fragile item separately",
+    "step3": "Fill in the empty spaces between items",
+    "step4": "Seal the box with tape",
+    "step5Main": "Measure 3 sides of the box and weigh it",
+    "step5Desc": "(needed to estimate the approximate price)",
+    "step6": "Read how to send it :)",
+    "understood": "Got it"
   }
 }
