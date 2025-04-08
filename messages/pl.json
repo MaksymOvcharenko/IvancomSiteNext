@@ -180,6 +180,64 @@
       }
     }
   },
+  "EuUa": {
+    "ParcelsEuEa": {
+      "headings": [
+        "Sprawdź koszt dostawy z krajów Europy do Ukrainy i wysyłaj bez problemu!",
+        "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu",
+        "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!"
+      ],
+      "attention": [
+        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do kosztu dostawy.",
+        "Koszt dostawy obliczany jest na podstawie rzeczywistej lub objętościowej wagi (wybierana jest większa wartość).",
+        "W tabeli cen podano dokładne przedziały wagowe (od-do). W przypadku przekroczenia wagi, przesyłka trafia do wyższej kategorii. Przykład: waga paczki 10,1 kg = przedział 10–15 kg.",
+        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (za pośrednictwem naszych partnerów – Nowa Poczta).",
+        "Dostawa pod adres jest płatna osobno: +15 zł za każde miejsce ładunkowe.",
+        "Dla paczek powyżej 1000 zł naliczana jest prowizja: +10% od całej różnicy przekroczenia. Przykład: 1500-1000=500×10%=50 zł (prowizja) + koszt wysyłki.",
+        {
+          "text": "Koszt przesyłek od jednego nadawcy jest sumowany, jeśli jadą jednym transportem. Kwota powyżej 1000 zł objęta jest prowizją +10%.",
+          "linkText": "sprawdź tutaj"
+        },
+        "Wysyłka zestawu tablic rejestracyjnych kosztuje 100 zł + 1% ubezpieczenia od zadeklarowanej wartości.",
+        "Możliwość wysyłki paczki w torbie/walizce (tylko na oddział ładunkowy NP, za dopłatą 35–50 zł w zależności od wymiarów i wagi paczki)."
+      ],
+      "table": {
+        "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
+        "rows": [
+          {
+            "weight": "do 5 kg",
+            "price": "*55 zł"
+          },
+          {
+            "weight": "5 – 10 kg",
+            "price": "*70 zł"
+          },
+          {
+            "weight": "10 – 15 kg",
+            "price": "*90 zł"
+          },
+          {
+            "weight": "15 – 20 kg",
+            "price": "*110 zł"
+          },
+          {
+            "weight": "20 – 25 kg",
+            "price": "*130 zł"
+          },
+          {
+            "weight": "Powyżej 25 kg",
+            "price": "*5,5 zł/kg"
+          }
+        ],
+        "notes": [
+          "* koszt nie zawiera ubezpieczenia (1% od zadeklarowanej wartości paczki)",
+          "** cena dla dużych przesyłek o dużych gabarytach (sprzęt, dywan, meble itp.)",
+          "*** jeśli paczka przekracza 120 cm, doliczane jest +8 zł do ceny",
+          "**** jeśli paczka waży ponad 30 kg rzeczywistej lub objętościowej wagi, doliczane jest 12 zł"
+        ]
+      }
+    }
+  },
   "SideBar": {
     "toggleSidebar": "Zwiń",
     "pltopl": "Przewozy po Polsce",

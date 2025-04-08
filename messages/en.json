@@ -169,6 +169,64 @@
       }
     }
   },
+  "EuUa": {
+    "ParcelsEuEa": {
+      "headings": [
+        "Check the cost of delivery from European countries to Ukraine and send easily!",
+        "Delivery time from Poland to a Ukrainian branch is up to 5 days from the departure date",
+        "Shipping with IVANCOM: fast and easy in a few steps!"
+      ],
+      "attention": [
+        "We automatically insure shipments: +1% of the declared value to the delivery cost.",
+        "Delivery cost is calculated based on actual or volumetric weight (the greater value is taken).",
+        "The price table lists clear weight ranges (from–to). If exceeded, the shipment moves to the next category. Example: parcel weight 10.1 kg = 10–15 kg range.",
+        "Prices include delivery cost within Ukraine to a branch or parcel locker (via our partners – Nova Poshta).",
+        "Door-to-door delivery is charged separately: +15 zł per shipment unit.",
+        "For parcels over 1000 zł, a commission of +10% is charged on the excess. Example: 1500-1000=500×10%=50 zł (commission) + delivery cost.",
+        {
+          "text": "Shipment value from one sender is summed up if going in the same run. Over 1000 zł is charged +10% on the excess.",
+          "linkText": "see here"
+        },
+        "Sending a set of car license plates costs 100 zł + 1% insurance of the declared value.",
+        "It is possible to send a parcel in a bag/suitcase (only to cargo branches of NP, with a surcharge of 35–50 zł depending on size and weight)."
+      ],
+      "table": {
+        "title": "Delivery from branches in Poland to partner branches in Ukraine",
+        "rows": [
+          {
+            "weight": "up to 5 kg",
+            "price": "*55 zł"
+          },
+          {
+            "weight": "5 – 10 kg",
+            "price": "*70 zł"
+          },
+          {
+            "weight": "10 – 15 kg",
+            "price": "*90 zł"
+          },
+          {
+            "weight": "15 – 20 kg",
+            "price": "*110 zł"
+          },
+          {
+            "weight": "20 – 25 kg",
+            "price": "*130 zł"
+          },
+          {
+            "weight": "Over 25 kg",
+            "price": "*5.5 zł/kg"
+          }
+        ],
+        "notes": [
+          "* price does not include insurance (1% of the declared parcel value)",
+          "** price applies to large, bulky items (tech, carpets, furniture, etc.)",
+          "*** if the parcel exceeds 120 cm, +8 zł is added to the price",
+          "**** if the parcel weighs more than 30 kg actual or volumetric, +12 zł is added"
+        ]
+      }
+    }
+  },
   "SideBar": {
     "toggleSidebar": "Collapse",
     "pltopl": "Delivery across Poland",
