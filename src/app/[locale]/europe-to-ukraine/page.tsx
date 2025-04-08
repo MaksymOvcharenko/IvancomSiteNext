@@ -8,6 +8,7 @@ import TransfersEuEu from "@/components/EuEu/TransfersEuEu/TransfersEuEu";
 import PackItButton from "@/components/PackIt/PackItButton/PackItButton";
 import SelectorEuUa from "@/components/SelectorEuUa/SelectorEuUa";
 import ParcelsEuEa from "@/components/EuUa/ParcelsEuEa/ParcelsEuEa";
+import MedicinesEuEa from "@/components/EuUa/MedicinesEuEa/MedicinesEuEa";
 
 type Props = {
   searchParams: {
@@ -63,7 +64,9 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
                 aria-hidden="true"
               />
             </summary>
-            <div className={styles.accordionContent}></div>
+            <div className={styles.accordionContent}>
+              <MedicinesEuEa/>
+            </div>
           </details>
         </section>
         <section id="animals" className={styles.section}>

@@ -59,7 +59,7 @@
 
 .content {
   padding: 16px;
-  /* background-color: var(--white); */
+  background-color: var(--white);
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
 }
