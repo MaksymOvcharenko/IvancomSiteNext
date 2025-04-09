@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 import ParcelsUaEu from "@/components/UaEu/ParcelsUaEu/ParcelsUaEu";
 import MedicinesUaEu from "@/components/UaEu/MedicinesUaEu/MedicinesUaEu";
 import AnimalsUaEu from "@/components/UaEu/AnimalsUaEu/AnimalsUaEu";
+import TransferUaEu from "@/components/UaEu/TransferUaEu/TransferUaEu";
 
 
 
@@ -72,7 +73,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
           </details>
         </section>
 
-        <section id="generators" className={styles.section}>
+        {/* <section id="generators" className={styles.section}>
           <details open={openedSection === "generators"} className={styles.accordionCont}>
             <summary className={styles.accordionTitle}>
               {t("sections.generators")}
@@ -82,7 +83,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
 
             </div>
           </details>
-        </section>
+        </section> */}
 
         <section id="move" className={styles.section}>
           <details open={openedSection === "move"} className={styles.accordionCont}>
@@ -91,7 +92,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
             </summary>
             <div className={styles.accordionContent}>
-
+           <TransferUaEu/>
             </div>
           </details>
         </section>

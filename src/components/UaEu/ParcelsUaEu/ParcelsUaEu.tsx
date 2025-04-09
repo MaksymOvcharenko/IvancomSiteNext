@@ -48,7 +48,7 @@ const ParcelsUaEu = () => {
 
   return (
     <div className={s.body}>
-      <h3 className={s.title}>{t('table.title')}</h3>
+      <h3 className={s.title}>{t('title')}</h3>
       <SelectorTariffs/>
      <div className={s.btnCont}>
           <CalculateButton>{t('buttons.calculate')}</CalculateButton>

@@ -299,6 +299,26 @@
       "attention": [
         "Without a complete set of documents, we cannot transport the animal – these are the rules. However, you can upload the documents in the form, and we’ll check if everything is in order!"
       ]
+    },
+    "TransfersUaEu": {
+      "subtitle": "Planujesz przeprowadzkę z Ukrainy do Polski lub innego kraju europejskiego? Nasza firma specjalizuje się w kompleksowych usługach. Bezpiecznie i niezawodnie przewieziemy Twoje rzeczy osobiste. Od 2019 roku pomagamy naszym klientom poczuć się jak w domu w nowym miejscu, dbając o każdy szczegół procesu przeprowadzki. Powierz nam troskę o transport, abyś mógł skupić się na nowych możliwościach i doświadczeniach.",
+      "subtitle1": "Co trzeba zrobić?",
+      "warningText": "Meble są przyjmowane do transportu tylko w stanie rozmontowanym!",
+      "steps": {
+        "step1": {
+          "title": "Wypełnij formularz poniżej",
+          "desc": "a nasz menedżer obliczy koszt przeprowadzki",
+          "form": "Wypełnij formularz"
+        },
+        "step2": {
+          "title": "Już do Ciebie jedziemy!",
+          "desc": "Przygotuj i spakuj wszystkie rzeczy do przeprowadzki. Nasz menedżer udzieli wskazówek dotyczących pakowania – koniecznie zapytaj go o to :)"
+        },
+        "step3": {
+          "title": "Rozpakuj nowe życie!",
+          "desc": "Dostarczymy Twoje rzeczy szybko i bezpiecznie :)"
+        }
+      }
     }
   },
   "EuEU": {

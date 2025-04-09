@@ -1,5 +1,5 @@
 
-import s from './TransferEuUa.module.css';
+import s from './TransferUaEu.module.css';
 
 
 import Link from 'next/link';
@@ -14,9 +14,9 @@ import { BsTelephone } from 'react-icons/bs';
 import { IoMailOutline } from "react-icons/io5";
 import AttentionBlock from '@/components/AttentionBlock/AttentionBlock';
 
-const TransfersEuUa = () => {
+const TransferUaEu = () => {
 
- const t = useTranslations('EuUa.TransfersEuUa');
+ const t = useTranslations('UaEu.TransfersUaEu');
 const items = [{ text: t('warningText') }]
   return (
       <div className={s.block}>
@@ -62,4 +62,4 @@ const items = [{ text: t('warningText') }]
   );
 };
 
-export default TransfersEuUa;
+export default TransferUaEu;

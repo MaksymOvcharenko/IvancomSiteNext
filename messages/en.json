@@ -288,6 +288,26 @@
       "attention": [
         "Bez pełnego zestawu dokumentów nie możemy przewieźć zwierzęcia – takie są zasady. Możesz jednak przesłać dokumenty w formularzu, a my sprawdzimy, czy wszystko jest w porządku!"
       ]
+    },
+    "TransfersUaEu": {
+      "subtitle": "Planning a move from Ukraine to Poland or another European country? Our company specializes in turnkey services. We will safely and reliably transport your personal belongings. Since 2019, we’ve been helping our clients feel at home in new places, taking care of every detail of the relocation process. Trust us with the transportation so you can focus on new opportunities and experiences.",
+      "subtitle1": "What needs to be done?",
+      "warningText": "Furniture is accepted for transport only in disassembled condition!",
+      "steps": {
+        "step1": {
+          "title": "Fill in the form below",
+          "desc": "and our manager will calculate the moving cost",
+          "form": "Fill in the form"
+        },
+        "step2": {
+          "title": "We’re already on our way!",
+          "desc": "Prepare and pack all your belongings. Our manager will guide you on the packing details – be sure to ask them about it :)"
+        },
+        "step3": {
+          "title": "Unpack your new life!",
+          "desc": "We’ll deliver your belongings quickly and safely :)"
+        }
+      }
     }
   },
   "EuEU": {
