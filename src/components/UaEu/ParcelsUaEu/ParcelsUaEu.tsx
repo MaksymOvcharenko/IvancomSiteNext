@@ -5,26 +5,28 @@ import { useTranslations } from 'next-intl';
 
 import s from "./ParcelsUaEu.module.css";
 import SelectorTariffs from '../SelectorTariffs/SelectorTariffs';
+import CalculateButton from '@/components/CalculateButton2/CalculateButton';
+import ButtonFormOnPage from '@/components/ButtonFormOnPage2/ButtonFormOnPage';
+import AttentionBlock from '@/components/AttentionBlock/AttentionBlock';
+import Steps from '../Steps/Steps';
 
 
 const ParcelsUaEu = () => {
-  const t = useTranslations('EuUa.ParcelsEuEa');
+  const t = useTranslations('UaEu.ParcelsUaEu.Main');
 
   const attentionTexts = [
     { text: t('attention.0') },
     { text: t('attention.1') },
     { text: t('attention.2') },
-    { text: t('attention.3') },
-    { text: t('attention.4') },
-    { text: t('attention.5') },
-    { 
-      text: t('attention.6.text'),
-      linkText: t('attention.6.linkText'),
-      linkHref: 'ivancom.eu/uk#schedule',
-    },
-    { text: t('attention.7') },
-    { text: t('attention.8') },
+  
   ];
+    const attentionTexts1 = [
+    { text: t('attention1.0') },
+    { text: t('attention1.1') },
+    { text: t('attention1.2') },
+  
+  ];
+
 
   const deliveryWithNotes = {
     title: t('table.title'),
@@ -48,7 +50,13 @@ const ParcelsUaEu = () => {
     <div className={s.body}>
       <h3 className={s.title}>Дізнайтеся про тарифи та етапи доставки посилок з України до Польщі та ЄС: швидко, надійно, доступно.</h3>
       <SelectorTariffs/>
-     
+     <div className={s.btnCont}>
+          <CalculateButton>Розрахувати вартість</CalculateButton>
+          <ButtonFormOnPage defaultForm="ukraine">Заповнити форму</ButtonFormOnPage>
+      </div>
+      <AttentionBlock items={attentionTexts} />
+      <AttentionBlock items={attentionTexts1} />
+      <Steps/>
     </div>
   );
 };

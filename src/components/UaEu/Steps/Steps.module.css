@@ -1,0 +1,157 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.block ul {
+  list-style-type: none;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+.item {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--secondary-blue);
+  font-size: 24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.contcatsInfo {
+  margin-bottom: 24px;
+}
+.contactTitle {
+  margin-bottom: 24px;
+}
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contactItem {
+  display: flex;
+
+  align-items: flex-start;
+  gap: 4px;
+}
+.textCont {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--black);
+  text-align: center;
+}
+.inTitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--black);
+}
+.link {
+  border: 1px solid var(--accent-blue);
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  height: 40px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--accent-blue);
+  text-align: center;
+  width: 100%;
+}
+.link:hover {
+  color: var(--secondary-blue);
+  border: 1px solid var(--secondary-blue);
+}
+.inpostCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.btnCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.faq {
+  display: flex;
+  width: 100%;
+}
+.copyBtn {
+  margin-top: 1rem;
+  padding: 8px 12px;
+  border: none;
+  background-color: #eee;
+  color: #333;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s ease;
+}
+
+.copyBtn:hover {
+  background-color: #ccc;
+}
+
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .btnCont {
+    flex-direction: row;
+  }
+  .link {
+  }
+  .faq {
+    width: 30%;
+    min-width: 200px;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .step {
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+  }
+}

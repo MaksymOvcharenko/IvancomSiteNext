@@ -3,17 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 48px;
-  max-width: 400px;
+  gap: 24px;
 }
-.title {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: var(--black);
+.descr {
+  margin-top: 12px;
 }
 .btnCont {
   display: flex;
@@ -24,11 +17,8 @@
   width: 100%;
   max-width: 780px;
 }
-/* Великі планшети і маленькі ноутбуки (від 768px) */
+
 @media (min-width: 768px) {
-  .body {
-    max-width: 800px;
-  }
   .btnCont {
     flex-direction: row;
   }
@@ -36,7 +26,4 @@
 
 /* Десктопи (від 1280px) */
 @media (min-width: 1280px) {
-  .body {
-    max-width: 1180px;
-  }
 }

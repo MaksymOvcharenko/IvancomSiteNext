@@ -102,7 +102,38 @@
     }
   },
   "UaEu": {
+    "Steps": {
+      "title": "Z Ukrainy do Europy – tylko 3 proste kroki!",
+      "step1": {
+        "title": "Spakuj",
+        "form": "Zobacz"
+      },
+      "step2": {
+        "title": "Wyślij na nasz magazyn w Ukrainie",
+        "desc": "Podaj następujące informacje w oddziale:"
+      },
+      "step3": {
+        "title": "Wypełnij formularz",
+        "desc": "Nie martw się o nic! Twoja paczka jest w rękach profesjonalistów :)"
+      },
+      "buttons": {
+        "calculate": "Oblicz koszt",
+        "fillForm": "Wypełnij formularz"
+      }
+    },
     "ParcelsUaEu": {
+      "Main": {
+        "attention": [
+          "Następujące przedmioty są zabronione do wysyłki z Ukrainy do UE: produkty mięsne, konserwy mięsne, słonina, produkty mleczne, warzywa i owoce, rośliny, grzyby, kawior, mieszanki mleczne dla dzieci, alkohol, wyroby tytoniowe, e-papierosy, pieniądze, futra, antyki, duże części samochodowe, maszyny przemysłowe.",
+          "W przypadku wykrycia takich zabronionych przedmiotów w paczce, pracownicy IVANCOM mają prawo do ich utylizacji lub zwrotu na koszt nadawcy.",
+          "Waga podana na liście przewozowym Nowej Poczty pozostaje niezmieniona, a końcowy koszt przesyłki jest obliczany na podstawie pierwotnej wagi."
+        ],
+        "attention1": [
+          "Koszt dostawy obliczany jest na podstawie wagi objętościowej lub rzeczywistej – w zależności od tego, która jest większa. Ważne: dodatkowa przestrzeń w pudełku może zwiększyć koszt, ponieważ do obliczeń brana jest waga z listu przewozowego Nowej Poczty.",
+          "W przypadku niezgodności nasz przedstawiciel ma prawo do ponownego ważenia paczki.",
+          "Firma nie łączy kilku listów przewozowych w jedną paczkę."
+        ]
+      },
       "Silver": {
         "items": {
           "sameType": "do 4 podobnych produktów",
@@ -134,8 +165,8 @@
               "pl": "Polska"
             },
             "tables": {
-              "ivankomBranch": "Dostawa do oddziałów IVANKOM w Polsce",
-              "courier": "Koszt usługi kuriera IVANKOM",
+              "ivankomBranch": "Dostawa do oddziałów IVANCOM w Polsce",
+              "courier": "Koszt usługi kuriera IVANCOM",
               "inpost": "Dostawa przez partnera INPOST w Polsce (kurier/paczkomat)",
               "inpostNote": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
             }
@@ -145,6 +176,50 @@
           "selectLabel": "Wybierz kraj:",
           "inpostTitle": "Dostawa za pośrednictwem partnera InPost",
           "partnerTitle": "Inne firmy partnerskie"
+        }
+      },
+      "Gold": {
+        "items": {
+          "sameType": "od 5 takich samych produktów",
+          "insurance": "ubezpieczenie +3% od zadeklarowanej wartości",
+          "delivery": "dostawa od 4 dni",
+          "estimate": "szacunkowa wartość do 50000 UAH na jednej przesyłce Nova Poshta",
+          "crypto": "Możliwa płatność kryptowalutą"
+        },
+        "description": {
+          "plates": "Wysyłka zestawu tablic rejestracyjnych kosztuje 100 zł + 3% ubezpieczenia od zadeklarowanej wartości."
+        },
+        "accordion": {
+          "toPoland": "Dostawa do Polski",
+          "toEurope": "Dostawa do Europy"
+        },
+        "GoldPL": {
+          "courier": {
+            "description": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj."
+          },
+          "inpost": {
+            "notice": "Wysyłka paczek przez InPost realizowana jest w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+          },
+          "buttons": {
+            "calculate": "Oblicz koszt",
+            "fillForm": "Wypełnij formularz"
+          },
+          "Table": {
+            "country": {
+              "pl": "Polska"
+            },
+            "tables": {
+              "ivankomBranch": "Dostawa do oddziałów IVANCOM w Polsce",
+              "courier": "Koszt usługi kurierskiej IVANCOM",
+              "inpost": "Dostawa przez partnera INPOST w Polsce (kurier/paczkomat)",
+              "inpostNote": "Wysyłka paczek przez InPost realizowana jest w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+            }
+          }
+        },
+        "GoldEu": {
+          "selectLabel": "Wybierz kraj:",
+          "inpostTitle": "Dostawa przez partnera InPost",
+          "partnerTitle": "Inne partnerskie firmy kurierskie"
         }
       }
     }

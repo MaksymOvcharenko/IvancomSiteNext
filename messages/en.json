@@ -91,7 +91,38 @@
     }
   },
   "UaEu": {
+    "Steps": {
+      "title": "From Ukraine to Europe – just 3 simple steps!",
+      "step1": {
+        "title": "Pack",
+        "form": "View"
+      },
+      "step2": {
+        "title": "Send to our warehouse in Ukraine",
+        "desc": "At the branch, provide the following information:"
+      },
+      "step3": {
+        "title": "Fill out the form",
+        "desc": "Don’t worry about a thing! Your parcel is in professional hands :)"
+      },
+      "buttons": {
+        "calculate": "Calculate cost",
+        "fillForm": "Fill out the form"
+      }
+    },
     "ParcelsUaEu": {
+      "Main": {
+        "attention": [
+          "The following items are prohibited for shipment from Ukraine to the EU: meat products, canned meat, lard, dairy products, vegetables and fruits, plants, mushrooms, caviar, infant formula, alcohol, tobacco products, electronic cigarettes, money, fur, antiques, large auto parts, industrial machinery.",
+          "If these prohibited items are found in a parcel, IVANCOM staff reserve the right to dispose of them or return them to the sender at their own expense.",
+          "The weight on the Nova Poshta waybill remains unchanged, and the final delivery cost is calculated based on the initial weight."
+        ],
+        "attention1": [
+          "Delivery cost is calculated based on volumetric or actual weight, whichever is greater. Important: excess space in the box may increase the price, as the calculation uses the weight indicated in the Nova Poshta transport document.",
+          "If discrepancies are found, our representative reserves the right to reweigh the parcel.",
+          "The company does not consolidate multiple waybills into one parcel."
+        ]
+      },
       "Silver": {
         "items": {
           "sameType": "up to 4 similar items",
@@ -123,14 +154,58 @@
               "pl": "Poland"
             },
             "tables": {
-              "ivankomBranch": "Delivery to IVANKOM branches in Poland",
-              "courier": "IVANKOM courier service cost",
+              "ivankomBranch": "Delivery to IVANCOM branches in Poland",
+              "courier": "IVANCOM courier service cost",
               "inpost": "Delivery by INPOST partner in Poland (courier/locker)",
               "inpostNote": "Shipment via InPost is carried out within 2 business days from the departure day from Ukraine"
             }
           }
         },
         "SilverEu": {
+          "selectLabel": "Choose a country:",
+          "inpostTitle": "Delivery via InPost partner",
+          "partnerTitle": "Other partner services"
+        }
+      },
+      "Gold": {
+        "items": {
+          "sameType": "from 5 identical items",
+          "insurance": "insurance +3% of declared value",
+          "delivery": "delivery from 4 days",
+          "estimate": "estimated value up to 50,000 UAH on one Nova Poshta invoice",
+          "crypto": "Cryptocurrency payment available"
+        },
+        "description": {
+          "plates": "Shipping of a set of license plates costs 100 PLN + 3% insurance fee based on declared value."
+        },
+        "accordion": {
+          "toPoland": "Delivery to Poland",
+          "toEurope": "Delivery to Europe"
+        },
+        "GoldPL": {
+          "courier": {
+            "description": "In some cities, IVANCOM offers courier delivery. Learn more about this service here."
+          },
+          "inpost": {
+            "notice": "Parcel delivery via InPost is carried out within 2 business days from the day of departure from Ukraine"
+          },
+          "buttons": {
+            "calculate": "Calculate cost",
+            "fillForm": "Fill out the form"
+          },
+          "Table": {
+            "country": {
+              "pl": "Poland"
+            },
+            "tables": {
+              "ivankomBranch": "Delivery to IVANCOM branches in Poland",
+              "courier": "IVANCOM courier service cost",
+              "inpost": "Delivery via INPOST partner in Poland (courier/parcel locker)",
+              "inpostNote": "Parcel delivery via InPost is carried out within 2 business days from the day of departure from Ukraine"
+            }
+          }
+        },
+        "GoldEu": {
           "selectLabel": "Choose a country:",
           "inpostTitle": "Delivery via InPost partner",
           "partnerTitle": "Other partner services"

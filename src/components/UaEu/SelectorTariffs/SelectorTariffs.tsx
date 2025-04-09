@@ -6,7 +6,8 @@ import { useTranslations } from 'next-intl';
 import styles from './SelectorTariffs.module.css';
 import SilverTariff from './SilverTariff/SilverTariff';
 import GoldTariff from './GoldTariff/GoldTariff';
-import { PlatinumTariff } from './PlatinumTariff/PlatinumTariff';
+import PlatinumTariff from './PlatinumTariff/PlatinumTariff';
+
 
 
 const SelectorTariffs = () => {

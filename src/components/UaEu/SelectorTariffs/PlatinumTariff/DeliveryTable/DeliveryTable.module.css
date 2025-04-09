@@ -119,4 +119,7 @@
   .cellHeader {
     border-bottom: 1px solid var(--white);
   }
+  .cellHeader:last-child {
+    min-height: 120px;
+  }
 }
