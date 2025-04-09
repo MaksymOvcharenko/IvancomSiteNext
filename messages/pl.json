@@ -123,6 +123,7 @@
     },
     "ParcelsUaEu": {
       "Main": {
+        "title": "Poznaj taryfy i etapy dostawy paczek z Ukrainy do Polski i UE: szybko, niezawodnie, przystępnie.",
         "attention": [
           "Następujące przedmioty są zabronione do wysyłki z Ukrainy do UE: produkty mięsne, konserwy mięsne, słonina, produkty mleczne, warzywa i owoce, rośliny, grzyby, kawior, mieszanki mleczne dla dzieci, alkohol, wyroby tytoniowe, e-papierosy, pieniądze, futra, antyki, duże części samochodowe, maszyny przemysłowe.",
           "W przypadku wykrycia takich zabronionych przedmiotów w paczce, pracownicy IVANCOM mają prawo do ich utylizacji lub zwrotu na koszt nadawcy.",
@@ -132,7 +133,11 @@
           "Koszt dostawy obliczany jest na podstawie wagi objętościowej lub rzeczywistej – w zależności od tego, która jest większa. Ważne: dodatkowa przestrzeń w pudełku może zwiększyć koszt, ponieważ do obliczeń brana jest waga z listu przewozowego Nowej Poczty.",
           "W przypadku niezgodności nasz przedstawiciel ma prawo do ponownego ważenia paczki.",
           "Firma nie łączy kilku listów przewozowych w jedną paczkę."
-        ]
+        ],
+        "buttons": {
+          "calculate": "Oblicz koszt",
+          "fillForm": "Wypełnij formularz"
+        }
       },
       "Silver": {
         "items": {

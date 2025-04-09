@@ -28,31 +28,31 @@ const ParcelsUaEu = () => {
   ];
 
 
-  const deliveryWithNotes = {
-    title: t('table.title'),
-    rows: [
-      { weight: t('table.rows.0.weight'), price: t('table.rows.0.price') },
-      { weight: t('table.rows.1.weight'), price: t('table.rows.1.price') },
-      { weight: t('table.rows.2.weight'), price: t('table.rows.2.price') },
-      { weight: t('table.rows.3.weight'), price: t('table.rows.3.price') },
-      { weight: t('table.rows.4.weight'), price: t('table.rows.4.price') },
-      { weight: t('table.rows.5.weight'), price: t('table.rows.5.price') },
-    ],
-    notes: [
-      t('table.notes.0'),
-      t('table.notes.1'),
-      t('table.notes.2'),
-      t('table.notes.3'),
-    ],
-  };
+  // const deliveryWithNotes = {
+  //   title: t('table.title'),
+  //   rows: [
+  //     { weight: t('table.rows.0.weight'), price: t('table.rows.0.price') },
+  //     { weight: t('table.rows.1.weight'), price: t('table.rows.1.price') },
+  //     { weight: t('table.rows.2.weight'), price: t('table.rows.2.price') },
+  //     { weight: t('table.rows.3.weight'), price: t('table.rows.3.price') },
+  //     { weight: t('table.rows.4.weight'), price: t('table.rows.4.price') },
+  //     { weight: t('table.rows.5.weight'), price: t('table.rows.5.price') },
+  //   ],
+  //   notes: [
+  //     t('table.notes.0'),
+  //     t('table.notes.1'),
+  //     t('table.notes.2'),
+  //     t('table.notes.3'),
+  //   ],
+  // };
 
   return (
     <div className={s.body}>
-      <h3 className={s.title}>Дізнайтеся про тарифи та етапи доставки посилок з України до Польщі та ЄС: швидко, надійно, доступно.</h3>
+      <h3 className={s.title}>{t('table.title')}</h3>
       <SelectorTariffs/>
      <div className={s.btnCont}>
-          <CalculateButton>Розрахувати вартість</CalculateButton>
-          <ButtonFormOnPage defaultForm="ukraine">Заповнити форму</ButtonFormOnPage>
+          <CalculateButton>{t('table.calculate')}</CalculateButton>
+          <ButtonFormOnPage defaultForm="ukraine">{t('Заповнити форму')}</ButtonFormOnPage>
       </div>
       <AttentionBlock items={attentionTexts} />
       <AttentionBlock items={attentionTexts1} />
