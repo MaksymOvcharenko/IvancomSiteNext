@@ -269,6 +269,36 @@
         "Zakaz przesyłania leków bez blistrów i opakowania",
         "Firma nie łączy kilku przesyłek TTN w jedną"
       ]
+    },
+    "AnimalsUaEu": {
+      "rulesBtn": "Read the rules",
+      "accordion": {
+        "toPoland": "Delivery to Poland",
+        "toEurope": "Delivery across Europe"
+      },
+      "title": "Rates for transporting pets from Ukraine to Europe with IVANCOM. It is necessary to familiarize yourself with the requirements in advance and prepare all documents, including a microchip and international veterinary passport, to ensure the comfort and safety of your pet during travel.",
+      "formBtn": "Fill in",
+      "formBtn1": "Fill in the form",
+      "tariffs": [
+        {
+          "title": "Cat, dog up to 10kg",
+          "price": "200€",
+          "note": "*the amount includes the cost of issuing the International Veterinary Certificate for pets\n**price shown is for transport from Lviv to IVANCOM points in Poland"
+        },
+        {
+          "title": "Cat, dog over 10kg",
+          "price": "250€",
+          "note": "*the amount includes the cost of issuing the International Veterinary Certificate for pets\n**price shown is for transport from Lviv to IVANCOM points in Poland"
+        },
+        {
+          "title": "Other animals",
+          "price": "Individual price",
+          "note": "*tariff for transporting other animals is calculated individually"
+        }
+      ],
+      "attention": [
+        "Without a complete set of documents, we cannot transport the animal – these are the rules. However, you can upload the documents in the form, and we’ll check if everything is in order!"
+      ]
     }
   },
   "EuEU": {

@@ -258,6 +258,36 @@
         "It is forbidden to send medicines without blisters and packaging",
         "The company does not combine multiple TTNs into one shipment"
       ]
+    },
+    "AnimalsUaEu": {
+      "rulesBtn": "Czytaj zasady",
+      "accordion": {
+        "toPoland": "Dostawa do Polski",
+        "toEurope": "Dostawa do Europy"
+      },
+      "title": "Taryfy za przewóz zwierząt domowych z Ukrainy do Europy z IVANCOM. Należy wcześniej zapoznać się z wymaganiami, przygotować wszystkie dokumenty, w tym mikroczip i międzynarodowy paszport weterynaryjny, aby zapewnić komfort i bezpieczeństwo Twojemu pupilowi podczas podróży.",
+      "formBtn": "Wypełnij",
+      "formBtn1": "Wypełnij formularz",
+      "tariffs": [
+        {
+          "title": "Kot, pies do 10kg",
+          "price": "200€",
+          "note": "*cena obejmuje wyrobienie Międzynarodowego Świadectwa Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
+        },
+        {
+          "title": "Kot, pies powyżej 10kg",
+          "price": "250€",
+          "note": "*cena obejmuje wyrobienie Międzynarodowego Świadectwa Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
+        },
+        {
+          "title": "Inne zwierzęta",
+          "price": "Indywidualna wycena",
+          "note": "*taryfa za transport innych zwierząt ustalana indywidualnie"
+        }
+      ],
+      "attention": [
+        "Bez pełnego zestawu dokumentów nie możemy przewieźć zwierzęcia – takie są zasady. Możesz jednak przesłać dokumenty w formularzu, a my sprawdzimy, czy wszystko jest w porządku!"
+      ]
     }
   },
   "EuEU": {

@@ -1,11 +1,12 @@
 import { useTranslations } from 'next-intl';
 import AttentionBlock from "@/components/AttentionBlock/AttentionBlock";
-import s from "./MedicinesUaEu.module.css";
+import s from "./AnimalsUaEu.module.css";
 
 import Steps from '../Steps/Steps';
 
 import ButtonFormOnPage from '@/components/ButtonFormOnPage2/ButtonFormOnPage';
 import { LiaCoinsSolid } from 'react-icons/lia';
+import Link from 'next/link';
 
 interface Tariff {
   title: string;
@@ -13,8 +14,8 @@ interface Tariff {
   note: string;
 }
 
-const MedicinesUaEu = () => {
-  const t = useTranslations("UaEu.MedicinesUaEu");
+const AnimalsUaEu = () => {
+  const t = useTranslations("UaEu.AnimalsUaEu");
 
   const attentionTexts: string[] = t.raw('attention');
 
@@ -40,10 +41,13 @@ const MedicinesUaEu = () => {
       <AttentionBlock items={attentionTexts.map(text => ({ text }))} />
  
 
-     
-  
+ <div className={s.attButtons}>
+                  
+          <Link href={"https://drive.google.com/file/d/10e0RL_LiUDktCViwbu5RbJXsxr6P2_lN/view"} className={s.link} target='blank'>{t('rulesBtn')}</Link>
+          <ButtonFormOnPage defaultForm="animals">{t('formBtn')}</ButtonFormOnPage>
+        </div>
     </div>
   );
 };
 
-export default MedicinesUaEu;
+export default AnimalsUaEu;
