@@ -9,6 +9,9 @@ import ParcelsUaEu from "@/components/UaEu/ParcelsUaEu/ParcelsUaEu";
 import MedicinesUaEu from "@/components/UaEu/MedicinesUaEu/MedicinesUaEu";
 import AnimalsUaEu from "@/components/UaEu/AnimalsUaEu/AnimalsUaEu";
 import TransferUaEu from "@/components/UaEu/TransferUaEu/TransferUaEu";
+import WheelsUaEu from "@/components/UaEu/WheelsUaEu/WheelsUaEu";
+import BicylesUaEu from "@/components/UaEu/BicylesUaEu/BicylesUaEu";
+import DocumentsUaEu from "@/components/UaEu/DocumentsUaEu/DocumentsUaEu";
 
 
 
@@ -104,7 +107,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
             </summary>
             <div className={styles.accordionContent}>
-
+<WheelsUaEu/>
             </div>
           </details>
         </section>
@@ -116,7 +119,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
             </summary>
             <div className={styles.accordionContent}>
-
+<BicylesUaEu/>
             </div>
           </details>
         </section>
@@ -128,7 +131,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
             </summary>
             <div className={styles.accordionContent}>
-           
+           <DocumentsUaEu/>
             </div>
           </details>
         </section>

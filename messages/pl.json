@@ -319,6 +319,190 @@
           "desc": "Dostarczymy Twoje rzeczy szybko i bezpiecznie :)"
         }
       }
+    },
+    "WheelsUaEu": {
+      "subtitle": "Oferujemy ekspresową dostawę felg, kół i opon z Ukrainy do Polski i innych krajów Europy w stałej cenie.",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie wynosi do 5 dni od daty transportu.",
+      "subtitle3": "Koszt usług kuriera IVANCOM",
+      "descr3": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj.",
+      "subtitle4": "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
+      "formBtn": "Wypełnij formularz",
+      "attention": [
+        "Twoja opłata ubezpieczeniowa to tylko +3% zadeklarowanej wartości. Kwota ta zostanie doliczona do końcowego kosztu przesyłki.",
+        "Opony i felgi muszą być czyste. Prosimy je umyć :)",
+        "Wysyłamy opony i felgi tylko do stacjonarnych oddziałów Ivancom w Polsce. Dostawa kurierska na adres jest dodatkowo płatna.",
+        "Dostarczamy w ciągu minimum 4 dni roboczych.",
+        "Jeśli Twoja przesyłka wymaga dodatkowego pakowania na palecie do transportu w Polsce i Europie, koszt palety i transportu zostanie doliczony do całkowitej kwoty."
+      ],
+      "table": {
+        "title": "Dostawa z Ukrainy do oddziałów w Polsce",
+        "rows": [
+          {
+            "weight": "Kraków",
+            "price": "Od 40 zł"
+          },
+          {
+            "weight": "Warszawa",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Katowice",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Wrocław",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Kielce",
+            "price": "w mieście za darmo"
+          }
+        ]
+      },
+      "Eu": {
+        "step1": {
+          "title": "Wyślij na nasz centralny magazyn w Krakowie",
+          "desc": "Dowolną firmą kurierską na ten adres:"
+        },
+        "step2": {
+          "title": "Wypełnij formularz",
+          "form": "Wypełnij formularz"
+        },
+        "step3": {
+          "title": "Opłać wysyłkę na Ukrainę",
+          "desc": "Gdy paczka zostanie zarejestrowana w magazynie centralnym, otrzymasz fakturę za wysyłkę."
+        }
+      }
+    },
+    "BicylesUaEu": {
+      "subtitle": "Wyślij swój rower z Ukrainy do Polski i Europy w najlepszych cenach razem z IVANCOM! Oferujemy korzystne taryfy:",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie wynosi do 5 dni od daty transportu",
+      "subtitle3": "Jak wysłać rower?",
+      "descr3": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj.",
+      "formBtn": "Wypełnij formularz",
+      "tariffs": [
+        {
+          "title": "Rower dziecięcy (średnica kół do R24)",
+          "price": "250 zł",
+          "note": "Taryfa obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy ustalić z menedżerem.",
+          "subNoteTitle": "Ubezpieczenie przesyłki:",
+          "subNoteText": "+3% zadeklarowanej wartości"
+        },
+        {
+          "title": "Rower dla dorosłych (średnica kół od R25)",
+          "price": "300 zł",
+          "note": "Taryfa obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy ustalić z menedżerem.",
+          "subNoteTitle": "Ubezpieczenie przesyłki:",
+          "subNoteText": "+3% zadeklarowanej wartości"
+        },
+        {
+          "title": "Rowery elektryczne",
+          "price": "Indywidualna wycena",
+          "note": "Obliczane na podstawie rzeczywistej lub objętościowej wagi",
+          "subNoteTitle": "Ubezpieczenie przesyłki:",
+          "subNoteText": "+3% zadeklarowanej wartości"
+        }
+      ],
+      "attention": [
+        "Jeśli paczka przekracza 120 cm, do ceny doliczane jest +6 zł",
+        "Wysyłka jest automatycznie ubezpieczona: +1% od zadeklarowanej wartości",
+        "Jeśli paczka przekracza 30 kg (waga rzeczywista lub objętościowa), do ceny doliczane jest +12 zł",
+        "Na rowery o wartości powyżej 1000 zł obowiązuje prowizja: +10% od całej kwoty przekroczenia. Przykład: 1500-1000=500 x 10% = 50 zł (prowizja) + koszt wysyłki",
+        "Wartość rowerów od jednego nadawcy jest sumowana, jeśli są wysyłane jednym transportem. Przy sumie powyżej 1000 zł naliczana jest prowizja +10% od różnicy przekroczenia"
+      ],
+      "table": {
+        "title": "Dostawa kurierem IVANCOM w Polsce",
+        "rows": [
+          {
+            "weight": "Kraków",
+            "price": "Od 40 zł"
+          },
+          {
+            "weight": "Warszawa",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Katowice",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Wrocław",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Kielce",
+            "price": "w mieście za darmo"
+          }
+        ]
+      }
+    },
+    "DocumentsUaEu": {
+      "headings": [
+        "Sprawdź koszt wysyłki dokumentów i wysyłaj bez problemów!",
+        "Wysyłka przesyłek przez InPost odbywa się w ciągu 2 dni roboczych od daty wyjazdu z Ukrainy",
+        "Koszt usług kurierskich IVANCOM",
+        "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj."
+      ],
+      "attention": [
+        "Czas dostawy z Ukrainy do oddziałów w Polsce od 2 dni roboczych",
+        "Firma nie łączy kilku listów przewozowych w jedną przesyłkę."
+      ],
+      "table": {
+        "title": "Dostawa do stacjonarnych oddziałów IVANCOM",
+        "country": "Polska",
+        "rows": [
+          {
+            "weight": "koperta z dokumentami",
+            "price": "*40 zł"
+          }
+        ]
+      },
+      "table1": {
+        "title": "Dostawa do paczkomatu InPost w Polsce",
+        "country": "Polska",
+        "rows": [
+          {
+            "weight": "koperta z dokumentami",
+            "price": "*60 zł"
+          }
+        ]
+      },
+      "table2": {
+        "title": "Dostawa do paczkomatu InPost w Europie",
+        "country": "Belgia, Francja, Hiszpania, Włochy, Holandia, Luksemburg, Portugalia",
+        "rows": [
+          {
+            "weight": "koperta z dokumentami",
+            "price": "*55 zł"
+          }
+        ]
+      },
+      "table3": {
+        "title": "Dostawa kurierem IVANCOM w miastach Polski",
+        "country": "Polska",
+        "rows": [
+          {
+            "weight": "Kraków",
+            "price": "Od 40 zł"
+          },
+          {
+            "weight": "Warszawa",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Katowice",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Wrocław",
+            "price": "Od 30 zł"
+          },
+          {
+            "weight": "Kielce",
+            "price": "bezpłatnie w mieście"
+          }
+        ]
+      }
     }
   },
   "EuEU": {

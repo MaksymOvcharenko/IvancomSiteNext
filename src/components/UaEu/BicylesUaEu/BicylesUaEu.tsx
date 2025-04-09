@@ -1,11 +1,13 @@
 import ButtonFormOnPage from "@/components/ButtonFormOnPage2/ButtonFormOnPage";
-import styles from "./BicylesEuUa.module.css";
+import styles from "./BicylesUaEu.module.css";
 
 import { FiBox } from "react-icons/fi";
 import { LiaCoinsSolid } from "react-icons/lia";
 import AttentionBlock from "@/components/AttentionBlock/AttentionBlock";
 import SelectorEuUa from "./SelectorEuUa/SelectorEuUa";
 import { useTranslations } from "next-intl";
+import DeliveryTable from "@/components/DeliveryTable/DeliveryTable";
+import Steps from "../Steps/Steps";
 
 export type BicycleTariff = {
   title: string;
@@ -40,8 +42,8 @@ export type BicycleTariff = {
 
 
 
-const BicyclesEuUa = () => {
-    const t = useTranslations("EuUa.BicyclesEuUa");
+const BicylesUaEu = () => {
+    const t = useTranslations("UaEu.BicylesUaEu");
     const bicyclesTariffs: BicycleTariff[] = [
   {
     title: t("tariffs.0.title"),
@@ -71,7 +73,18 @@ const attentionTexts = [
   { text: t("attention.2") },
   { text: t("attention.3") },
   { text: t("attention.4") },
-];
+  ];
+  const deliveryWithNotes = {
+    title: t('table.title'),
+    rows: [
+      { weight: t('table.rows.0.weight'), price: t('table.rows.0.price') },
+      { weight: t('table.rows.1.weight'), price: t('table.rows.1.price') },
+      { weight: t('table.rows.2.weight'), price: t('table.rows.2.price') },
+      { weight: t('table.rows.3.weight'), price: t('table.rows.3.price') },
+      { weight: t('table.rows.4.weight'), price: t('table.rows.4.price') },
+       
+    ]
+  };
 
   return (
     <div className={styles.wrapper}>
@@ -105,11 +118,12 @@ const attentionTexts = [
       <p className={styles.subtitle}>
         <p className={styles.subtitle}>{t("subtitle2")}</p>
       </p>
-      <AttentionBlock items={attentionTexts} />
+       <p className={styles.descr}>{t('descr3')}</p>
+          <DeliveryTable data={deliveryWithNotes} />
        <p className={styles.subtitle}>{t("subtitle3")}</p>
-          <SelectorEuUa/>
+          <Steps/>
     </div>
   );
 };
 
-export default BicyclesEuUa;
+export default BicylesUaEu;

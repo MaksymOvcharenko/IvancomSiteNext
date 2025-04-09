@@ -308,6 +308,190 @@
           "desc": "We’ll deliver your belongings quickly and safely :)"
         }
       }
+    },
+    "WheelsUaEu": {
+      "subtitle": "We offer express delivery of rims, wheels, and tires from Ukraine to Poland and other European countries at a fixed price.",
+      "subtitle2": "Delivery time for parcels from Poland to the branch in Ukraine is up to 5 days from the departure date.",
+      "subtitle3": "Cost of IVANCOM courier services",
+      "descr3": "In some cities, IVANCOM offers courier delivery. Learn more about this service here.",
+      "subtitle4": "Shipping with IVANCOM: quick and easy in a few steps!",
+      "formBtn": "Fill in the form",
+      "attention": [
+        "Your insurance payment is only +3% of the declared value. This amount will be added to the final shipping cost.",
+        "Tires and rims must be clean. Please wash them :)",
+        "We deliver tires and rims only to stationary Ivancom branches in Poland. Courier delivery to a specific address is paid separately.",
+        "Delivery takes from 4 business days.",
+        "If your shipment requires additional pallet packing for transportation across Poland and Europe, the cost of the pallet and transportation will be added to the total amount."
+      ],
+      "table": {
+        "title": "Delivery from Ukraine to branches in Poland",
+        "rows": [
+          {
+            "weight": "Krakow",
+            "price": "From 40 zł"
+          },
+          {
+            "weight": "Warsaw",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Katowice",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Wroclaw",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Kielce",
+            "price": "Free within the city"
+          }
+        ]
+      },
+      "Eu": {
+        "step1": {
+          "title": "Send to our central warehouse in Krakow",
+          "desc": "By any courier service to this address:"
+        },
+        "step2": {
+          "title": "Fill in the form",
+          "form": "Fill in the form"
+        },
+        "step3": {
+          "title": "Pay for the shipment to Ukraine",
+          "desc": "Once the package is registered at the central warehouse, you will receive an invoice for the shipment."
+        }
+      }
+    },
+    "BicylesUaEu": {
+      "subtitle": "Send your bicycle from Ukraine to Poland and Europe at the best prices with IVANCOM! We offer competitive rates:",
+      "subtitle2": "Parcel delivery time from Poland to the Ukrainian branch is up to 5 days from the date of departure",
+      "subtitle3": "How to send a bike?",
+      "descr3": "In some cities, IVANCOM offers courier delivery. Learn more about this service here.",
+      "formBtn": "Fill in the form",
+      "tariffs": [
+        {
+          "title": "Children's bicycle (wheel radius up to R24)",
+          "price": "250 zł",
+          "note": "The rate applies for deliveries to Poland. Check delivery costs to other countries with a manager.",
+          "subNoteTitle": "Parcel insurance:",
+          "subNoteText": "+3% of the declared value"
+        },
+        {
+          "title": "Adult bicycle (wheel radius from R25)",
+          "price": "300 zł",
+          "note": "The rate applies for deliveries to Poland. Check delivery costs to other countries with a manager.",
+          "subNoteTitle": "Parcel insurance:",
+          "subNoteText": "+3% of the declared value"
+        },
+        {
+          "title": "Electric bicycles",
+          "price": "Custom pricing",
+          "note": "Calculated based on actual or volumetric weight",
+          "subNoteTitle": "Parcel insurance:",
+          "subNoteText": "+3% of the declared value"
+        }
+      ],
+      "attention": [
+        "If the parcel exceeds 120 cm, an additional 6 zł is charged",
+        "Shipments are automatically insured: +1% of the declared value is added to the shipping cost",
+        "If the parcel exceeds 30 kg (actual or volumetric), an additional 12 zł is charged",
+        "Bikes over 1000 zł are subject to a commission: +10% on the entire excess. Example: 1500-1000=500 x 10% = 50 zł (commission) + shipping cost",
+        "The value of bikes from one sender is summed up if they are sent in one shipment. If the total exceeds 1000 zł, a +10% commission is charged on the excess"
+      ],
+      "table": {
+        "title": "IVANCOM courier delivery in Poland",
+        "rows": [
+          {
+            "weight": "Krakow",
+            "price": "From 40 zł"
+          },
+          {
+            "weight": "Warsaw",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Katowice",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Wroclaw",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Kielce",
+            "price": "Free in the city"
+          }
+        ]
+      }
+    },
+    "DocumentsUaEu": {
+      "headings": [
+        "Find out the cost of sending documents and send easily!",
+        "Shipment via InPost is carried out within 2 working days from the date of departure from Ukraine",
+        "Cost of IVANCOM courier services",
+        "In some cities, IVANCOM offers courier delivery. Learn more about this service here."
+      ],
+      "attention": [
+        "Delivery time from Ukraine to branches in Poland from 2 working days",
+        "The company does not combine several invoices into one shipment."
+      ],
+      "table": {
+        "title": "Delivery to IVANCOM stationary branches",
+        "country": "Poland",
+        "rows": [
+          {
+            "weight": "envelope with documents",
+            "price": "*40 zł"
+          }
+        ]
+      },
+      "table1": {
+        "title": "Delivery to InPost parcel locker in Poland",
+        "country": "Poland",
+        "rows": [
+          {
+            "weight": "envelope with documents",
+            "price": "*60 zł"
+          }
+        ]
+      },
+      "table2": {
+        "title": "Delivery to InPost parcel locker across Europe",
+        "country": "Belgium, France, Spain, Italy, Netherlands, Luxembourg, Portugal",
+        "rows": [
+          {
+            "weight": "envelope with documents",
+            "price": "*55 zł"
+          }
+        ]
+      },
+      "table3": {
+        "title": "Courier delivery by IVANCOM in cities of Poland",
+        "country": "Poland",
+        "rows": [
+          {
+            "weight": "Krakow",
+            "price": "From 40 zł"
+          },
+          {
+            "weight": "Warsaw",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Katowice",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Wroclaw",
+            "price": "From 30 zł"
+          },
+          {
+            "weight": "Kielce",
+            "price": "free in the city"
+          }
+        ]
+      }
     }
   },
   "EuEU": {
