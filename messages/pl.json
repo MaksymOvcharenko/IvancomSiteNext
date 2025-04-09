@@ -101,6 +101,54 @@
       "moves": "Przeprowadzki"
     }
   },
+  "UaEu": {
+    "ParcelsUaEu": {
+      "Silver": {
+        "items": {
+          "sameType": "do 4 podobnych produktów",
+          "insurance": "ubezpieczenie +3% od zadeklarowanej wartości",
+          "delivery": "dostawa od 2 dni",
+          "estimate": "wartość szacunkowa do 12000 UAH na jednej przesyłce Nowej Poczty"
+        },
+        "description": {
+          "snacks": "W tym taryfie dozwolone jest wysyłanie do 2 kg suszonych ryb i przekąsek rybnych. Jeśli waga przekroczy 2 kg, obowiązuje taryfa GOLD.",
+          "plates": "Wysyłka kompletu tablic rejestracyjnych kosztuje 100 zł + 3% ubezpieczenia od zadeklarowanej wartości."
+        },
+        "accordion": {
+          "toPoland": "Dostawa do Polski",
+          "toEurope": "Dostawa w Europie"
+        },
+        "SilverPL": {
+          "courier": {
+            "description": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj."
+          },
+          "inpost": {
+            "notice": "Wysyłka paczek przez InPost realizowana jest w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+          },
+          "buttons": {
+            "calculate": "Oblicz koszt",
+            "fillForm": "Wypełnij formularz"
+          },
+          "Table": {
+            "country": {
+              "pl": "Polska"
+            },
+            "tables": {
+              "ivankomBranch": "Dostawa do oddziałów IVANKOM w Polsce",
+              "courier": "Koszt usługi kuriera IVANKOM",
+              "inpost": "Dostawa przez partnera INPOST w Polsce (kurier/paczkomat)",
+              "inpostNote": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+            }
+          }
+        },
+        "SilverEu": {
+          "selectLabel": "Wybierz kraj:",
+          "inpostTitle": "Dostawa za pośrednictwem partnera InPost",
+          "partnerTitle": "Inne firmy partnerskie"
+        }
+      }
+    }
+  },
   "EuEU": {
     "parcels": {
       "header": {

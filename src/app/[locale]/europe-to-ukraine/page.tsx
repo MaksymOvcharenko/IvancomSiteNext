@@ -1,4 +1,4 @@
-"use client";
+
 
 import styles from "./styles.module.css";
 import Sidebar from "@/components/SideBar/SideBar";

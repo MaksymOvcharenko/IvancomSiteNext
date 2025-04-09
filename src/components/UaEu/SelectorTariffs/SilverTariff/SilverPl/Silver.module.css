@@ -1,0 +1,28 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.descr {
+  margin-top: 12px;
+}
+.btnCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 780px;
+}
+@media (min-width: 768px) {
+  .btnCont {
+    flex-direction: row;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+}

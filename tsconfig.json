@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/TrackingButton/TrackingButtontsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/TrackingButton/TrackingButtontsx", "src/components/UaEu/SelectorTariffs/SilverTariff/SilverPl"],
   "exclude": ["node_modules"]
 }

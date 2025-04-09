@@ -90,6 +90,54 @@
       "moves": "Relocations"
     }
   },
+  "UaEu": {
+    "ParcelsUaEu": {
+      "Silver": {
+        "items": {
+          "sameType": "up to 4 similar items",
+          "insurance": "insurance +3% of declared value",
+          "delivery": "delivery from 2 days",
+          "estimate": "estimated value up to 12,000 UAH on one Nova Poshta invoice"
+        },
+        "description": {
+          "snacks": "This tariff allows sending up to 2 kg of dried fish and fish snacks. If the weight exceeds 2 kg, the GOLD tariff applies.",
+          "plates": "Sending a set of license plates costs 100 zł + 3% insurance from declared value."
+        },
+        "accordion": {
+          "toPoland": "Delivery to Poland",
+          "toEurope": "Delivery across Europe"
+        },
+        "SilverPL": {
+          "courier": {
+            "description": "In some cities, IVANCOM offers courier delivery. Learn more about this service here."
+          },
+          "inpost": {
+            "notice": "Shipment via InPost is processed within 2 business days from the departure day from Ukraine"
+          },
+          "buttons": {
+            "calculate": "Calculate cost",
+            "fillForm": "Fill the form"
+          },
+          "Table": {
+            "country": {
+              "pl": "Poland"
+            },
+            "tables": {
+              "ivankomBranch": "Delivery to IVANKOM branches in Poland",
+              "courier": "IVANKOM courier service cost",
+              "inpost": "Delivery by INPOST partner in Poland (courier/locker)",
+              "inpostNote": "Shipment via InPost is carried out within 2 business days from the departure day from Ukraine"
+            }
+          }
+        },
+        "SilverEu": {
+          "selectLabel": "Choose a country:",
+          "inpostTitle": "Delivery via InPost partner",
+          "partnerTitle": "Other partner services"
+        }
+      }
+    }
+  },
   "EuEU": {
     "parcels": {
       "header": {

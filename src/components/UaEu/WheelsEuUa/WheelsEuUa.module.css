@@ -1,0 +1,114 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 8px;
+}
+.subtitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.cardList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.card {
+  border: 1px solid var(--gray);
+  border-radius: 16px;
+  padding: 24px 16px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 8px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+}
+.price {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.price svg {
+  flex-shrink: 0;
+}
+.note {
+}
+
+.attButtons {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.link {
+  border: 1px solid var(--accent-blue);
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 100%;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--accent-blue);
+  text-align: center;
+}
+.link:hover {
+  border: 1px solid var(--secondary-blue);
+  color: var(---secondary-blue);
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .cardList {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 304px;
+    height: 320px;
+  }
+  .attButtons {
+    flex-direction: row;
+  }
+  .wrapper {
+    gap: 48px;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .subtitle {
+    font-size: 28px;
+  }
+  .wrapper {
+    gap: 64px;
+  }
+}
