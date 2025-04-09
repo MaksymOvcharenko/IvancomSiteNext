@@ -15,7 +15,7 @@ const HomeAbout = () => {
                 <div className={styles.section}>
     
     
-                    <Image src="/image/home/about.jpg" alt={t("courierAlt")} width={600} height={400} />
+                    <Image src="/image/home/about.jpg" alt="Доставка посилок з Польщі" width={600} height={400} />
     
                     <div className={styles.secondCont}>
                         <p>{t("careTrustPart1")}</p>

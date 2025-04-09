@@ -39,7 +39,7 @@ const Delivery = () => {
             <p>{t("inpostDescription")}</p>
             <div className={styles.buttons}>
               <Link className={styles.button1} href={`/${locale}/self-service`}>{t("details")}</Link>
-              <button className={styles.button3}><ButtonFormOnPage>{t("send")}</ButtonFormOnPage></button>
+              <div className={styles.button3}><ButtonFormOnPage>{t("send")}</ButtonFormOnPage></div>
             </div>
         </div>
       </div>
