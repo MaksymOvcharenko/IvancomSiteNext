@@ -1,61 +1,49 @@
-'use client';
-
-import AttentionBlock from '@/components/AttentionBlock/AttentionBlock';
-import styles from './AnimalsEuUa.module.css';
 import { useTranslations } from 'next-intl';
-import { FiFileText } from 'react-icons/fi';
+import AttentionBlock from "@/components/AttentionBlock/AttentionBlock";
+import s from "./MedicinesUaEu.module.css";
+
+import Steps from '../Steps/Steps';
+
 import ButtonFormOnPage from '@/components/ButtonFormOnPage2/ButtonFormOnPage';
-import Link from 'next/link';
 import { LiaCoinsSolid } from 'react-icons/lia';
 
-const AnimalsEuUa = () => {
-  const t = useTranslations('EuUa.AnimalsEuUa');
+interface Tariff {
+  title: string;
+  price: string;
+  note: string;
+}
 
-  const tariffs = [
-    {
-      title: t('tariffs.0.title'),
-      price: t('tariffs.0.price'),
-      note: t('tariffs.0.note'),
-    },
-    {
-      title: t('tariffs.1.title'),
-      price: t('tariffs.1.price'),
-      note: t('tariffs.1.note'),
-    },
-    {
-      title: t('tariffs.2.title'),
-      price: t('tariffs.2.price'),
-      note: t('tariffs.2.note'),
-    },
-    ];
-    const items = [{ text: t('important.text') }]
+const MedicinesUaEu = () => {
+  const t = useTranslations("UaEu.MedicinesUaEu");
+
+  const attentionTexts: string[] = t.raw('attention');
+
+  const tariffs: Tariff[] = t.raw('tariffs');
 
   return (
-      <div className={styles.wrapper}>
-          
-      <p className={styles.subtitle}>{t('subtitle')}</p>
+    <div className={s.body}>
+      <h3 className={s.title}>{t('title')}</h3>
 
-      <div className={styles.cardList}>
-          {tariffs.map((tariff, index) => (
-            <div className={styles.card} key={index}>
-              <h3 className={styles.title}>{tariff.title}</h3>
-              <p className={styles.price}><LiaCoinsSolid size={24} /> {tariff.price}</p>
-              <p className={styles.note}>{tariff.note}</p>
-              <ButtonFormOnPage defaultForm="animals">{t('formBtn')}</ButtonFormOnPage>
-            </div>
-          ))}
+      <div className={s.cardList}>
+        {tariffs.map((tariff, index) => (
+          <div className={s.card} key={index}>
+            <h3 className={s.title}>{tariff.title}</h3>
+            <p className={s.price}><LiaCoinsSolid size={24} /> {tariff.price}</p>
+            {tariff.note.split('\n').map((line, idx) => (
+              <p className={s.note} key={idx}>{line}</p>
+            ))}
+            <ButtonFormOnPage defaultForm="animals">{t('formBtn')}</ButtonFormOnPage>
+          </div>
+        ))}
       </div>
 
-      <div className={styles.attention}>
-       <AttentionBlock items={items} />
-              <div className={styles.attButtons}>
-                  
-          <Link href={"https://drive.google.com/file/d/10e0RL_LiUDktCViwbu5RbJXsxr6P2_lN/view"} className={styles.link} target='blank'>{t('important.rulesBtn')}</Link>
-          <ButtonFormOnPage defaultForm="animals">{t('formBtn')}</ButtonFormOnPage>
-        </div>
-      </div>
+      <AttentionBlock items={attentionTexts.map(text => ({ text }))} />
+ 
+
+     
+  
     </div>
   );
 };
 
-export default AnimalsEuUa;
+export default MedicinesUaEu;
