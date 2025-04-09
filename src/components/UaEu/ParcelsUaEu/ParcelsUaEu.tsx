@@ -51,8 +51,8 @@ const ParcelsUaEu = () => {
       <h3 className={s.title}>{t('table.title')}</h3>
       <SelectorTariffs/>
      <div className={s.btnCont}>
-          <CalculateButton>{t('table.calculate')}</CalculateButton>
-          <ButtonFormOnPage defaultForm="ukraine">{t('Заповнити форму')}</ButtonFormOnPage>
+          <CalculateButton>{t('buttons.calculate')}</CalculateButton>
+          <ButtonFormOnPage defaultForm="ukraine">{t('buttons.fillForm')}</ButtonFormOnPage>
       </div>
       <AttentionBlock items={attentionTexts} />
       <AttentionBlock items={attentionTexts1} />

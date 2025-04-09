@@ -216,6 +216,48 @@
           "partnerTitle": "Other partner services"
         }
       }
+    },
+    "MedicinesUaEu": {
+      "accordion": {
+        "toPoland": "Delivery to Poland",
+        "toEurope": "Delivery across Europe"
+      },
+      "title": "IVANCOM delivers medicines from Ukraine to Poland and other European countries quickly, safely and at an affordable price.",
+      "notice": "Parcel dispatch via InPost is carried out within 2 working days from the departure from Ukraine",
+      "formBtn": "Fill in the form",
+      "tariffs": [
+        {
+          "title": "Tablets/suppositories",
+          "price": "1 package",
+          "note": "up to 50 pcs – 12 zł\nfrom 50 pcs – 15 zł"
+        },
+        {
+          "title": "Liquids/ointments/powders",
+          "price": "1 package",
+          "note": "up to 100 ml/g – 7 zł\nfrom 100 ml/g – 10 zł"
+        },
+        {
+          "title": "Supplements/vitamins",
+          "price": "1 package",
+          "note": "up to 20 pcs – 10 zł\nup to 50 pcs – 12 zł\nfrom 50 pcs – 15 zł"
+        },
+        {
+          "title": "Injectable cosmetics",
+          "price": "1 package",
+          "note": "Botox (fridge) – 30 zł\nUp to 100 ml/g – 8 zł\n100–250 ml/g – 10 zł\n250–500 ml/g – 15 zł\nAmpoules up to 10 ml – 5 zł\nIn syringes (fillers etc.) – 20 zł"
+        }
+      ],
+      "attention": [
+        "Sending drugs containing narcotic substances is prohibited.",
+        "We ship medicines only to Ivancom's stationary branches in Poland.",
+        "Courier delivery is paid separately",
+        "Delivery takes from 4 working days",
+        "Minimum service cost is 40 zł for up to 4 medicine units",
+        "Medicines in the parcel are calculated separately by tariff",
+        "Shipping takes place after 100% prepayment to Polish or Ukrainian account",
+        "It is forbidden to send medicines without blisters and packaging",
+        "The company does not combine multiple TTNs into one shipment"
+      ]
     }
   },
   "EuEU": {

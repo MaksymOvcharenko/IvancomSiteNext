@@ -227,6 +227,48 @@
           "partnerTitle": "Inne partnerskie firmy kurierskie"
         }
       }
+    },
+    "MedicinesUaEu": {
+      "accordion": {
+        "toPoland": "Dostawa do Polski",
+        "toEurope": "Dostawa w Europie"
+      },
+      "title": "IVANCOM dostarcza leki z Ukrainy do Polski i innych krajów Europy szybko, bezpiecznie i w przystępnej cenie.",
+      "notice": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy",
+      "formBtn": "Wypełnij formularz",
+      "tariffs": [
+        {
+          "title": "Tabletki/czopki",
+          "price": "1 opakowanie",
+          "note": "do 50 szt. – 12 zł\npowyżej 50 szt. – 15 zł"
+        },
+        {
+          "title": "Płyny/maści/proszki",
+          "price": "1 opakowanie",
+          "note": "do 100 ml/g – 7 zł\npowyżej 100 ml/g – 10 zł"
+        },
+        {
+          "title": "Suplementy/witaminy",
+          "price": "1 opakowanie",
+          "note": "do 20 szt. – 10 zł\ndo 50 szt. – 12 zł\npowyżej 50 szt. – 15 zł"
+        },
+        {
+          "title": "Kosmetyki iniekcyjne",
+          "price": "1 opakowanie",
+          "note": "Botoks lodówka – 30 zł\nPreparaty do 100 ml/g – 8 zł\n100–250 ml/g – 10 zł\n250–500 ml/g – 15 zł\nAmpułki do 10 ml – 5 zł\nPreparaty w strzykawkach – 20 zł"
+        }
+      ],
+      "attention": [
+        "Wysyłka leków zawierających substancje narkotyczne jest zabroniona.",
+        "Wysyłamy leki tylko do stacjonarnych oddziałów Ivancom w Polsce.",
+        "Dostawa kurierska płatna osobno",
+        "Czas dostawy od 4 dni roboczych",
+        "Minimalna opłata za usługę to 40 zł za 4 jednostki leków",
+        "Leki w paczce liczone są osobno według taryfy",
+        "Wysyłka następuje po 100% przedpłacie na konto polskie lub ukraińskie",
+        "Zakaz przesyłania leków bez blistrów i opakowania",
+        "Firma nie łączy kilku przesyłek TTN w jedną"
+      ]
     }
   },
   "EuEU": {

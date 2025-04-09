@@ -1,0 +1,107 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  width: 100%;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--black);
+}
+.cardList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.card {
+  border: 1px solid var(--gray);
+  border-radius: 16px;
+  padding: 24px 16px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.price {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.note {
+  margin-bottom: 16px;
+}
+
+.attButtons {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.link {
+  border: 1px solid var(--accent-blue);
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 100%;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--accent-blue);
+  text-align: center;
+}
+.link:hover {
+  border: 1px solid var(--secondary-blue);
+  color: var(---secondary-blue);
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .body {
+    max-width: 800px;
+  }
+  .card {
+    width: 304px;
+    height: 480px;
+  }
+  .cardList {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  .body {
+    max-width: 1180px;
+  }
+}

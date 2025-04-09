@@ -6,6 +6,7 @@ import HeroServices from "@/components/HeroServices/HeroServices";
 import { FiChevronDown } from "react-icons/fi";
 import { useTranslations } from "next-intl";
 import ParcelsUaEu from "@/components/UaEu/ParcelsUaEu/ParcelsUaEu";
+import MedicinesUaEu from "@/components/UaEu/MedicinesUaEu/MedicinesUaEu";
 
 
 
@@ -52,7 +53,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
             </summary>
             <div className={styles.accordionContent}>
-
+<MedicinesUaEu/>
             </div>
           </details>
         </section>
