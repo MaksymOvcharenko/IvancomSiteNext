@@ -11,7 +11,7 @@ const BussinesCars = () => {
           <h2 className={styles.title}>{ t("title")}</h2>
           <ul className={styles.cars}>
             <li className={styles.carsCard}>
-                <Image alt='cars' src={"/image/bussines/bussinesCars.jpg"} width={352} height={264} className={styles.img}></Image>
+                <Image alt='cars' src={"/image/bussines/renault.jpg"} width={352} height={264} className={styles.img}></Image>
                 <h3 className={styles.carsTitle}>Renault Master Extra Long</h3>
                 <ul className={styles.carsDesc}>
                     <li className={styles.carsItemDesc}>
@@ -26,7 +26,7 @@ const BussinesCars = () => {
                 </ul>
             </li>
             <li className={styles.carsCard}>
-                <Image alt='cars' src={"/image/bussines/bussinesCars.jpg"} width={352} height={264} className={styles.img}></Image>
+                <Image alt='cars' src={"/image/bussines/mercedes.jpg"} width={352} height={264} className={styles.img}></Image>
                 <h3 className={styles.carsTitle}>Mercedes Sprinter 906 Long</h3>
                 <ul className={styles.carsDesc}>
                     <li className={styles.carsItemDesc}>
@@ -41,7 +41,7 @@ const BussinesCars = () => {
                 </ul>
             </li>
             <li className={styles.carsCard}>
-                <Image alt='cars' src={"/image/bussines/bussinesCars.jpg"} width={352} height={264} className={styles.img}></Image>
+                <Image alt='cars' src={"/image/bussines/iveco.jpg"} width={352} height={264} className={styles.img}></Image>
                 <h3 className={styles.carsTitle}>Iveco Daily 35S21 Furgon</h3>
                 <ul className={styles.carsDesc}>
                     <li className={styles.carsItemDesc}>
@@ -86,7 +86,7 @@ const BussinesCars = () => {
                 </ul>
             </li>
             <li className={styles.carsCard}>
-                <Image alt='cars' src={"/image/bussines/pragmatec.jpg"} width={352} height={264} className={styles.img}></Image>
+                <Image alt='cars' src={"/image/bussines/pragmatec1.jpg"} width={352} height={264} className={styles.img}></Image>
                 <h3 className={styles.carsTitle}>Pragmatec</h3>
                 <ul className={styles.carsDesc}>
                     <li className={styles.carsItemDesc}>
