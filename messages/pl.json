@@ -1,91 +1,92 @@
 {
   "IndexPage": {
-    "title": "IVANCOM — paczki, które zbliżają",
-    "description": "Szybka dostawa paczek z Ukrainy do Polski, krajów UE i w drugą stronę bez zbędnych problemów",
+    "title": "IVANCOM — przesyłki, które zbliżają",
+    "description": "Szybka wysyłka paczek z Ukrainy do Polski, krajów UE i w przeciwnym kierunku bez zbędnych formalności",
     "calculate": "Oblicz koszt",
-    "apply": "Zostaw zgłoszenie",
+    "apply": "Złóż wniosek",
     "services": {
       "services": "Usługi",
       "parcels": "Paczki",
       "medicines": "Leki",
-      "cosmetics": "Kosmetyki wstrzykiwane",
+      "cosmetics": "Kosmetyki iniekcyjne",
       "animals": "Zwierzęta",
       "generators": "Generatory",
-      "move": "Przeprowadzka",
+      "move": "Przeprowadzki",
       "wheels": "Koła i opony",
       "bicycles": "Rowery",
       "documents": "Dokumenty"
     },
     "directions": {
-      "eu_to_eu": "Z Europy",
+      "eu_to_eu": "Po Polsce",
       "eu_to_ua": "Z Europy",
       "ua_to_eu": "Z Ukrainy",
-      "eu_to_eu2": "do Europy",
+      "eu_to_eu2": "",
       "eu_to_ua2": "do Ukrainy",
       "ua_to_eu2": "do Europy",
       "title": "Wybierz kierunek"
     },
     "faq": {
+      "faq1": "Często zadawane pytania",
       "question1": {
-        "question": "Jak mogę wysłać paczkę z Ukrainy za granicę?",
-        "answer": "<p>Twoje przesyłki podróżują przez kraj przez nasz magazyn w miejscowości Hostyntseve (region Lwów).</p><p>Wysyłaj paczki na ten adres za pomocą Nova Poshta: <br/> <br/><strong>Region Lwów, miejscowość Hostyntseve, oddział nr 1</strong></p><p><strong>Odbiorca:</strong> FOP Kysil Lyudmyla Anatoliyivna</p><p><strong>EDRPOU:</strong> 3221718269</p><p><strong>Telefon:</strong> +380 (95) 801-04-74</p>"
+        "question": "Jak wysłać paczkę z Ukrainy za granicę?",
+        "answer": "<p>Twoje przesyłki podróżują przez nasz magazyn w miejscowości Hostyncewe (obwód lwowski).</p><p>Wyślij paczkę za pośrednictwem Nowej Poczty:<br/><br/><strong>Obwód lwowski, Hostyncewe, oddział nr 1</strong></p><p><strong>Odbiorca:</strong> FOP Kysil Ludmyła Anatolijewna</p><p><strong>EDRPOU:</strong> 3221718269</p><p><strong>Telefon:</strong> +380 (95) 801-04-74</p>"
       },
       "question2": {
-        "question": "Jak obliczamy czas dostawy paczki z Ukrainy za granicę?",
-        "answer": "<p>Czas dostawy liczy się <strong>od momentu, gdy paczka opuści nasz magazyn na Ukrainie</strong> (miejscowość Hostyntseve, region Lwów). <br/> Minimalny czas dostawy to <strong>od 2 dni</strong> (pracujemy bez weekendów).</p>"
+        "question": "Jak liczymy czas dostawy paczki z Ukrainy?",
+        "answer": "<p>Czas dostawy liczony jest <strong>od momentu wyjazdu paczki z naszego magazynu w Ukrainie</strong> (Hostyncewe, obwód lwowski). <br/> Minimalny czas – <strong>od 2 dni</strong> (pracujemy bez dni wolnych).</p>"
       },
       "question3": {
         "question": "Czy moja paczka jest ubezpieczona i ile to kosztuje?",
-        "answer": "<p>Oczywiście!<br/><br/><ul><li>Wszystkie paczki <strong>z Ukrainy do Polski są ubezpieczone, składka ubezpieczeniowa wynosi 3% od zadeklarowanej wartości.</strong></li> <li>Wszystkie paczki <strong>z Polski do Ukrainy są ubezpieczone, składka ubezpieczeniowa wynosi 1% od zadeklarowanej wartości.</strong></li> </ul><br/>To obowiązkowa składka ubezpieczeniowa, która chroni Twoją paczkę.</p>"
+        "answer": "<p>Oczywiście!<br/><br/><ul><li>Wszystkie paczki <strong>z Ukrainy do Polski są ubezpieczone, a opłata wynosi 3% deklarowanej wartości na Nowej Poczcie.</strong></li><li>Wszystkie paczki <strong>z Polski do Ukrainy są ubezpieczone, a opłata wynosi 1% deklarowanej wartości.</strong></li></ul><br/>To obowiązkowe ubezpieczenie chroni Twoją paczkę.</p>"
       },
       "question4": {
-        "question": "Jak mogę zmniejszyć koszt wysyłki z Ukrainy?",
-        "answer": "<p>Jeśli paczkę pakujesz już na poczcie, <strong>dokładnie sprawdź wymiary opakowania</strong> w porównaniu do rzeczywistych rozmiarów paczki! Każdy dodatkowy centymetr zwiększa koszt :( <br/><br/> <strong>Więc poproś operatora o przycięcie pudła</strong>, jeśli jest za duże. Tak, masz do tego prawo!<br/><br/> Jak przyciąć pudło samodzielnie, <strong>zobacz to w tym wideo!</strong></p>"
+        "question": "Jak obniżyć koszt wysyłki z Ukrainy?",
+        "answer": "<p>Jeśli Twoja paczka jest pakowana na poczcie, <strong>kontroluj dokładnie wymiary</strong> opakowania względem rzeczywistego rozmiaru paczki! Każdy dodatkowy centymetr zwiększa koszt:(<br/><br/><strong>Nie bój się poprosić pracownika o przycięcie kartonu,</strong> jeśli jest za duży — masz do tego prawo!<br/><br/>Jak przyciąć karton samodzielnie, <strong>obejrzyj w tym filmie!</strong></p>"
       },
       "question5": {
-        "question": "Kto ma płacić za wysyłkę?",
-        "answer": "<p><ul><li>Jeśli paczka <strong>jest wysyłana z Ukrainy,</strong> może ją opłacić zarówno odbiorca, jak i nadawca.</li> <li>Jeśli paczka <strong>jest wysyłana do Ukrainy,</strong> opłaca ją wyłącznie nadawca.</li></ul></p>"
+        "question": "Kto płaci za wysyłkę?",
+        "answer": "<p><ul><li>Jeśli paczka <strong>idzie z Ukrainy,</strong> może zapłacić odbiorca lub nadawca.</li><li>Jeśli paczka <strong>idzie do Ukrainy,</strong> płaci wyłącznie nadawca.</li></ul></p>"
       },
       "question6": {
-        "question": "Co nie można transportować z Ukrainy do Unii Europejskiej?",
-        "answer": "<ul><li>Alkohol,</li> <li>Tytoń (w każdej formie) i e-papierosy,</li><li> Metale szlachetne,</li> <li>Pieniądze,</li> <li>Produkty mięsne i smalec,</li> <li>Produkty mleczne,</li> <li>Ikra rybna,</li> <li>Produkty futrzane i inne.</li><br/><br/> Paczki z zabronionymi rzeczami lub substancjami <strong>zostaną zwrócone nadawcy na jego koszt.</strong></ul>"
+        "question": "Czego nie wolno przewozić z Ukrainy do UE?",
+        "answer": "<ul><li>Alkoholu,</li><li>tytoniu (w każdej formie) i e-papierosów,</li><li>metali szlachetnych,</li><li>pieniędzy,</li><li>produktów mięsnych i słoniny,</li><li>produktów mlecznych,</li><li>ikry ryb,</li><li>wyrobów futrzarskich i innych.</li><br/><br/> Przesyłki z zakazanymi rzeczami są zwracane do nadawcy na jego koszt.</ul>"
       },
       "question7": {
-        "question": "Czy mogę wysłać drogocenną paczkę do Ukrainy?",
-        "answer": "Jeśli <strong>wartość paczki przekracza 1000 PLN,</strong> nadawca dopłaca 10% różnicy.<br/><br/> <strong>Jak to obliczamy?</strong> <br/><br/>Przykład: 1500 PLN - 1000 PLN = 500 PLN x 10% = 50 PLN (dopłata).<br/> Tę kwotę dodajemy do kosztu taryfy."
+        "question": "Czy można wysłać wartościową paczkę do Ukrainy?",
+        "answer": "Tak. Jeśli <strong>wartość paczki przekracza 1000 zł,</strong> doliczana jest opłata — 10% od kwoty powyżej 1000 zł.<br/><br/><strong>Przykład:</strong><br/><br/>1500 zł - 1000 zł = 500 zł × 10% = 50 zł (dopłata).<br/>Tę kwotę dodajemy do ceny taryfy."
       },
       "question8": {
-        "question": "Jak zamówić paczkę z ukraińskiego sklepu internetowego i wysłać ją do Europy?",
-        "answer": "<p>Kiedy kupujesz produkt w sklepie internetowym: <ul><li>Wpisz następujące dane dostawy:<br/><br/> Nova Poshta, region Lwów, miejscowość Hostyntseve, oddział nr 1 (Do 1000 kg i wymiarów do 70 cm x 170 cm x 300 cm).<br/> Odbiorca: FOP Kysil Lyudmyla Anatoliyivna <br/>EDRPOU: 3221718269 <br/>+380 (95) 801-04-74.<br/><br/></li><li> Wypełnij ten formularz. W ten sposób dowiemy się, gdzie wysłać Twoją paczkę :)</li> <li>Gdy paczka dotrze do Polski, otrzymasz SMS od IVANCOM.</li></ul></p>"
+        "question": "Jak zamówić towar z ukraińskiego sklepu internetowego do UE?",
+        "answer": "<p>Podczas składania zamówienia:<ul><li>Wpisz te dane w polu dostawy:<br/><br/>Nowa Poczta, obwód lwowski, Hostyncewe, oddział nr 1 (do 1000 kg i wymiarów 70x170x300 cm).<br/>Odbiorca: FOP Kysil Ludmyła Anatolijewna<br/>EDRPOU: 3221718269<br/>+380 (95) 801-04-74.<br/><br/></li><li>Wypełnij ten formularz — dzięki temu dowiemy się, gdzie dostarczyć paczkę :)</li><li>Gdy paczka dotrze do Polski, otrzymasz SMS od IVANCOM.</li></ul></p>"
       }
     },
     "delivery": {
       "courierAlt": "Kurier IVANCOM",
-      "courierTitle": "Wysyłaj łatwo: kurier i paczkomaty InPost",
-      "courierDescription": "IVANCOM zapewnia szybką i niezawodną dostawę kurierską w Polsce, działając w największych miastach, takich jak Warszawa, Kraków, Wrocław i inne. Twoje paczki nie przechodzą przez terminale, co minimalizuje ryzyko uszkodzeń, a ukraińskojęzyczni kurierzy ułatwiają komunikację. W niektórych miastach dostępny jest bezpłatny odbiór paczek. Zamówienie kuriera jest proste – skontaktuj się z biurem IVANCOM w swoim mieście, a my zajmiemy się resztą!",
+      "courierTitle": "Wysyłaj wygodnie: kurier i paczkomaty InPost",
+      "courierDescription": "IVANCOM oferuje szybką i niezawodną dostawę kurierską w Polsce, działając w dużych miastach jak Warszawa, Kraków, Wrocław i inne. Twoje paczki nie przechodzą przez terminale, co minimalizuje ryzyko uszkodzeń, a ukraińskojęzyczni kurierzy ułatwiają komunikację. W niektórych miastach możliwy jest darmowy odbiór paczek. Zamówienie kuriera jest proste – skontaktuj się z biurem IVANCOM w Twoim mieście, a my zajmiemy się resztą!",
       "inpostAlt": "Paczkomaty InPost",
-      "inpostTitle": "Dzięki paczkomatom InPost zapomnij o kolejkach",
-      "inpostDescription": "Wysyłaj paczki z Polski na Ukrainę o każdej porze, ponieważ paczkomaty są dostępne 24/7. Proces wysyłki zajmuje tylko kilka kroków: wypełnij dane, odbierz kod, umieść paczkę w najbliższym paczkomacie – i gotowe! Twoja paczka jest śledzona na całej trasie, a odbiorca może ją odebrać w oddziale Nova Poshta lub zamówić dostawę kurierską. Wybierz wygodny format wysyłki w konkurencyjnych cenach!",
+      "inpostTitle": "Z paczkomatami InPost — bez kolejek!",
+      "inpostDescription": "Wysyłaj paczki z Polski do Ukrainy o każdej porze – paczkomaty działają 24/7. Wystarczy, że wypełnisz dane, otrzymasz kod, włożysz paczkę do najbliższego paczkomatu — i gotowe! Twoja paczka jest śledzona przez całą drogę, a odbiorca może ją odebrać w oddziale Nowej Poczty lub zamówić dostawę kurierską. Wybierz wygodną formę wysyłki w korzystnej cenie!",
       "details": "Szczegóły",
       "contacts": "Kontakt",
       "send": "Wyślij"
     },
     "about": {
-      "careTrustTitle": "Opieka i zaufanie w każdej podróży",
-      "careTrustPart1": "Jesteśmy rodzinną firmą, która uczyniła transport swoją misją życiową. Od momentu naszego powstania w 2017 roku pomogliśmy tysiącom ludzi podróżować komfortowo i bezpiecznie między Ukrainą a Polską.",
-      "careTrustPart2": "Od dostarczania paczek i dokumentów po transport zwierząt domowych – oferujemy usługi, które spełniają Twoje potrzeby i standardy jakości. W IVANCOM dbamy nie tylko o każdego klienta, ale także o tych, którzy potrzebują pomocy. Wspieranie Sił Zbrojnych Ukrainy, działalność charytatywna i troska o ludzi to nasz wkład we wspólną przyszłość. Dowiedz się więcej o naszej historii, wartościach i zespole.",
+      "careTrustTitle": "Troska i zaufanie w każdej podróży",
+      "careTrustPart1": "Jesteśmy rodzinną firmą logistyczną, która przekształciła transport w swoją życiową misję. Od momentu założenia w 2017 roku pomogliśmy tysiącom ludzi podróżować komfortowo i bezpiecznie między Ukrainą a Polską.",
+      "careTrustPart2": "Nasze usługi to nie tylko dostarczanie paczek, dokumentów czy transport zwierząt, ale przede wszystkim troska o Twoje potrzeby i jakość obsługi. Wspieramy również ukraińskie wojsko, angażujemy się w działania charytatywne i nigdy nie jesteśmy obojętni wobec potrzebujących. Dowiedz się więcej o naszej historii, wartościach i zespole.",
       "learnMore": "Dowiedz się więcej"
     },
     "Calendar": {
-      "title": "Як пришвидшити відправлення?",
-      "intro": "Час – це цінність! Хочете, щоб ваші вантажі вирушали без затримок? У нас є кілька простих порад, як організувати швидке та ефективне відправлення.",
-      "detailsTitle": "Секрет у деталях:",
-      "detail1": "Правильно заповнені документи",
-      "detail2": "Чітке пакування",
-      "detail3": "Попереднє узгодження графіків",
-      "moreInfo": "Дізнайтеся більше про оптимізацію відправлень на нашій сторінці",
-      "learnMore": "Перейти до порад",
-      "followUs": "А ще – підписуйтесь на наші соцмережі, щоб отримувати актуальні новини про розклад і корисні рекомендації."
+      "title": "Jak przyspieszyć wysyłkę?",
+      "intro": "Czas to wartość! Chcesz, aby Twoje przesyłki ruszały szybko i bez opóźnień? Sprawdź kilka prostych porad, jak uczynić wysyłkę bardziej efektywną.",
+      "detailsTitle": "Sekret tkwi w szczegółach:",
+      "detail1": "Prawidłowo wypełnione dokumenty",
+      "detail2": "Solidne opakowanie",
+      "detail3": "Wcześniejsze ustalenie harmonogramu",
+      "moreInfo": "Więcej o tym, jak zoptymalizować proces — na naszej stronie.",
+      "learnMore": "Zobacz porady",
+      "followUs": "I nie zapomnij śledzić nas w social mediach — tam zawsze są aktualne harmonogramy i przydatne porady."
     }
   },
   "NotFoundPage": {

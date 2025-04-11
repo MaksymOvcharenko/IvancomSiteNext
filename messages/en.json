@@ -1,80 +1,92 @@
 {
   "IndexPage": {
     "title": "IVANCOM — parcels that bring people closer",
-    "description": "Fast delivery of parcels from Ukraine to Poland, EU countries, and back without unnecessary hassle",
+    "description": "Fast delivery of parcels from Ukraine to Poland, EU countries and back — hassle-free",
     "calculate": "Calculate cost",
-    "apply": "Submit a request",
+    "apply": "Submit request",
     "services": {
       "services": "Services",
       "parcels": "Parcels",
       "medicines": "Medicines",
-      "cosmetics": "Injectable Cosmetics",
+      "cosmetics": "Injectable cosmetics",
       "animals": "Animals",
       "generators": "Generators",
-      "move": "Move",
-      "wheels": "Wheels and Tires",
+      "move": "Moving",
+      "wheels": "Wheels and tires",
       "bicycles": "Bicycles",
       "documents": "Documents"
     },
     "directions": {
-      "eu_to_eu": "From Europe",
+      "eu_to_eu": "Within Poland",
       "eu_to_ua": "From Europe",
       "ua_to_eu": "From Ukraine",
-      "eu_to_eu2": "to Europe",
+      "eu_to_eu2": "",
       "eu_to_ua2": "to Ukraine",
       "ua_to_eu2": "to Europe",
-      "title": "Choose a direction"
+      "title": "Choose direction"
     },
     "faq": {
+      "faq1": "Frequently Asked Questions",
       "question1": {
-        "question": "How can I send a parcel from Ukraine abroad?",
-        "answer": "<p>Your shipments travel through the country via our warehouse in the village of Hostyntseve (Lviv region).</p><p>Send parcels to this address via Nova Poshta: <br/> <br/><strong>Lviv region, village Hostyntseve, branch No. 1</strong></p><p><strong>Recipient:</strong> FOP Kysil Lyudmyla Anatoliyivna</p><p><strong>EDRPOU:</strong> 3221718269</p><p><strong>Phone:</strong> +380 (95) 801-04-74</p>"
+        "question": "How to send a parcel from Ukraine abroad?",
+        "answer": "<p>Your shipments pass through our warehouse in Hostyntseve (Lviv region).</p><p>Send your parcel via Nova Poshta:<br/><br/><strong>Lviv region, Hostyntseve village, branch №1</strong></p><p><strong>Recipient:</strong> FOP Kysil Liudmyla Anatoliivna</p><p><strong>EDRPOU:</strong> 3221718269</p><p><strong>Phone:</strong> +380 (95) 801-04-74</p>"
       },
       "question2": {
-        "question": "How do we calculate the delivery time of a parcel from Ukraine abroad?",
-        "answer": "<p>Delivery time is calculated <strong>from the moment your parcel leaves our warehouse in Ukraine</strong> (village Hostyntseve, Lviv region). <br/> The minimum delivery time is <strong>from 2 days</strong> (we work without weekends).</p>"
+        "question": "How do we calculate delivery time from Ukraine abroad?",
+        "answer": "<p>Delivery time is calculated <strong>from the moment your parcel leaves our Ukrainian warehouse</strong> (Hostyntseve, Lviv region). <br/> Minimum time – <strong>from 2 days</strong> (we work every day).</p>"
       },
       "question3": {
         "question": "Is my parcel insured and how much does it cost?",
-        "answer": "<p>Of course!<br/><br/><ul><li>All parcels <strong>from Ukraine to Poland are insured, the insurance payment is 3% of the declared value.</strong></li> <li>All parcels <strong>from Poland to Ukraine are insured, the insurance payment is 1% of the declared value.</strong></li> </ul><br/>This is a mandatory insurance payment that protects your parcel.</p>"
+        "answer": "<p>Absolutely!<br/><br/><ul><li>All parcels <strong>from Ukraine to Poland are insured, insurance fee is 3% of the declared value on Nova Poshta.</strong></li><li>All parcels <strong>from Poland to Ukraine are insured, insurance fee is 1% of the declared value.</strong></li></ul><br/>This mandatory insurance protects your parcel.</p>"
       },
       "question4": {
-        "question": "How can I reduce the cost of shipping from Ukraine?",
-        "answer": "<p>If your parcel is packed at the post office, <strong>carefully check the packing dimensions</strong> against the actual size of your parcel! Every extra centimeter adds cost :( <br/><br/> <strong>So ask the operator to trim the box</strong> if it is too large. Yes, you have the right to do so!<br/><br/> How to trim the box yourself, <strong>watch this video!</strong></p>"
+        "question": "How to reduce shipping cost from Ukraine?",
+        "answer": "<p>If your parcel is packed at the post office, <strong>carefully check that the packaging size matches the real size of your parcel!</strong> Every extra cm adds cost:(<br/><br/><strong>Don’t hesitate to ask the operator to resize the box</strong> if it’s too big — you have the right!<br/><br/>Want to cut the box yourself? <strong>Watch this video!</strong></p>"
       },
       "question5": {
         "question": "Who should pay for the shipment?",
-        "answer": "<p><ul><li>If the parcel <strong>is sent from Ukraine,</strong> it can be paid by either the recipient or the sender.</li> <li>If the parcel <strong>is sent to Ukraine,</strong> only the sender must pay.</li></ul></p>"
+        "answer": "<p><ul><li>If the parcel <strong>is going from Ukraine,</strong> it can be paid by sender or recipient.</li><li>If the parcel <strong>is going to Ukraine,</strong> it must be paid by the sender only.</li></ul></p>"
       },
       "question6": {
-        "question": "What cannot be transported from Ukraine to the European Union?",
-        "answer": "<ul><li>Alcohol,</li> <li>Tobacco (in any form) and electronic cigarettes,</li><li> Precious metals,</li> <li>Money,</li> <li>Meat products and lard,</li> <li>Dairy products,</li> <li>Fish roe,</li> <li>Fur products, and others.</li><br/><br/> Parcels with prohibited items or substances <strong>will be returned to the sender at additional cost.</strong></ul>"
+        "question": "What is prohibited to ship from Ukraine to the EU?",
+        "answer": "<ul><li>Alcohol,</li><li>tobacco (in any form) and e-cigarettes,</li><li>precious metals,</li><li>cash,</li><li>meat and lard,</li><li>dairy products,</li><li>fish caviar,</li><li>fur items, etc.</li><br/><br/> Parcels with prohibited items are returned to sender at their expense.</ul>"
       },
       "question7": {
-        "question": "Can I send an expensive parcel to Ukraine?",
-        "answer": "If <strong>the value of the parcel exceeds 1000 PLN,</strong> the sender must pay 10% of the difference.<br/><br/> <strong>How do we calculate?</strong> <br/><br/>Example: 1500 PLN - 1000 PLN = 500 PLN x 10% = 50 PLN (additional payment).<br/> We add this amount to the tariff cost."
+        "question": "Can I send a high-value parcel to Ukraine?",
+        "answer": "Yes, you can. If <strong>parcel value exceeds 1000 PLN</strong>, an extra fee applies — 10% of the amount above 1000 PLN.<br/><br/><strong>Example:</strong><br/><br/>1500 PLN - 1000 PLN = 500 PLN × 10% = 50 PLN (surcharge).<br/>This is added to your tariff."
       },
       "question8": {
-        "question": "How can I order a parcel from a Ukrainian online store and have it delivered to Europe?",
-        "answer": "<p>When you buy a product from an online store: <ul><li>Enter the following delivery details:<br/><br/> Nova Poshta, Lviv region, village Hostyntseve, branch No. 1 (Up to 1000 kg and dimensions up to 70 cm x 170 cm x 300 cm).<br/> Recipient: FOP Kysil Lyudmyla Anatoliyivna <br/>EDRPOU: 3221718269 <br/>+380 (95) 801-04-74.<br/><br/></li><li> Fill out this form. This will let us know where to send your parcel :)</li> <li>When the parcel arrives in Poland, you will receive an SMS from IVANCOM.</li></ul></p>"
+        "question": "How to order from a Ukrainian online store and deliver to Europe?",
+        "answer": "<p>When placing your order:<ul><li>Enter this delivery info:<br/><br/>Nova Poshta, Lviv region, Hostyntseve village, branch №1 (up to 1000 kg and size 70x170x300 cm).<br/>Recipient: FOP Kysil Liudmyla Anatoliivna<br/>EDRPOU: 3221718269<br/>+380 (95) 801-04-74.<br/><br/></li><li>Fill in our form — so we’ll know where to deliver your parcel :)</li><li>When the parcel reaches Poland, you’ll get an SMS from IVANCOM.</li></ul></p>"
       }
     },
     "delivery": {
-      "courierAlt": "IVANCOM Courier",
-      "courierTitle": "Send easily: courier and InPost lockers",
-      "courierDescription": "IVANCOM provides fast and reliable courier delivery in Poland, operating in major cities such as Warsaw, Krakow, Wroclaw, and others. Your parcels do not go through terminals, minimizing the risk of damage, and Ukrainian-speaking couriers make communication easy. In some cities, free parcel pickup is available. Ordering a courier is easy – just contact the IVANCOM office in your city, and we will take care of the rest!",
-      "inpostAlt": "InPost Lockers",
-      "inpostTitle": "With InPost lockers, forget about queues",
-      "inpostDescription": "Send parcels from Poland to Ukraine at any time, as the lockers are available 24/7. The shipment process takes just a few steps: fill in the details, receive a code, place the parcel in the nearest locker – and you're done! Your parcel is tracked along the entire route, and the recipient can pick it up at a Nova Poshta branch or order courier delivery. Choose a convenient shipping format at competitive rates!",
-      "details": "Details",
+      "courierAlt": "IVANCOM courier",
+      "courierTitle": "Send with ease: courier and InPost parcel lockers",
+      "courierDescription": "IVANCOM offers fast and reliable courier delivery in Poland, operating in major cities like Warsaw, Krakow, Wrocław and others. Your parcels don’t go through terminals, which minimizes damage risk. Ukrainian-speaking couriers make communication easy. In some cities, parcel pickup is free. Ordering is simple — contact the IVANCOM office in your city, and we’ll handle the rest!",
+      "inpostAlt": "InPost parcel lockers",
+      "inpostTitle": "With InPost — no queues!",
+      "inpostDescription": "Send parcels from Poland to Ukraine anytime — lockers work 24/7. Just fill in your data, get a code, put the parcel into the nearest locker — done! The parcel is tracked all the way, and the recipient can pick it up from Nova Poshta or get courier delivery. Choose the most convenient way with the best rates!",
+      "details": "More details",
       "contacts": "Contacts",
       "send": "Send"
     },
     "about": {
       "careTrustTitle": "Care and trust in every journey",
-      "careTrustPart1": "We are a family company that has turned transportation into a lifelong commitment. Since our founding in 2017, we have helped thousands of people travel comfortably and safely between Ukraine and Poland.",
-      "careTrustPart2": "From parcel and document delivery to pet transportation, we provide services that meet your needs and quality standards. At IVANCOM, we care not only about every client but also about those in need. Supporting the Armed Forces of Ukraine, charity, and caring for people is our contribution to a shared future. Learn more about our history, values, and team.",
+      "careTrustPart1": "We’re a family-run logistics company that turned delivery into a life mission. Since 2017, we’ve helped thousands of people travel safely and comfortably between Ukraine and Poland.",
+      "careTrustPart2": "Our services aren’t just parcel delivery, document handling, or pet transportation — they’re all about caring for your needs and providing top service. We support the Ukrainian Armed Forces, do charity work, and always help those in need. Learn more about our story, values, and team.",
       "learnMore": "Learn more"
+    },
+    "Calendar": {
+      "title": "How to speed up your shipment?",
+      "intro": "Time is valuable! Want your parcels to be dispatched quickly and smoothly? Here are a few simple tips to ship more efficiently.",
+      "detailsTitle": "Details matter:",
+      "detail1": "Properly filled documents",
+      "detail2": "Reliable packaging",
+      "detail3": "Agreed schedule in advance",
+      "moreInfo": "Learn how to optimize the process — check our page.",
+      "learnMore": "Go to tips",
+      "followUs": "And don’t forget to follow us on socials — we post updates and shipping hacks there."
     }
   },
   "NotFoundPage": {
