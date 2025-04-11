@@ -3,7 +3,7 @@
 }
 .sidebar {
   position: fixed;
-  top: 20%;
+  /* top: 20%; */
   left: 0;
   width: 250px;
 
@@ -51,7 +51,7 @@
 /* Кнопка для розгортання/закриття сайдбару */
 .toggleButton {
   position: fixed;
-  top: 20%;
+  /* top: 20%; */
   left: 0;
 
   background: var(--secondary-blue);

@@ -8,6 +8,8 @@ import { useParams, useSearchParams } from 'next/navigation';
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { LucideEarth } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { CiMenuBurger } from 'react-icons/ci';
+import { GiHamburgerMenu } from "react-icons/gi";
 const Sidebar = () => {
   const [isClient, setIsClient] = useState(false); // Стан для перевірки, чи рендериться на клієнті
   const [isSidebarOpen, setIsSidebarOpen] = useState(false ); // Стан для відкриття/закриття сайдбару
@@ -58,7 +60,9 @@ const Sidebar = () => {
       <div className={styles.cont}>
           <div>
               {!isSidebarOpen && <button className={styles.toggleButton} onClick={toggleSidebar}>
-            <LucideEarth />
+          {/* <LucideEarth /> */}
+          <GiHamburgerMenu size={24} />
+            
           </button> }
               
           </div>
