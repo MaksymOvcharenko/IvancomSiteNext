@@ -9,20 +9,22 @@ import DirectionModal from './DirectionModal/DirectionModal';
 import { useParams, useRouter } from 'next/navigation';
 import Modal from '../Modal/Modal';
 import styles from "./ServiceCards.module.css"
+import Image from 'next/image';
 
 type ServiceCardsProps = {};
 
 const services = [
-  { id: 'parcels', label: 'parcels' },
-  { id: 'medicines', label: 'medicines' },
-//   { id: 'cosmetics', label: 'cosmetics' },
-  { id: 'animals', label: 'animals' },
-  { id: 'generators', label: 'generators' },
-  { id: 'move', label: 'move' },
-  { id: 'wheels', label: 'wheels' },
-  { id: 'bicycles', label: 'bicycles' },
-  { id: 'documents', label: 'documents' },
+  { id: 'parcels', label: 'parcels', img: '/image/services/package1.jpg' },
+  { id: 'medicines', label: 'medicines', img: '/image/services/medicines.png' },
+  // { id: 'cosmetics', label: 'cosmetics', img: '/image/services/cosmetics.jpg' },
+  { id: 'animals', label: 'animals', img: '/image/services/animals.jpg' },
+  { id: 'generators', label: 'generators', img: '/image/services/generator.jpg' },
+  { id: 'move', label: 'move', img: '/image/services/move.jpg' },
+  { id: 'wheels', label: 'wheels', img: '/image/services/wheels.jpg' },
+  { id: 'bicycles', label: 'bicycles', img: '/image/services/bicycles.jpg' },
+  { id: 'documents', label: 'documents', img: '/image/services/documents.jpg' },
 ];
+
 
 const ServiceCards: React.FC<ServiceCardsProps> = () => {
   const [selectedService, setSelectedService] = useState<string | null>(null);
@@ -48,7 +50,7 @@ const t = useTranslations("IndexPage.services");
       <div className={styles.body}>
           <h2 className={styles.title}>{ t("services")}</h2>
       <div className={styles.services}>
-          {services.map(service => (
+          {/* {services.map(service => (
             <button 
               key={service.id} 
                   onClick={() => handleSelectService(service.id)}
@@ -56,7 +58,28 @@ const t = useTranslations("IndexPage.services");
             >
               <img src='/image/services/package.jpg' className={styles.img} /><div><p>{t(service.label)}</p> <div className={styles.cardBtn}>Обрати</div></div>
             </button>
-          ))}
+          ))} */}
+        {services.map(service => (
+  <button 
+    key={service.id} 
+    onClick={() => handleSelectService(service.id)}
+    className={styles.card}
+  >
+    <div className={styles.imgWrapper}>
+      <Image 
+        src={service.img} 
+        alt={service.label} 
+        width={306} 
+        height={393} 
+        className={styles.img}
+      />
+    </div>
+    <div>
+      <p>{t(service.label)}</p>
+      <div className={styles.cardBtn}>Обрати</div>
+    </div>
+  </button>
+))}
       </div>
       
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} ><DirectionModal 

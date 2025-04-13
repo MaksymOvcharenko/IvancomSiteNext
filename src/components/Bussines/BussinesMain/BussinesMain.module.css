@@ -22,6 +22,7 @@
   border-radius: 16px;
   width: 352px;
   height: 270px;
+  object-fit: cover;
 }
 .description {
   font-family: var(--font-family);
@@ -87,7 +88,7 @@
   }
   .imageWrapper {
     width: 628px;
-    height: 460px;
+    height: 400px;
   }
 }
 
@@ -102,7 +103,8 @@
   }
   .imageWrapper {
     width: 636px;
-    height: 572px;
+    height: 636px;
     flex-shrink: 0;
+    object-fit: contain;
   }
 }

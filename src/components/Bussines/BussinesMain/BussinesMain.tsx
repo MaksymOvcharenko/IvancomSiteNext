@@ -10,7 +10,7 @@ const BussinesMain = () => {
       <h2 className={styles.title}>{t("title")}</h2>
       <div className={styles.cont}>
           <div className={styles.imageWrapper}>
-            <Image src="/image/bussines/main.jpg" alt={t("imageAlt")} width={300} height={200} className={styles.imageWrapper} />
+            <Image src="/image/bussines/main1.jpg" alt={t("imageAlt")} width={300} height={200} className={styles.imageWrapper} />
           </div>
           <div className={styles.textCont}>
               <p className={styles.description}>{t("description")}</p>

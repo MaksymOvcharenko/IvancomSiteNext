@@ -11,7 +11,7 @@ const BussinesContacts = () => {
     const t = useTranslations("bussines.contacts")
   return (
       <div className={styles.body}>
-          <Image alt="contactCars" src="/image/bussines/carsContacts.jpg" className={styles.img} width={352} height={352}></Image>
+          <Image alt="contactCars" src="/image/bussines/carsContacts1.jpg" className={styles.img} width={352} height={352}></Image>
           <div className={styles.contactsCont}>
               <h2 className={styles.title}>{ t("title")}</h2>
             
