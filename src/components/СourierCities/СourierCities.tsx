@@ -67,7 +67,11 @@ const CourierLocations = () => {
             </div>
           </li>
         ))}
-              <p className={styles.description}>{t("description")}</p>
+        <p className={styles.description}>{t("description")}</p>
+        <p className={styles.description}>{t("description1")}</p>
+        <p className={styles.description}>{t("description2")}</p>
+        <p className={styles.description}>{t("description3")}</p>
+         <p className={styles.description}>{t("description4")}</p>
       </ul>
       
     </section>

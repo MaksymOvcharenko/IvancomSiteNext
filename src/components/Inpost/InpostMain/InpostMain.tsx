@@ -55,7 +55,16 @@ const InpostMain = () => {
             <div className={styles.cont}>
                 <div className={styles.warnCont}>
                     <h3 className={styles.warnTitle}>{t("warningTitle")}</h3>
-                    <p className={styles.warnDescr}>{t("warningDesc")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc1")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc2")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc3")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc4")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc5")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc6")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc7")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc8")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc9")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc9")}</p>
                 </div>
             </div>
 

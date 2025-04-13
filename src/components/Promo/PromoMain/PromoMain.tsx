@@ -12,12 +12,14 @@ const PromoMain = () => {
             <div className={styles.textCont}>
                 <div className={styles.textCont1}>
                     <p className={styles.text1}>{ t("desc1")}</p>
-                    <p className={styles.text1}>{ t("desc2")}</p>
+            <p className={styles.text1}>{t("desc2")}</p>
+            <p className={styles.text1}>{ t("desc3")}</p>
                  
                   </div>
                      <div className={styles.textCont2}>
-                        <p className={styles.text2}>{ t("warnDesc1")}</p>
-                        <p className={styles.text2}>{ t("warnDesc2")}</p>
+            <p className={styles.text2}>{t("warnDesc1")}</p>
+            <p className={styles.text2}>{ t("warnDesc2")}</p>
+                        <p className={styles.text2}>{ t("warnDesc3")}</p>
                     </div>
             </div>
           </div>

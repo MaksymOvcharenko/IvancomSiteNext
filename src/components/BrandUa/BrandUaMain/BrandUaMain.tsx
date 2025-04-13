@@ -65,13 +65,14 @@ const BrandUaMain = () => {
               <div>
                 <h3 className={s.listTitle}><strong><a href="#">{t('brandua.step2_title')}</a></strong></h3>
                 <p>{t('brandua.step2_sub')}</p>
+                <p>{t('brandua.step2_sub1')}</p>
               </div>
             </li>
             <li className={s.step}>
               <span className={s.stepNum}>3</span>
               <div>
                 <h3 className={s.listTitle}><strong>{t('brandua.step3_title')}</strong></h3>
-                <p>{t('brandua.step3_sub')}</p>
+                
               </div>
             </li>
           </ol>

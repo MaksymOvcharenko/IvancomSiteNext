@@ -1183,108 +1183,126 @@
     "why_choose_us": "Dlaczego warto nas wybrać?"
   },
   "courier": {
-    "courierTitle": "Kurier IVANCOM — to wygoda i szybkość",
-    "courierDescription": "Zamów ukraińskojęzycznego kuriera IVANCOM i nie martw się o nic! Twoja paczka jest w bezpiecznych rękach!",
-    "title": "W których miastach dostępny jest kurier IVANCOM?",
+    "courierTitle": "Kurier IVANCOM — to wygodne i szybkie",
+    "courierDescription": "Zamów ukraińskojęzycznego kuriera IVANCOM i nie martw się o nic — Twoja paczka jest w dobrych rękach!",
+    "title": "W jakich miastach działa kurier IVANCOM?",
     "deliveryAndPickup": "Dostawa i odbiór",
     "phone": "Telefon",
-    "description": "Wybierając kurierów IVANCOM, otrzymujesz profesjonalną obsługę, w której każdy szczegół logistyki jest uwzględniony. Nasi ukraińskojęzyczni kurierzy zapewniają łatwą komunikację i indywidualne podejście do każdego klienta. Dbamy o bezpieczną i szybką dostawę, co pozwala Ci skupić się na tym, co najważniejsze – rozwoju Twojego biznesu lub zaspokojeniu osobistych potrzeb. Wybierz IVANCOM – wygodę, jakość i niezawodność w każdej przesyłce!"
+    "description": "Wybierając nas, otrzymujesz:",
+    "description1": "– prostą i zrozumiałą komunikację w języku ukraińskim",
+    "description2": "– indywidualne podejście do każdego zamówienia",
+    "description3": "– szybką i bezpieczną dostawę z uwzględnieniem każdego szczegółu",
+    "description4": "Zadbamy o szybką i bezpieczną dostawę — abyś mógł skupić się na tym, co naprawdę ważne: pracy, rodzinie lub po prostu życiu. IVANCOM — gdy liczy się jakość, niezawodność i komfort."
   },
   "inpost": {
-    "titleHero": "Szybka dostawa z Polski do Ukrainy z InPost",
+    "titleHero": "Szybka dostawa z Polski do Ukrainy z pomocą InPost",
     "btnForm": "Wypełnij formularz",
+    "courierAlt": "Kurier IVANCOM",
     "main": {
-      "sendTitle": "Gdzie wysłać paczkę w Polsce?",
-      "sendDesc": "Możesz wysłać paczkę przez najbliższy paczkomat InPost w Polsce. Wystarczy wybrać dogodną lokalizację, zostawić paczkę, a my zajmiemy się jej dostarczeniem do Ukrainy!",
+      "sendTitle": "Gdzie nadać paczkę w Polsce?",
+      "sendDesc": "Paczki możesz nadać w najbliższym paczkomacie InPost. Wybierz dogodną lokalizację, zostaw paczkę – a my zajmiemy się dostawą na Ukrainę!",
       "receiveTitle": "Gdzie odebrać paczkę na Ukrainie?",
-      "receiveDesc": "Możesz odebrać swoją przesyłkę na Ukrainie w:",
+      "receiveDesc": "Paczki na Ukrainie możesz odebrać:",
       "receiveOptions": [
-        "Oddziale Nova Poshta.",
-        "Dostawa kurierska do drzwi (+15 PLN)"
+        "W oddziale Nowej Poczty",
+        "Kurierem pod drzwi (+15 zł)"
       ],
       "priceTitle": "Ile kosztuje usługa?",
       "insurance": "Ubezpieczenie paczki:",
-      "insuranceNote": "+1% zadeklarowanej wartości",
-      "sendBtn": "Wyślij",
+      "insuranceNote": "+1% od zadeklarowanej wartości",
+      "sendBtn": "Nadaj",
       "boxA": {
         "title": "Skrzynka A",
         "weight": "do 5 kg",
-        "size": "8*36*60 cm",
-        "price": "50 PLN"
+        "size": "8×36×60 cm",
+        "price": "50 zł"
       },
       "boxB": {
         "title": "Skrzynka B",
         "weight": "do 10 kg",
-        "size": "19*38*60 cm",
-        "price": "80 PLN"
+        "size": "19×38×60 cm",
+        "price": "80 zł"
       },
       "boxC": {
         "title": "Skrzynka C",
         "weight": "do 25 kg",
-        "size": "41*38*60 cm",
-        "price": "130 PLN"
+        "size": "41×38×60 cm",
+        "price": "130 zł"
       },
       "warningTitle": "WAŻNE!",
-      "warningDesc": "Te rzeczy są zabronione do wysyłki przez paczkomaty InPost na Ukrainę: żywność bez fabrycznego opakowania, antyki, pieniądze, leki bez fabrycznego opakowania, nie więcej niż 1 blok wyrobów tytoniowych, nie więcej niż 2 papierosy elektroniczne, nie więcej niż 200 g tytoniu, butle z gazem propanem, sprzęt wojskowy, alkohol (do 2L mocnego alkoholu i do 2L napojów niskoalkoholowych), rośliny w doniczkach.",
-      "stepsTitle": "Jak wysłać paczkę?",
-      "stepsDesc": "To bardzo proste :) Tylko kilka kroków",
+      "warningDesc1": "Nie wolno wysyłać przez paczkomaty InPost na Ukrainę:",
+      "warningDesc2": "• Produktów bez fabrycznego opakowania",
+      "warningDesc3": "• Antyków, pieniędzy",
+      "warningDesc4": "• Leków bez fabrycznego opakowania",
+      "warningDesc5": "• Wyrobów tytoniowych – nie więcej niż 1 blok",
+      "warningDesc6": "• E-papierosów – maksymalnie 2 sztuki",
+      "warningDesc7": "• Tytoniu – nie więcej niż 200 g",
+      "warningDesc8": "• Butli gazowych (propan), alkoholu powyżej 2 litrów",
+      "warningDesc9": "• Towarów o przeznaczeniu wojskowym",
+      "warningDesc10": "• Roślin w doniczkach",
+      "stepsTitle": "Jak nadać paczkę?",
+      "stepsDesc": "To bardzo proste – wystarczy kilka kroków:",
       "steps": [
         {
-          "title": "Przygotuj paczkę do podróży!",
-          "desc": "Wybierz solidne pudełko, zabezpiecz kruche przedmioty i dobrze je zaklej. Zapoznaj się z naszymi wskazówkami, aby uniknąć problemów w drodze!"
+          "title": "Przygotuj paczkę do wysyłki.",
+          "desc": "Wybierz solidne pudełko, dobrze zabezpiecz delikatne przedmioty i dokładnie je zaklej. Sprawdź nasze porady, aby uniknąć uszkodzeń."
         },
         {
-          "title": "Wypełnij formularz"
+          "title": "Wypełnij formularz nadania"
         },
         {
-          "title": "Otrzymaj link do płatności od operatora IVANCOM i zapłać za swoją przesyłkę"
+          "title": "Otrzymaj link do płatności",
+          "desc": "Operator IVANCOM prześle Ci link — wystarczy zapłacić online."
         },
         {
-          "title": "Za pomocą kodu wysłanego na Twój email, umieść paczkę w najbliższym paczkomacie InPost"
+          "title": "Za pomocą kodu otrzymanego na email, umieść paczkę w najbliższym paczkomacie InPost"
         },
         {
-          "title": "Śledź swoją paczkę za pomocą numeru śledzenia Nova Poshta, który otrzymasz od IVANCOM"
+          "title": "Śledź dostawę",
+          "desc": "Otrzymasz numer przesyłki Nowej Poczty — dzięki niemu możesz śledzić trasę paczki."
         }
       ]
     },
     "faq": {
-      "title": "FAQ",
+      "title": "Najczęstsze pytania",
       "titleVideo": "Jak zapakować paczkę?",
-      "question1": "Jak określić wymiary paczki?",
-      "answer1": "Istnieje kilka wygodnych sposobów na zmierzenie wymiarów paczki: można zmierzyć wysokość, szerokość i głębokość za pomocą miarki, centymetra krawieckiego lub arkusza A4, który ma wymiary (długość – 29,7 cm, szerokość – 21 cm).",
+      "question1": "Jak zmierzyć wymiary paczki?",
+      "answer1": "Możesz zmierzyć długość, szerokość i wysokość za pomocą miarki, linijki lub kartki A4 (długość – 29,7 cm, szerokość – 21 cm).",
       "question2": "Gdzie zdobyć pudełko?",
-      "answer2": "Pudełko można kupić w każdym dużym sklepie, takim jak Auchan, OBI lub Poczta Polska. Można także użyć pudełka pozostałego po wcześniejszych zamówieniach online.",
-      "question3": "Co zrobić, jeśli paczka nie mieści się w wybranym paczkomacie?",
-      "answer3": "Przed wprowadzeniem kodu nadania upewnij się, że twoje pudełko mieści się w wybranej skrytce. Jeśli widzisz, że nie pasuje – skontaktuj się z naszym menedżerem, który prześle ci link do dopłaty za większy rozmiar, a po dokonaniu płatności przekaże nowy kod nadania.",
-      "question4": "Jak śledzić paczkę przez InPost?",
-      "answer4": "Po opłaceniu wybranej usługi otrzymasz e-mail z kodem nadania i numerem śledzenia Nova Poshta. Na dole e-maila znajdziesz aktywny przycisk \"Śledź\" – kliknij go, aby sprawdzić aktualny status swojej paczki.",
+      "answer2": "Pudełko kupisz w każdym dużym sklepie – np. Auchan, OBI lub Poczta Polska. Możesz też użyć kartonu z poprzednich zamówień.",
+      "question3": "Co jeśli paczka nie mieści się w wybranym paczkomacie?",
+      "answer3": "Zanim wpiszesz kod nadania, upewnij się, że paczka zmieści się w wybranym rozmiarze. Jeśli nie — skontaktuj się z naszym menedżerem, a my wyślemy nowy link do płatności i nowy kod.",
+      "question4": "Jak śledzić przesyłkę przez InPost?",
+      "answer4": "Po opłaceniu otrzymasz mail z kodem nadania i numerem przesyłki Nowej Poczty. Kliknij przycisk „Śledź” na dole wiadomości, aby sprawdzić status.",
       "question5": "Czy mogę wysłać paczkę bez pudełka?",
-      "answer5": "<p>Nie zaleca się wysyłania paczki bez pudełka, ponieważ może ona zostać uszkodzona podczas transportu. Pudełko zapewnia niezawodną ochronę przed uderzeniami, wibracjami i ewentualnym zgnieceniem przez inne przesyłki.<br/><br/>Oto kilka powodów, dla których pudełko jest ważne:<br/><br/>- Ochrona przed wilgocią i zabrudzeniem – bez opakowania przedmiot może zamoknąć lub się zabrudzić.<br/>- Integralność przesyłki – bez pudełka przedmioty mogą się zgubić lub rozsypać, zwłaszcza jeśli są małe.<br/>- Lepiej jest użyć pudełka, wypełniacza (papier, folia, tkanina) i dobrze zapakować, aby przedmiot dotarł w całości i bez uszkodzeń.</p>",
-      "question6": "Dlaczego oddział Nova Poshta nie pojawia się w formularzu?",
-      "answer6": "<p>Istnieje kilka powodów, dla których nie możesz wybrać potrzebnego oddziału:<br/>- Ten oddział nie przyjmuje wybranego przez ciebie rozmiaru paczki.<br/>- Awaria systemu naszego partnera – w takim przypadku skontaktuj się z naszym menedżerem, a my naprawimy ten problem, po czym będziesz mógł wybrać odpowiedni oddział.</p>",
-      "question7": "Czy mogę wysłać paczkę przez InPost, będąc na Ukrainie?",
-      "answer7": "Niestety, w tej chwili technicznie niemożliwe jest nadanie paczki przez InPost dla klientów na Ukrainie.",
-      "question8": "Czy mogę wysłać paczkę do paczkomatu na Ukrainie?",
-      "answer8": "Nie, paczkę można odebrać tylko w oddziale Nova Poshta lub zamówić dostawę do domu przez kuriera.",
-      "question9": "Co zrobić, jeśli w paczkomacie InPost nie ma ekranu do wprowadzenia kodu nadania?",
-      "answer9": "Kod nadania można wprowadzić w dowolnym paczkomacie, a nie tylko w tym, który został wybrany podczas składania zamówienia.",
-      "question10": "Czy mogę zapłacić za usługę ukraińską kartą?",
-      "answer10": "Nie, ale pracujemy nad tym i wkrótce będzie można zapłacić za usługę kartą ukraińskiego banku."
+      "answer5": "Nie zalecamy wysyłki bez pudełka – paczka może ulec uszkodzeniu. Karton chroni zawartość przed wstrząsami, wilgocią, zabrudzeniami i zgubieniem.",
+      "question6": "Dlaczego nie mogę wybrać oddziału Nowej Poczty w formularzu?",
+      "answer6": "Możliwe powody: gabaryty nie pasują do wybranego oddziału lub chwilowa awaria partnera. Skontaktuj się z nami — pomożemy.",
+      "question7": "Czy mogę nadać paczkę z Ukrainy przez InPost?",
+      "answer7": "Obecnie nie ma technicznej możliwości nadania z Ukrainy przez paczkomat InPost.",
+      "question8": "Czy mogę wysłać paczkę na paczkomat w Ukrainie?",
+      "answer8": "Nie. Dostarczamy tylko do oddziałów Nowej Poczty lub kurierem pod drzwi (za dopłatą).",
+      "question9": "Co zrobić, jeśli paczkomat InPost nie ma ekranu do wpisania kodu?",
+      "answer9": "Bez obaw! Kod możesz wpisać w dowolnym paczkomacie, niezależnie od wybranego wcześniej.",
+      "question10": "Czy mogę zapłacić ukraińską kartą bankową?",
+      "answer10": "Jeszcze nie, ale intensywnie nad tym pracujemy — wkrótce będzie to możliwe!"
     }
   },
   "promo": {
-    "title": "Maksymalne korzyści z każdej wysyłki!",
-    "description": "Korzystaj z naszych promocji i zyskaj więcej możliwości.",
+    "title": "Maksymalna korzyść z każdej przesyłki!",
+    "description": "Korzystaj z naszych promocji i odkrywaj jeszcze więcej możliwości.",
     "main": {
-      "title": "Karta Klienta – droga do dużych rabatów!",
-      "desc1": "Odbierz swoją Kartę Klienta już teraz w oddziale stacjonarnym IVANCOM i wkrocz w świat zniżek!",
-      "desc2": "Gdy uzbierasz 4 pieczątki, następna wysyłka lub odbiór będzie tańsza o 50%!",
-      "warnDesc1": "*Zniżka nie obejmuje przesyłek o wysokiej wartości oraz leków.",
-      "warnDesc2": "*50% zniżki dotyczy formularza, na którym łączna waga nie przekracza 50 kg. Jeśli paczka waży więcej niż 50 kg, kolejna pieczątka zostanie dodana do następnego formularza. Zniżka nie obejmuje dodatkowych kosztów (procent powyżej 1000 PLN), ubezpieczenia ani dodatkowego opakowania (pudełko + paleta, itp.)."
+      "title": "Karta Klienta — Twój bonus do każdej przesyłki!",
+      "desc1": "Odbierz Kartę Klienta już teraz w dowolnym stacjonarnym oddziale IVANCOM i korzystaj z przywilejów.",
+      "desc2": "Gdy na karcie znajdą się już 4 pieczątki — następna wysyłka lub odbiór paczki będzie z 50% zniżką!",
+      "desc3": "Uwaga: zniżka nie obowiązuje na przesyłki o wysokiej wartości oraz leki.",
+      "warnDesc1": "*50% zniżki dotyczy jednego formularza, którego łączna waga nie przekracza 50 kg (objętościowej lub rzeczywistej).",
+      "warnDesc2": "*Jeśli Twoja paczka waży więcej niż 50 kg, kolejna pieczątka naliczana jest na nowy formularz.",
+      "warnDesc3": "*Zniżka nie obejmuje dodatkowych kosztów (procent od wartości powyżej 1000 zł), ubezpieczenia oraz dodatkowego opakowania (pudełko, paleta itp.)."
     },
     "soclink": {
-      "title": "Nie przegap swojej korzyści!",
-      "description": "Śledź nas i bądź pierwszym, który dowie się o promocjach."
+      "title": "Nie przegap swoich korzyści!",
+      "description": "Śledź nas w mediach społecznościowych, aby jako pierwszy dowiedzieć się o nowych promocjach i miłych bonusach."
     }
   },
   "bussines": {
@@ -1327,31 +1345,31 @@
   "brandua": {
     "title": "BrandUA – ukraińska jakość bez granic!",
     "subtitle": "Otwieramy nowe możliwości dla Twoich zakupów!",
-    "partners_title": "Nasi partnerzy, którzy nam ufają",
-    "partners_descr": "Jesteśmy dumni ze współpracy z wiodącymi firmami i organizacjami, które wybrały nas jako swojego niezawodnego partnera logistycznego. Nasi partnerzy cenią naszą szybkość, niezawodność i indywidualne podejście do każdej przesyłki. Razem zapewniamy wysoki poziom obsługi i satysfakcji klientów.",
+    "partners_title": "Nasi partnerzy, którzy nam zaufali",
+    "partners_descr": "Jesteśmy dumni ze współpracy z wiodącymi firmami i organizacjami, które wybrały nas jako swojego zaufanego partnera logistycznego. Nasi partnerzy cenią naszą szybkość, niezawodność i indywidualne podejście do każdej przesyłki. Wspólnie z nimi zapewniamy wysoki poziom obsługi i satysfakcji klientów końcowych.",
     "partner1": "Odzież damska",
     "partner2": "Merch",
-    "partner3": "Nawigatorzy",
+    "partner3": "Nawigacje",
     "partner4": "Salony piękności",
     "partner5": "Pyszne sushi",
     "partner6": "Sieć studiów tatuażu",
     "partner7": "Sieć klinik",
     "partner8": "Centra stomatologiczne",
     "how_title": "Jak to działa?",
-    "how_subtitle": "To bardzo łatwe, tylko kilka kroków",
-    "step1_title": "Zamawiaj w ukraińskim sklepie internetowym i podawaj nasze dane do wysyłki na magazyn w Ukrainie",
-    "step1_sub": "W oddziale podaj następujące informacje:",
+    "how_subtitle": "To bardzo proste — tylko kilka kroków i Twoja paczka już w drodze!",
+    "step1_title": "Zamów w ukraińskim sklepie internetowym i podaj nasze dane do wysyłki na magazyn w Ukrainie",
+    "step1_sub": "W oddziale Nowej Poczty podaj następujące dane:",
     "step1_code": "Kod EDRPOU: 3221718269",
-    "step1_note": "Kod automatycznie wprowadzi nasze dane podczas nadania w systemie.",
-    "step1_check": "Ale koniecznie sprawdź, czy dane są poprawne:",
-    "step1_info": "FOP Kisil Ludmyła Anatolijewna",
+    "step1_note": "(Ten kod automatycznie pobierze nasze dane w systemie)",
+    "step1_check": "Ale koniecznie sprawdź, czy wszystko jest poprawnie podane:",
+    "step1_info": "FOP Kysyli Ludmyła Anatolijewna",
     "step1_info1": "+380 (95) 801-04-74",
-    "step1_info2": "Obwód lwowski, wieś Hostyncwe",
-    "step1_info3": "NP №1",
-    "step2_title": "Wypełnij formularz wysyłki po otrzymaniu TTN Nowej Poczty",
-    "step2_sub": "To pomoże nam śledzić Twoją paczkę i zagwarantuje jej bezpieczne i terminowe dostarczenie.",
-    "step3_title": "Nie martw się o nic!",
-    "step3_sub": "Teraz wszystko jest w naszych rękach!"
+    "step1_info2": "obwód lwowski, wieś Hostyncewe,",
+    "step1_info3": "oddział NP nr 1",
+    "step2_title": "Wypełnij formularz wysyłki",
+    "step2_sub": "Po otrzymaniu numeru przesyłki Nowej Poczty — wypełnij formularz na naszej stronie. To pozwoli nam śledzić Twoją paczkę i zadbać o jej bezpieczną dostawę.",
+    "step2_sub1": "To pozwoli nam śledzić Twoją paczkę i zadbać o jej bezpieczną dostawę.",
+    "step3_title": "Nie martw się o nic — Twoja paczka jest w dobrych rękach!"
   },
   "PackIt": {
     "title": "Spakuj sam i nie płać za powietrze!",

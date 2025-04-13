@@ -1185,108 +1185,126 @@
     "why_choose_us": "Why choose us?"
   },
   "courier": {
-    "courierTitle": "IVANCOM Courier — convenient and fast",
-    "courierDescription": "Order a Ukrainian-speaking IVANCOM courier and don't worry about a thing! Your parcel is in safe hands!",
-    "title": "In which cities is IVANCOM courier available?",
+    "courierTitle": "IVANCOM Courier — it’s convenient and fast",
+    "courierDescription": "Order a Ukrainian-speaking IVANCOM courier and don’t worry about a thing — your parcel is in safe hands!",
+    "title": "In which cities is the IVANCOM courier available?",
     "deliveryAndPickup": "Delivery and pickup",
     "phone": "Phone",
-    "description": "By choosing IVANCOM couriers, you receive professional service where every logistics detail is considered. Our Ukrainian-speaking couriers ensure easy communication and an individual approach to each client. We care about safe and fast delivery, allowing you to focus on what matters most – growing your business or fulfilling personal needs. Choose IVANCOM – convenience, quality, and reliability in every shipment!"
+    "description": "By choosing us, you get:",
+    "description1": "– simple and clear communication in Ukrainian",
+    "description2": "– a personalized approach to every order",
+    "description3": "– fast and safe delivery with every detail considered",
+    "description4": "We’ll take care of a secure and prompt delivery — so you can focus on what truly matters: work, family, or just life. IVANCOM — when quality, reliability, and comfort matter most."
   },
   "inpost": {
     "titleHero": "Fast delivery from Poland to Ukraine with InPost",
     "btnForm": "Fill out the form",
+    "courierAlt": "IVANCOM courier",
     "main": {
-      "sendTitle": "Where to send a package in Poland?",
-      "sendDesc": "You can send a package via the nearest InPost parcel locker in Poland. Just choose a convenient location, leave the package, and we will take care of its delivery to Ukraine!",
-      "receiveTitle": "Where to receive a package in Ukraine?",
-      "receiveDesc": "You can receive your shipment in Ukraine at:",
+      "sendTitle": "Where to send a parcel in Poland?",
+      "sendDesc": "You can send a parcel via the nearest InPost parcel locker. Just choose a convenient location, drop off your parcel — and we'll handle the delivery to Ukraine!",
+      "receiveTitle": "Where to receive a parcel in Ukraine?",
+      "receiveDesc": "You can receive a parcel in Ukraine:",
       "receiveOptions": [
-        "A Nova Poshta branch.",
-        "Courier delivery to your door (+15 PLN)"
+        "At a Nova Poshta branch",
+        "By courier to your door (+15 zł)"
       ],
-      "priceTitle": "How much does the service cost?",
-      "insurance": "Package insurance:",
+      "priceTitle": "How much does it cost?",
+      "insurance": "Parcel insurance:",
       "insuranceNote": "+1% of the declared value",
       "sendBtn": "Send",
       "boxA": {
         "title": "Box A",
         "weight": "up to 5 kg",
-        "size": "8*36*60 cm",
-        "price": "50 PLN"
+        "size": "8×36×60 cm",
+        "price": "50 zł"
       },
       "boxB": {
         "title": "Box B",
         "weight": "up to 10 kg",
-        "size": "19*38*60 cm",
-        "price": "80 PLN"
+        "size": "19×38×60 cm",
+        "price": "80 zł"
       },
       "boxC": {
         "title": "Box C",
         "weight": "up to 25 kg",
-        "size": "41*38*60 cm",
-        "price": "130 PLN"
+        "size": "41×38×60 cm",
+        "price": "130 zł"
       },
       "warningTitle": "IMPORTANT!",
-      "warningDesc": "These items are prohibited from being sent via InPost parcel lockers to Ukraine: unpackaged food, antiques, money, unpackaged medicine, no more than 1 block of tobacco products, no more than 2 electronic cigarettes, no more than 200 g of tobacco, propane gas cylinders, military equipment, alcohol (up to 2L of strong alcohol and up to 2L of light alcoholic beverages), potted plants.",
-      "stepsTitle": "How to send a package?",
-      "stepsDesc": "It's very easy :) Just a few simple steps",
+      "warningDesc1": "It is forbidden to send the following through InPost parcel lockers to Ukraine:",
+      "warningDesc2": "• Products without factory packaging",
+      "warningDesc3": "• Antiques, money",
+      "warningDesc4": "• Medicines without factory packaging",
+      "warningDesc5": "• Tobacco products — no more than 1 block",
+      "warningDesc6": "• E-cigarettes — up to 2 units",
+      "warningDesc7": "• Tobacco — up to 200 g",
+      "warningDesc8": "• Gas cylinders (propane), alcohol over 2 liters",
+      "warningDesc9": "• Military-grade items",
+      "warningDesc10": "• Potted plants",
+      "stepsTitle": "How to send a parcel?",
+      "stepsDesc": "It's very easy — just a few steps:",
       "steps": [
         {
-          "title": "Prepare your package for the journey!",
-          "desc": "Choose a sturdy box, protect fragile items, and seal it well. Check our tips to avoid any issues during transportation!"
+          "title": "Prepare your parcel for shipment.",
+          "desc": "Use a sturdy box, secure fragile items, and tape it well. Check our tips to avoid damage."
         },
         {
-          "title": "Fill in the form"
+          "title": "Fill in the shipping form"
         },
         {
-          "title": "Receive a payment link from IVANCOM operator and pay for your shipment"
+          "title": "Receive a payment link",
+          "desc": "An IVANCOM operator will send you a link — just pay online."
         },
         {
-          "title": "Using the code sent to your email, deposit your package in the nearest InPost parcel locker"
+          "title": "Use the code received by email to place your parcel in the nearest InPost parcel locker"
         },
         {
-          "title": "Track your package using the Nova Poshta tracking number provided by IVANCOM"
+          "title": "Track the delivery",
+          "desc": "You'll receive a Nova Poshta tracking number — use it to track your parcel’s route."
         }
       ]
     },
     "faq": {
-      "title": "FAQ",
-      "titleVideo": "How to pack a parcel?",
-      "question1": "How to determine the dimensions of the parcel?",
-      "answer1": "There are several convenient ways to measure the dimensions of a parcel: you can measure the height, width, and depth using a tape measure, tailor's meter, or an A4 sheet, which has dimensions (length – 29.7 cm, width – 21 cm).",
-      "question2": "Where to get a box?",
-      "answer2": "You can buy a box in any large store, such as Auchan, OBI, or Poczta Polska. You can also use a box left over from previous online orders.",
-      "question3": "What to do if the parcel does not fit into the selected parcel locker?",
-      "answer3": "Before entering the locker delivery code, make sure your box fits into the selected locker size. If you see that it doesn't fit, contact our manager. They will send you a link for payment for a larger size, and after the additional payment, they will provide you with a new delivery code.",
-      "question4": "How to track a parcel via InPost?",
-      "answer4": "After paying for the selected service, you will receive an email with the delivery code and the tracking number of Nova Poshta. At the bottom of the email, there will be an active 'Track' button – click on it to see the current status of your parcel.",
+      "title": "Frequently Asked Questions",
+      "titleVideo": "How to pack your parcel?",
+      "question1": "How to measure parcel dimensions?",
+      "answer1": "You can measure the length, width, and height with a ruler, tape measure, or an A4 sheet (length – 29.7 cm, width – 21 cm).",
+      "question2": "Where can I get a box?",
+      "answer2": "You can buy a box in any large store like Auchan, OBI, or Poczta Polska. Or reuse one from previous online orders.",
+      "question3": "What if the parcel doesn't fit the selected locker size?",
+      "answer3": "Before entering the locker code (kod nadania), make sure your box fits the selected size. If not — contact our manager. You'll get a new payment link and code for a bigger box.",
+      "question4": "How to track the parcel via InPost?",
+      "answer4": "After payment, you’ll get an email with the locker code and Nova Poshta tracking number. Click the ‘Track’ button in the email to check status.",
       "question5": "Can I send a parcel without a box?",
-      "answer5": "<p>It is not recommended to send a parcel without a box, as it may get damaged during transportation. The box provides reliable protection against impacts, vibrations, and possible compression by other shipments.<br/><br/>Here are some reasons why a box is important:<br/><br/>- Protection from moisture and dirt – without packaging, the item may get wet or dirty.<br/>- Parcel integrity – without a box, items may be lost or scattered, especially if they are small.<br/>- It is better to use a box, filler (paper, film, fabric), and pack it well to ensure the item arrives intact and undamaged.</p>",
-      "question6": "Why isn't the Nova Poshta branch appearing in the form?",
-      "answer6": "<p>There are several reasons why you cannot select the branch you need:<br/>- This branch does not accept the parcel size you selected.<br/>- A system failure of our partner – in this case, contact our manager, and we will fix this issue, allowing you to select the necessary branch.</p>",
+      "answer5": "It's not recommended — the parcel may be damaged during shipping. A box provides protection from impact, dirt, moisture, and loss.",
+      "question6": "Why can’t I select a Nova Poshta branch in the form?",
+      "answer6": "Possible reasons: the parcel size doesn’t match the branch or there's a technical issue. Contact us — we’ll help fix it.",
       "question7": "Can I send a parcel via InPost while in Ukraine?",
-      "answer7": "Unfortunately, at the moment, it is technically impossible to send a parcel via InPost for customers in Ukraine.",
-      "question8": "Can I send a parcel to a parcel locker in Ukraine?",
-      "answer8": "No, the parcel can only be picked up at a Nova Poshta branch or delivered to your home by a courier.",
-      "question9": "What to do if the InPost locker does not have a screen for entering the delivery code?",
-      "answer9": "The delivery code can be entered in any parcel locker, not just the one you selected when placing the order.",
-      "question10": "Can I pay for the service with a Ukrainian bank card?",
-      "answer10": "No, but we are working on it, and soon you will be able to pay for the service with a Ukrainian bank card."
+      "answer7": "Unfortunately, it’s not technically possible to send from Ukraine via InPost lockers right now.",
+      "question8": "Can I send a parcel to a locker in Ukraine?",
+      "answer8": "No, currently we only deliver to Nova Poshta branches or by courier (extra charge).",
+      "question9": "What if the InPost locker has no screen for code input?",
+      "answer9": "No worries! You can enter the code in any locker — not just the one you initially chose.",
+      "question10": "Can I pay using a Ukrainian bank card?",
+      "answer10": "Not yet, but we’re working on it — this option will be available soon!"
     }
   },
   "promo": {
-    "title": "Maximum benefit from every shipment!",
-    "description": "Take advantage of our promotions and get more opportunities.",
+    "title": "Maximize your benefits with every shipment!",
+    "description": "Take advantage of our promotions and discover even more opportunities.",
     "main": {
-      "title": "Customer Card – your way to great discounts!",
-      "desc1": "Get your Customer Card right now at the IVANCOM branch and step into a world of discounts!",
-      "desc2": "When it has 4 stamps, your next shipment or pickup will be 50% off!",
-      "warnDesc1": "*The discount does not apply to high-value shipments and medicines.",
-      "warnDesc2": "*The 50% discount applies to a form where the total weight does not exceed 50 kg. If the parcel exceeds 50 kg, the next stamp will be applied to the next form. The discount does not apply to additional costs (percentage after 1000 PLN), insurance, or additional packaging (box + pallet board, etc.)."
+      "title": "Customer Card — your bonus with every shipment!",
+      "desc1": "Get your Customer Card now at any IVANCOM branch and enjoy the benefits.",
+      "desc2": "Once you collect 4 stamps — your next shipment or pickup will get a 50% discount!",
+      "desc3": "Note: the discount does not apply to high-value shipments or medicines.",
+      "warnDesc1": "*The 50% discount applies to one form where the total weight does not exceed 50 kg (volumetric or actual).",
+      "warnDesc2": "*If your parcel exceeds 50 kg, the next stamp will count toward a new form.",
+      "warnDesc3": "*The discount does not cover extra charges (percentage after 1000 zł), insurance, or additional packaging (box, pallet frame, etc.)."
     },
     "soclink": {
-      "title": "Don't miss your benefit!",
-      "description": "Follow us and be the first to know about promotions."
+      "title": "Don’t miss out on your perks!",
+      "description": "Follow us on social media to be the first to know about new promotions and sweet bonuses."
     }
   },
   "bussines": {
@@ -1328,11 +1346,11 @@
   },
   "brandua": {
     "title": "BrandUA – Ukrainian quality without borders!",
-    "subtitle": "We open up new opportunities for your shopping!",
-    "partners_title": "Our partners who trust us",
-    "partners_descr": "We are proud to cooperate with leading companies and organizations that have chosen us as their trusted logistics partner. Our partners value our efficiency, reliability, and individual approach to each shipment. Together we provide high-quality service and customer satisfaction.",
+    "subtitle": "We open new opportunities for your shopping!",
+    "partners_title": "Our trusted partners",
+    "partners_descr": "We are proud to cooperate with leading companies and organizations that have chosen us as their trusted logistics partner. Our partners value our efficiency, reliability, and personalized approach to every shipment. Together, we ensure high-quality service and customer satisfaction.",
     "partner1": "Women's clothing",
-    "partner2": "Merch",
+    "partner2": "Merchandise",
     "partner3": "Navigators",
     "partner4": "Beauty salons",
     "partner5": "Delicious sushi",
@@ -1340,20 +1358,20 @@
     "partner7": "Clinic network",
     "partner8": "Dental centers",
     "how_title": "How does it work?",
-    "how_subtitle": "It's very simple, just a few steps",
-    "step1_title": "Order in a Ukrainian online store and specify our details for delivery to the warehouse in Ukraine",
-    "step1_sub": "At the branch, provide the following information:",
+    "how_subtitle": "It’s very simple — just a few steps and your parcel is on its way!",
+    "step1_title": "Order from a Ukrainian online store and use our details for shipment to the warehouse in Ukraine",
+    "step1_sub": "At the Nova Poshta branch, provide the following details:",
     "step1_code": "EDRPOU Code: 3221718269",
-    "step1_note": "This code will automatically pull all our data when sending in the system.",
-    "step1_check": "But be sure to check if the data is correct:",
-    "step1_info": "FOP Kisil Lyudmyla Anatoliivna",
+    "step1_note": "(This code will automatically pull up our details in the system)",
+    "step1_check": "But be sure to check that all the data is correct:",
+    "step1_info": "FOP Kysil Liudmyla Anatoliivna",
     "step1_info1": "+380 (95) 801-04-74",
-    "step1_info2": "Lviv region, Hostynne village",
-    "step1_info3": "NP №1",
-    "step2_title": "Fill out the shipping form after you receive the Nova Poshta TTN",
-    "step2_sub": "This will help us track your parcel and guarantee its safe and timely delivery.",
-    "step3_title": "Don't worry about anything!",
-    "step3_sub": "Now it's our job!"
+    "step1_info2": "Lviv region, Hostyntseve village,",
+    "step1_info3": "Nova Poshta branch #1",
+    "step2_title": "Fill out the shipping form",
+    "step2_sub": "After you receive the Nova Poshta tracking number — fill out the form on our website. This will allow us to track your parcel and ensure safe delivery.",
+    "step2_sub1": "This will allow us to track your parcel and ensure safe delivery.",
+    "step3_title": "Don’t worry about a thing — your parcel is in good hands!"
   },
   "PackIt": {
     "title": "Pack it yourself and don’t pay for air!",
