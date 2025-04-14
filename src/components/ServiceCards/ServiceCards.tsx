@@ -14,15 +14,15 @@ import Image from 'next/image';
 type ServiceCardsProps = {};
 
 const services = [
-  { id: 'parcels', label: 'parcels', img: '/image/services/package1.jpg' },
-  { id: 'medicines', label: 'medicines', img: '/image/services/medicines.png' },
+  { id: 'parcels', label: 'parcels', img: '/image/services/package2.png' },
+  { id: 'medicines', label: 'medicines', img: '/image/services/medicines1.png' },
   // { id: 'cosmetics', label: 'cosmetics', img: '/image/services/cosmetics.jpg' },
-  { id: 'animals', label: 'animals', img: '/image/services/animals.jpg' },
-  { id: 'generators', label: 'generators', img: '/image/services/generator.jpg' },
-  { id: 'move', label: 'move', img: '/image/services/move.jpg' },
-  { id: 'wheels', label: 'wheels', img: '/image/services/wheels.jpg' },
-  { id: 'bicycles', label: 'bicycles', img: '/image/services/bicycles.jpg' },
-  { id: 'documents', label: 'documents', img: '/image/services/documents.jpg' },
+  { id: 'animals', label: 'animals', img: '/image/services/animals1.png' },
+  { id: 'generators', label: 'generators', img: '/image/services/generator1.png' },
+  { id: 'move', label: 'move', img: '/image/services/move1.png' },
+  { id: 'wheels', label: 'wheels', img: '/image/services/wheels1.png' },
+  { id: 'bicycles', label: 'bicycles', img: '/image/services/bicycles1.png' },
+  { id: 'documents', label: 'documents', img: '/image/services/documents1.png' },
 ];
 
 

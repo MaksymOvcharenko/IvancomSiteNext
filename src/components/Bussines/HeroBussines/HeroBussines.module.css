@@ -4,20 +4,40 @@
     #fff 60.79%,
     rgba(255, 255, 255, 0.17) 100%
   ); */
-  background-image: url("../../../../public/image/bussines/bussinesHero.jpg");
+
   /* height: 566px; */
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 1180px;
   /* border: 1px solid red; */
-  background-image: url("../../../../public/image/bussines/bussinesHero.jpg");
+  background-image: url("../../../../public/image/bussines/hero11.jpg");
   background-size: cover; /* щоб зображення покривало весь блок */
   background-position: center; /* центрування картинки */
   background-repeat: no-repeat; /* не повторювати */
   width: 100%;
   height: 100%; /* або задаєш конкретну висоту секції */
 }
+.body {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 58vh; /* або потрібна висота */
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  /* default — мобільний градієнт зверху вниз */
+  background-image: linear-gradient(
+      180deg,
+      #fff 40%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("../../../../public/image/bussines/hero11.jpg");
+}
+
 .title {
   font-family: var(--font-family);
   font-weight: 700;
@@ -84,7 +104,15 @@
       #fff 81.79%,
       rgba(255, 255, 255, 0.17) 100%
     ); */
+    align-items: center;
     margin: 0 auto;
+    background-image: linear-gradient(
+        90deg,
+        #fff 40%,
+        rgba(255, 255, 255, 0.1) 100%
+      ),
+      url("../../../../public/image/bussines/hero11.jpg");
+    background-position: right;
   }
   .cont {
     margin: 0;

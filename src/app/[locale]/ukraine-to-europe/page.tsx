@@ -36,7 +36,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
         <section id="hero" className={styles.sectionHero}>
           <HeroServices
             title={t("heroTitle")}
-            imageSrc="/image/eueu/hero.jpg"
+            imageSrc="/image/eueu/hero1.jpg"
           />
         </section>
 
