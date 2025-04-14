@@ -106,50 +106,57 @@
     "Steps": {
       "title": "From Ukraine to Europe – just 3 simple steps!",
       "step1": {
-        "title": "Pack",
+        "title": "Pack it",
         "form": "View"
       },
       "step2": {
-        "title": "Send to our warehouse in Ukraine",
+        "title": "Send it to our warehouse in Ukraine",
         "desc": "At the branch, provide the following information:"
       },
       "step3": {
         "title": "Fill out the form",
-        "desc": "Don’t worry about a thing! Your parcel is in professional hands :)"
+        "desc": "No worries! Your package is in professional hands :)"
       },
       "buttons": {
         "calculate": "Calculate cost",
-        "fillForm": "Fill out the form"
+        "fillForm": "Fill out form"
       }
     },
     "ParcelsUaEu": {
       "Main": {
-        "title": "Learn about the tariffs and delivery steps for parcels from Ukraine to Poland and the EU: fast, reliable, affordable.",
+        "title": "The rate is selected automatically – depending on the declared value in the Nova Poshta invoice and the number of identical items in the shipment.",
         "attention": [
-          "The following items are prohibited for shipment from Ukraine to the EU: meat products, canned meat, lard, dairy products, vegetables and fruits, plants, mushrooms, caviar, infant formula, alcohol, tobacco products, electronic cigarettes, money, fur, antiques, large auto parts, industrial machinery.",
-          "If these prohibited items are found in a parcel, IVANCOM staff reserve the right to dispose of them or return them to the sender at their own expense.",
-          "The weight on the Nova Poshta waybill remains unchanged, and the final delivery cost is calculated based on the initial weight."
+          "Prohibited for shipment from Ukraine to the EU:",
+          " meat and meat products (including canned goods, lard)",
+          "dairy products",
+          "fruits, vegetables, plants, mushrooms",
+          "caviar, baby formula",
+          "alcohol, tobacco products, e-cigarettes",
+          "money, fur, antiques",
+          " large auto parts, industrial machines",
+          "If prohibited content is found: IVANCOM staff have the right to dispose of the shipment or return it to the sender at their expense.",
+          " The weight indicated in the invoice remains unchanged – delivery cost is calculated based on the initial weight."
         ],
         "attention1": [
-          "Delivery cost is calculated based on volumetric or actual weight, whichever is greater. Important: excess space in the box may increase the price, as the calculation uses the weight indicated in the Nova Poshta transport document.",
-          "If discrepancies are found, our representative reserves the right to reweigh the parcel.",
-          "The company does not consolidate multiple waybills into one parcel."
+          "Delivery cost is calculated based on volumetric or actual weight, whichever is greater. Keep in mind: excess space in the box can increase the delivery cost, as the weight from the Nova Poshta invoice is used.",
+          "In case of discrepancy, our representative has the right to reweigh the parcel",
+          "IVANCOM does not combine multiple invoices into one parcel"
         ],
         "buttons": {
           "calculate": "Calculate cost",
-          "fillForm": "Fill out the form"
+          "fillForm": "Fill out form"
         }
       },
       "Silver": {
         "items": {
-          "sameType": "up to 4 similar items",
-          "insurance": "insurance +3% of declared value",
+          "sameType": "up to 4 identical items (inclusive)",
+          "insurance": "insurance: +3% of the declared value on Nova Poshta",
           "delivery": "delivery from 2 days",
-          "estimate": "estimated value up to 12,000 UAH on one Nova Poshta invoice"
+          "estimate": "declared value up to UAH 12,000 per invoice"
         },
         "description": {
-          "snacks": "This tariff allows sending up to 2 kg of dried fish and fish snacks. If the weight exceeds 2 kg, the GOLD tariff applies.",
-          "plates": "Sending a set of license plates costs 100 zł + 3% insurance from declared value."
+          "snacks": "With this rate, you can send up to 2 kg of dried fish or fish snacks. If the weight is more – the GOLD rate applies.",
+          "plates": "A set of car license plates – 100 zł + 3% insurance of the declared value."
         },
         "accordion": {
           "toPoland": "Delivery to Poland",
@@ -160,11 +167,11 @@
             "description": "In some cities, IVANCOM offers courier delivery. Learn more about this service here."
           },
           "inpost": {
-            "notice": "Shipment via InPost is processed within 2 business days from the departure day from Ukraine"
+            "notice": "Parcel shipment via InPost is carried out within 2 business days from the departure from Ukraine"
           },
           "buttons": {
             "calculate": "Calculate cost",
-            "fillForm": "Fill the form"
+            "fillForm": "Fill out form"
           },
           "Table": {
             "country": {
@@ -173,13 +180,13 @@
             "tables": {
               "ivankomBranch": "Delivery to IVANCOM branches in Poland",
               "courier": "IVANCOM courier service cost",
-              "inpost": "Delivery by INPOST partner in Poland (courier/locker)",
-              "inpostNote": "Shipment via InPost is carried out within 2 business days from the departure day from Ukraine"
+              "inpost": "Delivery by INPOST partner in Poland (courier/parcel locker)",
+              "inpostNote": "Shipment via InPost is carried out within 2 business days from the departure from Ukraine."
             }
           }
         },
         "SilverEu": {
-          "selectLabel": "Choose a country:",
+          "selectLabel": "Select country:",
           "inpostTitle": "Delivery via InPost partner",
           "partnerTitle": "Other partner services"
         }
@@ -187,28 +194,28 @@
       "Gold": {
         "items": {
           "sameType": "from 5 identical items",
-          "insurance": "insurance +3% of declared value",
-          "delivery": "delivery from 4 days",
-          "estimate": "estimated value up to 50,000 UAH on one Nova Poshta invoice",
-          "crypto": "Cryptocurrency payment available"
+          "insurance": "insurance: +3% of the declared value on Nova Poshta",
+          "delivery": "delivery up to 14 days",
+          "estimate": "declared value up to UAH 50,000 per invoice",
+          "crypto": "option to pay via crypto wallet"
         },
         "description": {
-          "plates": "Shipping of a set of license plates costs 100 PLN + 3% insurance fee based on declared value."
+          "plates": "Sending a set of license plates costs 100 zł + 3% insurance of the declared value."
         },
         "accordion": {
           "toPoland": "Delivery to Poland",
-          "toEurope": "Delivery to Europe"
+          "toEurope": "Delivery across Europe"
         },
         "GoldPL": {
           "courier": {
             "description": "In some cities, IVANCOM offers courier delivery. Learn more about this service here."
           },
           "inpost": {
-            "notice": "Parcel delivery via InPost is carried out within 2 business days from the day of departure from Ukraine"
+            "notice": "Parcel shipment via InPost is carried out within 2 business days from the departure from Ukraine"
           },
           "buttons": {
             "calculate": "Calculate cost",
-            "fillForm": "Fill out the form"
+            "fillForm": "Fill out form"
           },
           "Table": {
             "country": {
@@ -217,13 +224,58 @@
             "tables": {
               "ivankomBranch": "Delivery to IVANCOM branches in Poland",
               "courier": "IVANCOM courier service cost",
-              "inpost": "Delivery via INPOST partner in Poland (courier/parcel locker)",
-              "inpostNote": "Parcel delivery via InPost is carried out within 2 business days from the day of departure from Ukraine"
+              "inpost": "Delivery by INPOST partner in Poland (courier/parcel locker)",
+              "inpostNote": "Shipment via InPost is carried out within 2 business days from the departure from Ukraine."
             }
           }
         },
         "GoldEu": {
-          "selectLabel": "Choose a country:",
+          "selectLabel": "Select country:",
+          "inpostTitle": "Delivery via InPost partner",
+          "partnerTitle": "Other partner services"
+        }
+      },
+      "Platinum": {
+        "items": {
+          "sameType": "for valuable items",
+          "insurance": "insurance: +1% of the declared value on Nova Poshta",
+          "delivery": "delivery from 4 days",
+          "estimate": "declared value from UAH 50,001 per invoice",
+          "crypto": "option to pay via crypto wallet",
+          "manager": "personal manager"
+        },
+        "description": {
+          "plates": "Sending a set of license plates costs 100 zł + 3% insurance of the declared value."
+        },
+        "accordion": {
+          "toPoland": "Delivery to Poland",
+          "toEurope": "Delivery across Europe"
+        },
+        "PlatinumPL": {
+          "courier": {
+            "description": "In some cities, IVANCOM offers courier delivery. Learn more about this service here."
+          },
+          "inpost": {
+            "notice": "Parcel shipment via InPost is carried out within 2 business days from the departure from Ukraine"
+          },
+          "buttons": {
+            "calculate": "Calculate cost",
+            "fillForm": "Fill out form"
+          },
+          "Table": {
+            "country": {
+              "pl": "Poland"
+            },
+            "tables": {
+              "ivankomBranch": "Delivery to IVANCOM branches in Poland",
+              "courier": "IVANCOM courier service cost",
+              "inpost": "Delivery by INPOST partner in Poland (courier/parcel locker)",
+              "inpostNote": "Shipment via InPost is carried out within 2 business days from the departure from Ukraine."
+            }
+          }
+        },
+        "PlatinumEu": {
+          "selectLabel": "Select country:",
           "inpostTitle": "Delivery via InPost partner",
           "partnerTitle": "Other partner services"
         }
@@ -234,109 +286,110 @@
         "toPoland": "Delivery to Poland",
         "toEurope": "Delivery across Europe"
       },
-      "title": "IVANCOM delivers medicines from Ukraine to Poland and other European countries quickly, safely and at an affordable price.",
-      "notice": "Parcel dispatch via InPost is carried out within 2 working days from the departure from Ukraine",
-      "formBtn": "Fill in the form",
+      "title": "IVANCOM quickly, reliably, and at an affordable price delivers medicines from Ukraine to Poland and other European countries.",
+      "notice": "Parcel shipment via InPost is carried out within 2 business days from the departure from Ukraine",
+      "formBtn": "Fill out",
       "tariffs": [
         {
           "title": "Tablets/suppositories",
           "price": "1 package",
-          "note": "up to 50 pcs – 12 zł\nfrom 50 pcs – 15 zł"
+          "note": "up to 50 pcs per pack – 12 zł\nmore than 50 pcs – 15 zł"
         },
         {
           "title": "Liquids/ointments/powders",
           "price": "1 package",
-          "note": "up to 100 ml/g – 7 zł\nfrom 100 ml/g – 10 zł"
+          "note": "up to 100 ml/g – 7 zł\nmore than 100 ml/g – 10 zł"
         },
         {
           "title": "Supplements/vitamins",
           "price": "1 package",
-          "note": "up to 20 pcs – 10 zł\nup to 50 pcs – 12 zł\nfrom 50 pcs – 15 zł"
+          "note": "up to 20 pcs – 10 zł\nup to 50 pcs – 12 zł\nmore than 50 pcs – 15 zł"
         },
         {
-          "title": "Injectable cosmetics",
+          "title": "Injection cosmetics",
           "price": "1 package",
-          "note": "Botox (fridge) – 30 zł\nUp to 100 ml/g – 8 zł\n100–250 ml/g – 10 zł\n250–500 ml/g – 15 zł\nAmpoules up to 10 ml – 5 zł\nIn syringes (fillers etc.) – 20 zł"
+          "note": "Botox in refrigerator – 30 zł\nPreparations up to 100 ml/g – 8 zł\nfrom 100 to 250 ml/g – 10 zł\nfrom 250 to 500 ml/g – 15 zł\nAmpoules up to 10 ml – 5 zł\nPreparations in syringes (fillers and beauty injections) – 20 zł"
         }
       ],
       "attention": [
-        "Sending drugs containing narcotic substances is prohibited.",
-        "We ship medicines only to Ivancom's stationary branches in Poland.",
-        "Courier delivery is paid separately",
-        "Delivery takes from 4 working days",
-        "Minimum service cost is 40 zł for up to 4 medicine units",
-        "Medicines in the parcel are calculated separately by tariff",
-        "Shipping takes place after 100% prepayment to Polish or Ukrainian account",
-        "It is forbidden to send medicines without blisters and packaging",
-        "The company does not combine multiple TTNs into one shipment"
+        "Be sure to notify us in advance if the medicine requires a specific temperature regime and indicate this when filling out the shipping form.",
+        "It is prohibited to send medicines that contain narcotic substances.",
+        "Delivery is carried out to stationary IVANCOM branches in Poland.",
+        "Courier delivery to a specific address is paid separately.",
+        "Delivery time — from 4 business days.",
+        "Minimum service cost — 40 zł for up to 4 medicine units.",
+        "Medicines in the parcel are calculated separately according to the tariff.",
+        "Shipment takes place after full payment to a Polish or Ukrainian account.",
+        "It is forbidden to send medicines without original packaging or blisters.",
+        "IVANCOM does not combine multiple invoices into one parcel."
       ]
     },
     "AnimalsUaEu": {
-      "rulesBtn": "Czytaj zasady",
+      "rulesBtn": "Read the rules",
       "accordion": {
-        "toPoland": "Dostawa do Polski",
-        "toEurope": "Dostawa do Europy"
+        "toPoland": "Delivery to Poland",
+        "toEurope": "Delivery across Europe"
       },
-      "title": "Taryfy za przewóz zwierząt domowych z Ukrainy do Europy z IVANCOM. Należy wcześniej zapoznać się z wymaganiami, przygotować wszystkie dokumenty, w tym mikroczip i międzynarodowy paszport weterynaryjny, aby zapewnić komfort i bezpieczeństwo Twojemu pupilowi podczas podróży.",
-      "formBtn": "Wypełnij",
-      "formBtn1": "Wypełnij formularz",
+      "title": "Rates for transporting pets from Ukraine to Europe with IVANCOM. It is necessary to review the requirements in advance, prepare all documents including a microchip and an international veterinary passport to ensure your pet's comfort and safety during the journey.",
+      "formBtn": "Fill out",
+      "formBtn1": "Fill out form",
       "tariffs": [
         {
-          "title": "Kot, pies do 10kg",
-          "price": "200€",
-          "note": "*cena obejmuje wyrobienie Międzynarodowego Świadectwa Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
+          "title": "Cat, dog up to 10kg",
+          "price": "€200",
+          "note": "*the price includes the cost of issuing the International Veterinary Certificate for pets\n**the price is for transfer from Lviv to IVANCOM points in Poland"
         },
         {
-          "title": "Kot, pies powyżej 10kg",
-          "price": "250€",
-          "note": "*cena obejmuje wyrobienie Międzynarodowego Świadectwa Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
+          "title": "Cat, dog over 10kg",
+          "price": "€250",
+          "note": "*the price includes the cost of issuing the International Veterinary Certificate for pets\n**the price is for transfer from Lviv to IVANCOM points in Poland"
         },
         {
-          "title": "Inne zwierzęta",
-          "price": "Indywidualna wycena",
-          "note": "*taryfa za transport innych zwierząt ustalana indywidualnie"
+          "title": "Other animals",
+          "price": "Individual pricing",
+          "note": "*the rate for transporting other animals is calculated individually"
         }
       ],
       "attention": [
-        "Bez pełnego zestawu dokumentów nie możemy przewieźć zwierzęcia – takie są zasady. Możesz jednak przesłać dokumenty w formularzu, a my sprawdzimy, czy wszystko jest w porządku!"
+        "Without the full set of documents, we cannot deliver the animal – these are the rules. But you can upload the documents in the form, and we’ll check if everything is in order!"
       ]
     },
     "TransfersUaEu": {
-      "subtitle": "Planning a move from Ukraine to Poland or another European country? Our company specializes in turnkey services. We will safely and reliably transport your personal belongings. Since 2019, we’ve been helping our clients feel at home in new places, taking care of every detail of the relocation process. Trust us with the transportation so you can focus on new opportunities and experiences.",
+      "subtitle": "Planning to move from Ukraine to Poland or another European country? We specialize in turnkey relocations and have been helping clients feel at home in new places since 2019. Trust us with the transportation of your personal belongings — we’ll take care of every detail so you can focus on new opportunities and experiences.",
       "subtitle1": "What needs to be done?",
-      "warningText": "Furniture is accepted for transport only in disassembled condition!",
+      "warningText": "Furniture is accepted for transportation only in disassembled condition!",
       "steps": {
         "step1": {
-          "title": "Fill in the form below",
+          "title": "Fill out the form below",
           "desc": "and our manager will calculate the moving cost",
-          "form": "Fill in the form"
+          "form": "Fill out the form"
         },
         "step2": {
-          "title": "We’re already on our way!",
-          "desc": "Prepare and pack all your belongings. Our manager will guide you on the packing details – be sure to ask them about it :)"
+          "title": "We're already on our way to you!",
+          "desc": "Prepare and pack everything you’re taking with you. Our manager will guide you on the packaging details – don’t forget to ask them about it :)"
         },
         "step3": {
           "title": "Unpack your new life!",
-          "desc": "We’ll deliver your belongings quickly and safely :)"
+          "desc": "We’ll deliver your items quickly and safely :)"
         }
       }
     },
     "WheelsUaEu": {
-      "subtitle": "We offer express delivery of rims, wheels, and tires from Ukraine to Poland and other European countries at a fixed price.",
-      "subtitle2": "Delivery time for parcels from Poland to the branch in Ukraine is up to 5 days from the departure date.",
-      "subtitle3": "Cost of IVANCOM courier services",
+      "subtitle": "We offer express delivery of tires, rims, and wheels from Ukraine to Poland and other EU countries at a fixed price.",
+      "subtitle2": "Delivery time for parcels from Poland to a branch in Ukraine is up to 5 days from the date of departure",
+      "subtitle3": "IVANCOM courier service costs",
       "descr3": "In some cities, IVANCOM offers courier delivery. Learn more about this service here.",
-      "subtitle4": "Shipping with IVANCOM: quick and easy in a few steps!",
-      "formBtn": "Fill in the form",
+      "subtitle4": "Sending with IVANCOM: fast and easy in a few steps!",
+      "formBtn": "Fill out the form",
       "attention": [
-        "Your insurance payment is only +3% of the declared value. This amount will be added to the final shipping cost.",
-        "Tires and rims must be clean. Please wash them :)",
-        "We deliver tires and rims only to stationary Ivancom branches in Poland. Courier delivery to a specific address is paid separately.",
-        "Delivery takes from 4 business days.",
-        "If your shipment requires additional pallet packing for transportation across Poland and Europe, the cost of the pallet and transportation will be added to the total amount."
+        "Insurance: +3% of the declared value on Nova Poshta (added to the final delivery cost)",
+        "Tires and rims must be clean",
+        "We deliver tires and rims to stationary IVANCOM branches in Poland. Courier delivery to a home address is paid separately.",
+        "Delivery time — from 4 business days",
+        "If the shipment requires palletization, the cost of the pallet and EU transport is added separately"
       ],
       "table": {
-        "title": "Delivery from Ukraine to branches in Poland",
+        "title": "IVANCOM courier delivery in Polish cities",
         "rows": [
           {
             "weight": "Krakow",
@@ -356,63 +409,63 @@
           },
           {
             "weight": "Kielce",
-            "price": "Free within the city"
+            "price": "free within the city"
           }
         ]
       },
       "Eu": {
         "step1": {
           "title": "Send to our central warehouse in Krakow",
-          "desc": "By any courier service to this address:"
+          "desc": "Using any courier service to this address:"
         },
         "step2": {
-          "title": "Fill in the form",
-          "form": "Fill in the form"
+          "title": "Fill out the form",
+          "form": "Fill out the form"
         },
         "step3": {
-          "title": "Pay for the shipment to Ukraine",
-          "desc": "Once the package is registered at the central warehouse, you will receive an invoice for the shipment."
+          "title": "Pay for delivery to Ukraine",
+          "desc": "Once your parcel is registered at the central warehouse, you’ll receive an invoice for payment."
         }
       }
     },
     "BicylesUaEu": {
-      "subtitle": "Send your bicycle from Ukraine to Poland and Europe at the best prices with IVANCOM! We offer competitive rates:",
-      "subtitle2": "Parcel delivery time from Poland to the Ukrainian branch is up to 5 days from the date of departure",
-      "subtitle3": "How to send a bike?",
+      "subtitle": "Send your bicycle from Ukraine to Poland and Europe with IVANCOM — fast, affordable, and safe.",
+      "subtitle2": "Delivery time for parcels from Poland to a branch in Ukraine is up to 5 days from the departure date",
+      "subtitle3": "How to send a bicycle?",
       "descr3": "In some cities, IVANCOM offers courier delivery. Learn more about this service here.",
-      "formBtn": "Fill in the form",
+      "formBtn": "Fill out the form",
       "tariffs": [
         {
-          "title": "Children's bicycle (wheel radius up to R24)",
+          "title": "Children’s bicycle (wheel size up to R24)",
           "price": "250 zł",
-          "note": "The rate applies for deliveries to Poland. Check delivery costs to other countries with a manager.",
+          "note": "Prices apply to shipments to IVANCOM stationary branches in Poland. For delivery to other cities or countries, please consult the manager.",
           "subNoteTitle": "Parcel insurance:",
-          "subNoteText": "+3% of the declared value"
+          "subNoteText": "+3% of declared value"
         },
         {
-          "title": "Adult bicycle (wheel radius from R25)",
+          "title": "Adult bicycle (wheel size from R25)",
           "price": "300 zł",
-          "note": "The rate applies for deliveries to Poland. Check delivery costs to other countries with a manager.",
+          "note": "Rate applies to shipments to Poland. For other countries, please consult the manager.",
           "subNoteTitle": "Parcel insurance:",
-          "subNoteText": "+3% of the declared value"
+          "subNoteText": "+3% of declared value"
         },
         {
           "title": "Electric bicycles",
-          "price": "Custom pricing",
+          "price": "Individual pricing",
           "note": "Calculated based on actual or volumetric weight",
           "subNoteTitle": "Parcel insurance:",
-          "subNoteText": "+3% of the declared value"
+          "subNoteText": "+3% of declared value"
         }
       ],
       "attention": [
-        "If the parcel exceeds 120 cm, an additional 6 zł is charged",
-        "Shipments are automatically insured: +1% of the declared value is added to the shipping cost",
-        "If the parcel exceeds 30 kg (actual or volumetric), an additional 12 zł is charged",
-        "Bikes over 1000 zł are subject to a commission: +10% on the entire excess. Example: 1500-1000=500 x 10% = 50 zł (commission) + shipping cost",
-        "The value of bikes from one sender is summed up if they are sent in one shipment. If the total exceeds 1000 zł, a +10% commission is charged on the excess"
+        "If the parcel exceeds 120cm, an additional 6 zł is added to the cost",
+        "Shipments are automatically insured: +1% of declared value added to delivery price",
+        "If the parcel weighs more than 30kg (actual or volumetric), an extra 12 zł is added",
+        "Bicycles valued above 1000 zł have a commission: +10% on the excess amount. Example: 1500-1000=500×10%=50 zł (commission) + delivery cost",
+        "The total value of bicycles from one sender is summed if sent in one shipment. A commission of +10% is applied on the amount exceeding 1000 zł"
       ],
       "table": {
-        "title": "IVANCOM courier delivery in Poland",
+        "title": "IVANCOM courier delivery in Polish cities",
         "rows": [
           {
             "weight": "Krakow",
@@ -432,21 +485,21 @@
           },
           {
             "weight": "Kielce",
-            "price": "Free in the city"
+            "price": "free within the city"
           }
         ]
       }
     },
     "DocumentsUaEu": {
       "headings": [
-        "Find out the cost of sending documents and send easily!",
-        "Shipment via InPost is carried out within 2 working days from the date of departure from Ukraine",
-        "Cost of IVANCOM courier services",
+        "Check the cost of document delivery and send easily!",
+        "Parcel shipment via InPost is carried out within 2 business days from the departure from Ukraine",
+        "IVANCOM courier service cost",
         "In some cities, IVANCOM offers courier delivery. Learn more about this service here."
       ],
       "attention": [
-        "Delivery time from Ukraine to branches in Poland from 2 working days",
-        "The company does not combine several invoices into one shipment."
+        "Delivery time from Ukraine to branches in Poland – from 2 business days",
+        "The company does not combine multiple invoices (TTNs) into one shipment."
       ],
       "table": {
         "title": "Delivery to IVANCOM stationary branches",
@@ -469,7 +522,7 @@
         ]
       },
       "table2": {
-        "title": "Delivery to InPost parcel locker across Europe",
+        "title": "Delivery to InPost parcel locker in Europe",
         "country": "Belgium, France, Spain, Italy, Netherlands, Luxembourg, Portugal",
         "rows": [
           {
@@ -479,7 +532,7 @@
         ]
       },
       "table3": {
-        "title": "Courier delivery by IVANCOM in cities of Poland",
+        "title": "IVANCOM courier delivery in Polish cities",
         "country": "Poland",
         "rows": [
           {
@@ -500,7 +553,7 @@
           },
           {
             "weight": "Kielce",
-            "price": "free in the city"
+            "price": "free within the city"
           }
         ]
       }
@@ -601,24 +654,24 @@
     },
     "ParcelsEuEa": {
       "headings": [
-        "Check the cost of delivery from European countries to Ukraine and send easily!",
-        "Delivery time from Poland to a Ukrainian branch is up to 5 days from the departure date",
-        "Shipping with IVANCOM: fast and easy in a few steps!",
-        "IVANCOM will quickly and safely deliver medications from Poland to Ukraine, so you can get what you need without any hassle."
+        "Send easily! Check the delivery cost from European countries to Ukraine and choose the most convenient delivery method.",
+        "Delivery from branches in Poland to our partners’ branches in Ukraine",
+        "Shipping with IVANCOM: fast and easy in just a few steps!",
+        "IVANCOM will quickly and safely deliver medicines from Poland to Ukraine, so you can get what you need without hassle."
       ],
       "attention": [
-        "We automatically insure shipments: +1% of the declared value to the delivery cost.",
-        "Delivery cost is calculated based on actual or volumetric weight (the greater value is taken).",
-        "The price table lists clear weight ranges (from–to). If exceeded, the shipment moves to the next category. Example: parcel weight 10.1 kg = 10–15 kg range.",
-        "Prices include delivery cost within Ukraine to a branch or parcel locker (via our partners – Nova Poshta).",
-        "Door-to-door delivery is charged separately: +15 zł per shipment unit.",
-        "For parcels over 1000 zł, a commission of +10% is charged on the excess. Example: 1500-1000=500×10%=50 zł (commission) + delivery cost.",
+        "Shipments are automatically insured: +1% of the declared value added to the delivery cost.",
+        "The delivery cost is calculated based on the actual or volumetric weight (the higher value is chosen).",
+        "The price table shows specific weight ranges (from – to). If the weight exceeds the limit, the shipment is assigned to the next category. Example: package weight 10.1 kg = range 10–15 kg.",
+        "Prices include domestic delivery in Ukraine to a branch or parcel locker (via our partners – Nova Poshta).",
+        "Door-to-door delivery is paid separately: +15 zł per package.",
+        "For packages over 1000 zł, there is a surcharge: +10% on the excess amount. Example: 1500–1000=500x10%=50 zł (surcharge) + shipping cost.",
         {
-          "text": "Shipment value from one sender is summed up if going in the same run. Over 1000 zł is charged +10% on the excess.",
+          "text": "The cost of parcels from one sender is summed if shipped in one batch. For a total above 1000 zł, a surcharge of +10% on the excess amount is applied.",
           "linkText": "see here"
         },
-        "Sending a set of car license plates costs 100 zł + 1% insurance of the declared value.",
-        "It is possible to send a parcel in a bag/suitcase (only to cargo branches of NP, with a surcharge of 35–50 zł depending on size and weight)."
+        "Shipping a set of car license plates costs 100 zł + 1% insurance fee based on the declared value.",
+        "You can ship in a bag/suitcase (only to a cargo department of Nova Poshta with an additional charge of 35–50 zł depending on the size and weight of the parcel)."
       ],
       "table": {
         "title": "Delivery from branches in Poland to partner branches in Ukraine",
@@ -649,84 +702,84 @@
           }
         ],
         "notes": [
-          "* price does not include insurance (1% of the declared parcel value)",
-          "** price applies to large, bulky items (tech, carpets, furniture, etc.)",
-          "*** if the parcel exceeds 120 cm, +8 zł is added to the price",
-          "**** if the parcel weighs more than 30 kg actual or volumetric, +12 zł is added"
+          "price does not include insurance fee — +1% of the declared parcel value",
+          "if the parcel length exceeds 120 cm — +6 zł is added to the price",
+          "price applies to bulky, solid shipments (electronics, carpets, furniture, etc.)",
+          "for parcels over 30 kg (actual or volumetric weight), +12 zł is added to the total cost"
         ]
       }
     },
     "AnimalsEuUa": {
-      "subtitle": "Pet transportation from Poland and Europe to Ukraine with IVANCOM means comfort and safety for your furry friend.",
+      "subtitle": "Transporting animals with IVANCOM means comfort and safety for your pet",
       "formBtn": "Fill out the form",
       "tariffs": [
         {
           "title": "Cat, dog up to 10 kg",
           "price": "200€",
-          "note": "*the price is for transfer from IVANCOM branch in Poland to Lviv"
+          "note": "*the price is for transfer from the IVANCOM branch in Poland to Lviv"
         },
         {
           "title": "Cat, dog over 10 kg",
           "price": "250€",
-          "note": "*the price is for transfer from IVANCOM branch in Poland to Lviv"
+          "note": "*the price is for transfer from the IVANCOM branch in Poland to Lviv"
         },
         {
           "title": "Other animals",
-          "price": "Individual rate",
-          "note": "*rate for other animals is calculated individually"
+          "price": "Individual pricing",
+          "note": "*the tariff for transporting other animals is calculated individually"
         }
       ],
       "important": {
         "title": "IMPORTANT!",
-        "text": "Without a full set of documents, we cannot transport the animal — those are the rules. But you can upload the documents in the form and we'll check if everything is fine!",
+        "text": "We cannot transport an animal without a complete set of documents — it's a requirement. However, you can upload the documents in the form, and we will check if everything is in order. We care for your pet along the entire route — as if it were our own.",
         "rulesBtn": "Read the rules"
       }
     },
     "GeneratorsEuUa": {
-      "subtitle": "IVANCOM ensures fast and reliable transportation of generators from anywhere in the world.",
-      "subtitle2": "Rates are valid from 15.08.24. Discounted rates apply ONLY to new stations! Price includes delivery within Ukraine.",
-      "subtitle3": "Delivery time from Poland to a Ukrainian branch is up to 5 days from the departure date.",
-      "subtitle4": "Sending with IVANCOM: fast and easy in a few steps!",
-      "subtitle5": "How to deliver a power station from a European store via IVANCOM",
+      "subtitle": "IVANCOM ensures fast and reliable transportation of generators from any country in the world.",
+      "subtitle2": "Rates valid from 15.08.2024. Discounted rates apply ONLY to new stations! The cost already includes domestic delivery within Ukraine",
+      "subtitle3": "Delivery time from Poland to a branch in Ukraine — up to 5 days from the shipment date",
+      "subtitle4": "Shipping with IVANCOM: fast and easy in just a few steps!",
+      "subtitle5": "How to deliver a power station from a European store through IVANCOM",
       "formBtn": "Fill out the form",
       "tariffs": [
         {
           "title": "Generators over 7.5 kW",
-          "price": "5 zł/kg + 3% of value (insurance included)"
+          "price": "5 zł/kg + 3% of the value (insurance included)"
         },
         {
           "title": "Generators up to 7.5 kW",
           "price": "Standard parcel rate"
         },
         {
-          "title": "Batteries above 300W (ecoflow/anker/bluetti)",
-          "price": "Standard parcel rate + 3% of value (insurance included)"
+          "title": "Batteries over 300W (ecoflow/anker/bluetti)",
+          "price": "Standard parcel rate + 3% of the value (insurance included)"
         },
         {
-          "title": "Batteries below 300W (e.g. powerbanks)",
+          "title": "Batteries under 300W (e.g. power banks)",
           "price": "Standard parcel rate"
         },
         {
-          "title": "Inverters (excluding welding inverters)",
-          "price": "Standard parcel rate + 3% of value (insurance included)"
+          "title": "Inverters (excluding inverter welding machines)",
+          "price": "Standard parcel rate + 3% of the value (insurance included)"
         }
       ],
       "attention": [
-        "Shipments are automatically insured: +1% of declared value to the delivery cost.",
-        "Delivery cost is based on actual or volumetric weight (the greater value is taken).",
-        "Weight ranges are clearly stated in the table. If the weight exceeds the range, the shipment moves to the next category. Example: parcel weight 10.1 kg = 10–15 kg range.",
-        "Prices include delivery within Ukraine to a branch or parcel locker (via our partners – Nova Poshta).",
-        "Address delivery is paid separately: + 15 zł per cargo unit.",
-        "For parcels over 1000 zł, a commission of +10% is charged on the excess. Example: 1500–1000=500×10%=50 zł (commission) + delivery cost.",
+        "Each shipment is automatically insured — +1% of the declared value is added.",
+        "Delivery cost is calculated based on the higher of two weights: actual or volumetric.",
+        "The tariff table shows clear weight limits. If exceeded, the parcel moves to the next tier. Example: 10.1 kg = 10–15 kg tariff.",
+        "Price includes delivery in Ukraine to Nova Poshta parcel locker or branch (via our partners).",
+        "Courier delivery to your address costs an additional +15 zł per parcel.",
+        "If the parcel value exceeds 1000 zł — a fee of +10% on the excess applies. Example: 1500 zł → 500 zł x 10% = 50 zł + shipping cost.",
         {
-          "text": "The value of parcels from one sender is summed up if sent in the same shipment. For totals over 1000 zł, +10% commission applies.",
+          "text": "If you're sending several parcels in one shipment — their total value is summed up. If it exceeds 1000 zł — the 10% excess fee also applies.",
           "linkText": "see here"
         },
-        "Sending a set of car license plates costs 100 zł + 1% insurance of the declared value.",
-        "It is possible to send a parcel in a bag/suitcase (only to NP cargo branches, with a surcharge of 35–50 zł depending on size and weight)."
+        "Shipping a set of car license plates — 100 zł + 1% insurance.",
+        "You can ship in a suitcase or bag — only to a Nova Poshta cargo branch. Extra charge: 35–50 zł depending on weight and size."
       ],
       "table": {
-        "title": "Delivery from Polish branches to partner branches in Ukraine",
+        "title": "Delivery from branches in Poland to partner branches in Ukraine",
         "rows": [
           {
             "weight": "up to 5 kg",
@@ -754,62 +807,62 @@
           }
         ],
         "notes": [
-          "* price does not include insurance (1% of declared parcel value)",
-          "** rate applies to large, bulky items (equipment, carpet, furniture, etc.)",
+          "* price does not include insurance fee (1% of the declared parcel value)",
+          "** price applies to bulky shipments (electronics, carpets, furniture, etc.)",
           "*** if the parcel exceeds 120 cm, +8 zł is added",
-          "**** if the parcel is over 30 kg actual or volumetric weight, +12 zł is added"
+          "**** if the parcel exceeds 30 kg (actual or volumetric weight), +12 zł is added"
         ]
       },
       "Eu": {
         "step1": {
           "title": "Send to our central warehouse in Krakow",
-          "desc": "With any courier service to:"
+          "desc": "With any courier service to this address:"
         },
         "step2": {
           "title": "Fill out the form",
           "form": "Fill out the form"
         },
         "step3": {
-          "title": "Pay for shipping to Ukraine",
-          "desc": "Once the parcel is registered in the central warehouse, you will receive an invoice to pay."
+          "title": "Pay for delivery to Ukraine",
+          "desc": "Once the parcel is processed at our central warehouse, you’ll receive an invoice for the shipment."
         }
       }
     },
     "TransfersEuUa": {
-      "subtitle": "Moving from Europe to Ukraine with IVANCOM means convenience, safety, and no unnecessary hassle.",
+      "subtitle": "Moving from Europe to Ukraine with IVANCOM — it’s convenient, safe, and hassle-free.",
       "subtitle1": "What do you need to do?",
       "warningText": "Furniture is accepted for transport only in disassembled condition!",
       "steps": {
         "step1": {
           "title": "Fill out the form below",
-          "desc": "and our manager will calculate the cost of your move",
+          "desc": "and our manager will calculate the moving cost",
           "form": "Fill out the form"
         },
         "step2": {
-          "title": "We're already on the way!",
-          "desc": "Prepare and pack all items for the move. Our manager will advise on proper packing – don’t forget to ask :)"
+          "title": "We’re on our way!",
+          "desc": "Prepare and pack all the items for the move. Our manager will guide you on packing details — be sure to ask them about it :)"
         },
         "step3": {
           "title": "Unpack your new life!",
-          "desc": "We’ll deliver your belongings quickly and safely :)"
+          "desc": "We will deliver your belongings quickly and safely :)"
         }
       }
     },
     "WheelsEuUa": {
-      "subtitle": "Transporting tires and rims from Europe to Ukraine with IVANCOM is convenient, fast, and safe.",
-      "subtitle2": "Delivery time from Poland to a Ukrainian branch is up to 5 days from the date of departure.",
-      "subtitle3": "Cost of IVANCOM courier service",
+      "subtitle": "Transporting tires and rims from Europe to Ukraine with IVANCOM — it’s convenient, fast, and safe.",
+      "subtitle2": "Delivery time from Poland to a branch in Ukraine — up to 5 days from the shipment date",
+      "subtitle3": "IVANCOM courier service costs",
       "descr3": "In some cities, IVANCOM offers courier delivery. Learn more about this service here.",
-      "subtitle4": "Shipping with IVANCOM: fast and easy in a few steps!",
+      "subtitle4": "Shipping with IVANCOM: fast and easy in just a few steps!",
       "formBtn": "Fill out the form",
       "attention": [
-        "We automatically insure shipments: +1% of declared value added to delivery cost.\n• Tires and rims must be clean. Please wash them :)",
-        "Prices include delivery within Ukraine to a branch or parcel locker (via our partners – Nova Poshta).\nDoor delivery is paid separately: +10 zł per shipment unit.",
-        "Pack alloy rims in corrugated cardboard and stretch film, or IVANCOM staff will do it for you for 20 zł/pc.",
-        "Pack standard rims in stretch film, or IVANCOM staff will do it for 5 zł/pc.",
-        "If the parcel exceeds 120 cm, an additional 6 zł is charged.",
-        "For parcels over 1000 zł, a +10% commission is charged on the difference. Example: 1500–1000=500×10%=50 zł (commission) + delivery cost.",
-        "If the parcel exceeds 30 kg actual or volumetric weight, an additional 12 zł is charged."
+        "Shipments are automatically insured: +1% of the declared value added to the delivery cost. • Tires and rims must be clean. Please wash them.",
+        "Alloy rims must be packed in corrugated cardboard and stretch wrap, or we’ll do it for you – 20 zł/piece.",
+        "Standard rims should be wrapped in stretch film, or hand them to us – 5 zł/piece.",
+        "If the parcel length exceeds 120 cm — +6 zł is added.",
+        "If the weight exceeds 30 kg (actual or volumetric) — +12 zł is added.",
+        "Each parcel is automatically insured — +1% of the declared value is added.",
+        "If the total value of the parcel exceeds 1000 zł — a 10% surcharge is applied to the excess. Example: 1500–1000=500 × 10% = 50 zł (surcharge)."
       ],
       "table": {
         "title": "Delivery from branches in Poland to partner branches in Ukraine",
@@ -832,22 +885,22 @@
           },
           {
             "weight": "Kielce",
-            "price": "free in the city"
+            "price": "free within the city"
           }
         ]
       },
       "Eu": {
         "step1": {
           "title": "Send to our central warehouse in Krakow",
-          "desc": "With any courier service to:"
+          "desc": "Via any courier service to this address:"
         },
         "step2": {
           "title": "Fill out the form",
           "form": "Fill out the form"
         },
         "step3": {
-          "title": "Pay for shipping to Ukraine",
-          "desc": "Once the parcel is registered in the central warehouse, you will receive an invoice for payment."
+          "title": "Pay for the shipment to Ukraine",
+          "desc": "Once your parcel is processed at the central warehouse, you’ll receive an invoice for payment."
         }
       }
     },

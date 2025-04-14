@@ -111,7 +111,7 @@
       },
       "step2": {
         "title": "Wyślij na nasz magazyn w Ukrainie",
-        "desc": "Podaj następujące informacje w oddziale:"
+        "desc": "W placówce podaj następujące informacje:"
       },
       "step3": {
         "title": "Wypełnij formularz",
@@ -124,16 +124,23 @@
     },
     "ParcelsUaEu": {
       "Main": {
-        "title": "Poznaj taryfy i etapy dostawy paczek z Ukrainy do Polski i UE: szybko, niezawodnie, przystępnie.",
+        "title": "Taryfa dobierana jest automatycznie – w zależności od zadeklarowanej wartości w liście przewozowym Nowej Poczty oraz liczby identycznych produktów w przesyłce.",
         "attention": [
-          "Następujące przedmioty są zabronione do wysyłki z Ukrainy do UE: produkty mięsne, konserwy mięsne, słonina, produkty mleczne, warzywa i owoce, rośliny, grzyby, kawior, mieszanki mleczne dla dzieci, alkohol, wyroby tytoniowe, e-papierosy, pieniądze, futra, antyki, duże części samochodowe, maszyny przemysłowe.",
-          "W przypadku wykrycia takich zabronionych przedmiotów w paczce, pracownicy IVANCOM mają prawo do ich utylizacji lub zwrotu na koszt nadawcy.",
-          "Waga podana na liście przewozowym Nowej Poczty pozostaje niezmieniona, a końcowy koszt przesyłki jest obliczany na podstawie pierwotnej wagi."
+          "Zakazane do wysyłki z Ukrainy do UE:",
+          " mięso i produkty mięsne (w tym konserwy, słonina)",
+          "produkty mleczne",
+          "owoce, warzywa, rośliny, grzyby",
+          "ikra, mieszanki mleczne dla dzieci",
+          "alkohol, wyroby tytoniowe, e-papierosy",
+          "pieniądze, futra, antyki",
+          "duże części samochodowe, maszyny produkcyjne",
+          "W przypadku wykrycia zakazanych treści: pracownicy IVANCOM mają prawo zutylizować przesyłkę lub zwrócić ją nadawcy na jego koszt.",
+          " Waga wskazana w liście przewozowym nie ulega zmianie – koszt dostawy liczony jest według początkowej wagi."
         ],
         "attention1": [
-          "Koszt dostawy obliczany jest na podstawie wagi objętościowej lub rzeczywistej – w zależności od tego, która jest większa. Ważne: dodatkowa przestrzeń w pudełku może zwiększyć koszt, ponieważ do obliczeń brana jest waga z listu przewozowego Nowej Poczty.",
-          "W przypadku niezgodności nasz przedstawiciel ma prawo do ponownego ważenia paczki.",
-          "Firma nie łączy kilku listów przewozowych w jedną paczkę."
+          "Koszt dostawy obliczany jest na podstawie wagi objętościowej lub rzeczywistej – w zależności od tego, która jest większa. Pamiętaj: zbędna przestrzeń w paczce może zwiększyć koszt, ponieważ brana jest pod uwagę waga z listu przewozowego Nowej Poczty.",
+          "W przypadku niezgodności nasz przedstawiciel ma prawo ponownie zważyć paczkę",
+          "Firma IVANCOM nie łączy kilku listów przewozowych w jedną przesyłkę"
         ],
         "buttons": {
           "calculate": "Oblicz koszt",
@@ -142,25 +149,25 @@
       },
       "Silver": {
         "items": {
-          "sameType": "do 4 podobnych produktów",
-          "insurance": "ubezpieczenie +3% od zadeklarowanej wartości",
+          "sameType": "do 4 identycznych produktów (włącznie)",
+          "insurance": "ubezpieczenie: +3% od zadeklarowanej wartości na Nowej Poczcie",
           "delivery": "dostawa od 2 dni",
-          "estimate": "wartość szacunkowa do 12000 UAH na jednej przesyłce Nowej Poczty"
+          "estimate": "wartość deklarowana do 12 000 UAH na jednym liście"
         },
         "description": {
-          "snacks": "W tym taryfie dozwolone jest wysyłanie do 2 kg suszonych ryb i przekąsek rybnych. Jeśli waga przekroczy 2 kg, obowiązuje taryfa GOLD.",
-          "plates": "Wysyłka kompletu tablic rejestracyjnych kosztuje 100 zł + 3% ubezpieczenia od zadeklarowanej wartości."
+          "snacks": "W ramach tej taryfy można wysłać do 2 kg suszonej ryby lub przekąsek rybnych. Jeśli waga przekracza – obowiązuje taryfa GOLD.",
+          "plates": "Komplet tablic rejestracyjnych – 100 zł + 3% ubezpieczenia od zadeklarowanej wartości."
         },
         "accordion": {
           "toPoland": "Dostawa do Polski",
-          "toEurope": "Dostawa w Europie"
+          "toEurope": "Dostawa po Europie"
         },
         "SilverPL": {
           "courier": {
-            "description": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj."
+            "description": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej tutaj."
           },
           "inpost": {
-            "notice": "Wysyłka paczek przez InPost realizowana jest w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+            "notice": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
           },
           "buttons": {
             "calculate": "Oblicz koszt",
@@ -172,39 +179,39 @@
             },
             "tables": {
               "ivankomBranch": "Dostawa do oddziałów IVANCOM w Polsce",
-              "courier": "Koszt usługi kuriera IVANCOM",
-              "inpost": "Dostawa przez partnera INPOST w Polsce (kurier/paczkomat)",
-              "inpostNote": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+              "courier": "Koszt usług kuriera IVANCOM",
+              "inpost": "Dostawa przez partnera INPOST na terenie Polski (kurier/paczkomat)",
+              "inpostNote": "Wysyłka przez InPost realizowana jest w ciągu 2 dni roboczych od wyjazdu z Ukrainy."
             }
           }
         },
         "SilverEu": {
           "selectLabel": "Wybierz kraj:",
-          "inpostTitle": "Dostawa za pośrednictwem partnera InPost",
+          "inpostTitle": "Dostawa przez partnera InPost",
           "partnerTitle": "Inne firmy partnerskie"
         }
       },
       "Gold": {
         "items": {
-          "sameType": "od 5 takich samych produktów",
-          "insurance": "ubezpieczenie +3% od zadeklarowanej wartości",
-          "delivery": "dostawa od 4 dni",
-          "estimate": "szacunkowa wartość do 50000 UAH na jednej przesyłce Nova Poshta",
-          "crypto": "Możliwa płatność kryptowalutą"
+          "sameType": "od 5 identycznych produktów",
+          "insurance": "ubezpieczenie: +3% od zadeklarowanej wartości na Nowej Poczcie",
+          "delivery": "dostawa do 14 dni",
+          "estimate": "wartość deklarowana do 50 000 UAH na jednym liście",
+          "crypto": "możliwość płatności kryptowalutą"
         },
         "description": {
-          "plates": "Wysyłka zestawu tablic rejestracyjnych kosztuje 100 zł + 3% ubezpieczenia od zadeklarowanej wartości."
+          "plates": "Wysyłka kompletu tablic rejestracyjnych – 100 zł + 3% od zadeklarowanej wartości."
         },
         "accordion": {
           "toPoland": "Dostawa do Polski",
-          "toEurope": "Dostawa do Europy"
+          "toEurope": "Dostawa po Europie"
         },
         "GoldPL": {
           "courier": {
-            "description": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj."
+            "description": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej tutaj."
           },
           "inpost": {
-            "notice": "Wysyłka paczek przez InPost realizowana jest w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+            "notice": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
           },
           "buttons": {
             "calculate": "Oblicz koszt",
@@ -216,32 +223,77 @@
             },
             "tables": {
               "ivankomBranch": "Dostawa do oddziałów IVANCOM w Polsce",
-              "courier": "Koszt usługi kurierskiej IVANCOM",
-              "inpost": "Dostawa przez partnera INPOST w Polsce (kurier/paczkomat)",
-              "inpostNote": "Wysyłka paczek przez InPost realizowana jest w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+              "courier": "Koszt usług kuriera IVANCOM",
+              "inpost": "Dostawa przez partnera INPOST na terenie Polski (kurier/paczkomat)",
+              "inpostNote": "Wysyłka przez InPost realizowana jest w ciągu 2 dni roboczych od wyjazdu z Ukrainy."
             }
           }
         },
         "GoldEu": {
           "selectLabel": "Wybierz kraj:",
           "inpostTitle": "Dostawa przez partnera InPost",
-          "partnerTitle": "Inne partnerskie firmy kurierskie"
+          "partnerTitle": "Inne firmy partnerskie"
+        }
+      },
+      "Platinum": {
+        "items": {
+          "sameType": "dla wartościowych rzeczy",
+          "insurance": "ubezpieczenie: +1% od zadeklarowanej wartości na Nowej Poczcie",
+          "delivery": "dostawa od 4 dni",
+          "estimate": "wartość deklarowana od 50 001 UAH na jednym liście",
+          "crypto": "możliwość płatności kryptowalutą",
+          "manager": "osobisty opiekun"
+        },
+        "description": {
+          "plates": "Wysyłka kompletu tablic rejestracyjnych – 100 zł + 3% od zadeklarowanej wartości."
+        },
+        "accordion": {
+          "toPoland": "Dostawa do Polski",
+          "toEurope": "Dostawa po Europie"
+        },
+        "PlatinumPL": {
+          "courier": {
+            "description": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej tutaj."
+          },
+          "inpost": {
+            "notice": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy"
+          },
+          "buttons": {
+            "calculate": "Oblicz koszt",
+            "fillForm": "Wypełnij formularz"
+          },
+          "Table": {
+            "country": {
+              "pl": "Polska"
+            },
+            "tables": {
+              "ivankomBranch": "Dostawa do oddziałów IVANCOM w Polsce",
+              "courier": "Koszt usług kuriera IVANCOM",
+              "inpost": "Dostawa przez partnera INPOST na terenie Polski (kurier/paczkomat)",
+              "inpostNote": "Wysyłka przez InPost realizowana jest w ciągu 2 dni roboczych od wyjazdu z Ukrainy."
+            }
+          }
+        },
+        "PlatinumEu": {
+          "selectLabel": "Wybierz kraj:",
+          "inpostTitle": "Dostawa przez partnera InPost",
+          "partnerTitle": "Inne firmy partnerskie"
         }
       }
     },
     "MedicinesUaEu": {
       "accordion": {
         "toPoland": "Dostawa do Polski",
-        "toEurope": "Dostawa w Europie"
+        "toEurope": "Dostawa po Europie"
       },
-      "title": "IVANCOM dostarcza leki z Ukrainy do Polski i innych krajów Europy szybko, bezpiecznie i w przystępnej cenie.",
+      "title": "IVANCOM szybko, niezawodnie i w przystępnej cenie dostarcza leki z Ukrainy do Polski i krajów Europy.",
       "notice": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy",
-      "formBtn": "Wypełnij formularz",
+      "formBtn": "Wypełnij",
       "tariffs": [
         {
           "title": "Tabletki/czopki",
           "price": "1 opakowanie",
-          "note": "do 50 szt. – 12 zł\npowyżej 50 szt. – 15 zł"
+          "note": "do 50 szt. w op. – 12 zł\npowyżej 50 szt. w op. – 15 zł"
         },
         {
           "title": "Płyny/maści/proszki",
@@ -251,60 +303,61 @@
         {
           "title": "Suplementy/witaminy",
           "price": "1 opakowanie",
-          "note": "do 20 szt. – 10 zł\ndo 50 szt. – 12 zł\npowyżej 50 szt. – 15 zł"
+          "note": "do 20 szt. w op. – 10 zł\ndo 50 szt. w op. – 12 zł\npowyżej 50 szt. w op. – 15 zł"
         },
         {
-          "title": "Kosmetyki iniekcyjne",
+          "title": "Kosmetyki do iniekcji",
           "price": "1 opakowanie",
-          "note": "Botoks lodówka – 30 zł\nPreparaty do 100 ml/g – 8 zł\n100–250 ml/g – 10 zł\n250–500 ml/g – 15 zł\nAmpułki do 10 ml – 5 zł\nPreparaty w strzykawkach – 20 zł"
+          "note": "Botoks w lodówce – 30 zł\nPreparaty do 100 ml/g – 8 zł\nod 100 do 250 ml/g – 10 zł\nod 250 do 500 ml/g – 15 zł\nAmpułki do 10 ml – 5 zł\nPreparaty w strzykawkach (fillery i iniekcje upiększające) – 20 zł"
         }
       ],
       "attention": [
-        "Wysyłka leków zawierających substancje narkotyczne jest zabroniona.",
-        "Wysyłamy leki tylko do stacjonarnych oddziałów Ivancom w Polsce.",
-        "Dostawa kurierska płatna osobno",
-        "Czas dostawy od 4 dni roboczych",
-        "Minimalna opłata za usługę to 40 zł za 4 jednostki leków",
-        "Leki w paczce liczone są osobno według taryfy",
-        "Wysyłka następuje po 100% przedpłacie na konto polskie lub ukraińskie",
-        "Zakaz przesyłania leków bez blistrów i opakowania",
-        "Firma nie łączy kilku przesyłek TTN w jedną"
+        "Koniecznie poinformuj nas wcześniej, jeśli lek wymaga określonej temperatury, i zaznacz to w formularzu zgłoszenia.",
+        "Zabronione jest wysyłanie leków zawierających substancje narkotyczne.",
+        "Dostawa odbywa się do stacjonarnych oddziałów IVANCOM w Polsce.",
+        "Dostawa kurierska na adres płatna osobno.",
+        "Czas dostawy — od 4 dni roboczych.",
+        "Minimalny koszt usługi — 40 zł za do 4 jednostek leku.",
+        "Leki w paczce liczone są osobno według taryfy.",
+        "Wysyłka następuje po pełnej opłacie na polskie lub ukraińskie konto.",
+        "Zabronione jest wysyłanie leków bez oryginalnego opakowania lub blistrów.",
+        "Firma IVANCOM nie łączy kilku listów przewozowych w jedną paczkę."
       ]
     },
     "AnimalsUaEu": {
-      "rulesBtn": "Read the rules",
+      "rulesBtn": "Przeczytaj zasady",
       "accordion": {
-        "toPoland": "Delivery to Poland",
-        "toEurope": "Delivery across Europe"
+        "toPoland": "Dostawa do Polski",
+        "toEurope": "Dostawa po Europie"
       },
-      "title": "Rates for transporting pets from Ukraine to Europe with IVANCOM. It is necessary to familiarize yourself with the requirements in advance and prepare all documents, including a microchip and international veterinary passport, to ensure the comfort and safety of your pet during travel.",
-      "formBtn": "Fill in",
-      "formBtn1": "Fill in the form",
+      "title": "Taryfy za przewóz zwierząt domowych z Ukrainy do Europy z IVANCOM. Należy wcześniej zapoznać się z wymaganiami, przygotować wszystkie dokumenty, w tym mikroczip i międzynarodowy paszport weterynaryjny, aby zapewnić komfort i bezpieczeństwo Twojego pupila podczas podróży.",
+      "formBtn": "Wypełnij",
+      "formBtn1": "Wypełnij formularz",
       "tariffs": [
         {
-          "title": "Cat, dog up to 10kg",
+          "title": "Kot, pies do 10 kg",
           "price": "200€",
-          "note": "*the amount includes the cost of issuing the International Veterinary Certificate for pets\n**price shown is for transport from Lviv to IVANCOM points in Poland"
+          "note": "*cena zawiera koszt wyrobienia Międzynarodowego Certyfikatu Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
         },
         {
-          "title": "Cat, dog over 10kg",
+          "title": "Kot, pies powyżej 10 kg",
           "price": "250€",
-          "note": "*the amount includes the cost of issuing the International Veterinary Certificate for pets\n**price shown is for transport from Lviv to IVANCOM points in Poland"
+          "note": "*cena zawiera koszt wyrobienia Międzynarodowego Certyfikatu Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
         },
         {
-          "title": "Other animals",
-          "price": "Individual price",
-          "note": "*tariff for transporting other animals is calculated individually"
+          "title": "Inne zwierzęta",
+          "price": "Indywidualna wycena",
+          "note": "*taryfa za przewóz innych zwierząt jest ustalana indywidualnie"
         }
       ],
       "attention": [
-        "Without a complete set of documents, we cannot transport the animal – these are the rules. However, you can upload the documents in the form, and we’ll check if everything is in order!"
+        "Bez pełnego pakietu dokumentów nie możemy dostarczyć zwierzęcia – takie są zasady. Ale możesz załadować dokumenty do formularza, a my sprawdzimy, czy wszystko jest w porządku!"
       ]
     },
     "TransfersUaEu": {
-      "subtitle": "Planujesz przeprowadzkę z Ukrainy do Polski lub innego kraju europejskiego? Nasza firma specjalizuje się w kompleksowych usługach. Bezpiecznie i niezawodnie przewieziemy Twoje rzeczy osobiste. Od 2019 roku pomagamy naszym klientom poczuć się jak w domu w nowym miejscu, dbając o każdy szczegół procesu przeprowadzki. Powierz nam troskę o transport, abyś mógł skupić się na nowych możliwościach i doświadczeniach.",
+      "subtitle": "Planujesz przeprowadzkę z Ukrainy do Polski lub innego kraju Europy? Specjalizujemy się w przeprowadzkach pod klucz i od 2019 roku pomagamy klientom stworzyć poczucie domu w nowym miejscu. Powierz nam transport rzeczy osobistych – zadbamy o każdy szczegół, abyś mógł skupić się na nowych możliwościach i doświadczeniach.",
       "subtitle1": "Co trzeba zrobić?",
-      "warningText": "Meble są przyjmowane do transportu tylko w stanie rozmontowanym!",
+      "warningText": "Meble przyjmujemy do transportu tylko w stanie zdemontowanym!",
       "steps": {
         "step1": {
           "title": "Wypełnij formularz poniżej",
@@ -313,7 +366,7 @@
         },
         "step2": {
           "title": "Już do Ciebie jedziemy!",
-          "desc": "Przygotuj i spakuj wszystkie rzeczy do przeprowadzki. Nasz menedżer udzieli wskazówek dotyczących pakowania – koniecznie zapytaj go o to :)"
+          "desc": "Przygotuj i spakuj wszystkie rzeczy do przeprowadzki. Nasz menedżer podpowie Ci, jak najlepiej je zapakować – koniecznie zapytaj go o to :)"
         },
         "step3": {
           "title": "Rozpakuj nowe życie!",
@@ -322,21 +375,21 @@
       }
     },
     "WheelsUaEu": {
-      "subtitle": "Oferujemy ekspresową dostawę felg, kół i opon z Ukrainy do Polski i innych krajów Europy w stałej cenie.",
-      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie wynosi do 5 dni od daty transportu.",
-      "subtitle3": "Koszt usług kuriera IVANCOM",
+      "subtitle": "Oferujemy ekspresową dostawę opon, felg i kół z Ukrainy do Polski i innych krajów UE w stałej cenie.",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie wynosi do 5 dni od daty wyjazdu",
+      "subtitle3": "Koszt usług kurierskich IVANCOM",
       "descr3": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj.",
       "subtitle4": "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
       "formBtn": "Wypełnij formularz",
       "attention": [
-        "Twoja opłata ubezpieczeniowa to tylko +3% zadeklarowanej wartości. Kwota ta zostanie doliczona do końcowego kosztu przesyłki.",
-        "Opony i felgi muszą być czyste. Prosimy je umyć :)",
-        "Wysyłamy opony i felgi tylko do stacjonarnych oddziałów Ivancom w Polsce. Dostawa kurierska na adres jest dodatkowo płatna.",
-        "Dostarczamy w ciągu minimum 4 dni roboczych.",
-        "Jeśli Twoja przesyłka wymaga dodatkowego pakowania na palecie do transportu w Polsce i Europie, koszt palety i transportu zostanie doliczony do całkowitej kwoty."
+        "Ubezpieczenie: +3% od zadeklarowanej wartości w Nova Poshta (dodawane do końcowej ceny dostawy)",
+        "Opony i felgi muszą być czyste",
+        "Wysyłamy opony i felgi do stacjonarnych oddziałów IVANCOM w Polsce. Dostawa kurierska na adres płatna osobno.",
+        "Czas dostawy — od 4 dni roboczych",
+        "Jeśli przesyłka wymaga paletowania, koszt palety i transportu w UE naliczany jest dodatkowo"
       ],
       "table": {
-        "title": "Dostawa z Ukrainy do oddziałów w Polsce",
+        "title": "Dostawa kurierska IVANCOM w miastach Polski",
         "rows": [
           {
             "weight": "Kraków",
@@ -356,7 +409,7 @@
           },
           {
             "weight": "Kielce",
-            "price": "w mieście za darmo"
+            "price": "w mieście bezpłatnie"
           }
         ]
       },
@@ -371,48 +424,48 @@
         },
         "step3": {
           "title": "Opłać wysyłkę na Ukrainę",
-          "desc": "Gdy paczka zostanie zarejestrowana w magazynie centralnym, otrzymasz fakturę za wysyłkę."
+          "desc": "Gdy paczka zostanie zarejestrowana w magazynie głównym, otrzymasz fakturę do opłacenia przesyłki."
         }
       }
     },
     "BicylesUaEu": {
-      "subtitle": "Wyślij swój rower z Ukrainy do Polski i Europy w najlepszych cenach razem z IVANCOM! Oferujemy korzystne taryfy:",
-      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie wynosi do 5 dni od daty transportu",
+      "subtitle": "Wyślij swój rower z Ukrainy do Polski i Europy z IVANCOM — szybko, korzystnie, bezpiecznie.",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie wynosi do 5 dni od daty wyjazdu",
       "subtitle3": "Jak wysłać rower?",
       "descr3": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj.",
       "formBtn": "Wypełnij formularz",
       "tariffs": [
         {
-          "title": "Rower dziecięcy (średnica kół do R24)",
+          "title": "Rower dziecięcy (rozmiar koła do R24)",
           "price": "250 zł",
-          "note": "Taryfa obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy ustalić z menedżerem.",
+          "note": "Ceny obowiązują dla dostaw do stacjonarnych oddziałów IVANCOM w Polsce. Koszty dostawy do innych miast i krajów zapytaj u menedżera.",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
-          "subNoteText": "+3% zadeklarowanej wartości"
+          "subNoteText": "+3% od zadeklarowanej wartości"
         },
         {
-          "title": "Rower dla dorosłych (średnica kół od R25)",
+          "title": "Rower dla dorosłych (rozmiar koła od R25)",
           "price": "300 zł",
-          "note": "Taryfa obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy ustalić z menedżerem.",
+          "note": "Taryfa obowiązuje dla dostaw do Polski. Koszty dostawy do innych krajów zapytaj u menedżera.",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
-          "subNoteText": "+3% zadeklarowanej wartości"
+          "subNoteText": "+3% od zadeklarowanej wartości"
         },
         {
           "title": "Rowery elektryczne",
           "price": "Indywidualna wycena",
           "note": "Obliczane na podstawie rzeczywistej lub objętościowej wagi",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
-          "subNoteText": "+3% zadeklarowanej wartości"
+          "subNoteText": "+3% od zadeklarowanej wartości"
         }
       ],
       "attention": [
-        "Jeśli paczka przekracza 120 cm, do ceny doliczane jest +6 zł",
-        "Wysyłka jest automatycznie ubezpieczona: +1% od zadeklarowanej wartości",
-        "Jeśli paczka przekracza 30 kg (waga rzeczywista lub objętościowa), do ceny doliczane jest +12 zł",
-        "Na rowery o wartości powyżej 1000 zł obowiązuje prowizja: +10% od całej kwoty przekroczenia. Przykład: 1500-1000=500 x 10% = 50 zł (prowizja) + koszt wysyłki",
-        "Wartość rowerów od jednego nadawcy jest sumowana, jeśli są wysyłane jednym transportem. Przy sumie powyżej 1000 zł naliczana jest prowizja +10% od różnicy przekroczenia"
+        "Jeśli paczka przekracza 120 cm, doliczane jest +6 zł do ceny",
+        "Automatycznie ubezpieczamy przesyłkę: +1% od zadeklarowanej wartości do kosztu dostawy",
+        "Jeśli paczka waży powyżej 30 kg (waga rzeczywista lub objętościowa), doliczane jest +12 zł do ceny",
+        "Na rowery o wartości powyżej 1000 zł obowiązuje prowizja: +10% od nadwyżki. Przykład: 1500-1000=500×10%=50 zł (prowizja) + koszt wysyłki",
+        "Wartości rowerów od jednego nadawcy są sumowane, jeśli jadą jednym transportem. Powyżej 1000 zł naliczana jest prowizja +10% od nadwyżki"
       ],
       "table": {
-        "title": "Dostawa kurierem IVANCOM w Polsce",
+        "title": "Dostawa kurierska IVANCOM w miastach Polski",
         "rows": [
           {
             "weight": "Kraków",
@@ -432,21 +485,21 @@
           },
           {
             "weight": "Kielce",
-            "price": "w mieście za darmo"
+            "price": "bezpłatnie w mieście"
           }
         ]
       }
     },
     "DocumentsUaEu": {
       "headings": [
-        "Sprawdź koszt wysyłki dokumentów i wysyłaj bez problemów!",
-        "Wysyłka przesyłek przez InPost odbywa się w ciągu 2 dni roboczych od daty wyjazdu z Ukrainy",
+        "Sprawdź koszt dostawy dokumentów i wysyłaj bez problemów!",
+        "Wysyłka przesyłek przez InPost realizowana jest w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy",
         "Koszt usług kurierskich IVANCOM",
         "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj."
       ],
       "attention": [
-        "Czas dostawy z Ukrainy do oddziałów w Polsce od 2 dni roboczych",
-        "Firma nie łączy kilku listów przewozowych w jedną przesyłkę."
+        "Czas dostawy z Ukrainy do oddziałów w Polsce – od 2 dni roboczych",
+        "Firma nie łączy kilku listów przewozowych (TTN) w jedną przesyłkę."
       ],
       "table": {
         "title": "Dostawa do stacjonarnych oddziałów IVANCOM",
@@ -470,7 +523,7 @@
       },
       "table2": {
         "title": "Dostawa do paczkomatu InPost w Europie",
-        "country": "Belgia, Francja, Hiszpania, Włochy, Holandia, Luksemburg, Portugalia",
+        "country": "Belgia, Francja, Hiszpania, Włochy, Niderlandy, Luksemburg, Portugalia",
         "rows": [
           {
             "weight": "koperta z dokumentami",
@@ -479,7 +532,7 @@
         ]
       },
       "table3": {
-        "title": "Dostawa kurierem IVANCOM w miastach Polski",
+        "title": "Dostawa kurierska IVANCOM w miastach Polski",
         "country": "Polska",
         "rows": [
           {
@@ -657,35 +710,35 @@
       }
     },
     "AnimalsEuUa": {
-      "subtitle": "Transport zwierząt z Polski i Europy do Ukrainy z IVANCOM to komfort i bezpieczeństwo dla Twojego pupila.",
+      "subtitle": "Transport zwierząt z IVANCOM to komfort i bezpieczeństwo dla Twojego pupila",
       "formBtn": "Wypełnij formularz",
       "tariffs": [
         {
           "title": "Kot, pies do 10 kg",
           "price": "200€",
-          "note": "*cena dotyczy transportu z oddziału IVANCOM w Polsce do Lwowa"
+          "note": "*cena dotyczy transferu z oddziału IVANCOM w Polsce do Lwowa"
         },
         {
           "title": "Kot, pies powyżej 10 kg",
           "price": "250€",
-          "note": "*cena dotyczy transportu z oddziału IVANCOM w Polsce do Lwowa"
+          "note": "*cena dotyczy transferu z oddziału IVANCOM w Polsce do Lwowa"
         },
         {
           "title": "Inne zwierzęta",
           "price": "Cena indywidualna",
-          "note": "*taryfa za transport innych zwierząt ustalana indywidualnie"
+          "note": "*taryfa za przewóz innych zwierząt ustalana indywidualnie"
         }
       ],
       "important": {
         "title": "WAŻNE!",
-        "text": "Bez pełnego zestawu dokumentów nie możemy przetransportować zwierzęcia – takie są zasady. Ale możesz załączyć dokumenty w formularzu, a my sprawdzimy, czy wszystko się zgadza!",
-        "rulesBtn": "Przeczytaj zasady"
+        "text": "Bez pełnego pakietu dokumentów nie możemy przewieźć zwierzęcia — takie są wymagania. Możesz jednak załadować dokumenty w formularzu, a my sprawdzimy, czy wszystko jest w porządku. Dbamy o Twojego pupila na całej trasie — jak o własnego.",
+        "rulesBtn": "Zobacz zasady"
       }
     },
     "GeneratorsEuUa": {
       "subtitle": "IVANCOM zapewni szybki i niezawodny transport generatorów z dowolnego kraju na świecie.",
-      "subtitle2": "Taryfy obowiązują od 15.08.24. Obniżone stawki dotyczą WYŁĄCZNIE nowych stacji! Cena obejmuje dostawę na terenie Ukrainy.",
-      "subtitle3": "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu.",
+      "subtitle2": "Taryfy obowiązują od 15.08.2024. Obniżone ceny dotyczą WYŁĄCZNIE nowych stacji! Koszt obejmuje już dostawę na terenie Ukrainy",
+      "subtitle3": "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty wysyłki",
       "subtitle4": "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
       "subtitle5": "Jak dostarczyć stację zasilania z europejskiego sklepu przez IVANCOM",
       "formBtn": "Wypełnij formularz",
@@ -696,34 +749,34 @@
         },
         {
           "title": "Generatory do 7,5 kW",
-          "price": "Standardowa stawka za paczki"
+          "price": "Standardowa taryfa paczek"
         },
         {
           "title": "Akumulatory powyżej 300W (ecoflow/anker/bluetti)",
-          "price": "Standardowa stawka + 3% od wartości (ubezpieczenie w cenie)"
+          "price": "Standardowa taryfa paczek + 3% od wartości (ubezpieczenie w cenie)"
         },
         {
           "title": "Akumulatory poniżej 300W (np. powerbanki)",
-          "price": "Standardowa stawka za paczki"
+          "price": "Standardowa taryfa paczek"
         },
         {
-          "title": "Inwertery (oprócz spawarek inwertorowych)",
-          "price": "Standardowa stawka + 3% od wartości (ubezpieczenie w cenie)"
+          "title": "Inwertery (z wyjątkiem spawarek inwertorowych)",
+          "price": "Standardowa taryfa paczek + 3% od wartości (ubezpieczenie w cenie)"
         }
       ],
       "attention": [
-        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do kosztu dostawy.",
-        "Koszt dostawy obliczany jest na podstawie rzeczywistej lub objętościowej wagi (wybierana jest większa wartość).",
-        "W tabeli cen podano dokładne przedziały wagowe (od-do). W przypadku przekroczenia wagi, przesyłka trafia do wyższej kategorii. Przykład: paczka 10,1 kg = przedział 10–15 kg.",
-        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (za pośrednictwem naszych partnerów – Nowa Poczta).",
-        "Dostawa pod adres jest płatna osobno: + 15 zł za każde miejsce ładunkowe.",
-        "Dla paczek powyżej 1000 zł naliczana jest prowizja: +10% od całej różnicy przekroczenia. Przykład: 1500–1000=500×10%=50 zł (prowizja) + koszt wysyłki.",
+        "Każda przesyłka jest automatycznie ubezpieczona — +1% od zadeklarowanej wartości paczki.",
+        "Koszt dostawy obliczany jest na podstawie większej z wag: rzeczywistej lub objętościowej.",
+        "W tabeli taryf podano dokładne przedziały wagowe. Jeśli paczka przekracza zakres — trafia do kolejnego przedziału. Przykład: 10,1 kg = taryfa 10–15 kg.",
+        "Koszt zawiera dostawę na Ukrainie do paczkomatu lub oddziału Nowej Poczty (przez naszych partnerów).",
+        "Jeśli wybierasz dostawę kurierską pod adres — doliczane jest +15 zł za każde miejsce ładunkowe.",
+        "Jeśli wartość paczki przekracza 1000 zł — doliczana jest prowizja: +10% od nadwyżki. Przykład: 1500 zł → 500 zł x 10% = 50 zł + koszt wysyłki.",
         {
-          "text": "Koszt przesyłek od jednego nadawcy jest sumowany, jeśli jadą jednym transportem. Kwota powyżej 1000 zł objęta jest prowizją +10%.",
-          "linkText": "sprawdź tutaj"
+          "text": "Jeśli wysyłasz kilka paczek w jednej dostawie — ich wartość się sumuje. Jeśli suma przekracza 1000 zł — również obowiązuje prowizja +10% od nadwyżki.",
+          "linkText": "szukaj tutaj"
         },
-        "Wysyłka zestawu tablic rejestracyjnych kosztuje 100 zł + 1% ubezpieczenia od zadeklarowanej wartości.",
-        "Możliwość wysyłki paczki w torbie/walizce (tylko na oddział ładunkowy NP, za dopłatą 35–50 zł w zależności od gabarytów i wagi paczki)."
+        "Wysyłka kompletu tablic rejestracyjnych — 100 zł + 1% ubezpieczenia.",
+        "Możliwa wysyłka w walizce lub torbie — tylko na oddział cargo Nowej Poczty. Dopłata 35–50 zł zależnie od wagi i rozmiaru."
       ],
       "table": {
         "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
@@ -754,16 +807,16 @@
           }
         ],
         "notes": [
-          "* cena nie obejmuje ubezpieczenia (1% od zadeklarowanej wartości paczki)",
-          "** cena za duże paczki o dużych gabarytach (sprzęt, dywan, meble itd.)",
+          "* koszt nie zawiera opłaty ubezpieczeniowej (1% od zadeklarowanej wartości paczki)",
+          "** cena za przesyłki wielkogabarytowe (sprzęt, dywany, meble itp.)",
           "*** jeśli paczka przekracza 120 cm, doliczane jest +8 zł",
-          "**** jeśli paczka waży ponad 30 kg rzeczywistej lub objętościowej wagi, doliczane jest 12 zł"
+          "**** jeśli paczka przekracza 30 kg (waga rzeczywista lub objętościowa), doliczane jest +12 zł"
         ]
       },
       "Eu": {
         "step1": {
           "title": "Wyślij na nasz centralny magazyn w Krakowie",
-          "desc": "Dowolną firmą kurierską pod ten adres:"
+          "desc": "Dowolną firmą kurierską na adres:"
         },
         "step2": {
           "title": "Wypełnij formularz",
@@ -771,14 +824,14 @@
         },
         "step3": {
           "title": "Opłać wysyłkę na Ukrainę",
-          "desc": "Po zarejestrowaniu przesyłki w magazynie centralnym otrzymasz fakturę do opłacenia."
+          "desc": "Gdy paczka zostanie zarejestrowana na magazynie centralnym, otrzymasz fakturę za wysyłkę."
         }
       }
     },
     "TransfersEuUa": {
-      "subtitle": "Przeprowadzka z Europy do Ukrainy z IVANCOM – to wygoda, bezpieczeństwo i brak zbędnych problemów.",
+      "subtitle": "Przeprowadzka z Europy do Ukrainy z IVANCOM — to wygoda, bezpieczeństwo i brak zbędnych problemów.",
       "subtitle1": "Co trzeba zrobić?",
-      "warningText": "Meble przyjmujemy do transportu tylko w stanie zdemontowanym!",
+      "warningText": "Meble są przyjmowane do transportu wyłącznie w stanie zdemontowanym!",
       "steps": {
         "step1": {
           "title": "Wypełnij formularz poniżej",
@@ -787,7 +840,7 @@
         },
         "step2": {
           "title": "Już do Ciebie jedziemy!",
-          "desc": "Przygotuj i spakuj wszystkie rzeczy do przeprowadzki. Nasz menedżer doradzi, jak je odpowiednio zapakować – koniecznie zapytaj o to :)"
+          "desc": "Przygotuj i zapakuj wszystkie rzeczy do przeprowadzki. Nasz menedżer poinformuje Cię o szczegółach pakowania — koniecznie zapytaj go o to :)"
         },
         "step3": {
           "title": "Rozpakuj nowe życie!",
@@ -796,20 +849,20 @@
       }
     },
     "WheelsEuUa": {
-      "subtitle": "Transport opon i felg z Europy na Ukrainę z IVANCOM – to wygoda, szybkość i bezpieczeństwo.",
-      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu.",
+      "subtitle": "Transport opon i felg z Europy do Ukrainy z IVANCOM — to wygodne, szybkie i bezpieczne.",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie — do 5 dni od daty wysyłki",
       "subtitle3": "Koszt usługi kurierskiej IVANCOM",
       "descr3": "W niektórych miastach IVANCOM oferuje dostawę kurierską. Dowiedz się więcej o tej usłudze tutaj.",
       "subtitle4": "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
       "formBtn": "Wypełnij formularz",
       "attention": [
-        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do kosztu dostawy.\n• Opony i felgi muszą być czyste. Umyj je proszę :)",
-        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (za pośrednictwem naszych partnerów – Nowa Poczta).\nDostawa pod adres płatna osobno: +10 zł za każde miejsce ładunkowe.",
-        "Zapakuj felgi tytanowe w tekturę falistą i folię stretch lub pracownicy IVANCOM zrobią to za 20 zł/szt.",
-        "Zwykłe felgi zapakuj w folię stretch lub pracownicy IVANCOM zrobią to za 5 zł/szt.",
-        "Jeśli przesyłka przekracza 120 cm, doliczane jest +6 zł do kosztu.",
-        "Dla przesyłek powyżej 1000 zł naliczana jest prowizja: +10% od całej różnicy. Przykład: 1500–1000=500×10%=50 zł (prowizja) + koszt wysyłki.",
-        "Jeśli przesyłka waży ponad 30 kg rzeczywistej lub objętościowej wagi, doliczane jest 12 zł."
+        "Automatycznie ubezpieczamy przesyłkę: +1% od zadeklarowanej wartości do kosztu dostawy. • Opony i felgi muszą być czyste. Prosimy, umyj je.",
+        "Felgi aluminiowe zapakuj w karton falisty i folię stretch lub zrobimy to za Ciebie – 20 zł/szt.",
+        "Zwykłe felgi owiń folią stretch lub przekaż nam – 5 zł/szt.",
+        "Jeśli długość przesyłki przekracza 120 cm — doliczane jest +6 zł do kosztu.",
+        "Jeśli waga przekracza 30 kg (rzeczywista lub objętościowa) — doliczane jest 12 zł.",
+        "Każda przesyłka jest automatycznie ubezpieczona — +1% od zadeklarowanej wartości paczki.",
+        "Jeśli wartość paczki przekracza 1000 zł — naliczana jest prowizja 10% od nadwyżki. Przykład: 1500–1000=500 × 10% = 50 zł (prowizja)."
       ],
       "table": {
         "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
@@ -832,14 +885,14 @@
           },
           {
             "weight": "Kielce",
-            "price": "bezpłatnie w mieście"
+            "price": "w mieście bezpłatnie"
           }
         ]
       },
       "Eu": {
         "step1": {
           "title": "Wyślij na nasz centralny magazyn w Krakowie",
-          "desc": "Dowolną firmą kurierską pod ten adres:"
+          "desc": "Dowolną firmą kurierską na adres:"
         },
         "step2": {
           "title": "Wypełnij formularz",
@@ -847,44 +900,44 @@
         },
         "step3": {
           "title": "Opłać wysyłkę na Ukrainę",
-          "desc": "Po zarejestrowaniu paczki w magazynie centralnym otrzymasz fakturę do opłacenia."
+          "desc": "Po przetworzeniu paczki w magazynie centralnym otrzymasz fakturę za wysyłkę."
         }
       }
     },
     "BicyclesEuUa": {
-      "subtitle": "Transport rowerów z Europy na Ukrainę z IVANCOM — to szybko, bezpiecznie i bezproblemowo.",
-      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu",
+      "subtitle": "Transport rowerów z Europy na Ukrainę z IVANCOM — to szybko, niezawodnie i bezpiecznie.",
+      "subtitle2": "Czas dostawy paczek z Polski do oddziału na Ukrainie — do 5 dni od daty wysyłki",
       "subtitle3": "Jak wysłać rower?",
       "formBtn": "Wypełnij formularz",
       "tariffs": [
         {
           "title": "Rower dziecięcy (rozmiar kół do R24)",
           "price": "250 zł",
-          "note": "Stawka obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy uzgodnić z menedżerem.",
+          "note": "Taryfa obowiązuje dla wysyłek na Ukrainę",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
-          "subNoteText": "+1% zadeklarowanej wartości"
+          "subNoteText": "+1% od zadeklarowanej wartości"
         },
         {
           "title": "Rower dla dorosłych (rozmiar kół od R25)",
           "price": "300 zł",
-          "note": "Stawka obowiązuje dla wysyłek do Polski. Koszt dostawy do innych krajów należy uzgodnić z menedżerem.",
+          "note": "Taryfa obowiązuje dla wysyłek na Ukrainę",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
-          "subNoteText": "+1% zadeklarowanej wartości"
+          "subNoteText": "+1% od zadeklarowanej wartości"
         },
         {
           "title": "Rowery elektryczne",
           "price": "*5 zł/kg",
-          "note": "Liczona według wagi rzeczywistej lub objętościowej",
+          "note": "Obliczane na podstawie rzeczywistej lub objętościowej wagi",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
-          "subNoteText": "+1% zadeklarowanej wartości"
+          "subNoteText": "+1% od zadeklarowanej wartości"
         }
       ],
       "attention": [
-        "Jeśli paczka przekracza 120 cm, doliczane jest +6 zł do kosztu.",
-        "Automatycznie ubezpieczamy przesyłki: +1% zadeklarowanej wartości do kosztu dostawy",
-        "Jeśli paczka przekracza 30 kg wagi rzeczywistej lub objętościowej, doliczane jest 12 zł",
-        "Dla rowerów powyżej 1000 zł naliczana jest prowizja: +10% od nadwyżki. Przykład: 1500–1000=500×10%=50 zł (prowizja) + koszt wysyłki",
-        "Koszt rowerów od jednego nadawcy jest sumowany, jeśli jadą jednym transportem. Dla łącznej wartości powyżej 1000 zł obowiązuje +10% prowizji"
+        "Jeśli przesyłka przekracza 120 cm, doliczane jest +6 zł do ceny",
+        "Przesyłki są automatycznie ubezpieczane: +1% od zadeklarowanej wartości do ceny dostawy",
+        "Jeśli przesyłka waży ponad 30 kg (waga rzeczywista lub objętościowa), doliczane jest 12 zł",
+        "Dla rowerów o wartości powyżej 1000 zł obowiązuje prowizja: +10% od nadwyżki. Przykład: 1500–1000=500×10%=50 zł (prowizja) + koszt wysyłki",
+        "Wartość rowerów od jednego nadawcy się sumuje, jeśli są wysyłane jednym transportem. Powyżej 1000 zł naliczana jest prowizja +10% od nadwyżki"
       ]
     },
     "DocumentsEuUa": {
