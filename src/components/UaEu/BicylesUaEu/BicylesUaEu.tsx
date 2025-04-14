@@ -116,7 +116,7 @@ const attentionTexts = [
       </div>
 
       <p className={styles.subtitle}>
-        <p className={styles.subtitle}>{t("subtitle2")}</p>
+        {/* <p className={styles.subtitle}>{t("subtitle2")}</p> */}
       </p>
        <p className={styles.descr}>{t('descr3')}</p>
           <DeliveryTable data={deliveryWithNotes} />

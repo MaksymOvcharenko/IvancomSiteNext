@@ -601,24 +601,24 @@
     },
     "ParcelsEuEa": {
       "headings": [
-        "Sprawdź koszt dostawy z krajów Europy do Ukrainy i wysyłaj bez problemu!",
-        "Czas dostawy paczek z Polski do oddziału na Ukrainie do 5 dni od daty transportu",
+        "Wysyłaj łatwo! Sprawdź koszt dostawy z krajów Europy do Ukrainy i wybierz najwygodniejszy sposób dostawy.",
+        "Dostawa z oddziałów w Polsce do oddziałów naszych partnerów na Ukrainie",
         "Wysyłka z IVANCOM: szybko i łatwo w kilku krokach!",
-        "IVANCOM szybko i bezpiecznie dostarczy leki z Polski na Ukrainę, abyś mógł otrzymać to, czego potrzebujesz, bez zbędnych problemów."
+        "IVANCOM szybko i bezpiecznie dostarczy leki z Polski do Ukrainy, abyś mógł otrzymać to, czego potrzebujesz bez zbędnych problemów."
       ],
       "attention": [
-        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do kosztu dostawy.",
-        "Koszt dostawy obliczany jest na podstawie rzeczywistej lub objętościowej wagi (wybierana jest większa wartość).",
-        "W tabeli cen podano dokładne przedziały wagowe (od-do). W przypadku przekroczenia wagi, przesyłka trafia do wyższej kategorii. Przykład: waga paczki 10,1 kg = przedział 10–15 kg.",
-        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (za pośrednictwem naszych partnerów – Nowa Poczta).",
-        "Dostawa pod adres jest płatna osobno: +15 zł za każde miejsce ładunkowe.",
-        "Dla paczek powyżej 1000 zł naliczana jest prowizja: +10% od całej różnicy przekroczenia. Przykład: 1500-1000=500×10%=50 zł (prowizja) + koszt wysyłki.",
+        "Automatycznie ubezpieczamy przesyłki: +1% od zadeklarowanej wartości do ceny dostawy.",
+        "Koszt dostawy obliczany jest na podstawie rzeczywistej lub objętościowej wagi (wybierana jest wyższa wartość).",
+        "W tabeli cen wskazane są konkretne przedziały wagowe (od – do). W przypadku przekroczenia wagi, przesyłka przypisywana jest do następnej kategorii. Przykład: waga paczki 10,1 kg = przedział 10–15 kg.",
+        "Ceny zawierają koszt dostawy na Ukrainie do oddziału lub paczkomatu (przez naszych partnerów – Nową Pocztę).",
+        "Dostawa pod adres jest płatna osobno: +15 zł za każdą paczkę.",
+        "Na paczki powyżej 1000 zł obowiązuje prowizja: +10% od całkowitej nadwyżki. Przykład: 1500-1000=500x10%=50 zł (prowizja) + koszt dostawy.",
         {
-          "text": "Koszt przesyłek od jednego nadawcy jest sumowany, jeśli jadą jednym transportem. Kwota powyżej 1000 zł objęta jest prowizją +10%.",
-          "linkText": "sprawdź tutaj"
+          "text": "Koszt przesyłek od jednego nadawcy sumuje się, jeśli są wysyłane jednym transportem. Na kwotę powyżej 1000 zł naliczana jest prowizja +10% od całej nadwyżki.",
+          "linkText": "szukaj tutaj"
         },
-        "Wysyłka zestawu tablic rejestracyjnych kosztuje 100 zł + 1% ubezpieczenia od zadeklarowanej wartości.",
-        "Możliwość wysyłki paczki w torbie/walizce (tylko na oddział ładunkowy NP, za dopłatą 35–50 zł w zależności od wymiarów i wagi paczki)."
+        "Wysyłka kompletu tablic rejestracyjnych kosztuje 100 zł + 1% ubezpieczenia od zadeklarowanej wartości.",
+        "Możliwość wysyłki w torbie/walizce (tylko na oddział cargo NP za dopłatą 35–50 zł w zależności od gabarytów i wagi paczki)."
       ],
       "table": {
         "title": "Dostawa z oddziałów w Polsce do partnerskich oddziałów na Ukrainie",
@@ -649,10 +649,10 @@
           }
         ],
         "notes": [
-          "* koszt nie zawiera ubezpieczenia (1% od zadeklarowanej wartości paczki)",
-          "** cena dla dużych przesyłek o dużych gabarytach (sprzęt, dywan, meble itp.)",
-          "*** jeśli paczka przekracza 120 cm, doliczane jest +8 zł do ceny",
-          "**** jeśli paczka waży ponad 30 kg rzeczywistej lub objętościowej wagi, doliczane jest 12 zł"
+          "cena nie zawiera opłaty ubezpieczeniowej — +1% od zadeklarowanej wartości paczki",
+          "jeśli długość paczki przekracza 120 cm — do ceny doliczane jest +6 zł",
+          "cena dotyczy dużych, jednolitych przesyłek (sprzęt, dywany, meble itp.)",
+          "dla paczek o wadze powyżej 30 kg (waga rzeczywista lub objętościowa) doliczane jest +12 zł do całkowitego kosztu"
         ]
       }
     },
