@@ -8,6 +8,7 @@ import Footer from "@/components/Footer/Footer";
 import ReduxProvider from "../Provider";
 import dynamic from "next/dynamic";
 import Loader from "@/components/SiteLoader/Loader";
+import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default async function RootLayout({
               <Loader>
                 <Header />
                 <div>{children}</div>
+                <ScrollToTop />
                 <Footer />
               </Loader>
             </ReduxProvider>
