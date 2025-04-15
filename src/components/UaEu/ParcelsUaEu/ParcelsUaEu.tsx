@@ -18,6 +18,15 @@ const ParcelsUaEu = () => {
     { text: t('attention.0') },
     { text: t('attention.1') },
     { text: t('attention.2') },
+    { text: t('attention.3') },
+    { text: t('attention.4') },
+    { text: t('attention.5') },
+    { text: t('attention.6') },
+    { text: t('attention.7') },
+    { text: t('attention.8') },
+{ text: t('attention.9') },
+    
+    
   
   ];
     const attentionTexts1 = [

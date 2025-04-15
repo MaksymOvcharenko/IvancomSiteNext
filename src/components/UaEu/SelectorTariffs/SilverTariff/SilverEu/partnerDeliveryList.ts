@@ -38,7 +38,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 2 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -78,7 +78,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 2 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -118,7 +118,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 2 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -158,7 +158,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -198,7 +198,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -238,7 +238,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -278,7 +278,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 2 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -318,7 +318,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 5 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -358,7 +358,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -398,7 +398,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 12 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -438,7 +438,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3-4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -478,7 +478,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3-4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -518,7 +518,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3-4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -558,7 +558,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -598,7 +598,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 5 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -638,7 +638,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 2 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -678,7 +678,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 2-3 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -718,7 +718,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -758,7 +758,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3-4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -798,7 +798,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 5-7 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -838,7 +838,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 4-5 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -878,7 +878,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 5 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -918,7 +918,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 5 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -958,7 +958,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 2 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -998,7 +998,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3-4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -1038,7 +1038,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3-4 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -1078,7 +1078,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   },
@@ -1118,7 +1118,7 @@ export const partnerDeliveryList: DeliveryEntry[] = [
         }
       ],
       "notes": [
-        "Термін доставки: 3 дні(в)"
+        "Термін доставки виносить від 5 робочих днів"
       ]
     }
   }
