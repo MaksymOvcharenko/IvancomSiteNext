@@ -250,6 +250,7 @@ interface TrackingData {
     CarrierTracker: string;
     Carrier: string;
     CarrierTrackerNom: string;
+    Address: string;
 }
 
 interface TrackDataProps {
@@ -324,7 +325,7 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
                     const formattedOur = Array.from(
     reversedData.reduce((map, item) => {
         if (!item.Status || !item.created_at) return map;
-
+                 
         let statusText = item.Status;
 
         if (item.Direction === 'UA-PL') {
@@ -352,6 +353,10 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
             else if (statusText === "Посилка, частини посилки вирушили на склад Кельце") {
                 statusText = "Посилка видана отримувачу з складу в м. Кельце";
             }
+           if (item.DivisionTo === "MED UA-PL") {
+   
+               setInpostAddress(item.Address);
+}
 
         }
         if (item.Direction === 'PL-UA') {
@@ -377,7 +382,7 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
         return map;
     }, new Map<string, { type: string, status: string, date: string, comment: string | null }>())
     .values() // <- обов'язково повернутися до .values()
-);
+                    ); 
                     if (latest.Direction === "UA-PL" && latest.Carrier === "inpost" && latest.CarrierTrackerNom) {
                         const timeline = await fetchInPostData(latest.CarrierTrackerNom);
                         const formattedInpost = timeline.map((item: any) => ({
@@ -386,7 +391,7 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
                             date: item.datetime,
                             location: item.location || null
                         }));
-
+                               
                         if (timeline[0]?.target_machine_detail?.address) {
                             const addr = timeline[0].target_machine_detail.address;
                             setInpostAddress(`${addr.line1}, ${addr.line2}`);
