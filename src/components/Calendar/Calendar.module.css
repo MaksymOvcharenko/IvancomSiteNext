@@ -1,5 +1,6 @@
 .image {
   border-radius: 16px;
+  object-fit: contain;
 }
 .calendar {
   display: flex;
