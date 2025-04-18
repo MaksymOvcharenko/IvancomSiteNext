@@ -37,6 +37,11 @@
   line-height: 127%;
   text-align: center;
 }
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .imgCont {
 }
 /* Великі планшети і маленькі ноутбуки (від 768px) */
@@ -64,7 +69,7 @@
     max-width: 1280px;
   }
   .img {
-    width: 708px;
-    height: 520px;
+    width: 580px;
+    /* height: 520px; */
   }
 }

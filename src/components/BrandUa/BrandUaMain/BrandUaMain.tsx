@@ -17,7 +17,13 @@ const BrandUaMain = () => {
     { img: "/image/brandUa/partners/SushiStory.jpg", name: "Sushi Story", url: "https://pl.sushistory.com/var/", desc: t('brandua.partner5') },
     { img: "/image/brandUa/partners/VeanTattoo.jpg", name: "VEAN TATTOO", url: "https://veantattoo.com", desc: t('brandua.partner6') },
     { img: "/image/brandUa/partners/TwojLekarz.jpg", name: "Twój Lekarz", url: "https://krakow.twojlekarz-wawa.pl/", desc: t('brandua.partner7') },
-    { img: "/image/brandUa/partners/Mistodent.jpg", name: "Mistodent", url: "https://www.mistodent.pl/uk/index.html", desc: t('brandua.partner8') }
+    { img: "/image/brandUa/partners/Mistodent.jpg", name: "Mistodent", url: "https://www.instagram.com/quick_instal_pl/", desc: t('brandua.partner8') },
+  { img: "/image/brandUa/partners/QuickInstal.jpg", name: "QuickInstal", url: "https://navigator.in.ua/", desc: t('brandua.partner9') },
+    { img: "/image/brandUa/partners/Bizzroll1.png", name: "Bizzroll", url: "https://www.instagram.com/bizzroll.club/", desc: t('brandua.partner10') },
+    { img: "/image/brandUa/partners/center1.png", name: "CENTER", url: "https://center-krakow.pl/?fbclid=PAZXh0bgNhZW0CMTEAAacyNb6AcMRRE7K5_PF3IxMoTntMH5TDiq3kb_tmQfBOX9jtvqTsyhkDbCIDxQ_aem_8QkizxYoKhF3BMdh4Qawsw", desc: t('brandua.partner11') },
+    // { img: "/image/brandUa/partners/Armacar.jpg", name: "Armacar", url: "https://armacar.pl/", desc: t('brandua.partner12') },
+    { img: "/image/brandUa/partners/CufuSushi.png", name: "Cufu Sushi", url: "https://cufusushiwroclaw.pl/", desc: t('brandua.partner13') },
+    // { img: "/image/brandUa/partners/CULT.jpg", name: "CULT", url: "https://cultkrakow.choiceqr.com/takeaway?fbclid=PAZXh0bgNhZW0CMTEAAacxGmLOCSlzEtsa1SzJ7qhyq_OtIUvkEvyAMVvssq5He61Yd5oeX_urbblTaA_aem_PF3CK3gWr0BJR4ZLT1aZJA", desc: t('brandua.partner14') }
   ];
 
   return (
