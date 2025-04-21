@@ -2,7 +2,8 @@ import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import Header from "@/components/Header";
-
+import { Analytics } from '@vercel/analytics/next';
+ 
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import ReduxProvider from "../Provider";
@@ -43,6 +44,7 @@ export default async function RootLayout({
             <ReduxProvider>
               <Loader>
                 <Header />
+                   <Analytics />
                 <div>{children}</div>
                 <ScrollToTop />
                 <Footer />
