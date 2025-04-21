@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import Header from "@/components/Header";
 import { Analytics } from '@vercel/analytics/next';
- 
+ import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import ReduxProvider from "../Provider";
@@ -44,7 +44,8 @@ export default async function RootLayout({
             <ReduxProvider>
               <Loader>
                 <Header />
-                   <Analytics />
+                <Analytics />
+                <SpeedInsights />
                 <div>{children}</div>
                 <ScrollToTop />
                 <Footer />
