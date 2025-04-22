@@ -18,7 +18,7 @@ interface FormValues {
 
 const DescriptionSchema = Yup.object().shape({
   description: Yup.string()
-    .required('Опис посилки є обов’язковим').min(5, "Мінімально 5 символів"),
+    .required('Опис посилки є обов’язковим').min(4, "Мінімально 4 символи"),
   agree: Yup.boolean()
     .oneOf([true], 'Ви повинні прийняти умови')
 });
