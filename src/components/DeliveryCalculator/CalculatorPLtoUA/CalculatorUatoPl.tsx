@@ -48,78 +48,163 @@ const CalculatorUatoPL: React.FC = () => {
     }, 100); // невелика пауза для безпечного рендеру
   }
 }, [result]);
-  const calculate = () => {
-    let totalWeight = 0;
-    let totalVolumetricWeight = 0;
-    let totalCost = 0;
-    let details: CalculationResult["details"] = [];
+  // const calculate = () => {
+  //   let totalWeight = 0;
+  //   let totalVolumetricWeight = 0;
+  //   let totalCost = 0;
+  //   let details: CalculationResult["details"] = [];
 
-    const declaredValue = parseFloat(value) || 0;
-    let insurance = (declaredValue / 10) * 0.03;
+  //   const declaredValue = parseFloat(value) || 0;
+  //   let insurance = (declaredValue / 10) * 0.03;
 
-    packages.forEach((pkg) => {
-      const length = parseFloat((document.getElementById(`length${pkg.id}`) as HTMLInputElement)?.value) || 0;
-      const width = parseFloat((document.getElementById(`width${pkg.id}`) as HTMLInputElement)?.value) || 0;
-      const height = parseFloat((document.getElementById(`height${pkg.id}`) as HTMLInputElement)?.value) || 0;
-      const weight = parseFloat((document.getElementById(`weight${pkg.id}`) as HTMLInputElement)?.value) || 0;
+  //   packages.forEach((pkg) => {
+  //     const length = parseFloat((document.getElementById(`length${pkg.id}`) as HTMLInputElement)?.value) || 0;
+  //     const width = parseFloat((document.getElementById(`width${pkg.id}`) as HTMLInputElement)?.value) || 0;
+  //     const height = parseFloat((document.getElementById(`height${pkg.id}`) as HTMLInputElement)?.value) || 0;
+  //     const weight = parseFloat((document.getElementById(`weight${pkg.id}`) as HTMLInputElement)?.value) || 0;
 
-      const volumetricWeight = (length * width * height) / 4000;
-      totalVolumetricWeight += volumetricWeight;
-      const finalWeight = Math.max(weight, volumetricWeight);
-      totalWeight += finalWeight;
+  //     const volumetricWeight = (length * width * height) / 4000;
+  //     totalVolumetricWeight += volumetricWeight;
+  //     const finalWeight = Math.max(weight, volumetricWeight);
+  //     totalWeight += finalWeight;
 
-      details.push({ id: pkg.id, volumetricWeight, finalWeight, cost: 0, extraCharges: [] });
-    }); // Ось тут закриваємо `forEach`
+  //     details.push({ id: pkg.id, volumetricWeight, finalWeight, cost: 0, extraCharges: [] });
+  //   }); // Ось тут закриваємо `forEach`
 
-    const finalTotalWeight = Math.max(totalWeight, totalVolumetricWeight);
-    let cost = 0;
+  //   const finalTotalWeight = Math.max(totalWeight, totalVolumetricWeight);
+  //   let cost = 0;
 
-    if (isDeliveryInPoland) {
-      cost = isCommerce
-        ? finalTotalWeight < 2.01
-          ? 100
-          : finalTotalWeight < 5.01
-          ? 130
-          : 130 + (finalTotalWeight - 5) * 11
-        : finalTotalWeight < 2.01
-        ? 60
-        : finalTotalWeight < 5.01
-        ? 80
-        : finalTotalWeight < 10.1
-        ? 110
-        : finalTotalWeight < 15.01
-        ? 130
-        : finalTotalWeight < 20.01
-        ? 150
-        : finalTotalWeight < 30.01
-        ? 190
-        : finalTotalWeight * 7;
+  //   if (isDeliveryInPoland) {
+  //     cost = isCommerce
+  //       ? finalTotalWeight < 2.01
+  //         ? 100
+  //         : finalTotalWeight < 5.01
+  //         ? 130
+  //         : 130 + (finalTotalWeight - 5) * 11
+  //       : finalTotalWeight < 2.01
+  //       ? 60
+  //       : finalTotalWeight < 5.01
+  //       ? 80
+  //       : finalTotalWeight < 10.1
+  //       ? 110
+  //       : finalTotalWeight < 15.01
+  //       ? 130
+  //       : finalTotalWeight < 20.01
+  //       ? 150
+  //       : finalTotalWeight < 30.01
+  //       ? 190
+  //       : finalTotalWeight * 7;
+  //   } else {
+  //     cost = isCommerce
+  //       ? finalTotalWeight < 2.01
+  //         ? 80
+  //         : finalTotalWeight < 5.01
+  //         ? 100
+  //         : 100 + (finalTotalWeight - 5) * 10
+  //       : finalTotalWeight < 2.01
+  //       ? 40
+  //       : finalTotalWeight < 5.01
+  //       ? 60
+  //       : finalTotalWeight < 10.1
+  //       ? 80
+  //       : finalTotalWeight < 15.01
+  //       ? 100
+  //       : finalTotalWeight < 20.01
+  //       ? 120
+  //       : finalTotalWeight < 30.01
+  //       ? 150
+  //       : finalTotalWeight * 5;
+  //   }
+
+  //   totalCost = cost + insurance;
+  //   setResult({ totalCost, insurance, totalWeight, details });
+
+  // };
+const calculate = () => {
+  let totalWeight = 0;
+  let totalVolumetricWeight = 0;
+  let totalCost = 0;
+  let details: CalculationResult["details"] = [];
+
+  const declaredValue = parseFloat(value) || 0;
+  let insurance = 0;
+
+  packages.forEach((pkg) => {
+    const length = parseFloat((document.getElementById(`length${pkg.id}`) as HTMLInputElement)?.value) || 0;
+    const width = parseFloat((document.getElementById(`width${pkg.id}`) as HTMLInputElement)?.value) || 0;
+    const height = parseFloat((document.getElementById(`height${pkg.id}`) as HTMLInputElement)?.value) || 0;
+    const weight = parseFloat((document.getElementById(`weight${pkg.id}`) as HTMLInputElement)?.value) || 0;
+
+    const volumetricWeight = (length * width * height) / 4000;
+    totalVolumetricWeight += volumetricWeight;
+    const finalWeight = Math.max(weight, volumetricWeight);
+    totalWeight += finalWeight;
+
+    details.push({ id: pkg.id, volumetricWeight, finalWeight, cost: 0, extraCharges: [] });
+  });
+
+  const finalTotalWeight = Math.max(totalWeight, totalVolumetricWeight);
+  let cost = 0;
+
+  // === СТРАХОВКА ===
+  if (declaredValue > 50000.01) {
+    insurance = (declaredValue / 10) * 0.01;
+  } else {
+    insurance = (declaredValue / 10) * 0.03;
+  }
+
+  // === ВАРТІСТЬ ДОСТАВКИ ===
+  if (isDeliveryInPoland) {
+    if (declaredValue < 12000.01) {
+      if (isCommerce) {
+        cost = finalTotalWeight < 2.01 ? 100
+             : finalTotalWeight < 5.01 ? 130
+             : 130 + (finalTotalWeight - 5) * 11;
+      } else {
+        cost = finalTotalWeight < 2.01 ? 60
+             : finalTotalWeight < 5.01 ? 80
+             : finalTotalWeight < 10.1 ? 110
+             : finalTotalWeight < 15.01 ? 130
+             : finalTotalWeight < 20.01 ? 150
+             : finalTotalWeight < 30.01 ? 190
+             : finalTotalWeight * 7;
+      }
+    } else if (declaredValue < 50000.01) {
+      cost = finalTotalWeight < 2.01 ? 100
+           : finalTotalWeight < 5.01 ? 130
+           : 130 + (finalTotalWeight - 5) * 11;
     } else {
-      cost = isCommerce
-        ? finalTotalWeight < 2.01
-          ? 80
-          : finalTotalWeight < 5.01
-          ? 100
-          : 100 + (finalTotalWeight - 5) * 10
-        : finalTotalWeight < 2.01
-        ? 40
-        : finalTotalWeight < 5.01
-        ? 60
-        : finalTotalWeight < 10.1
-        ? 80
-        : finalTotalWeight < 15.01
-        ? 100
-        : finalTotalWeight < 20.01
-        ? 120
-        : finalTotalWeight < 30.01
-        ? 150
-        : finalTotalWeight * 5;
+      cost = finalTotalWeight < 2.01 ? 100
+           : 100 + (finalTotalWeight - 2) * 20;
     }
+  } else {
+    if (declaredValue < 12000.01) {
+      if (isCommerce) {
+        cost = finalTotalWeight < 2.01 ? 80
+             : finalTotalWeight < 5.01 ? 100
+             : 100 + (finalTotalWeight - 5) * 10;
+      } else {
+        cost = finalTotalWeight < 2.01 ? 40
+             : finalTotalWeight < 5.01 ? 60
+             : finalTotalWeight < 10.1 ? 80
+             : finalTotalWeight < 15.01 ? 100
+             : finalTotalWeight < 20.01 ? 120
+             : finalTotalWeight < 30.01 ? 150
+             : finalTotalWeight * 5;
+      }
+    } else if (declaredValue < 50000.01) {
+      cost = finalTotalWeight < 2.01 ? 80
+           : finalTotalWeight < 5.01 ? 100
+           : 100 + (finalTotalWeight - 5) * 10;
+    } else {
+      cost = finalTotalWeight < 2.01 ? 100
+           : 100 + (finalTotalWeight - 2) * 20;
+    }
+  }
 
-    totalCost = cost + insurance;
-    setResult({ totalCost, insurance, totalWeight, details });
-
-  };
+  totalCost = cost + insurance;
+  setResult({ totalCost, insurance, totalWeight, details });
+};
 
   return (
     <div className={styles.container}>
