@@ -52,6 +52,7 @@ const staticRoutes = [
 module.exports = {
   siteUrl: "https://ivancom.eu",
   generateRobotsTxt: true,
+  generateSitemapTxt: false, // ❗️ОБОВ’ЯЗКОВО
   sitemapSize: 5000,
 
   transform: async () => null,
