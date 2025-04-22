@@ -27,7 +27,8 @@ const Services = () => {
     "/image/about/сomands/slide15.png",
       "/image/about/сomands/slide16.png",
     "/image/about/сomands/slide17.png",
-      "/image/about/сomands/slide18.png",
+    "/image/about/сomands/slide18.png",
+      "/image/about/сomands/slide1.png",
    
   ];
   const imagesVolontariusz = [
