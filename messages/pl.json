@@ -1048,6 +1048,7 @@
     "result": "Wynik:",
     "package": "Paczka",
     "actualWeight": "Waga rzeczywista",
+    "resultWeight": "Waga obliczeniowa",
     "volumetricWeight": "Waga objętościowa",
     "totalWeight": "Całkowita waga",
     "insurance": "Ubezpieczenie",

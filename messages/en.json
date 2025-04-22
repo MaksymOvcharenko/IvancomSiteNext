@@ -1048,6 +1048,7 @@
     "result": "Result:",
     "package": "Package",
     "actualWeight": "Actual Weight",
+    "resultWeight": "Calculated weight",
     "volumetricWeight": "Volumetric Weight",
     "totalWeight": "Total Weight",
     "insurance": "Insurance",

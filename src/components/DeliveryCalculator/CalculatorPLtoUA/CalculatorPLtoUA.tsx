@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import styles from "./styles/CalculatorPLtoUA.module.css";
 import Package from "./Package";
@@ -21,7 +21,14 @@ const CalculatorPLtoUA: React.FC = () => {
   const [packages, setPackages] = useState<PackageData[]>([{ id: 1 }]);
   const [value, setValue] = useState<string>("");
   const [result, setResult] = useState<CalculationResult | null>(null);
-
+    const resultRef = useRef<HTMLDivElement | null>(null);
+ useEffect(() => {
+  if (result) {
+    setTimeout(() => {
+      resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100); // невелика пауза для безпечного рендеру
+  }
+}, [result]);
   const addPackage = () => {
     setPackages((prev) => [...prev, { id: prev.length + 1 }]);
   };
@@ -99,7 +106,7 @@ const CalculatorPLtoUA: React.FC = () => {
 
       <button className={styles.calculateButton} onClick={calculate}>{t("calculateButton")}</button>
 
-      {result && <Result result={result} />}
+      <div ref={resultRef}>{result && <Result result={result} />}</div>
     </div>
   );
 };
