@@ -1,23 +1,52 @@
-/** @type {import('next-sitemap').IConfig} */
+const staticRoutes = [
+  "",
+  "/about",
+  "/brandua",
+  "/business",
+  "/calculator",
+  "/contacts",
+  "/courier",
+  "/europe-to-europe",
+  "/europe-to-ukraine",
+  "/faq",
+  "/promotions",
+  "/self-service",
+  "/services",
+  "/tariffs",
+  "/ukraine-to-europe",
+];
+
+const locales = ["uk", "pl", "en"];
+
 module.exports = {
-  siteUrl: "https://ivancom.eu", // <- твій домен
+  siteUrl: "https://ivancom.eu",
   generateRobotsTxt: true,
-  changefreq: "weekly",
-  priority: 0.7,
-  sitemapSize: 5000,
-  trailingSlash: false,
-  alternateRefs: [
-    {
-      href: "https://ivancom.eu/uk",
-      hreflang: "uk",
-    },
-    {
-      href: "https://ivancom.eu/pl",
-      hreflang: "pl",
-    },
-    {
-      href: "https://ivancom.eu/en",
-      hreflang: "en",
-    },
-  ],
+  alternateRefs: locales.map((locale) => ({
+    href: `https://ivancom.eu/${locale}`,
+    hreflang: locale,
+  })),
+  transform: async (config, path) => {
+    return locales.map((locale) => {
+      const localizedPath = path === "" ? `/${locale}` : `/${locale}${path}`;
+      return {
+        loc: `${config.siteUrl}${localizedPath}`,
+        lastmod: new Date().toISOString(),
+        changefreq: "weekly",
+        priority: path === "" ? 1.0 : 0.7,
+        alternateRefs: locales.map((lng) => ({
+          href: `${config.siteUrl}/${lng}${path}`,
+          hreflang: lng,
+        })),
+      };
+    });
+  },
+  additionalPaths: async () => {
+    const allLocalizedRoutes = [];
+    for (const path of staticRoutes) {
+      for (const locale of locales) {
+        allLocalizedRoutes.push({ loc: `/${locale}${path}` });
+      }
+    }
+    return allLocalizedRoutes;
+  },
 };
