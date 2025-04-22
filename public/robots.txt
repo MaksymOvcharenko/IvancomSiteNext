@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ivancom.eu
+
+# Sitemaps
+Sitemap: https://ivancom.eu/sitemap.xml

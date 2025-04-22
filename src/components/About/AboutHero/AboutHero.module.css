@@ -11,12 +11,12 @@
   }
   .heroImg {
     background-image: url("../../../../public/image/about/DSC_3324.jpg"); /* Вкажи правильний шлях */
-    background-size: cover; /* Щоб зображення покривало всю область */
+    background-size: contain; /* Щоб зображення покривало всю область */
     background-position: center; /* Центрування */
     background-repeat: no-repeat; /* Щоб не повторювалося */
     border-radius: 16px;
     width: 342px;
-    height: 352px;
+    height: 239px;
     box-shadow: 0 2px 5px 0 rgba(110, 110, 110, 0.1),
       0 8px 8px 0 rgba(110, 110, 110, 0.09),
       0 19px 11px 0 rgba(110, 110, 110, 0.05),
@@ -115,7 +115,7 @@
   .heroImg {
     border-radius: 16px;
     width: 304px;
-    height: 304px;
+    height: 205px;
   }
   .title {
     text-align: left;
@@ -132,7 +132,7 @@
   }
   .heroImg {
     border-radius: 16px;
-    width: 526px;
+    width: 443px;
     height: 300px;
     max-width: 526px;
   }

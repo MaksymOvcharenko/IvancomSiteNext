@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import SwiperReviewsComponent from "@/components/SwiperReviews/SwiperReviews";
 import Partners from "@/components/Partners/Partners";
+import { SeoHead } from "@/components/SeoHead/SeoHead";
 
 const Services = () => {
   // locale тепер у params
@@ -109,56 +110,58 @@ const Services = () => {
   ]
 
   return (
-    <div className={styles.body}>
-      <HeroAbout />
-      <section id="ourTeam" className={styles.team}>
-        <h1 className={styles.galleryTitle}>{t("titleTeam")}</h1>
-        <div className={styles.teamCont}>
-          <Image
-            src="/image/about/ourTeam.jpg"
-            alt="Логотип IVANCOM"
-            width={628}
-            height={483}
-            className={styles.image}
-          />
-          <p className={styles.descTeam}>{t("contentTeam")}</p>
-        </div>
-      </section>
-      <section id="photoAbout" className={styles.gallery}>
-        <h2 className={styles.galleryTitle}>{t("logistics_journey")}</h2>
-        <SwiperComponent images={images} />
-      </section>
-      <section id="reviews" className={styles.reviews}>
-        <h2 className={styles.reviewsTitle}>{t("titleReviews")}</h2>
-        <SwiperComponent images={reviewsImg} />
-        {/* <SwiperReviewsComponent reviews={reviews} /> */}
-      </section>
-      <section id="helpAbout" className={styles.helpAbout}>
-        <h2 className={styles.galleryTitle}>{t("titleStrong")}</h2>
-        <ul className={styles.helpAboutText}>
-          <li>
-            <p>{t("part1Strong")}</p></li>
-            <li><p>{t("part2Strong")}</p></li>
-            <li><p>{t("part3Strong")}</p></li>
-            <li><p>{t("part4Strong")}</p></li>
-          
-        </ul>
-        <SwiperComponent images={imagesVolontariusz} />
-        <h2 className={styles.galleryTitle}>{t("text1")}</h2>
-        <p className={styles.helpDescVideo}>{t("text2")}</p>
-        <iframe 
-   className={styles.videoIframe}
-  src="https://www.youtube.com/embed/xrK5peXBzwU?autoplay=1" 
-  title="YouTube video player" 
-  frameBorder="0" 
-  allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowFullScreen>
-</iframe>
-      </section>
-      <section id="partners" className={styles.helpAbout}>
-        <Partners logos={partnersLogos}/>
-       </section>
-    </div>
+     
+      <div className={styles.body}>
+        <HeroAbout />
+        <section id="ourTeam" className={styles.team}>
+          <h1 className={styles.galleryTitle}>{t("titleTeam")}</h1>
+          <div className={styles.teamCont}>
+            <Image
+              src="/image/about/ourTeam.jpg"
+              alt="Логотип IVANCOM"
+              width={628}
+              height={483}
+              className={styles.image}
+            />
+            <p className={styles.descTeam}>{t("contentTeam")}</p>
+          </div>
+        </section>
+        <section id="photoAbout" className={styles.gallery}>
+          <h2 className={styles.galleryTitle}>{t("logistics_journey")}</h2>
+          <SwiperComponent images={images} />
+        </section>
+        <section id="reviews" className={styles.reviews}>
+          <h2 className={styles.reviewsTitle}>{t("titleReviews")}</h2>
+          <SwiperComponent images={reviewsImg} />
+          {/* <SwiperReviewsComponent reviews={reviews} /> */}
+        </section>
+        <section id="helpAbout" className={styles.helpAbout}>
+          <h2 className={styles.galleryTitle}>{t("titleStrong")}</h2>
+          <ul className={styles.helpAboutText}>
+            <li>
+              <p>{t("part1Strong")}</p></li>
+              <li><p>{t("part2Strong")}</p></li>
+              <li><p>{t("part3Strong")}</p></li>
+              <li><p>{t("part4Strong")}</p></li>
+            
+          </ul>
+          <SwiperComponent images={imagesVolontariusz} />
+          <h2 className={styles.galleryTitle}>{t("text1")}</h2>
+          <p className={styles.helpDescVideo}>{t("text2")}</p>
+          <iframe 
+     className={styles.videoIframe}
+    src="https://www.youtube.com/embed/xrK5peXBzwU?autoplay=1" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen>
+  </iframe>
+        </section>
+        <section id="partners" className={styles.helpAbout}>
+          <Partners logos={partnersLogos}/>
+         </section>
+      </div>
+    
   );
 };
 
