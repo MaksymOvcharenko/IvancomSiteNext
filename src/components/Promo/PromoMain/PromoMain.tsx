@@ -13,7 +13,8 @@ const PromoMain = () => {
                 <div className={styles.textCont1}>
                     <p className={styles.text1}>{ t("desc1")}</p>
             <p className={styles.text1}>{t("desc2")}</p>
-            <p className={styles.text1}>{ t("desc3")}</p>
+            <p className={styles.text1}>{t("desc3")}</p>
+            <p className={styles.text1}>{ t("desc4")}</p>
                  
                   </div>
                      <div className={styles.textCont2}>

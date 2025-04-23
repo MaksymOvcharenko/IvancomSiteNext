@@ -1354,6 +1354,7 @@
       "desc1": "Get your Customer Card now at any IVANCOM branch and enjoy the benefits.",
       "desc2": "Once you collect 4 stamps — your next shipment or pickup will get a 50% discount!",
       "desc3": "Note: the discount does not apply to high-value shipments or medicines.",
+      "desc4": "Stamps are not applied if the customer orders medicines from Ukraine.",
       "warnDesc1": "*The 50% discount applies to one form where the total weight does not exceed 50 kg (volumetric or actual).",
       "warnDesc2": "*If your parcel exceeds 50 kg, the next stamp will count toward a new form.",
       "warnDesc3": "*The discount does not cover extra charges (percentage after 1000 zł), insurance, or additional packaging (box, pallet frame, etc.)."
