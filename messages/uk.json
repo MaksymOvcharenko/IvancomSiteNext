@@ -1164,6 +1164,8 @@
         "np_department_required": "Введіть номер відділення",
         "currency": "Валюта",
         "currency_required": "Оберіть валюту",
+        "currencyPay": "Спосіб оплати",
+        "currencyPay_required": "Оберіть спосіб оплати",
         "promo_code": "Промокод",
         "agreement": "Я погоджуюсь з умовами",
         "agreement_required": "Потрібно прийняти умови",

@@ -1168,6 +1168,8 @@
     "np_department_required": "Enter the branch number",
     "currency": "Currency",
     "currency_required": "Select a currency",
+    "currencyPay": "Payment method",
+    "currencyPay_required": "Sender pays for the shipment",
     "promo_code": "Promo code",
     "agreement": "I agree to the terms",
     "agreement_required": "You must accept the terms",

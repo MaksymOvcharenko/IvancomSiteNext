@@ -1168,6 +1168,8 @@
     "np_department_required": "Wprowadź numer oddziału",
     "currency": "Waluta",
     "currency_required": "Wybierz walutę",
+    "currencyPay": "Sposób płatności",
+    "currencyPay_required": "Wybierz sposób płatności",
     "promo_code": "Kod promocyjny",
     "agreement": "Zgadzam się z warunkami",
     "agreement_required": "Musisz zaakceptować warunki",

@@ -38,6 +38,7 @@ const schema = yup.object().shape({
   city: yup.string().required('city_required'),
   npDepartment: yup.string().required('np_department_required'),
   currency: yup.string().required('currency_required'),
+  currencyPay: yup.string().required('currencyPay_required'),
   promoCode: yup.string(),
   agreement: yup.boolean().oneOf([true], 'agreement_required'),
 });
@@ -107,6 +108,8 @@ const FormWorldUA: React.FC<FormUkraineProps> = ({ onClose, onBackToSelector }) 
         },
         body: JSON.stringify(data),
       });
+      console.log(data);
+      
       setSendStatus('success');
       
       if (!response.ok) {
@@ -156,7 +159,8 @@ const handleNextStep = async () => {
       'sendDate',
       'content',
       'orderAmount',
-      'currency'
+      'currency',
+      'currencyPay',
     ]);
   } else if (step === 4) {
     
@@ -314,7 +318,9 @@ const handleNextStep = async () => {
                   <option value="FedEx">FedEx</option>
                   <option value="Pochtex">Pochtex</option>
                   <option value="Raben">Raben</option>
-                  <option value="Pochta Polska">Pochta Polska</option>
+                    <option value="Pochta Polska">Pochta Polska</option>
+                    <option value="GLS">GLS</option>
+                    <option value="Інше">Інше</option>
                 </select>
                 {errors.carrier && <p className={styles.error}>{t(errors.carrier.message)}</p>}
               </label>
@@ -363,6 +369,18 @@ const handleNextStep = async () => {
                   
                   </select>
                   {errors.currency && <p className={styles.error}>{t(errors.currency.message)}</p>}
+                </label>
+                 <label className={styles.inputLabel}>{t("currencyPay")}
+           
+                  
+                  <select {...register('currencyPay')} className={styles.select}>
+                  <option value="">{t("currencyPay")}</option>
+                  <option value="PLN">PLN</option>
+                  <option value="UAH">UAH</option>
+                  
+                  
+                  </select>
+                  {errors.currencyPay && <p className={styles.error}>{t(errors.currencyPay.message)}</p>}
                 </label>
             
               <label className={styles.inputLabel}>{t("promo_code")}
