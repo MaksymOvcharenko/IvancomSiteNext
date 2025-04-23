@@ -64,7 +64,7 @@ const InpostMain = () => {
                     <p className={styles.warnDescr}>{t("warningDesc7")}</p>
                     <p className={styles.warnDescr}>{t("warningDesc8")}</p>
                     <p className={styles.warnDescr}>{t("warningDesc9")}</p>
-                    <p className={styles.warnDescr}>{t("warningDesc9")}</p>
+                    <p className={styles.warnDescr}>{t("warningDesc10")}</p>
                 </div>
             </div>
 

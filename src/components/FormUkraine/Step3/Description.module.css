@@ -132,6 +132,54 @@
   display: flex;
   justify-content: space-between;
 }
+.labelWithTooltip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tooltipWrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.questionMark {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 4px;
+}
+
+.tooltipText {
+  visibility: hidden;
+  width: 260px;
+  background-color: #fff;
+  color: var(--black);
+  text-align: left;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  z-index: 10;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.tooltipWrapper:hover .tooltipText {
+  visibility: visible;
+}
+
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
   .formContainer {
