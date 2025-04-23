@@ -332,6 +332,9 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
             if (statusText === "Отримано на склад Іванком в Україні") {
                 statusText = "Оброблено та очікує на міжнародне відправлення";
             } 
+            if (statusText === "Отримана частково") {
+                statusText = "В дорозі";
+            } 
             else if (statusText === "Посилка, частини посилки вирушили на склад MED UA-") {
                 statusText = "В дорозі до складу міжнародних відправлень Польщі";
             } 
@@ -362,6 +365,9 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
         if (item.Direction === 'PL-UA') {
             if (statusText === "Отримано на склад Іванком в Польщі") {
                 statusText = "Отримано на склад Іванком в Польщі, та очікує відправлення в Україну";
+            } 
+            if (statusText === "Отримана частково") {
+                statusText = "В дорозі";
             } 
             else if (statusText === "Готова до видачі") {
                 statusText = "Надано кур'єрській службі для доставки по Україні";
@@ -467,7 +473,7 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
                     {/* <h2>Дані відправлення</h2> */}
                     <p><b>Номер відправлення:</b> {latest.TTN}</p>
                     <p><b>Дата відправлення:</b> {latest.DateDay}.{latest.DateMonth}.{latest.DateYear}</p>
-                    <p><b>Відправлено:</b> {npSenderAddress || latest.Division}</p>
+                    <p><b>Відправлено з:</b> {npSenderAddress || latest.Division}</p>
                     <p><b>Отримання:</b> {inpostAddress || latest.DivisionTo}</p>
                 </div>
 
