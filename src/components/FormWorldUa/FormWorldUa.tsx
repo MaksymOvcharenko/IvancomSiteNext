@@ -38,7 +38,7 @@ const schema = yup.object().shape({
   city: yup.string().required('city_required'),
   npDepartment: yup.string().required('np_department_required'),
   currency: yup.string().required('currency_required'),
-  currencyPay: yup.string().required('currencyPay_required'),
+  currencypay: yup.string().required('currencyPay_required'),
   promoCode: yup.string(),
   agreement: yup.boolean().oneOf([true], 'agreement_required'),
 });
@@ -160,7 +160,7 @@ const handleNextStep = async () => {
       'content',
       'orderAmount',
       'currency',
-      'currencyPay',
+      'currencypay',
     ]);
   } else if (step === 4) {
     
@@ -373,14 +373,14 @@ const handleNextStep = async () => {
                  <label className={styles.inputLabel}>{t("currencyPay")}
            
                   
-                  <select {...register('currencyPay')} className={styles.select}>
+                  <select {...register('currencypay')} className={styles.select}>
                   <option value="">{t("currencyPay")}</option>
                   <option value="PLN">PLN</option>
                   <option value="UAH">UAH</option>
                   
                   
                   </select>
-                  {errors.currencyPay && <p className={styles.error}>{t(errors.currencyPay.message)}</p>}
+                  {errors.currencypay && <p className={styles.error}>{t(errors.currencypay.message)}</p>}
                 </label>
             
               <label className={styles.inputLabel}>{t("promo_code")}
