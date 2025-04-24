@@ -16,8 +16,8 @@ const HeroBrandUa = () => {
             <p className={s.descr}>{t("subtitle")}</p>
         </div>
         <div className={s.imgCont}>
-          <Image src={"/image/brandUa/brandUA1.jpg" } alt="BrandUA" width={ 370} height={240} className={s.img}  quality={100} // по умолчанию 75
-  priority></Image>
+          <Image src={"/image/brandUa/brandHero.jpg" } alt="BrandUA" width={ 370} height={240} className={s.img}  quality={100} // по умолчанию 75
+  ></Image>
         </div>
       </div>
     </div>
