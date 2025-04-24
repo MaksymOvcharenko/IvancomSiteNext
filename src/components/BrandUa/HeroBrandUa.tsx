@@ -20,7 +20,7 @@ const HeroBrandUa = () => {
           ></Image>
          
 
-=
+
         </div>
       </div>
     </div>
