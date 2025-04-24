@@ -29,7 +29,7 @@ const Calendar = () => {
           </ul>
           
           <p className={styles.moreInfo}>{t("moreInfo")}</p>
-          <a href="/tips" className={styles.link}>{t("learnMore")}</a>
+          {/* <a href="/tips" className={styles.link}>{t("learnMore")}</a> */}
           
               <p className={styles.followUs}>{t("followUs")}</p>
               <div className={styles.socCont}><SocLink/></div>

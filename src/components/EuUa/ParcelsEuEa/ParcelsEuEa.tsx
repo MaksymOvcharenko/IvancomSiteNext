@@ -103,11 +103,11 @@ const ParcelsEuEa = () => {
     { text: t('attention.5') },
     {
       text: t('attention.6.text'),
-      linkText: t('attention.6.linkText'),
-      linkHref: 'ivancom.eu/uk#schedule',
+      // linkText: t('attention.6.linkText'),
+      // linkHref: 'ivancom.eu/uk#schedule',
     },
     { text: t('attention.7') },
-    { text: t('attention.8') },
+    // { text: t('attention.8') },
   ];
 
   const deliveryWithNotes = {
