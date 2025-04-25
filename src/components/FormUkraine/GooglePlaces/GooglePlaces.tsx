@@ -62,6 +62,8 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           comp.types.includes("country")
         );
         const country = countryComponent?.long_name || "";
+        console.log(country);
+        
         const code = countryComponent?.short_name || "";
         setAddressData(() => ({
           country: "",
@@ -92,10 +94,15 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
   const validateAddress = () => {
     const { city, region, street, postalCode, houseNumber } = addressData;
     // Для України і інших країн, окрім Польщі
-    if (addressData.country !== "Poland") {
+    if (addressData.country !== "Poland" ) {
       setDeliveryMethod("dhl");
-      if (city && region && street && postalCode.length >2 && houseNumber) {
+    
+      
+      if (city && street && postalCode.length >2 && houseNumber) {
         setIsAddressValid(true);
+        console.log(addressData);
+        
+        
       } else {
         setIsAddressValid(false);
       }
