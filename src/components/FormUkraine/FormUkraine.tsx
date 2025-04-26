@@ -11,6 +11,7 @@ import Description from "./Step3/Description";
 import DeliveryDetails from "./Step4/DeliveryDetails";
 import { useSelector } from "react-redux";
 import StatusMessage from "../StatusMessage/StatusMessage";
+import pixelEvents from "@/pixelEvents";
 
 interface RootState {
   formUatoWorld: {
@@ -59,7 +60,7 @@ const FormUkraine: React.FC<FormUkraineProps> = ({
 
   const [initialized, setInitialized] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const nextStep = () => setStep((prev) => prev + 1);
+  const nextStep = () => { setStep((prev) => prev + 1);  pixelEvents.initiateCheckout(); };
   const prevStep = () => setStep((prev) => (prev > 1 ? prev - 1 : prev));
   const formData = useSelector(
     (state: RootState) => state.formUatoWorld.formData
@@ -72,6 +73,8 @@ const FormUkraine: React.FC<FormUkraineProps> = ({
     }
   }, []);
   const sendData = async () => {
+  
+  pixelEvents.lead();
     console.log(formData);
     setStep(5);
     setIsLoading(true);

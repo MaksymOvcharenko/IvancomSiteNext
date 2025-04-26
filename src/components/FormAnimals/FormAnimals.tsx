@@ -17,6 +17,7 @@ import StatusMessage from "../StatusMessage/StatusMessage";
 import SvgIcon from "../SvgIcon";
 import { clearFormData, setFormData } from "@/store/formAnimals";
 import { FaDownload } from "react-icons/fa6";
+import pixelEvents from "@/pixelEvents";
 
 const schema = yup.object().shape({
   senderName: yup.string().required("sender_name_required"),
@@ -85,7 +86,8 @@ const handleSubmitForm = async (
   setIsLoading(true);
   setStep(2);
   const formDataToSend = new FormData();
-
+  pixelEvents.initiateCheckout();
+  pixelEvents.lead();
   if (values.file) {
     Array.from(values.file as FileList).forEach((file) =>
       formDataToSend.append("file", file)

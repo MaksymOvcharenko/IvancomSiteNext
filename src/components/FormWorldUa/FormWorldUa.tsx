@@ -19,6 +19,7 @@ import { GoPencil } from "react-icons/go";
 import { setFormData } from '@/store/formWorldtoUaSlice';
 import StatusMessage from '../StatusMessage/StatusMessage';
 import SvgIcon from '../SvgIcon';
+import pixelEvents from '@/pixelEvents';
 
 const schema = yup.object().shape({
   senderName: yup.string().required('sender_name_required'),
@@ -97,6 +98,8 @@ const FormWorldUA: React.FC<FormUkraineProps> = ({ onClose, onBackToSelector }) 
 
   const onSubmit = async (data: FormValues) => {
     console.log("submit");
+   
+  pixelEvents.lead();
     setStep(5);
     dispatch(setFormData(data));
     setIsLoading(true);
@@ -129,7 +132,7 @@ const FormWorldUA: React.FC<FormUkraineProps> = ({ onClose, onBackToSelector }) 
 
 const handleNextStep = async () => {
   let valid = false;
-
+ pixelEvents.initiateCheckout();
   if (step === 1) {
     
     valid = await trigger([

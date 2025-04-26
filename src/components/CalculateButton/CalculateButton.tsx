@@ -5,6 +5,7 @@ import React, { useState, ReactNode } from "react";
 import styles from "./CalculateButton.module.css";
 import Modal from "../Modal/Modal";
 import DeliveryCalculator from "../DeliveryCalculator/DeliveryCalculator";
+import pixelEvents from "@/pixelEvents";
 
 interface CalculateButtonProps {
   children: ReactNode;
@@ -15,7 +16,7 @@ const CalculateButton: React.FC<CalculateButtonProps> = ({ children }) => {
 
   return (
     <>
-      <button className={styles.calcBtn} id="btnForm" onClick={() => setIsModalOpen(true)}>
+      <button className={styles.calcBtn} id="btnForm" onClick={() => { setIsModalOpen(true); pixelEvents.addToCart(); }}>
         {children}
       </button>
 

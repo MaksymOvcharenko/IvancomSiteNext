@@ -2,6 +2,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import styles from "./FormButton.module.css";
+import pixelEvents from "@/pixelEvents";
 
 interface FormButtonProps {
   setModalFormIsOpen: (isOpen: boolean) => void;
@@ -11,6 +12,7 @@ export default function FormButton({ setModalFormIsOpen }: FormButtonProps) {
   const t = useTranslations("Header");
 
   const handleClick = () => {
+     pixelEvents.addToCart();
     setModalFormIsOpen(true);
   };
 

@@ -15,6 +15,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setFormData } from '@/store/formTransferSlice';
 import StatusMessage from '../StatusMessage/StatusMessage';
 import SvgIcon from '../SvgIcon';
+import pixelEvents from '@/pixelEvents';
 
 const schema = yup.object().shape({
   senderName: yup.string().required('sender_name_required'),
@@ -86,7 +87,8 @@ const FormTransfer: React.FC<TransferProps>= ({ onClose, onBackToSelector }) => 
       console.log(data);
     
     dispatch(setFormData(data));
-    
+    pixelEvents.initiateCheckout();
+  pixelEvents.lead();
     setIsLoading(true);
     setStep(2);
       try {

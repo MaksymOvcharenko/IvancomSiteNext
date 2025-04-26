@@ -9,6 +9,7 @@ import { BsTelephone } from "react-icons/bs";
 import { FaViber } from "react-icons/fa6";
 import { PiMapPinLight, PiTelegramLogoLight } from "react-icons/pi";
 import Image from "next/image";
+import pixelEvents from "@/pixelEvents";
 
 // Оголошуємо типи для пропсів
 interface Branch {
@@ -29,6 +30,13 @@ interface BranchInfoProps {
 
 const BranchInfo: React.FC<BranchInfoProps> = ({ branches }) => {
   const t = useTranslations("contacts");
+    const handleClick = () => {
+  // Твоя логіка тут
+  
+
+  // Виклик трекінгу події
+  pixelEvents.contact();
+};
 const mobileBranches = 
     {
     city: t('kielce'),
@@ -57,8 +65,8 @@ const mobileBranches =
               <div className={styles.branchDetails}>
                 <p className={styles.branchSchedule}><CiClock2  size={20} />{branch.schedule}</p>
                 <p className={styles.branchPhone}>
-                  <a href={`tel:${branch.phone}`}><BsTelephone size={20}  />{branch.phone}</a>
-                </p>
+                  <a href={`tel:${branch.phone}`} onClick={handleClick}><BsTelephone size={20}  />{branch.phone}</a>
+                </p> 
                 
                 <p className={styles.branchContacts}>
                   <a
@@ -78,7 +86,7 @@ const mobileBranches =
                   </a>
                 </p>
                 <p className={styles.branchEmail}>
-                  <a href={`mailto:${branch.email}`}><CiMail size={20}  />{branch.email}</a>
+                  <a href={`mailto:${branch.email}`} onClick={handleClick}><CiMail size={20}  />{branch.email}</a>
                 </p>
                 <p className={styles.branchAddress}><PiMapPinLight size={24} />{branch.address}</p>
               </div>
@@ -123,7 +131,7 @@ const mobileBranches =
                       {branch.schedule}
                     </p>
                     <p className={styles.branchPhone}>
-                      <a href={`tel:${branch.phone}`}>
+                      <a href={`tel:${branch.phone}`} onClick={handleClick}>
                         <BsTelephone size={20}  />
                         {branch.phone}
                       </a>
@@ -150,7 +158,7 @@ const mobileBranches =
                       </a>
                     </p>
                     <p className={styles.branchEmail}>
-                      <a href={`mailto:${branch.email}`}>
+                      <a href={`mailto:${branch.email}`} onClick={handleClick}>
                         <CiMail size={20}  />
                         {branch.email}
                       </a>
@@ -194,7 +202,7 @@ const mobileBranches =
          <div className={styles.mobileBranchesDetail}>
             <p className={styles.branchSchedule}><CiClock2 size={20} /><p>{t("monday_to_sunday") }</p><p>{mobileBranches.schedule}</p></p>
                       <p className={styles.branchPhone}>
-                        <a href={`tel:${mobileBranches.phone}`}><BsTelephone size={20}  />{mobileBranches.phone}</a>
+                        <a href={`tel:${mobileBranches.phone}`} onClick={handleClick}><BsTelephone size={20}  />{mobileBranches.phone}</a>
                       </p>
          </div>
         </div>

@@ -1,10 +1,19 @@
+"use client";
 import Image from "next/image";
 import styles from "./SocLink.module.css";
 import SvgIcon from "../SvgIcon";
+import pixelEvents from "@/pixelEvents";
 export const SocLink = () => {
+  const handleClick = () => {
+  // Твоя логіка тут
+  
+
+  // Виклик трекінгу події
+  pixelEvents.contact();
+};
   return (
-    <div className={styles.soclink}>
-      <a href="https://www.facebook.com/ivancom.eu/" target="blank">
+    <div className={styles.soclink} onClick={handleClick}>
+      <a href="https://www.facebook.com/ivancom.eu/" target="blank"  >
         <SvgIcon name="facebook" width={36} height={36} />
       </a>
       <a href="https://www.instagram.com/ivancom.poland/?igshid=NGVhN2U2NjQ0Yg%3D%3D" target="blank">
