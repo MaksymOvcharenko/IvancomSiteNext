@@ -5,6 +5,7 @@ import styles from "./styles/CalculatorPLtoUA.module.css";
 import Package from "./Package";
 import Result from "./Result";
 import SvgIcon from "@/components/SvgIcon";
+import pixelEvents from "@/pixelEvents";
 
 
 interface PackageData {
@@ -128,7 +129,7 @@ const calculate = () => {
 
   const declaredValue = parseFloat(value) || 0;
   let insurance = 0;
-
+  pixelEvents.addToCart();
   packages.forEach((pkg) => {
     const length = parseFloat((document.getElementById(`length${pkg.id}`) as HTMLInputElement)?.value) || 0;
     const width = parseFloat((document.getElementById(`width${pkg.id}`) as HTMLInputElement)?.value) || 0;

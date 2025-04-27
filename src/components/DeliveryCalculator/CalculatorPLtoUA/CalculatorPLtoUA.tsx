@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import styles from "./styles/CalculatorPLtoUA.module.css";
 import Package from "./Package";
 import Result from "./Result";
+import pixelEvents from "@/pixelEvents";
 
 interface PackageData {
   id: number;
@@ -42,7 +43,7 @@ const CalculatorPLtoUA: React.FC = () => {
     let totalVolumetricWeight = 0;
     let totalCost = 0;
     let details: CalculationResult["details"] = [];
-
+   pixelEvents.addToCart();
     packages.forEach((pkg) => {
       const length = parseFloat((document.getElementById(`length${pkg.id}`) as HTMLInputElement)?.value) || 0;
       const width = parseFloat((document.getElementById(`width${pkg.id}`) as HTMLInputElement)?.value) || 0;
