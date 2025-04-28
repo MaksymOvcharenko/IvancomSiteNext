@@ -20,7 +20,7 @@ const MedicinesEu = () => {
     { weight: "Термін доставки*", price: "5 днів" },
   
    ],
-  notes:  ["* Термін доставки рахучи з дня рейсу з України"],
+  notes:  ["* Термін доставки рахуючи з дня рейсу з України"],
 };
 
  const inpostDeliveryPL: DeliveryTableData = {
