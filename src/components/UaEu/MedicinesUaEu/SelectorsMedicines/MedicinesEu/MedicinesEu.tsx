@@ -27,7 +27,7 @@ const MedicinesEu = () => {
   title: t('Table.tables.inpost'),
   country:  t('Table.country.pl'),
   rows: [
-    { weight: "За кожне відправення", price: "доплата 20 zł" },
+    { weight: "За кожне відправлення", price: "доплата 20 zł" },
    
   ],
   notes:  [t('Table.tables.inpostNote')],
