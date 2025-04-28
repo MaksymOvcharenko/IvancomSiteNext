@@ -41,8 +41,9 @@ const SilverPl = () => {
   rows: [
     { weight: "до 2 кг", price: "60 zł" },
     { weight: "2–5 кг", price: "80 zł" },
-    { weight: "5–10 кг", price: "120 zł" },
-    { weight: "10–15 кг", price: "150 zł" },
+    { weight: "5–10 кг", price: "110 zł" },
+    { weight: "10–15 кг", price: "130 zł" },
+    { weight: "15–20 кг", price: "150 zł" },
     { weight: "20–30 кг", price: "190 zł" },
     { weight: "понад 30 кг", price: "7 zł / кг" },
   ],
