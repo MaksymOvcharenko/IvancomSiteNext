@@ -8,15 +8,15 @@ import { useTranslations } from 'next-intl';
 
 const MedicinesEu = () => {
   const t = useTranslations('UaEu.ParcelsUaEu.Silver.SilverPL');
-   
+    const t1 = useTranslations('UaEu.MedicinesUaEu');
 
  const courierIvankomPrices: DeliveryTableData = {
-  title: t('Table.tables.courier'),
+  title: t1('sendEu'),
   country: "Іспанія, Італія, Бельгія, Франція, Нідерлади, Португалія, Люксембург",
   rows: [
-    { weight: "Розмір А (8х38х60)", price: "€7 " },
-    { weight: "Розмір B (19х38х60)", price: "€12" },
-    { weight: "Розмір C (38х41х60)", price: "€13" },
+    { weight: "Розмір А (8х38х60)", price: "€8 " },
+    { weight: "Розмір B (19х38х60)", price: "€13" },
+    { weight: "Розмір C (38х41х60)", price: "€14" },
     { weight: "Термін доставки*", price: "5 днів" },
   
    ],
