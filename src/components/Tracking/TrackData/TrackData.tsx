@@ -234,6 +234,7 @@ import React, { useEffect, useState } from "react";
 import s from './TrackData.module.css';
 import SvgIcon from "@/components/SvgIcon";
 import { fetchInPostData, inpostStatusMap } from "../trackingInpost";
+import { fetchDhlData } from "./fetchDhlData";
 
 interface TrackingData {
     TTN: string;
@@ -424,7 +425,14 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
 
                         setMergedTimeline([...formattedInpost, ...npTimeline, ...formattedOur]
                             .sort((a, b) => normalizeDate(b.date).getTime() - normalizeDate(a.date).getTime()));
-                    } else {
+                    }
+                    else if (latest.Carrier === "dhl" && latest.CarrierTrackerNom) {
+                        const timeline = await fetchDhlData(latest.CarrierTrackerNom);
+                       
+                        setMergedTimeline([...timeline, ...npTimeline, ...formattedOur]
+                            .sort((a, b) => normalizeDate(b.date).getTime() - normalizeDate(a.date).getTime()));
+                    }
+                    else {
                         setMergedTimeline([...npTimeline, ...formattedOur]
                             .sort((a, b) => normalizeDate(b.date).getTime() - normalizeDate(a.date).getTime()));
                     }
@@ -495,7 +503,15 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
                                             <p><b>Nova Poshta:</b> {item.status}</p>
                                             <p>{item.date}</p>
                                         </>
-                                    ) : (
+                                        ) : item.type === 'dhl' ? (
+                                        <>
+                                                    <p><b>DHL: {item.status}</b></p>
+                                                    <p><b>Країна</b>:{item.country}</p>
+                                                    <p><b>Місто:</b>{item.city}</p>
+                                            <p>{new Date(item.date).toLocaleString()}</p>
+                                        </>
+                                    ):
+                                            (
                                         <>
                                             <p><b>{item.status}</b></p>
                                             <p>{new Date(item.date).toLocaleString()}</p>

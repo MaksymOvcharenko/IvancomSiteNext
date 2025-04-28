@@ -1,0 +1,1926 @@
+[
+    {
+        "Description": "PICKED UP FROM SENDER",
+        "DescriptionUA": "Забрано у відправника"
+    },
+    {
+        "Description": "SHIPMENT CANCELED",
+        "DescriptionUA": "Відправлення скасовано"
+    },
+    {
+        "Description": "ARRIVED AT ORIGIN PROCESSING FACILITY",
+        "DescriptionUA": "Прибуло на пункт обробки відправника"
+    },
+    {
+        "Description": "PACKAGE SCREENED SUCCESSFULLY",
+        "DescriptionUA": "Пакунок успішно пройшов перевірку"
+    },
+    {
+        "Description": "PACKAGE SCREENING EXCEPTION - CANNOT BE SHIPPED INTERNATIONAL",
+        "DescriptionUA": "Проблема при перевірці – неможливо відправити за кордон"
+    },
+    {
+        "Description": "PACKAGE SCREENING EXCEPTION - RETURNING TO SHIPPER",
+        "DescriptionUA": "Проблема при перевірці – повертається відправнику"
+    },
+    {
+        "Description": "PICK UP BOOKED",
+        "DescriptionUA": "Забір пакунку заброньовано"
+    },
+    {
+        "Description": "SHIPMENT DEPARTED SELLERS ORIGIN TERMINAL",
+        "DescriptionUA": "Відправлення залишило термінал відправника"
+    },
+    {
+        "Description": "PARTNER EVENT - DEPARTED PARTNER FACILITY",
+        "DescriptionUA": "Партнерський етап – відправлено з об'єкта партнера"
+    },
+    {
+        "Description": "PACKAGE DEPARTED SCREENING FACILITY",
+        "DescriptionUA": "Пакунок залишив пункт перевірки"
+    },
+    {
+        "Description": "RECEIVED BY CARRIER FOR TRANSPORT",
+        "DescriptionUA": "Отримано перевізником для транспортування"
+    },
+    {
+        "Description": "ARRIVAL SERVICE POINT",
+        "DescriptionUA": "Прибуття в сервісний пункт"
+    },
+    {
+        "Description": "DEPARTURE DHL DISTRIBUTION CENTER",
+        "DescriptionUA": "Відправлення з розподільчого центру DHL"
+    },
+    {
+        "Description": "ARRIVAL SORT LOCATION",
+        "DescriptionUA": "Прибуття на сортувальний пункт"
+    },
+    {
+        "Description": "APPROACHING PICK UP LOCATION",
+        "DescriptionUA": "Наближення до пункту забору"
+    },
+    {
+        "Description": "OUT FOR PARCEL COLLECTION",
+        "DescriptionUA": "Пакунок передано на забір"
+    },
+    {
+        "Description": "PICKED UP",
+        "DescriptionUA": "Пакунок забрано"
+    },
+    {
+        "Description": "EN ROUTE TO DHL ECOMMERCE",
+        "DescriptionUA": "У дорозі до DHL eCommerce"
+    },
+    {
+        "Description": "UNSUCCESSFUL COLLECTION ATTEMPT",
+        "DescriptionUA": "Невдала спроба забору пакунку"
+    },
+    {
+        "Description": "PICK UP RESCHEDULED",
+        "DescriptionUA": "Перепланування забору пакунку"
+    },
+    {
+        "Description": "AVAILABLE FOR DELIVERY TO DHL DISTRIBUTION CENTER",
+        "DescriptionUA": "Доступне для доставки до розподільчого центру DHL"
+    },
+    {
+        "Description": "ARRIVAL DHL DISTRIBUTION CENTER",
+        "DescriptionUA": "Прибуття в розподільчий центр DHL"
+    },
+    {
+        "Description": "ARRIVED AT DEPOT",
+        "DescriptionUA": "Прибуло на склад"
+    },
+    {
+        "Description": "PARCEL AUTHORIZED TO LEAVE",
+        "DescriptionUA": "Пакунок дозволено відправити"
+    },
+    {
+        "Description": "REDIRECTED TO PARCEL SHOP",
+        "DescriptionUA": "Перенаправлено у пункт видачі"
+    },
+    {
+        "Description": "SHIPMENT DATA UPDATED",
+        "DescriptionUA": "Дані про відправлення оновлені"
+    },
+    {
+        "Description": "THE SHIPMENT INFORMATION IS EDITED",
+        "DescriptionUA": "Інформація про відправлення змінена"
+    },
+    {
+        "Description": "PACKAGE RECEIVED AT DHL ECOMMERCE DISTRIBUTION CENTER",
+        "DescriptionUA": "Пакунок отримано в розподільчому центрі DHL eCommerce"
+    },
+    {
+        "Description": "PARCEL ACCEPTED, NOT YET PROCESSED",
+        "DescriptionUA": "Пакунок прийнято, ще не оброблено"
+    },
+    {
+        "Description": "ENCODED",
+        "DescriptionUA": "Закодовано"
+    },
+    {
+        "Description": "PHYSICAL PACKAGE RECEIVED WITH NO ELECTRONIC DATA",
+        "DescriptionUA": "Фізичний пакунок отримано без електронних даних"
+    },
+    {
+        "Description": "SHIPMENT LABEL CREATED",
+        "DescriptionUA": "Створено етикетку для відправлення"
+    },
+    {
+        "Description": "LABEL CREATED",
+        "DescriptionUA": "Створено етикетку"
+    },
+    {
+        "Description": "DUTY/TAX ASSESSED FOR PACKAGE, AWAITING PAYMENT. PLEASE CHECK YOUR EMAIL FOR PAYMENT OPTIONS.",
+        "DescriptionUA": "Розраховано мито/податок для пакунку, очікується оплата. Перевірте свою електронну пошту для варіантів оплати."
+    },
+    {
+        "Description": "DUTY/TAX PAYMENT RECEIVED",
+        "DescriptionUA": "Оплату мита/податку отримано"
+    },
+    {
+        "Description": "DUTY/TAX PAYMENT NOT COLLECTED. PACKAGE WILL BE SENT FOR PROCESSING AND CUSTOMS MAY REQUEST PAYMENT.",
+        "DescriptionUA": "Оплату мита/податку не отримано. Пакунок буде відправлено на обробку, митниця може вимагати оплату."
+    },
+    {
+        "Description": "DN SEND",
+        "DescriptionUA": "Документ доставки надіслано"
+    },
+    {
+        "Description": "PARCEL ON HOLD",
+        "DescriptionUA": "Пакунок затримано"
+    },
+    {
+        "Description": "SUCCESSFUL CUSTOMER SERVICE RESOLUTION",
+        "DescriptionUA": "Успішне вирішення через сервіс підтримки"
+    },
+    {
+        "Description": "DN RECEIVED",
+        "DescriptionUA": "Документ доставки отримано"
+    },
+    {
+        "Description": "HELD IN FACILITY - AWAITING INSTRUCTIONS",
+        "DescriptionUA": "Затримано в об'єкті – очікування інструкцій"
+    },
+    {
+        "Description": "SHIPMENT IS RELEASED FROM HOLD FOR PROCESSING",
+        "DescriptionUA": "Відправлення знято із затримки для обробки"
+    },
+    {
+        "Description": "ARRIVED AT DESTINATION COUNTRY",
+        "DescriptionUA": "Прибуло до країни призначення"
+    },
+    {
+        "Description": "ARRIVAL IN COUNTRY",
+        "DescriptionUA": "Прибуття в країну"
+    },
+    {
+        "Description": "PROCESSED SORT FACILITY",
+        "DescriptionUA": "Оброблено на сортувальному пункті"
+    },
+    {
+        "Description": "PARCEL RECOVER",
+        "DescriptionUA": "Пакунок повернуто"
+    },
+    {
+        "Description": "DEPARTED FROM FACILITY",
+        "DescriptionUA": "Покинуло об'єкт"
+    },
+    {
+        "Description": "MANIFESTED",
+        "DescriptionUA": "Задекларовано"
+    },
+    {
+        "Description": "MANIFESTED FOR OUTBOUND TRANSPORTATION",
+        "DescriptionUA": "Задекларовано для зовнішнього транспортування"
+    },
+    {
+        "Description": "IN TRANSIT",
+        "DescriptionUA": "У дорозі"
+    },
+    {
+        "Description": "PROCESSING COMPLETED AT ORIGIN",
+        "DescriptionUA": "Обробку на пункті відправлення завершено"
+    },
+    {
+        "Description": "ARRIVED AT CUSTOMS",
+        "DescriptionUA": "Прибуло на митницю"
+    },
+    {
+        "Description": "CLEARED CUSTOMS",
+        "DescriptionUA": "Пройдено митне оформлення"
+    },
+    {
+        "Description": "HELD AT CUSTOMS",
+        "DescriptionUA": "Затримано на митниці"
+    },
+    {
+        "Description": "ELECTRONIC SHIPPING INFO RECEIVED",
+        "DescriptionUA": "Отримано електронну інформацію про відправлення"
+    },
+    {
+        "Description": "ARRIVED AT CUSTOMS",
+        "DescriptionUA": "Прибуло на митницю"
+    },
+    {
+        "Description": "CLEARANCE NOT POSSIBLE",
+        "DescriptionUA": "Митне очищення неможливе"
+    },
+    {
+        "Description": "CLEARED CUSTOMS",
+        "DescriptionUA": "Пройдено митне оформлення"
+    },
+    {
+        "Description": "POSSIBLE TRANSIT DELAY",
+        "DescriptionUA": "Можлива затримка транзиту"
+    },
+    {
+        "Description": "MANIFESTED FOR OUTBOUND TRANSPORTATION",
+        "DescriptionUA": "Задекларовано для відправлення"
+    },
+    {
+        "Description": "PARCEL CLEARED CUSTOMS - PARTNER",
+        "DescriptionUA": "Пакунок пройшов митне оформлення - партнер"
+    },
+    {
+        "Description": "PARCEL HELD FOR EXAM - PARTNER",
+        "DescriptionUA": "Пакунок затримано для перевірки - партнер"
+    },
+    {
+        "Description": "ARRIVED AT FACILITY - PARTNER",
+        "DescriptionUA": "Прибуло на об'єкт партнера"
+    },
+    {
+        "Description": "SHIPMENT DEPARTED SELLER ORIGINAL TERMINAL – PARTNER",
+        "DescriptionUA": "Відправлення залишило початковий термінал продавця – партнер"
+    },
+    {
+        "Description": "PARTNER EVENT - SHIPMENT PICKED UP BY SHIPPING PARTNER",
+        "DescriptionUA": "Партнерський етап – відправлення забране партнером"
+    },
+    {
+        "Description": "PARTNER EVENT - SHIPMENT HAS ARRIVED AT PARTNER FACILITY",
+        "DescriptionUA": "Партнерський етап – відправлення прибуло на об'єкт партнера"
+    },
+    {
+        "Description": "PARTNER EVENT - ARRIVED AT CUSTOMS FACILITY",
+        "DescriptionUA": "Партнерський етап – прибуло на митний об'єкт"
+    },
+    {
+        "Description": "PARTNER EVENT - DEPARTED CUSTOMS FACILITY",
+        "DescriptionUA": "Партнерський етап – залишило митний об'єкт"
+    },
+    {
+        "Description": "ARRIVAL AT POST OFFICE",
+        "DescriptionUA": "Прибуття на пошту"
+    },
+    {
+        "Description": "AWAITING COLLECTION AT DHL SERVICE POINT",
+        "DescriptionUA": "Очікує на видачу в сервісному пункті DHL"
+    },
+    {
+        "Description": "ARRIVED AT TERMINAL LOCATION",
+        "DescriptionUA": "Прибуло в термінал"
+    },
+    {
+        "Description": "ARRIVED AT TERMINAL LOCATION",
+        "DescriptionUA": "Прибуло в термінал"
+    },
+    {
+        "Description": "AVAILABLE FOR DELIVERY",
+        "DescriptionUA": "Доступне для доставки"
+    },
+    {
+        "Description": "PROCESSED SORT FACILITY",
+        "DescriptionUA": "Оброблено на сортувальному об'єкті"
+    },
+    {
+        "Description": "IN TRANSIT TO DELIVERY PROVIDER",
+        "DescriptionUA": "У дорозі до компанії-доставника"
+    },
+    {
+        "Description": "FORWARDED TO DELIVERY AGENT",
+        "DescriptionUA": "Передано агенту доставки"
+    },
+    {
+        "Description": "FORWARDED TO LOCAL POST OFFICE",
+        "DescriptionUA": "Передано до місцевого поштового відділення"
+    },
+    {
+        "Description": "DEPARTED TERMINAL LOCATION",
+        "DescriptionUA": "Покинуло термінал"
+    },
+    {
+        "Description": "DEPARTED FROM FACILITY",
+        "DescriptionUA": "Вибуло з об'єкта"
+    },
+    {
+        "Description": "PROCESSED AT EXPORT FACILITY",
+        "DescriptionUA": "Оброблено на експортному об'єкті"
+    },
+    {
+        "Description": "ARRIVED AT DELIVERY FACILITY",
+        "DescriptionUA": "Прибуло в об'єкт доставки"
+    },
+    {
+        "Description": "ARRIVED AT USPS FACILITY",
+        "DescriptionUA": "Прибуло на об'єкт USPS"
+    },
+    {
+        "Description": "RECEIVED BY USPS",
+        "DescriptionUA": "Отримано USPS"
+    },
+    {
+        "Description": "ARRIVED AT CUSTOMS",
+        "DescriptionUA": "Прибуло на митницю"
+    },
+    {
+        "Description": "CLEARED CUSTOMS",
+        "DescriptionUA": "Пройдено митне оформлення"
+    },
+    {
+        "Description": "CONSIGNEE CONTACTED FOR PAYMENT",
+        "DescriptionUA": "Отримувача повідомлено про необхідність оплати"
+    },
+    {
+        "Description": "DUTIES PAYMENT RECEIVED",
+        "DescriptionUA": "Оплата мита отримана"
+    },
+    {
+        "Description": "SHIPMENT ACCEPTED BY USPS",
+        "DescriptionUA": "Відправлення прийнято USPS"
+    },
+    {
+        "Description": "HELD AT CUSTOMS",
+        "DescriptionUA": "Затримано на митниці"
+    },
+    {
+        "Description": "HELD AT CUSTOMS",
+        "DescriptionUA": "Затримано на митниці"
+    },
+    {
+        "Description": "CUSTOMS DELAY",
+        "DescriptionUA": "Затримка на митниці"
+    },
+    {
+        "Description": "IN CLEARANCE PROCESSING",
+        "DescriptionUA": "У процесі митного оформлення"
+    },
+    {
+        "Description": "ENROUTE - ONI",
+        "DescriptionUA": "У дорозі – ONI"
+    },
+    {
+        "Description": "ITEM OR SACK SCANNED BY USPS",
+        "DescriptionUA": "Елемент або мішок проскановано USPS"
+    },
+    {
+        "Description": "SHIPMENT ACCEPTED BY USPS",
+        "DescriptionUA": "Відправлення прийнято USPS"
+    },
+    {
+        "Description": "PIECE BUT NO DATA",
+        "DescriptionUA": "Пакунок без даних"
+    },
+    {
+        "Description": "ARRIVED AT EXPORT FACILITY",
+        "DescriptionUA": "Прибуло на експортний об'єкт"
+    },
+    {
+        "Description": "LOADED FOR TRANSPORT",
+        "DescriptionUA": "Завантажено для транспортування"
+    },
+    {
+        "Description": "DEPARTED FROM EXPORT FACILITY",
+        "DescriptionUA": "Покинуло експортний об'єкт"
+    },
+    {
+        "Description": "ARRIVAL AT POST OFFICE",
+        "DescriptionUA": "Прибуття на поштове відділення"
+    },
+    {
+        "Description": "ARRIVED AT TERMINAL LOCATION",
+        "DescriptionUA": "Прибуло до терміналу"
+    },
+    {
+        "Description": "AVAILABLE FOR PICKUP AT POST OFFICE",
+        "DescriptionUA": "Доступне для отримання на пошті"
+    },
+    {
+        "Description": "HANDED OVER TO PARTNER CARRIER",
+        "DescriptionUA": "Передано партнерській службі доставки"
+    },
+    {
+        "Description": "PROCESSED THROUGH USPS SORT FACILITY",
+        "DescriptionUA": "Оброблено на сортувальному центрі USPS"
+    },
+    {
+        "Description": "EN ROUTE TO DELIVERY LOCATION",
+        "DescriptionUA": "У дорозі до місця доставки"
+    },
+    {
+        "Description": "ARRIVED USPS SORT FACILITY",
+        "DescriptionUA": "Прибуло на сортувальний центр USPS"
+    },
+    {
+        "Description": "PROCESSED AT EXPORT FACILITY",
+        "DescriptionUA": "Оброблено на експортному об'єкті"
+    },
+    {
+        "Description": "PROCESSED SORT FACILITY",
+        "DescriptionUA": "Оброблено на сортувальному об'єкті"
+    },
+    {
+        "Description": "FORWARDED",
+        "DescriptionUA": "Перенаправлено"
+    },
+    {
+        "Description": "DEPARTED TERMINAL LOCATION",
+        "DescriptionUA": "Вибуло з терміналу"
+    },
+    {
+        "Description": "IN TRANSIT TO DESTINATION COUNTRY",
+        "DescriptionUA": "У дорозі до країни призначення"
+    },
+    {
+        "Description": "ARRIVAL AT DESTINATION COUNTRY - TRACKING UPDATES MAY END HERE, DELIVERY SHORTLY",
+        "DescriptionUA": "Прибуття до країни призначення – оновлення відстеження може завершитись, доставка незабаром"
+    },
+    {
+        "Description": "FORWARDED",
+        "DescriptionUA": "Перенаправлено"
+    },
+    {
+        "Description": "HANDED OVER TO PARTNER CARRIER",
+        "DescriptionUA": "Передано партнерській службі доставки"
+    },
+    {
+        "Description": "SORTED THROUGH USPS FACILITY",
+        "DescriptionUA": "Відсортовано через об'єкт USPS"
+    },
+    {
+        "Description": "SORTED LOCALLY TO 5 DIGIT DESTINATION",
+        "DescriptionUA": "Локально відсортовано за 5-значним індексом"
+    },
+    {
+        "Description": "DEPART USPS SORT FACILITY",
+        "DescriptionUA": "Вибуло з сортувального центру USPS"
+    },
+    {
+        "Description": "SORTING COMPLETE",
+        "DescriptionUA": "Сортування завершено"
+    },
+    {
+        "Description": "PROCESSED THROUGH USPS SORT FACILITY",
+        "DescriptionUA": "Оброблено через сортувальний центр USPS"
+    },
+    {
+        "Description": "EN ROUTE TO DELIVERY LOCATION",
+        "DescriptionUA": "У дорозі до місця доставки"
+    },
+    {
+        "Description": "ARRIVED AT DELIVERY TERMINAL",
+        "DescriptionUA": "Прибуло до терміналу доставки"
+    },
+    {
+        "Description": "SHIPMENT WAS PROCESSED AT DESTINATION SORTING HUB",
+        "DescriptionUA": "Відправлення оброблено на сортувальному хабі призначення"
+    },
+    {
+        "Description": "SHIPMENT WAS LOADED INTO DELIVERY VEHICLE",
+        "DescriptionUA": "Відправлення завантажено у транспортний засіб"
+    },
+    {
+        "Description": "ENROUTE",
+        "DescriptionUA": "У дорозі"
+    },
+    {
+        "Description": "MISROUTED",
+        "DescriptionUA": "Неправильний маршрут"
+    },
+    {
+        "Description": "AVAILABLE FOR DELIVERY",
+        "DescriptionUA": "Доступне для доставки"
+    },
+    {
+        "Description": "AVAILABLE FOR DELIVERY",
+        "DescriptionUA": "Доступне для доставки"
+    },
+    {
+        "Description": "ARRIVAL IN DESTINATION COUNTRY – END OF TRACKING, DELIVERY SHORTLY",
+        "DescriptionUA": "Прибуття до країни призначення – завершення відстеження, доставка незабаром"
+    },
+    {
+        "Description": "NOTICE LEFT",
+        "DescriptionUA": "Залишено повідомлення"
+    },
+    {
+        "Description": "NO ONE HOME, CARD LEFT",
+        "DescriptionUA": "Нікого вдома, залишено картку"
+    },
+    {
+        "Description": "NO ONE TO RECEIVE, CARD LEFT",
+        "DescriptionUA": "Нікого для отримання, залишено картку"
+    },
+    {
+        "Description": "NOTICE LEFT (RECEPTACLE FULL/ITEM OVERSIZED)",
+        "DescriptionUA": "Залишено повідомлення (повний ящик/великий предмет)"
+    },
+    {
+        "Description": "NOTICE LEFT (NO SECURE LOCATION AVAILABLE)",
+        "DescriptionUA": "Залишено повідомлення (немає безпечного місця)"
+    },
+    {
+        "Description": "NOTICE LEFT (BUSINESS CLOSED)",
+        "DescriptionUA": "Залишено повідомлення (бізнес закрито)"
+    },
+    {
+        "Description": "NOTICE LEFT (NO AUTHORIZED RECIPIENT AVAILABLE)",
+        "DescriptionUA": "Залишено повідомлення (немає уповноваженого отримувача)"
+    },
+    {
+        "Description": "SHIPMENT WAS PROCESSED AT DESTINATION SORTING HUB",
+        "DescriptionUA": "Відправлення оброблено на сортувальному хабі призначення"
+    },
+    {
+        "Description": "RECIPIENT IS NEXT STOP ON ROUTE",
+        "DescriptionUA": "Отримувач — наступна зупинка на маршруті"
+    },
+    {
+        "Description": "ARRIVAL AT PICK-UP-POINT",
+        "DescriptionUA": "Прибуття до пункту видачі"
+    },
+    {
+        "Description": "SHIPMENT UPLIFT SUCCESS",
+        "DescriptionUA": "Відправлення успішно підняте"
+    },
+    {
+        "Description": "ARRIVAL AT FACILITY",
+        "DescriptionUA": "Прибуття на об'єкт"
+    },
+    {
+        "Description": "ATTEMPTED DELIVERY",
+        "DescriptionUA": "Спроба доставки"
+    },
+    {
+        "Description": "NOTICE LEFT (BUSINESS CLOSED)",
+        "DescriptionUA": "Залишено повідомлення (бізнес закрито)"
+    },
+    {
+        "Description": "ARRIVED AT PICKUP POINT",
+        "DescriptionUA": "Прибуло до пункту видачі"
+    },
+    {
+        "Description": "ARRIVED AT TRANSIT FACILITY",
+        "DescriptionUA": "Прибуло на транзитний об'єкт"
+    },
+    {
+        "Description": "PROCESSED AT TRANSIT FACILITY",
+        "DescriptionUA": "Оброблено на транзитному об'єкті"
+    },
+    {
+        "Description": "DEPARTED FROM TRANSIT FACILITY",
+        "DescriptionUA": "Вибуло з транзитного об'єкта"
+    },
+    {
+        "Description": "AVAILABLE FOR PICKUP",
+        "DescriptionUA": "Доступне для самовивозу"
+    },
+    {
+        "Description": "DELIVERY ATTEMPTED; RETURNED FOR RE-DELIVERY",
+        "DescriptionUA": "Спроба доставки; повернено для повторної доставки"
+    },
+    {
+        "Description": "PICKED UP BY CONSIGNEE FROM PICKUP LOCATION",
+        "DescriptionUA": "Отримано одержувачем у пункті видачі"
+    },
+    {
+        "Description": "CONTACT LOCAL CUSTOMER SERVICE",
+        "DescriptionUA": "Зв'яжіться з місцевою службою підтримки"
+    },
+    {
+        "Description": "EXPECTED DELIVERY",
+        "DescriptionUA": "Очікувана доставка"
+    },
+    {
+        "Description": "ARRIVED AT LOCAL DISTRIBUTION CENTER",
+        "DescriptionUA": "Прибуло на місцевий розподільчий центр"
+    },
+    {
+        "Description": "PROCESSED AT LOCAL DISTRIBUTION CENTER",
+        "DescriptionUA": "Оброблено на місцевому розподільчому центрі"
+    },
+    {
+        "Description": "DEPARTED FROM LOCAL DISTRIBUTION CENTER",
+        "DescriptionUA": "Відправлено з місцевого розподільчого центру"
+    },
+    {
+        "Description": "PROCESSED AT DELIVERY TERMINAL",
+        "DescriptionUA": "Оброблено на терміналі доставки"
+    },
+    {
+        "Description": "OUT FOR SECOND DELIVERY ATTEMPT",
+        "DescriptionUA": "На другу спробу доставки"
+    },
+    {
+        "Description": "RESCHEDULED",
+        "DescriptionUA": "Переплановано"
+    },
+    {
+        "Description": "CHANGE OF ADDRESS",
+        "DescriptionUA": "Зміна адреси"
+    },
+    {
+        "Description": "FINAL DELIVERY ATTEMPT",
+        "DescriptionUA": "Остання спроба доставки"
+    },
+    {
+        "Description": "AVAILABLE FOR PICKUP",
+        "DescriptionUA": "Доступно для самовивозу"
+    },
+    {
+        "Description": "SHIPMENT HANDED OVER TO LOCAL CUSTOMS OFFICE; CONSIGNEE CONTACTED FOR PICKUP",
+        "DescriptionUA": "Відправлення передано до місцевої митниці; одержувача повідомлено для отримання"
+    },
+    {
+        "Description": "PICKED UP BY AGENT",
+        "DescriptionUA": "Отримано агентом"
+    },
+    {
+        "Description": "PICKED UP BY AGENT",
+        "DescriptionUA": "Отримано агентом"
+    },
+    {
+        "Description": "COD AMOUNT COLLECTED",
+        "DescriptionUA": "Сума післяплати зібрана"
+    },
+    {
+        "Description": "POSSIBLE DELIVERY DELAY",
+        "DescriptionUA": "Можлива затримка доставки"
+    },
+    {
+        "Description": "POSSIBLE DELAY",
+        "DescriptionUA": "Можлива затримка"
+    },
+    {
+        "Description": "CONSIGNEE ON HOLIDAY",
+        "DescriptionUA": "Одержувач у відпустці"
+    },
+    {
+        "Description": "ATTEMPTED DELIVERY",
+        "DescriptionUA": "Спроба доставки"
+    },
+    {
+        "Description": "ATTEMPTED DELIVERY",
+        "DescriptionUA": "Спроба доставки"
+    },
+    {
+        "Description": "OUT FOR DELIVERY",
+        "DescriptionUA": "На доставці"
+    },
+    {
+        "Description": "OUT FOR DELIVERY",
+        "DescriptionUA": "На доставці"
+    },
+    {
+        "Description": "AVAILABLE FOR PICKUP FROM SERVICE POINT",
+        "DescriptionUA": "Доступне для отримання у сервісному пункті"
+    },
+    {
+        "Description": "DELIVERED",
+        "DescriptionUA": "Доставлено"
+    },
+    {
+        "Description": "DELIVERED TO PICK-UP LOCATION – CUSTOMER NOTIFIED",
+        "DescriptionUA": "Доставлено у пункт видачі — клієнта повідомлено"
+    },
+    {
+        "Description": "UNDELIVERABLE - RETURNED TO SENDER",
+        "DescriptionUA": "Недоставка — повернено відправнику"
+    },
+    {
+        "Description": "RETURNED TO WAREHOUSE",
+        "DescriptionUA": "Повернено на склад"
+    },
+    {
+        "Description": "SHIPMENT RECALLED BY SENDER",
+        "DescriptionUA": "Відправлення відкликано відправником"
+    },
+    {
+        "Description": "NO ACCESS",
+        "DescriptionUA": "Немає доступу"
+    },
+    {
+        "Description": "DELIVERED - LEFT WITH NEIGHBOR/FRONT DESK/OTHER",
+        "DescriptionUA": "Доставлено — залишено у сусіда/на рецепції/інше"
+    },
+    {
+        "Description": "SECOND DELIVERY ATTEMPT SUCCESSFUL",
+        "DescriptionUA": "Друга спроба доставки успішна"
+    },
+    {
+        "Description": "DUTIES AND TAX PAYMENT REFUSED BY CONSIGNEE",
+        "DescriptionUA": "Одержувач відмовився сплатити мито і податки"
+    },
+    {
+        "Description": "RESCHEDULED BY REQUEST FROM CONSIGNEE",
+        "DescriptionUA": "Переплановано за запитом одержувача"
+    },
+    {
+        "Description": "REFUSED",
+        "DescriptionUA": "Відмовлено"
+    },
+    {
+        "Description": "UNDELIVERABLE - CUSTOMER REFUSED SHIPMENT",
+        "DescriptionUA": "Недоставка — клієнт відмовився прийняти відправлення"
+    },
+    {
+        "Description": "CLOSED ON ARRIVAL",
+        "DescriptionUA": "Закрито на момент прибуття"
+    },
+    {
+        "Description": "NO ONE HOME",
+        "DescriptionUA": "Нікого вдома"
+    },
+    {
+        "Description": "COD NOT READY",
+        "DescriptionUA": "Сума післяплати не готова"
+    },
+    {
+        "Description": "ATTEMPTED DELIVERY",
+        "DescriptionUA": "Спроба доставки"
+    },
+    {
+        "Description": "RESCHEDULED",
+        "DescriptionUA": "Переплановано"
+    },
+    {
+        "Description": "COD AMOUNT REMITTED",
+        "DescriptionUA": "Сума післяплати переказана"
+    },
+    {
+        "Description": "COD AMOUNT DEPOSITED",
+        "DescriptionUA": "Сума післяплати зарахована"
+    },
+    {
+        "Description": "REJECTED AFTER OPENING",
+        "DescriptionUA": "Відмовлено після відкриття"
+    },
+    {
+        "Description": "VISIBLE DAMAGE",
+        "DescriptionUA": "Помітне пошкодження"
+    },
+    {
+        "Description": "DELIVERED - BUSINESS ADDRESS",
+        "DescriptionUA": "Доставлено — бізнес-адреса"
+    },
+    {
+        "Description": "VISIBLE DAMAGE",
+        "DescriptionUA": "Помітне пошкодження"
+    },
+    {
+        "Description": "APPROACHING RETURN PICK UP LOCATION",
+        "DescriptionUA": "Наближається до місця повернення"
+    },
+    {
+        "Description": "UNDELIVERABLE",
+        "DescriptionUA": "Недоставка"
+    },
+    {
+        "Description": "UNDELIVERABLE",
+        "DescriptionUA": "Недоставка"
+    },
+    {
+        "Description": "UNSUCCESSFUL RETURN PICKUP",
+        "DescriptionUA": "Невдала спроба повернення посилки"
+    },
+    {
+        "Description": "SUCCESSFUL RETURN PICKUP",
+        "DescriptionUA": "Успішне повернення посилки"
+    },
+    {
+        "Description": "REDELIVERY ATTEMPT UNSUCCESSFUL",
+        "DescriptionUA": "Повторна спроба доставки невдала"
+    },
+    {
+        "Description": "UNDELIVERABLE AS ADDRESSED",
+        "DescriptionUA": "Недоставка за вказаною адресою"
+    },
+    {
+        "Description": "UNDELIVERABLE - INCORRECT ADDRESS",
+        "DescriptionUA": "Недоставка — неправильна адреса"
+    },
+    {
+        "Description": "CHANGE OF ADDRESS",
+        "DescriptionUA": "Зміна адреси"
+    },
+    {
+        "Description": "UNDELIVERABLE - UNIT/SUITE NOT PROVIDED",
+        "DescriptionUA": "Недоставка — відсутній номер квартири/офісу"
+    },
+    {
+        "Description": "UNDELIVERED - PROCESSES FOR LOCAL DISPOSAL",
+        "DescriptionUA": "Недоставка — підготовка до утилізації"
+    },
+    {
+        "Description": "RECEIVED BACK AT DESTINATION DEPOT",
+        "DescriptionUA": "Повернено на місцевий склад"
+    },
+    {
+        "Description": "1ST DELIVERY ATTEMPT",
+        "DescriptionUA": "Перша спроба доставки"
+    },
+    {
+        "Description": "3RD DELIVERY ATTEMPT",
+        "DescriptionUA": "Третя спроба доставки"
+    },
+    {
+        "Description": "MISSENT",
+        "DescriptionUA": "Неправильне направлення"
+    },
+    {
+        "Description": "MISSENT",
+        "DescriptionUA": "Неправильне направлення"
+    },
+    {
+        "Description": "DELIVERED TO AGENT FOR FINAL DELIVERY",
+        "DescriptionUA": "Передано агенту для фінальної доставки"
+    },
+    {
+        "Description": "PARCEL IS HOLD BY DHL",
+        "DescriptionUA": "Посилка затримана DHL"
+    },
+    {
+        "Description": "DEAD LETTER",
+        "DescriptionUA": "Недоставлене повідомлення"
+    },
+    {
+        "Description": "UNABLE TO ATTEMPT DELIVERY",
+        "DescriptionUA": "Неможливо здійснити доставку"
+    },
+    {
+        "Description": "DELIVERED AT BACK DOOR",
+        "DescriptionUA": "Доставлено до задніх дверей"
+    },
+    {
+        "Description": "DELIVERED AT BUILDING FOYER/ENTRANCE",
+        "DescriptionUA": "Доставлено у вестибюль/вхід будівлі"
+    },
+    {
+        "Description": "DELIVERED AT CAR PORT",
+        "DescriptionUA": "Доставлено на парковку"
+    },
+    {
+        "Description": "DELIVERED AT ENCLOSED PORCH",
+        "DescriptionUA": "Доставлено на закриту веранду"
+    },
+    {
+        "Description": "DELIVERED AT RESIDENTIAL CONCIERGE",
+        "DescriptionUA": "Доставлено консьєржу житлового будинку"
+    },
+    {
+        "Description": "DELIVERED AT PARCEL BOX",
+        "DescriptionUA": "Доставлено у поштову скриньку"
+    },
+    {
+        "Description": "DELIVERED AT OPEN PORCH",
+        "DescriptionUA": "Доставлено на відкриту веранду"
+    },
+    {
+        "Description": "DELIVERED AT SAFE PLACE",
+        "DescriptionUA": "Доставлено у безпечне місце"
+    },
+    {
+        "Description": "HANDOVER TO SERVICE POINT FAILED",
+        "DescriptionUA": "Не вдалося передати у сервісний пункт"
+    },
+    {
+        "Description": "MIS-SHIPPED",
+        "DescriptionUA": "Помилкове відправлення"
+    },
+    {
+        "Description": "MIS-SHIPPED",
+        "DescriptionUA": "Помилкове відправлення"
+    },
+    {
+        "Description": "DELIVERY STATUS NOT UPDATED",
+        "DescriptionUA": "Статус доставки не оновлено"
+    },
+    {
+        "Description": "INSUFFICIENT ADDRESS",
+        "DescriptionUA": "Недостатня адреса"
+    },
+    {
+        "Description": "MOVED, LEFT NO ADDRESS",
+        "DescriptionUA": "Переїхав, без нової адреси"
+    },
+    {
+        "Description": "ADDRESSEE UNKNOWN",
+        "DescriptionUA": "Одержувач невідомий"
+    },
+    {
+        "Description": "PACKAGE REPORTED MISSING",
+        "DescriptionUA": "Посилка зникла"
+    },
+    {
+        "Description": "VACANT",
+        "DescriptionUA": "Адреса порожня"
+    },
+    {
+        "Description": "UNCLAIMED",
+        "DescriptionUA": "Не витребувано"
+    },
+    {
+        "Description": "DELIVERY STATUS NOT UPDATED",
+        "DescriptionUA": "Статус доставки не оновлено"
+    },
+    {
+        "Description": "NO SUCH NUMBER",
+        "DescriptionUA": "Немає такого номера"
+    },
+    {
+        "Description": "INSUFFICIENT ADDRESS",
+        "DescriptionUA": "Недостатня адреса"
+    },
+    {
+        "Description": "MOVED, LEFT NO ADDRESS",
+        "DescriptionUA": "Переїхав, без нової адреси"
+    },
+    {
+        "Description": "FORWARD EXPIRED",
+        "DescriptionUA": "Пересилання закінчилося"
+    },
+    {
+        "Description": "ADDRESSEE UNKNOWN",
+        "DescriptionUA": "Одержувач невідомий"
+    },
+    {
+        "Description": "VACANT",
+        "DescriptionUA": "Адреса порожня"
+    },
+    {
+        "Description": "UNCLAIMED",
+        "DescriptionUA": "Не витребувано"
+    },
+    {
+        "Description": "DECEASED",
+        "DescriptionUA": "Помер"
+    },
+    {
+        "Description": "ABANDONED",
+        "DescriptionUA": "Залишено"
+    },
+    {
+        "Description": "RETURN TO SENDER",
+        "DescriptionUA": "Повернено відправнику"
+    },
+    {
+        "Description": "RETURNED, SERVICE NOT AVAILABLE",
+        "DescriptionUA": "Повернено, сервіс недоступний"
+    },
+    {
+        "Description": "RETURNED TO SENDER (NOT PICKED UP)",
+        "DescriptionUA": "Повернено відправнику (не забрано)"
+    },
+    {
+        "Description": "DEPARTED FROM DEPOT",
+        "DescriptionUA": "Виїхало зі складу"
+    },
+    {
+        "Description": "RETURN DISPATCHED TO SERVICE POINT",
+        "DescriptionUA": "Повернення відправлено у сервісний пункт"
+    },
+    {
+        "Description": "RETURN LABEL PRINTED",
+        "DescriptionUA": "Надруковано етикетку для повернення"
+    },
+    {
+        "Description": "RETURN INITIATED",
+        "DescriptionUA": "Повернення ініційоване"
+    },
+    {
+        "Description": "UNDELIVERABLE",
+        "DescriptionUA": "Недоставка"
+    },
+    {
+        "Description": "RETURNED TO CENTRAL HUB",
+        "DescriptionUA": "Повернено на центральний хаб"
+    },
+    {
+        "Description": "ENROUTE TO ORIGIN RETURN FACILITY",
+        "DescriptionUA": "В дорозі до об'єкта повернення"
+    },
+    {
+        "Description": "ARRIVED AT ORIGIN RETURN FACILITY",
+        "DescriptionUA": "Прибуло до об'єкта повернення"
+    },
+    {
+        "Description": "RETURNS PROCESS STARTED",
+        "DescriptionUA": "Розпочато обробку повернення"
+    },
+    {
+        "Description": "RETURN LOADED IN VEHICLE",
+        "DescriptionUA": "Повернення завантажено у транспорт"
+    },
+    {
+        "Description": "DEPARTED RETURN FACILITY",
+        "DescriptionUA": "Виїхало з об'єкта повернення"
+    },
+    {
+        "Description": "RETURN PROCESSED IN FACILITY",
+        "DescriptionUA": "Повернення оброблено на об'єкті"
+    },
+    {
+        "Description": "OUT FOR RETURN",
+        "DescriptionUA": "Відправлено для повернення"
+    },
+    {
+        "Description": "ATTEMPTED RETURN DELIVERY",
+        "DescriptionUA": "Спроба доставки повернення"
+    },
+    {
+        "Description": "DESTROYED",
+        "DescriptionUA": "Знищено"
+    },
+    {
+        "Description": "UNCONTACTABLE",
+        "DescriptionUA": "Не вдалося зв'язатися"
+    },
+    {
+        "Description": "RETURN PARCEL IS HOLD BY DHL",
+        "DescriptionUA": "Повернення затримане DHL"
+    },
+    {
+        "Description": "RETURN ARRIVED AT SERVICE POINT",
+        "DescriptionUA": "Повернення прибуло у сервісний пункт"
+    },
+    {
+        "Description": "RETURN PICKED UP",
+        "DescriptionUA": "Повернення забране"
+    },
+    {
+        "Description": "RETURN ENCODED",
+        "DescriptionUA": "Повернення закодовано"
+    },
+    {
+        "Description": "RETURN PROCESSED SORT FACILITY",
+        "DescriptionUA": "Повернення оброблено на сортувальній станції"
+    },
+    {
+        "Description": "RETURN SCANNED INTO SACK/CONTAINER",
+        "DescriptionUA": "Повернення відскановано у мішок/контейнер"
+    },
+    {
+        "Description": "RETURN WAS PROCESSED AT DESTINATION SORTING HUB",
+        "DescriptionUA": "Повернення оброблено на сортувальному хабі"
+    },
+    {
+        "Description": "RETURN DELIVERY RESCHEDULED",
+        "DescriptionUA": "Доставку повернення перенесено"
+    },
+    {
+        "Description": "RETURNS DELIVERED",
+        "DescriptionUA": "Повернення доставлене"
+    },
+    {
+        "Description": "RETURN ARRIVED AT PICKUP POINT",
+        "DescriptionUA": "Повернення прибуло до пункту видачі"
+    },
+    {
+        "Description": "RETURNED TO CUSTOMER",
+        "DescriptionUA": "Повернено клієнту"
+    },
+    {
+        "Description": "RETURN HANDED OUT AT SERVICE POINT",
+        "DescriptionUA": "Повернення видано у сервісному пункті"
+    },
+    {
+        "Description": "PAPER POD HAS BEEN SUCCESSFULLY DELIVERED",
+        "DescriptionUA": "Паперовий доказ доставки успішно доставлено"
+    },
+    {
+        "Description": "PAPER POD RETURN SHIPMENT WAS NOT DELIVERED",
+        "DescriptionUA": "Повернення паперового доказу доставки не доставлено"
+    },
+    {
+        "Description": "PAPER POD RETURN PROCESSED TO FACILITY",
+        "DescriptionUA": "Повернення паперового доказу доставки оброблено"
+    },
+    {
+        "Description": "PROOF OF DELIVERY DISPATCHED TO HUB",
+        "DescriptionUA": "Підтвердження доставки відправлено на хаб"
+    },
+    {
+        "Description": "PROOF OF DELIVERY DISPATCHED TO CUSTOMER",
+        "DescriptionUA": "Підтвердження доставки відправлено клієнту"
+    },
+    {
+        "Description": "PROOF OF DELIVERY DELIVERED TO CUSTOMER",
+        "DescriptionUA": "Підтвердження доставки доставлено клієнту"
+    },
+    {
+        "Description": "RETURN FAILED - INCORRECT ADDRESS",
+        "DescriptionUA": "Повернення не вдалося — неправильна адреса"
+    },
+    {
+        "Description": "RETURN FAILED - CUSTOMER REFUSED SHIPMENT",
+        "DescriptionUA": "Повернення не вдалося — клієнт відмовився від посилки"
+    },
+    {
+        "Description": "RETURN DELIVERY FAILED",
+        "DescriptionUA": "Доставка повернення не вдалася"
+    },
+    {
+        "Description": "RETURN FAILED - NO ACCESS",
+        "DescriptionUA": "Повернення не вдалося — відсутній доступ"
+    },
+    {
+        "Description": "RETURN FAILED - REJECTED",
+        "DescriptionUA": "Повернення не вдалося — відхилено"
+    },
+    {
+        "Description": "RETURN FAILED - SHIPPER MOVED",
+        "DescriptionUA": "Повернення не вдалося — відправник переїхав"
+    },
+    {
+        "Description": "RETURN FAILED - NO ONE HOME",
+        "DescriptionUA": "Повернення не вдалося — нікого вдома"
+    },
+    {
+        "Description": "RETURN FAILED - CLOSED ON ARRIVAL",
+        "DescriptionUA": "Повернення не вдалося — закрито по прибуттю"
+    },
+    {
+        "Description": "CUSTOMER ALERT RECEIVED",
+        "DescriptionUA": "Отримано сповіщення клієнта"
+    },
+    {
+        "Description": "delivered",
+        "DescriptionUA": "Доставлено"
+    },
+    {
+        "Description": "transit",
+        "DescriptionUA": "У транзиті"
+    },
+    {
+        "Description": "failure",
+        "DescriptionUA": "Помилка"
+    },
+    {
+        "Description": "pre-transit",
+        "DescriptionUA": "Перед відправленням"
+    },
+    {
+        "Description": "Agreed delivery",
+        "DescriptionUA": "Узгоджена доставка"
+    },
+    {
+        "Description": "Arrived facility",
+        "DescriptionUA": "Прибуло на об'єкт"
+    },
+    {
+        "Description": "Arrival in delivery facility",
+        "DescriptionUA": "Прибуття на об'єкт доставки"
+    },
+    {
+        "Description": "Bad address",
+        "DescriptionUA": "Неправильна адреса"
+    },
+    {
+        "Description": "Customer broker notified",
+        "DescriptionUA": "Сповіщено митного брокера клієнта"
+    },
+    {
+        "Description": "Broker release",
+        "DescriptionUA": "Випущено брокером"
+    },
+    {
+        "Description": "Closed on arrival",
+        "DescriptionUA": "Закрито по прибуттю"
+    },
+    {
+        "Description": "Awaiting cnee collection",
+        "DescriptionUA": "Очікує на отримання одержувачем"
+    },
+    {
+        "Description": "Controllable clearance delay",
+        "DescriptionUA": "Затримка митного оформлення (контрольована)"
+    },
+    {
+        "Description": "Customer moved",
+        "DescriptionUA": "Клієнт переїхав"
+    },
+    {
+        "Description": "Clearance release",
+        "DescriptionUA": "Випущено після митного оформлення"
+    },
+    {
+        "Description": "Closed shipment",
+        "DescriptionUA": "Закрита відправка"
+    },
+    {
+        "Description": "Delivered damaged",
+        "DescriptionUA": "Доставлено пошкодженим"
+    },
+    {
+        "Description": "Depart facility",
+        "DescriptionUA": "Виїзд з об'єкта"
+    },
+    {
+        "Description": "Destroyed / disposal",
+        "DescriptionUA": "Знищено / утилізовано"
+    },
+    {
+        "Description": "Forward destination (DD's expected)",
+        "DescriptionUA": "Перенаправлено до місця призначення (очікується доставка)"
+    },
+    {
+        "Description": "Held for payment",
+        "DescriptionUA": "Утримується для оплати"
+    },
+    {
+        "Description": "In clearance processing",
+        "DescriptionUA": "У процесі митного оформлення"
+    },
+    {
+        "Description": "Miscode",
+        "DescriptionUA": "Помилка кодування"
+    },
+    {
+        "Description": "Missed delivery cycle",
+        "DescriptionUA": "Пропущено цикл доставки"
+    },
+    {
+        "Description": "Mis-sort",
+        "DescriptionUA": "Неправильне сортування"
+    },
+    {
+        "Description": "Not delivered",
+        "DescriptionUA": "Не доставлено"
+    },
+    {
+        "Description": "Not home",
+        "DescriptionUA": "Нікого вдома"
+    },
+    {
+        "Description": "On hold",
+        "DescriptionUA": "На утриманні"
+    },
+    {
+        "Description": "Delivery",
+        "DescriptionUA": "Доставка"
+    },
+    {
+        "Description": "Partial delivery",
+        "DescriptionUA": "Часткова доставка"
+    },
+    {
+        "Description": "Processed at location",
+        "DescriptionUA": "Оброблено на об'єкті"
+    },
+    {
+        "Description": "Shipment pick up",
+        "DescriptionUA": "Забір відправлення"
+    },
+    {
+        "Description": "Refused delivery",
+        "DescriptionUA": "Відмова від доставки"
+    },
+    {
+        "Description": "Response received",
+        "DescriptionUA": "Отримано відповідь"
+    },
+    {
+        "Description": "Returned to consignor",
+        "DescriptionUA": "Повернено відправнику"
+    },
+    {
+        "Description": "Shipment acceptance",
+        "DescriptionUA": "Прийняття відправлення"
+    },
+    {
+        "Description": "Service changed",
+        "DescriptionUA": "Послугу змінено"
+    },
+    {
+        "Description": "Shipment stopped",
+        "DescriptionUA": "Відправлення зупинено"
+    },
+    {
+        "Description": "Forwarded to 3rd party - no DD's",
+        "DescriptionUA": "Передано третій стороні - без дати доставки"
+    },
+    {
+        "Description": "Record of transfer",
+        "DescriptionUA": "Запис передачі"
+    },
+    {
+        "Description": "Uncontrollable clearance delay",
+        "DescriptionUA": "Неконтрольована затримка оформлення"
+    },
+    {
+        "Description": "With delivering courier",
+        "DescriptionUA": "У кур'єра для доставки"
+    },
+    {
+        "Description": "The shipment has been collected",
+        "DescriptionUA": "Відправлення забране"
+    },
+    {
+        "Description": "The shipment has been dropped off at Parcelshop by sender",
+        "DescriptionUA": "Відправлення залишено у Parcelshop відправником"
+    },
+    {
+        "Description": "The shipment has been dropped off at Parcelstation by sender",
+        "DescriptionUA": "Відправлення залишено у Parcelstation відправником"
+    },
+    {
+        "Description": "The shipment has been dropped off at Postoffice by sender",
+        "DescriptionUA": "Відправлення залишено у відділенні пошти відправником"
+    },
+    {
+        "Description": "The shipment has been dropped off at depot by sender",
+        "DescriptionUA": "Відправлення залишено на складі відправником"
+    },
+    {
+        "Description": "The shipment has been dropped off at sorting center by sender",
+        "DescriptionUA": "Відправлення залишено у сортувальному центрі відправником"
+    },
+    {
+        "Description": "The shipment has been dropped off at gateway by sender",
+        "DescriptionUA": "Відправлення залишено на перевалочній базі відправником"
+    },
+    {
+        "Description": "The shipment has been picked up at sender",
+        "DescriptionUA": "Відправлення забране у відправника"
+    },
+    {
+        "Description": "The shipment has been picked up at Parcelshop by courier",
+        "DescriptionUA": "Відправлення забране кур'єром у Parcelshop"
+    },
+    {
+        "Description": "The shipment has been picked up at Parcelstation by courier",
+        "DescriptionUA": "Відправлення забране кур'єром у Parcelstation"
+    },
+    {
+        "Description": "The shipment has been picked up at Access Point by courier",
+        "DescriptionUA": "Відправлення забране кур'єром у Access Point"
+    },
+    {
+        "Description": "The shipment has been picked up at Postoffice by courier",
+        "DescriptionUA": "Відправлення забране кур'єром у відділенні пошти"
+    },
+    {
+        "Description": "The shipment has been processed at terminal",
+        "DescriptionUA": "Відправлення оброблено на терміналі"
+    },
+    {
+        "Description": "The shipment has departed from terminal",
+        "DescriptionUA": "Відправлення покинуло термінал"
+    },
+    {
+        "Description": "The shipment has been processed at depot",
+        "DescriptionUA": "Відправлення оброблено на складі"
+    },
+    {
+        "Description": "The shipment has left the depot",
+        "DescriptionUA": "Відправлення покинуло склад"
+    },
+    {
+        "Description": "The shipment has been processed at sorting center",
+        "DescriptionUA": "Відправлення оброблено у сортувальному центрі"
+    },
+    {
+        "Description": "The shipment has been processed and left the sorting center",
+        "DescriptionUA": "Відправлення оброблено і покинуло сортувальний центр"
+    },
+    {
+        "Description": "The shipment has arrived at gateway in origin country",
+        "DescriptionUA": "Відправлення прибуло на перевалочну базу у країні відправлення"
+    },
+    {
+        "Description": "The shipment has been processed at gateway in origin country",
+        "DescriptionUA": "Відправлення оброблено на перевалочній базі у країні відправлення"
+    },
+    {
+        "Description": "The shipment has left origin country",
+        "DescriptionUA": "Відправлення покинуло країну відправлення"
+    },
+    {
+        "Description": "The shipment has arrived in transit country",
+        "DescriptionUA": "Відправлення прибуло у транзитну країну"
+    },
+    {
+        "Description": "The shipment has been processed in transit country",
+        "DescriptionUA": "Відправлення оброблено у транзитній країні"
+    },
+    {
+        "Description": "The shipment has left transit country",
+        "DescriptionUA": "Відправлення покинуло транзитну країну"
+    },
+    {
+        "Description": "The shipment has arrived in destination country",
+        "DescriptionUA": "Відправлення прибуло до країни призначення"
+    },
+    {
+        "Description": "The shipment has arrived at sorting center",
+        "DescriptionUA": "Відправлення прибуло у сортувальний центр"
+    },
+    {
+        "Description": "The shipment has been processed at sorting center",
+        "DescriptionUA": "Відправлення оброблено у сортувальному центрі"
+    },
+    {
+        "Description": "The shipment has arrived at depot",
+        "DescriptionUA": "Відправлення прибуло на склад"
+    },
+    {
+        "Description": "The shipment has been processed at depot",
+        "DescriptionUA": "Відправлення оброблено на складі"
+    },
+    {
+        "Description": "The shipment has been loaded to the van",
+        "DescriptionUA": "Відправлення завантажено у фургон"
+    },
+    {
+        "Description": "The shipment has been handed over to the Access Point",
+        "DescriptionUA": "Відправлення передано у Access Point"
+    },
+    {
+        "Description": "The shipment has been handed over to the Parcelshop",
+        "DescriptionUA": "Відправлення передано у Parcelshop"
+    },
+    {
+        "Description": "The shipment has been handed over to the Parcelstation",
+        "DescriptionUA": "Відправлення передано у Parcelstation"
+    },
+    {
+        "Description": "The shipment has been handed over to the Postoffice",
+        "DescriptionUA": "Відправлення передано у відділення пошти"
+    },
+    {
+        "Description": "The shipment has been handed over to the depot",
+        "DescriptionUA": "Відправлення передано на склад"
+    },
+    {
+        "Description": "The recipient has been notified (e.g. via email) about delivery details and available services",
+        "DescriptionUA": "Одержувача повідомлено (наприклад, електронною поштою) про деталі доставки та доступні послуги"
+    },
+    {
+        "Description": "The recipient has requested changes to the delivery process",
+        "DescriptionUA": "Одержувач запросив зміни у процесі доставки"
+    },
+    {
+        "Description": "The shipment has been successfully delivered",
+        "DescriptionUA": "Відправлення успішно доставлено"
+    },
+    {
+        "Description": "The shipment has been picked up by the recipient from depot",
+        "DescriptionUA": "Відправлення забране одержувачем зі складу"
+    },
+    {
+        "Description": "The shipment has been picked up by the recipient from Parcelshop",
+        "DescriptionUA": "Відправлення забране одержувачем у Parcelshop"
+    },
+    {
+        "Description": "The shipment has been picked up by the recipient from Parcelstation",
+        "DescriptionUA": "Відправлення забране одержувачем у Parcelstation"
+    },
+    {
+        "Description": "The shipment has been picked up by the recipient from Postoffice",
+        "DescriptionUA": "Відправлення забране одержувачем у відділенні пошти"
+    },
+    {
+        "Description": "The shipment has been successfully delivered",
+        "DescriptionUA": "Відправлення успішно доставлено"
+    },
+    {
+        "Description": "The shipment has been successfully delivered",
+        "DescriptionUA": "Відправлення успішно доставлено"
+    },
+    {
+        "Description": "The shipment has been successfully delivered",
+        "DescriptionUA": "Відправлення успішно доставлено"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient",
+        "DescriptionUA": "Відправлення не вдалося доставити одержувачу"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient was not available",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач був недоступний"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient was not available",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач був недоступний"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient was not available",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач був недоступний"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient has refused the shipment",
+        "DescriptionUA": "Одержувач відмовився прийняти відправлення"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, due to unsuccessful COD payment",
+        "DescriptionUA": "Відправлення не доставлено через невдалу оплату при доставці"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, due to unsuccessful COD payment",
+        "DescriptionUA": "Відправлення не доставлено через невдалу оплату при доставці"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because of an incorrect delivery address",
+        "DescriptionUA": "Відправлення не доставлено через неправильну адресу доставки"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because of an incorrect delivery address",
+        "DescriptionUA": "Відправлення не доставлено через неправильну адресу доставки"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient has moved away",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач змінив місце проживання"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient could not show the mandatory ID for personal identification",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач не зміг надати обов'язковий документ для ідентифікації"
+    },
+    {
+        "Description": "During the delivery, the shipment was damaged",
+        "DescriptionUA": "Під час доставки відправлення було пошкоджено"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient was not available",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач був недоступний"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the payment of charges is missing",
+        "DescriptionUA": "Відправлення не доставлено через відсутність оплати зборів"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Service Point because the Service point was closed",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту через його закриття"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Service Point because of capacity restraints in the Service Point",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту через обмеження місткості"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Service Point because it exceeds the maximum weight or dimensions allowed in the Service Point",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту через перевищення максимально допустимої ваги або розмірів"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Service Point because the Service point was closed",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту через його закриття"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Service Point because of capacity restraints in the Service Point",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту через обмеження місткості"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Service Point because it exceeds the maximum weight or dimensions allowed in the Service Point",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту через перевищення максимально допустимої ваги або розмірів"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Parcel Locker because of capacity restraints in the Parcel Locker",
+        "DescriptionUA": "Відправлення не передано до поштомату через обмеження місткості"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Parcel Locker because the Parcel Locker is out of service",
+        "DescriptionUA": "Відправлення не передано до поштомату через його несправність"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Parcel Locker because it violates the GT&C of the Parcel Locker",
+        "DescriptionUA": "Відправлення не передано до поштомату через порушення умов використання"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Post Office because the Post Office was closed",
+        "DescriptionUA": "Відправлення не передано до поштового відділення через його закриття"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Post Office because of capacity restraints in the Post Office",
+        "DescriptionUA": "Відправлення не передано до поштового відділення через обмеження місткості"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Post Office because it exceeds the maximum weight or dimensions allowed in the Post Office",
+        "DescriptionUA": "Відправлення не передано до поштового відділення через перевищення максимально допустимої ваги або розмірів"
+    },
+    {
+        "Description": "The shipment has no been picked up by the recipient within the defined time and will be sent back to the sender",
+        "DescriptionUA": "Відправлення не було забране одержувачем вчасно і буде повернено відправнику"
+    },
+    {
+        "Description": "The shipment has been released from export Customs",
+        "DescriptionUA": "Відправлення випущено митницею при експорті"
+    },
+    {
+        "Description": "The shipment has been cleared at import Customs in destination country / region",
+        "DescriptionUA": "Відправлення пройшло митне очищення в країні призначення"
+    },
+    {
+        "Description": "The shipment has been held until next working day because recipient is not available",
+        "DescriptionUA": "Відправлення затримано до наступного робочого дня через недоступність одержувача"
+    },
+    {
+        "Description": "The shipment has been held because recipient requested later delivery",
+        "DescriptionUA": "Відправлення затримано на прохання одержувача для пізнішої доставки"
+    },
+    {
+        "Description": "The shipment has been held and will be returned to sender",
+        "DescriptionUA": "Відправлення затримано і буде повернено відправнику"
+    },
+    {
+        "Description": "The shipment has been stopped without delivery attempt because recipient has refused the shipment.The shipment will be returned to sender",
+        "DescriptionUA": "Доставку відправлення скасовано через відмову одержувача. Відправлення буде повернено відправнику"
+    },
+    {
+        "Description": "The import of the shipment has been terminated. The shipment will be returned to sender",
+        "DescriptionUA": "Імпорт відправлення скасовано. Відправлення буде повернено відправнику"
+    },
+    {
+        "Description": "The delivery of the shipment failed",
+        "DescriptionUA": "Доставка відправлення не вдалася"
+    },
+    {
+        "Description": "The shipment has not been picked up within the defined time and will be sent back to the sender",
+        "DescriptionUA": "Відправлення не було забране вчасно і буде повернено відправнику"
+    },
+    {
+        "Description": "The shipment could not be delivered because of an exceptional event",
+        "DescriptionUA": "Відправлення не доставлено через виняткову подію"
+    },
+    {
+        "Description": "The shipment could not be delivered because recipient moved. Shipment will be returned to sender",
+        "DescriptionUA": "Відправлення не доставлено через зміну місця проживання одержувача. Відправлення буде повернено"
+    },
+    {
+        "Description": "The shipment could not be delivered because recipient requested to forward/redirect parcel",
+        "DescriptionUA": "Відправлення не доставлено через запит на переадресацію"
+    },
+    {
+        "Description": "The shipment could not be delivered and will be returned to the sender",
+        "DescriptionUA": "Відправлення не доставлено і буде повернено відправнику"
+    },
+    {
+        "Description": "The shipment could not be delivered",
+        "DescriptionUA": "Відправлення не доставлено"
+    },
+    {
+        "Description": "The shipment has been held because recipient requested later delivery",
+        "DescriptionUA": "Відправлення затримано за запитом одержувача для пізнішої доставки"
+    },
+    {
+        "Description": "Shipment has been held according to recipient's request",
+        "DescriptionUA": "Відправлення затримано за запитом одержувача"
+    },
+    {
+        "Description": "The shipment could not be handed over to the Service Point because it exceeds the maximum weight or dimensions allowed in the Service Point",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту через перевищення ваги або розмірів"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because of incorrect address",
+        "DescriptionUA": "Відправлення не доставлено через неправильну адресу одержувача"
+    },
+    {
+        "Description": "Recipient has refused the shipment",
+        "DescriptionUA": "Одержувач відмовився від отримання відправлення"
+    },
+    {
+        "Description": "Recipient has refused the shipment during collection",
+        "DescriptionUA": "Одержувач відмовився від отримання під час видачі"
+    },
+    {
+        "Description": "Recipient has refused the shipment during collection",
+        "DescriptionUA": "Одержувач відмовився від отримання під час видачі"
+    },
+    {
+        "Description": "The shipment could not be delivered, because the recipient has refused it",
+        "DescriptionUA": "Відправлення не доставлено через відмову одержувача"
+    },
+    {
+        "Description": "The shipment could not be delivered, because the recipient has refused it",
+        "DescriptionUA": "Відправлення не доставлено через відмову одержувача"
+    },
+    {
+        "Description": "The shipment could not be handed over because payment of charges is missing",
+        "DescriptionUA": "Відправлення не передано через відсутність оплати"
+    },
+    {
+        "Description": "The shipment could not be handed over because payment of charges is missing",
+        "DescriptionUA": "Відправлення не передано через відсутність оплати"
+    },
+    {
+        "Description": "The shipment could not be delivered and is scheduled for further processing on next working day",
+        "DescriptionUA": "Доставка відправлення не вдалася, обробка продовжиться наступного робочого дня"
+    },
+    {
+        "Description": "The shipment could not be delivered because recipient requested later delivery",
+        "DescriptionUA": "Доставка відправлення перенесена на пізніший термін за запитом одержувача"
+    },
+    {
+        "Description": "The shipment could not be delivered and is being held because recipient requested later delivery",
+        "DescriptionUA": "Відправлення затримано за запитом одержувача для пізнішої доставки"
+    },
+    {
+        "Description": "The shipment  could not be delivered due recipient's request",
+        "DescriptionUA": "Відправлення не доставлено за запитом одержувача"
+    },
+    {
+        "Description": "The shipment  could not be delivered due recipient's request",
+        "DescriptionUA": "Відправлення не доставлено за запитом одержувача"
+    },
+    {
+        "Description": "The shipment has been collected",
+        "DescriptionUA": "Відправлення забрано"
+    },
+    {
+        "Description": "The shipment has been picked up at access point by courier",
+        "DescriptionUA": "Відправлення забране кур'єром у точці видачі"
+    },
+    {
+        "Description": "The shipment has been processed at terminal in origin country",
+        "DescriptionUA": "Відправлення оброблене на терміналі в країні відправлення"
+    },
+    {
+        "Description": "The shipment has departed from terminal",
+        "DescriptionUA": "Відправлення вибуло з терміналу"
+    },
+    {
+        "Description": "The shipment has been processed in transit country",
+        "DescriptionUA": "Відправлення оброблено в країні транзиту"
+    },
+    {
+        "Description": "The shipment has been processed at terminal in destination country",
+        "DescriptionUA": "Відправлення оброблено на терміналі в країні призначення"
+    },
+    {
+        "Description": "The shipment has arrived at gateway in origin country",
+        "DescriptionUA": "Відправлення прибуло на сортувальний центр у країні відправлення"
+    },
+    {
+        "Description": "The shipment has left origin country",
+        "DescriptionUA": "Відправлення вибуло з країни відправлення"
+    },
+    {
+        "Description": "The shipment has arrived in transit country",
+        "DescriptionUA": "Відправлення прибуло в країну транзиту"
+    },
+    {
+        "Description": "The shipment has left transit country",
+        "DescriptionUA": "Відправлення вибуло з країни транзиту"
+    },
+    {
+        "Description": "The shipment has arrived in destination country",
+        "DescriptionUA": "Відправлення прибуло в країну призначення"
+    },
+    {
+        "Description": "The shipment has arrived at sorting center",
+        "DescriptionUA": "Відправлення прибуло до сортувального центру"
+    },
+    {
+        "Description": "The shipment has arrived at depot",
+        "DescriptionUA": "Відправлення прибуло до складу"
+    },
+    {
+        "Description": "The shipment is undeliverable and will be returned to destination under a new ID",
+        "DescriptionUA": "Відправлення неможливо доставити, буде повернено під новим номером"
+    },
+    {
+        "Description": "The shipment is undeliverable and will be returned to the agreed return address in the destination country",
+        "DescriptionUA": "Відправлення неможливо доставити, буде повернено на узгоджену адресу повернення"
+    },
+    {
+        "Description": "The shipment couldn´t be delivered because of an exceptional event. Further attempt on next working day",
+        "DescriptionUA": "Відправлення не доставлено через виняткову подію. Повторна спроба наступного робочого дня"
+    },
+    {
+        "Description": "The shipment has left the customer facility",
+        "DescriptionUA": "Відправлення вибуло з об'єкта клієнта"
+    },
+    {
+        "Description": "The shipment was pre-sorted by 3rd party provider",
+        "DescriptionUA": "Відправлення попередньо відсортовано стороннім провайдером"
+    },
+    {
+        "Description": "The shipment was presented to import  customs by 3rd party provider",
+        "DescriptionUA": "Відправлення подано на митницю стороннім провайдером"
+    },
+    {
+        "Description": "The shipment has been held because of missing or inapproriate documentation and will be returned to the sender",
+        "DescriptionUA": "Відправлення затримано через відсутність або неправильні документи та буде повернено відправнику"
+    },
+    {
+        "Description": "The shipment could not be delivered because of bad weather conditions. Further processing expected on next working day",
+        "DescriptionUA": "Відправлення не доставлено через погані погодні умови. Подальша обробка наступного робочого дня"
+    },
+    {
+        "Description": "The shipment could not be delivered because of capacity issues. Further processing expected on next working day",
+        "DescriptionUA": "Відправлення не доставлено через проблеми з пропускною спроможністю. Подальша обробка наступного робочого дня"
+    },
+    {
+        "Description": "The shipment has been held for bad weather conditions. Further processing expected next working day",
+        "DescriptionUA": "Відправлення затримано через погані погодні умови. Подальша обробка наступного робочого дня"
+    },
+    {
+        "Description": "The shipment has been held for capacity issues. Further processing expected next working day",
+        "DescriptionUA": "Відправлення затримано через проблеми з пропускною спроможністю. Подальша обробка наступного робочого дня"
+    },
+    {
+        "Description": "The shipment has been held and is awaiting payment of charges",
+        "DescriptionUA": "Відправлення затримано, очікується оплата зборів"
+    },
+    {
+        "Description": "The shipment has been held. Further processing expected next working day",
+        "DescriptionUA": "Відправлення затримано. Подальша обробка наступного робочого дня"
+    },
+    {
+        "Description": "The shipment has been handed over for final delivery",
+        "DescriptionUA": "Відправлення передано для остаточної доставки"
+    },
+    {
+        "Description": "Packaging of parcel was torn. Parcel has been successfully delivered",
+        "DescriptionUA": "Пакування посилки було пошкоджене. Посилку успішно доставлено"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient could not show the mandatory ID for personal identification",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач не надав обов'язковий документ для ідентифікації"
+    },
+    {
+        "Description": "The shipment has been processed at terminal",
+        "DescriptionUA": "Відправлення оброблено на терміналі"
+    },
+    {
+        "Description": "The shipment has been processed in transit country",
+        "DescriptionUA": "Відправлення оброблено в країні транзиту"
+    },
+    {
+        "Description": "The shipment has been processed at terminal in destination country",
+        "DescriptionUA": "Відправлення оброблено на терміналі в країні призначення"
+    },
+    {
+        "Description": "The shipment has been identified as oversized",
+        "DescriptionUA": "Відправлення визначено як понадрозмірне"
+    },
+    {
+        "Description": "The shipment is handled by a return consolidator",
+        "DescriptionUA": "Відправлення обробляється консолідатором повернень"
+    },
+    {
+        "Description": "The shipment is assigned to a transport container",
+        "DescriptionUA": "Відправлення закріплено за транспортним контейнером"
+    },
+    {
+        "Description": "The shipment was assigned to a transport container and is ready for departure from return consolidator with new shipment ID",
+        "DescriptionUA": "Відправлення закріплено за транспортним контейнером і готове до відправки з новим номером"
+    },
+    {
+        "Description": "The shipment has been delivered back to the business sender",
+        "DescriptionUA": "Відправлення повернено бізнес-відправнику"
+    },
+    {
+        "Description": "The shipment was pre-sorted by 3rd party provider",
+        "DescriptionUA": "Відправлення попередньо відсортоване стороннім провайдером"
+    },
+    {
+        "Description": "The shipment was presented to export customs by 3rd party provider",
+        "DescriptionUA": "Відправлення передано на експортну митницю стороннім провайдером"
+    },
+    {
+        "Description": "The shipment was handed over to transport provider",
+        "DescriptionUA": "Відправлення передано транспортному провайдеру"
+    },
+    {
+        "Description": "The shipment was presented to import  customs by 3rd party provider",
+        "DescriptionUA": "Відправлення передано на імпортну митницю стороннім провайдером"
+    },
+    {
+        "Description": "The shipment could not be delivered to the recipient, because the recipient was not available",
+        "DescriptionUA": "Відправлення не доставлено, оскільки одержувач був відсутній"
+    },
+    {
+        "Description": "The shipment has been processed in transit country",
+        "DescriptionUA": "Відправлення оброблене в країні транзиту"
+    },
+    {
+        "Description": "The shipment has been processed in transit country",
+        "DescriptionUA": "Відправлення оброблене в країні транзиту"
+    },
+    {
+        "Description": "The shipment has been processed in transit country",
+        "DescriptionUA": "Відправлення оброблене в країні транзиту"
+    },
+    {
+        "Description": "The shipment has been processed according to the business customer's instructions",
+        "DescriptionUA": "Відправлення оброблене відповідно до інструкцій бізнес-клієнта"
+    },
+    {
+        "Description": "The shipment could not be picked up due to a malfuntion of the Locker",
+        "DescriptionUA": "Відправлення не вдалося забрати через несправність скриньки (локера)"
+    },
+    {
+        "Description": "The shipment couldn´t be handed over to the Service Point as it was closed",
+        "DescriptionUA": "Відправлення не передано до сервісного пункту, оскільки він був зачинений"
+    }
+]
