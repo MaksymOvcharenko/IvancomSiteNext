@@ -294,27 +294,28 @@
         {
           "title": "Tabletki/czopki",
           "price": "1 opakowanie",
-          "note": "do 50 szt. w op. – 12 zł\npowyżej 50 szt. w op. – 15 zł"
+          "note": "do 20 szt. w op. – 12 zł\ndo 50 szt. w op. – 15 zł\npowyżej 50 szt. w op. – 18 zł"
         },
         {
           "title": "Płyny/maści/proszki",
           "price": "1 opakowanie",
-          "note": "do 100 ml/g – 7 zł\npowyżej 100 ml/g – 10 zł"
+          "note": "do 100 ml/g – 9 zł\npowyżej 100 ml/g – 12 zł"
         },
         {
-          "title": "Suplementy/witaminy",
+          "title": "Suplementy diety/witaminy",
           "price": "1 opakowanie",
-          "note": "do 20 szt. w op. – 10 zł\ndo 50 szt. w op. – 12 zł\npowyżej 50 szt. w op. – 15 zł"
+          "note": "do 100 szt. – 12 zł\npowyżej 100 szt. – 24 zł\ndo 1 kg – 12 zł\npowyżej 1 kg – 24 zł"
         },
         {
           "title": "Kosmetyki do iniekcji",
           "price": "1 opakowanie",
-          "note": "Botoks w lodówce – 30 zł\nPreparaty do 100 ml/g – 8 zł\nod 100 do 250 ml/g – 10 zł\nod 250 do 500 ml/g – 15 zł\nAmpułki do 10 ml – 5 zł\nPreparaty w strzykawkach (fillery i iniekcje upiększające) – 20 zł"
+          "note": "Botoks w lodówce – 40 zł\nPreparaty do 100 ml/g – 10 zł\nod 100 do 250 ml/g – 12 zł\nod 250 do 500 ml/g – 18 zł\nAmpułki do 10 ml – 6 zł\nPreparaty w strzykawkach (fillery i zastrzyki upiększające) – 30 zł"
         }
       ],
       "attention": [
         "Koniecznie poinformuj nas wcześniej, jeśli lek wymaga określonej temperatury, i zaznacz to w formularzu zgłoszenia.",
         "Zabronione jest wysyłanie leków zawierających substancje narkotyczne.",
+        "Jeśli dostawa odbywa się w warunkach chłodniczych (kontrola temperatury), naliczana jest opłata za usługę w wysokości 50 zł.",
         "Dla towarów zawierających ekstrakty grzybowe (w jakiejkolwiek formie) obowiązuje taryfa dla suplementów diety/witamin z dopłatą +5 zł za każdą pozycję.",
         "Dostawa odbywa się do stacjonarnych oddziałów IVANCOM w Polsce.",
         "Dostawa kurierska na adres płatna osobno.",

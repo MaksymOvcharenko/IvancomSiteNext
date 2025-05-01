@@ -294,27 +294,28 @@
         {
           "title": "Tablets/suppositories",
           "price": "1 package",
-          "note": "up to 50 pcs per pack – 12 zł\nmore than 50 pcs – 15 zł"
+          "note": "up to 20 pcs per pack – 12 PLN\nup to 50 pcs per pack – 15 PLN\nmore than 50 pcs per pack – 18 PLN"
         },
         {
           "title": "Liquids/ointments/powders",
           "price": "1 package",
-          "note": "up to 100 ml/g – 7 zł\nmore than 100 ml/g – 10 zł"
+          "note": "up to 100 ml/g – 9 PLN\nmore than 100 ml/g – 12 PLN"
         },
         {
           "title": "Supplements/vitamins",
           "price": "1 package",
-          "note": "up to 20 pcs – 10 zł\nup to 50 pcs – 12 zł\nmore than 50 pcs – 15 zł"
+          "note": "up to 100 pcs – 12 PLN\nmore than 100 pcs – 24 PLN\nup to 1 kg – 12 PLN\nmore than 1 kg – 24 PLN"
         },
         {
-          "title": "Injection cosmetics",
+          "title": "Injection-based cosmetics",
           "price": "1 package",
-          "note": "Botox in refrigerator – 30 zł\nPreparations up to 100 ml/g – 8 zł\nfrom 100 to 250 ml/g – 10 zł\nfrom 250 to 500 ml/g – 15 zł\nAmpoules up to 10 ml – 5 zł\nPreparations in syringes (fillers and beauty injections) – 20 zł"
+          "note": "Botox (requires refrigeration) – 40 PLN\nPreparations up to 100 ml/g – 10 PLN\nfrom 100 to 250 ml/g – 12 PLN\nfrom 250 to 500 ml/g – 18 PLN\nAmpoules up to 10 ml – 6 PLN\nPreparation in syringes (fillers and beauty injections) – 30 PLN"
         }
       ],
       "attention": [
         "Be sure to notify us in advance if the medicine requires a specific temperature regime and indicate this when filling out the shipping form.",
         "It is prohibited to send medicines that contain narcotic substances.",
+        "If the delivery requires a cold chain (temperature control), a service fee of 50 PLN applies.",
         "For products containing mushroom extracts (in any form), the tariff for dietary supplements/vitamins applies, with an additional charge of +5 zł for each item.",
         "Delivery is carried out to stationary IVANCOM branches in Poland.",
         "Courier delivery to a specific address is paid separately.",
