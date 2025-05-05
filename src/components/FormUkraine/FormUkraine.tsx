@@ -9,9 +9,10 @@ import CountryInput from "./GooglePlaces/GooglePlaces";
 import { LoadScript } from "@react-google-maps/api";
 import Description from "./Step3/Description";
 import DeliveryDetails from "./Step4/DeliveryDetails";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import StatusMessage from "../StatusMessage/StatusMessage";
 import pixelEvents from "@/pixelEvents";
+import { clearFormData } from "@/store/formUatoWorld";
 
 interface RootState {
   formUatoWorld: {
@@ -57,7 +58,7 @@ const FormUkraine: React.FC<FormUkraineProps> = ({
   const [sendStatus, setSendStatus] = useState<"error" | "success" | null>(
     null
   );
-
+  const dispatch = useDispatch();
   const [initialized, setInitialized] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const nextStep = () => { setStep((prev) => prev + 1);  pixelEvents.initiateCheckout(); };
@@ -97,6 +98,7 @@ const FormUkraine: React.FC<FormUkraineProps> = ({
 
       const responseData = await response.json();
       console.log("Response from server:", responseData);
+      dispatch(clearFormData()); // Очищення даних форми після успішної відправки
     } catch (error) {
       console.error("Error submitting form:", error);
       setSendStatus("error");

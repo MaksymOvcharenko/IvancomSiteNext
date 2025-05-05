@@ -12,7 +12,7 @@ import { IconContext } from 'react-icons';
 import { VscArrowSmallLeft } from 'react-icons/vsc';
 import { IoMdClose } from 'react-icons/io';
 import { useDispatch, useSelector } from 'react-redux';
-import { setFormData } from '@/store/formTransferSlice';
+import {  clearFormData, setFormData } from '@/store/formTransferSlice';
 import StatusMessage from '../StatusMessage/StatusMessage';
 import SvgIcon from '../SvgIcon';
 import pixelEvents from '@/pixelEvents';
@@ -107,6 +107,7 @@ const FormTransfer: React.FC<TransferProps>= ({ onClose, onBackToSelector }) => 
   
         const responseData = await response.json();
         console.log('Response from server:', responseData);
+        dispatch(clearFormData()); // Зберігаємо дані форми в Redux
       } catch (error) {
         setSendStatus("error");
         console.error('Error submitting form:', error);

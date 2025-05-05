@@ -16,7 +16,7 @@ import { IoMdClose } from 'react-icons/io';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { GoPencil } from "react-icons/go";
-import { setFormData } from '@/store/formWorldtoUaSlice';
+import { clearFormData, setFormData } from '@/store/formWorldtoUaSlice';
 import StatusMessage from '../StatusMessage/StatusMessage';
 import SvgIcon from '../SvgIcon';
 import pixelEvents from '@/pixelEvents';
@@ -121,6 +121,7 @@ const FormWorldUA: React.FC<FormUkraineProps> = ({ onClose, onBackToSelector }) 
 
       const responseData = await response.json();
       console.log('Response from server:', responseData);
+      dispatch(clearFormData());
     } catch (error) {
       setSendStatus("error");
       console.error('Error submitting form:', error);
