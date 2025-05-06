@@ -12,3 +12,46 @@
   color: var(--black);
   margin-bottom: 20px;
 }
+/* 🔄 Лоадер */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.loader::after {
+  content: "";
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #999;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ⚠ Інпут ручного вводу */
+.fallbackInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+.fallbackInput:focus {
+  border-color: #007bff;
+  outline: none;
+  background: #fff;
+}
