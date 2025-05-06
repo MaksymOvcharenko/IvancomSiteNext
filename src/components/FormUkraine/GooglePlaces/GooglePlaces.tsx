@@ -46,7 +46,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
   const [selectedSubCity, setSelectedSubCity] = useState<string>("");
   const [deliveryMethod, setDeliveryMethod] = useState<string>("");
   const [inpostMethod, setInpostMethod] = useState<string>("");
-  const [paczkomat, setPaczkomat] = useState<string>("1");
+  const [paczkomat, setPaczkomat] = useState<string>("");
   const [deliveryTypeInt, setDeliveryTypeInt] = useState<'courier' | 'paczkomat'>('courier');
   const handleLoad = (
     autocompleteInstance: google.maps.places.Autocomplete
