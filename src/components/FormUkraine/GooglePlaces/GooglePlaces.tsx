@@ -367,7 +367,8 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         setAddressData(data);
         validateAddress();
       }}
-      countryCode={countryCode}
+                        countryCode={countryCode}
+                        disableCityInput={true}
     />
   )}
 
@@ -394,7 +395,8 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           setAddressData(data);
           validateAddress();
         }}
-        countryCode={countryCode}
+                      countryCode={countryCode}
+                      disableCityInput={true}
       />
     </div>
 )}

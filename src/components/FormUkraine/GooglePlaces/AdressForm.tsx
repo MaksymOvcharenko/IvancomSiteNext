@@ -105,14 +105,16 @@ interface AddressFormProps {
     postalCode: string;
     houseNumber: string;
     apartment: string;
+   
   };
   countryCode?: string;
+  disableCityInput?: boolean;
  // Приймаємо countryCode як пропс
   setAddressData: React.Dispatch<React.SetStateAction<any>>;
   validate: any;
 }
 
-const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, countryCode,validate }) => {
+const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, countryCode,validate, disableCityInput = false }) => {
   const [cityAutocomplete, setCityAutocomplete] = useState<google.maps.places.Autocomplete | null>(null);
   const [streetAutocomplete, setStreetAutocomplete] = useState<google.maps.places.Autocomplete | null>(null);
   const [city, setCity] = useState("null");
@@ -172,7 +174,8 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
       }
     }
   };
-
+  console.log("disableCityInput:", disableCityInput);
+  console.log("addressData.country:", addressData.country);
   return (
     <div className={styles.addressForm}>
       {/* Вибір міста */}
@@ -185,7 +188,7 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
           componentRestrictions: countryCode ? { country: countryCode } : undefined,
         }}
       >
-          <input
+          {/* <input
             className={styles.input}
           type="text"
           value={addressData.city}
@@ -193,7 +196,17 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
               setAddressData((prev: any) => ({ ...prev, city: e.target.value }))
             }}
           placeholder="Введіть місто..."
-        />
+        /> */}
+          <input
+  className={styles.input}
+  type="text"
+  value={addressData.city}
+  onChange={(e) => {
+    setAddressData((prev: any) => ({ ...prev, city: e.target.value }));
+  }}
+  placeholder="Введіть місто..."
+  disabled={!disableCityInput} // або addressData.city !== ''
+/>
       </Autocomplete>
      </label>
       {/* Вибір вулиці та номеру будинку */}
