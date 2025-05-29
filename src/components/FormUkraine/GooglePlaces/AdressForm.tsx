@@ -174,8 +174,8 @@ const AddressForm: React.FC<AddressFormProps> = ({ addressData, setAddressData, 
       }
     }
   };
-  console.log("disableCityInput:", disableCityInput);
-  console.log("addressData.country:", addressData.country);
+  // console.log("disableCityInput:", disableCityInput);
+  // console.log("addressData.country:", addressData.country);
   return (
     <div className={styles.addressForm}>
       {/* Вибір міста */}

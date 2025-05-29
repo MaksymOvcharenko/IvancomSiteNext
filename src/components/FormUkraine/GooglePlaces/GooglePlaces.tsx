@@ -97,12 +97,17 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
     if (addressData.country !== "Poland" ) {
       setDeliveryMethod("dhl");
     
-      
-      if (city && street && postalCode.length >2 && houseNumber) {
+      console.log(addressData);
+      if (
+        city && city.trim().length > 0 &&
+        region && region.trim().length > 0 &&
+        street && street.trim().length > 0 &&
+        postalCode && postalCode.trim().length > 2 &&
+        houseNumber && houseNumber.trim().length > 0 &&
+        /^[\p{L}\p{N}\s\-]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+        !/^\d+$/.test(street.trim())
+      ) {
         setIsAddressValid(true);
-        console.log(addressData);
-        
-        
       } else {
         setIsAddressValid(false);
       }
@@ -119,11 +124,24 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
     }
       }
        if (deliveryTypeInt === "courier") {
-        if (city && region && street && postalCode.length > 2 && houseNumber) {
-        setIsAddressValid(true);
-    } else {
-        setIsAddressValid(false);
-    }
+    //     if (city && region && street && postalCode.length > 2 && houseNumber) {
+    //     setIsAddressValid(true);
+    // } else {
+    //     setIsAddressValid(false);
+         // }
+         if (
+          city && city.trim().length > 0 &&
+          region && region.trim().length > 0 &&
+          street && street.trim().length > 0 &&
+          postalCode && postalCode.trim().length > 2 &&
+          houseNumber && houseNumber.trim().length > 0 &&
+          /^[\p{L}\p{N}\s\-]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+          !/^\d+$/.test(street.trim())
+        ) {
+          setIsAddressValid(true);
+        } else {
+          setIsAddressValid(false);
+        }
       }
     
     };
@@ -138,19 +156,46 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         setIsAddressValid(true);
       }
       if (deliveryMethod === "Courier Ivancom") {
-        if (city && region && street && postalCode && houseNumber) {
+        console.log(addressData);
+        
+        // if (city && region && street && postalCode && houseNumber) {
+        //   setIsAddressValid(true);
+        // } else {
+        //   setIsAddressValid(false);
+        // }
+        if (
+          city && city.trim().length > 0 &&
+          region && region.trim().length > 0 &&
+          street && street.trim().length > 0 &&
+          postalCode && postalCode.trim().length > 2 &&
+          houseNumber && houseNumber.trim().length > 0 &&
+          /^[\p{L}\p{N}\s\-]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+          !/^\d+$/.test(street.trim())
+        ) {
           setIsAddressValid(true);
         } else {
           setIsAddressValid(false);
         }
       }
       if (deliveryMethod === "InPost") {
-        if (city && region && street && postalCode && houseNumber) {
+        // if (city && region && street && postalCode && houseNumber) {
+        //   setIsAddressValid(true);
+        // } else {
+        //   setIsAddressValid(false);
+        //   }
+        if (
+          city && city.trim().length > 0 &&
+          region && region.trim().length > 0 &&
+          street && street.trim().length > 0 &&
+          postalCode && postalCode.trim().length > 2 &&
+          houseNumber && houseNumber.trim().length > 0 &&
+          /^[\p{L}\p{N}\s\-]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+          !/^\d+$/.test(street.trim())
+        ) {
           setIsAddressValid(true);
         } else {
           setIsAddressValid(false);
-          }
-          
+        }
         }
        
       }

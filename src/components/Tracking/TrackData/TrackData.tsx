@@ -288,21 +288,24 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
                 });
                 const json = await response.json();
                 const info = json.data?.[0];
-
+                console.log(info);
                 if (info) {
                     setWeight(info.DocumentWeight ? `${info.DocumentWeight} кг` : "немає даних");
                     setPriceUAH(info.AnnouncedPrice || null);
                     setNpSenderAddress(info.SenderAddress || latest.Division);
 
                     const npTimeline = [];
-                    if (info.ActualDeliveryDate) {
+                    if (info.TrackingUpdateDate
+                    ) {
                         npTimeline.push({
                             type: 'nova',
                             status: info.Status,
-                            date: info.ActualDeliveryDate
+                            date: info.TrackingUpdateDate
+
                         });
                     }
-
+                
+                   
                     // const formattedOur = reversedData.map((item) => ({
                     //     type: 'our',
                     //     status: item.Status,
@@ -473,6 +476,7 @@ const TrackData: React.FC<TrackDataProps> = ({ selected, data, ttn }) => {
         }
         return new Date(date);
     };
+console.log(mergedTimeline);
 
     return (
         <div className={s.trackBox}>
