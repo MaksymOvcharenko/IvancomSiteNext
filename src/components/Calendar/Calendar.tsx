@@ -11,7 +11,7 @@ const Calendar = () => {
   return (
       <section className={styles.container}>
           <div className={styles.imgCont}><Image 
-  src="/image/calendar.jpg" 
+  src="/image/calendar.png" 
   alt="Опис зображення"
               width={352}
               height={352}
