@@ -80,7 +80,7 @@ const Description: React.FC<DescriptionProps> = ({ nextStep, prevStep }) => {
               </div> */}
               <div className={styles.fieldWrapper}>
   <label className={styles.labelWithTooltip}>
-    <Field type="checkbox" name="cold" /> Доставляти в холоді
+    <Field type="checkbox" name="cold" /> Доставляти в холоді (тільки до стаціонарного відділення Ivancom)
     <div className={styles.tooltipWrapper}>
       <span className={styles.questionMark}>?</span>
       <div className={styles.tooltipText}>
