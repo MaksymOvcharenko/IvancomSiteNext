@@ -107,7 +107,7 @@ const tyrePrices: TyreItem[] = [
               </li>
             ))}
           </ul>
-          <ButtonFormOnPage defaultForm="world_to_ukraine">
+          <ButtonFormOnPage defaultForm="ukraine">
            {t('formBtn')}
           </ButtonFormOnPage>
         </div>
