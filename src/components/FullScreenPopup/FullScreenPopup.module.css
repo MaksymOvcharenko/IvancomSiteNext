@@ -1,0 +1,36 @@
+.popupContent {
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s ease-in-out;
+}
+.closeBtn:hover {
+  transform: rotate(90deg);
+}
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (min-width: 320px) {
+}
+
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+  /* .img {
+    width: 1193px;
+    height: 1240px;
+  } */
+}
