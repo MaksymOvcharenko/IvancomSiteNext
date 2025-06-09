@@ -11,6 +11,7 @@ import dynamic from "next/dynamic";
 import Loader from "@/components/SiteLoader/Loader";
 import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
 import FullScreenPopup from "@/components/FullScreenPopup/FullScreenPopup";
+import KeyCrmChatWidget from "@/components/KeyCrmChatWidget/KeyCrmChatWidget";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -80,6 +81,7 @@ export default async function RootLayout({
             </ReduxProvider>
           </div>
         </NextIntlClientProvider>
+        <KeyCrmChatWidget />
       </body>
     </html>
   );
