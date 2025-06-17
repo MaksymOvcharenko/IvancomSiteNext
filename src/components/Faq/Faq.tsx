@@ -3,9 +3,12 @@ import { FC } from 'react';
 import { Disclosure } from '@headlessui/react';
 import styles from './Faq.module.css';
 
-import { ChevronDownIcon, ChevronUpIcon } from 'lucide-react';
+import { ChevronDownIcon, ChevronUpIcon, Link } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import FormattedText from '../FormattedText/FormattedText';
+import ReklamacjaButton from '../ReklamacjaButton/ReklamacjaButton';
+import { BsFillFilePdfFill } from 'react-icons/bs';
+import { CiSaveDown2 } from 'react-icons/ci';
 
 
 interface AccordionComponentProps {}
@@ -134,6 +137,27 @@ const Faq: FC<AccordionComponentProps> = () => {
         </Disclosure.Button>
         <Disclosure.Panel className={styles.disclosurePanel}>
           <FormattedText>{t.raw('faq.question8.answer')}</FormattedText>
+        </Disclosure.Panel>
+      </>
+    )}
+      </Disclosure>
+      <Disclosure>
+    {({ open }) => (
+      <>
+        <Disclosure.Button className={styles.disclosureButton}>
+          <span>{t('faq.question9.question')}</span>
+          <ChevronDownIcon className={`${open ? styles.iconOpen : styles.iconClosed}`} />
+        </Disclosure.Button>
+        <Disclosure.Panel className={styles.disclosurePanel}>
+          <FormattedText>{t.raw('faq.question9.answer')}</FormattedText>
+          <br /><a href="/reklamacja.pdf" target="_blank" rel="noopener noreferrer" className={styles.link1}>
+                {t('faq.question9.rules')}
+                <CiSaveDown2 size={48} />
+              </a>
+              <br />
+              <br />
+              
+              <ReklamacjaButton ><p>{t('faq.question9.form')}</p></ReklamacjaButton>
         </Disclosure.Panel>
       </>
     )}

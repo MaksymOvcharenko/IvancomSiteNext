@@ -3,7 +3,7 @@
 import Modal from "@/components/Modal/Modal";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import popUp from "../../../public/popup.png"; // Adjust the path as necessary
+import popUp from "../../../public/popup1.png"; // Adjust the path as necessary
 import { IoMdClose } from "react-icons/io";
 import { IconContext } from "react-icons";
 import styles from "./FullScreenPopup.module.css"; // Стилі для хрестика

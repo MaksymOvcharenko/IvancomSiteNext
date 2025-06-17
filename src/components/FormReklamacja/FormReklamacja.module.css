@@ -1,0 +1,245 @@
+/* .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 2px 5px 0 rgba(110, 110, 110, 0.1),
+    0 8px 8px 0 rgba(110, 110, 110, 0.09),
+    0 19px 11px 0 rgba(110, 110, 110, 0.05),
+    0 33px 13px 0 rgba(110, 110, 110, 0.01),
+    0 52px 14px 0 rgba(110, 110, 110, 0);
+} */
+.title {
+  text-align: center;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.input,
+.select,
+.datepicker {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding: 2px;
+  background-color: #ffffff9d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeBtn svg {
+  fill: black;
+}
+.closeBtn:hover {
+  transform: rotate(90deg);
+}
+
+.backBtn {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  padding: 2px;
+  background-color: #ffffff9d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backBtn svg {
+  fill: black;
+}
+.backBtn:hover {
+  transform: rotate(90deg);
+}
+
+.formCont {
+  border-radius: 16px;
+  max-width: 390px;
+  padding: 16px;
+  font-family: var(--font-family);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #e5e5e6;
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.formContItem {
+  border-radius: 16px;
+  padding: 16px;
+
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.input {
+  border-radius: 8px;
+  padding: 8px;
+  background: #d6e0f5;
+  width: 100%;
+  border: none;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-align: center;
+  color: #000;
+}
+.titleMain {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.datepicker {
+  border-radius: 8px;
+  padding: 8px;
+  background: #d6e0f5;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  border: none;
+  width: 100%;
+}
+.checkboxLabel {
+  margin-bottom: 20px;
+}
+.checkbox {
+  appearance: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+
+  box-shadow: inset 0 0 5px rgb(0 0 0 / 0.2);
+
+  border: 1.5px solid #000;
+  transition: 500ms;
+}
+
+.checkbox:after {
+  content: "\2713";
+  position: absolute;
+  top: -6px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  font-size: 20px;
+  transition: 500ms;
+  overflow: hidden;
+}
+.checkbox:checked::after {
+  width: 30px;
+  height: 30px;
+  transition: 500ms;
+}
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-left: auto;
+  background: var(--accent-blue);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease-in-out;
+}
+.button:hover {
+  background: #05173b;
+}
+.input::placeholder {
+  color: #363636;
+}
+.sendCont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* Великі планшети і маленькі ноутбуки (від 768px) */
+@media (min-width: 768px) {
+  .formCont {
+    max-width: 700px;
+  }
+  .sendCont {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sendCont input {
+    width: 306px;
+  }
+  .datepicker {
+    width: 306px;
+  }
+  .closeBtn {
+    top: 0px;
+    right: -50px;
+  }
+
+  .backBtn {
+    top: 0px;
+    left: -50px;
+  }
+}
+
+/* Десктопи (від 1280px) */
+@media (min-width: 1280px) {
+}
