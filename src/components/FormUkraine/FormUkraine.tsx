@@ -125,7 +125,7 @@ const FormUkraine: React.FC<FormUkraineProps> = ({
 
       {!scriptLoaded ? (
         <LoadScript
-          googleMapsApiKey="AIzaSyD5CLvd46yy2iIMRzQBhT873NU45WhUvII"
+          googleMapsApiKey="AIzaSyAfmGmNT1pyJllEdaO8LqSA3X4scJ_y40I"
           libraries={["places"]}
           language="en"
         >
