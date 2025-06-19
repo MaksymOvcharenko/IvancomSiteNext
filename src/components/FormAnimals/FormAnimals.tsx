@@ -184,7 +184,7 @@ const FormAnimals: React.FC<TransferProps> = ({ onClose, onBackToSelector }) => 
               <FormObserver storedFormData={storedFormData} />
               <Form className={styles.form} encType="multipart/form-data">
                 <div className={styles.formContItem}>
-                  <h2 className={styles.title}>Контакти</h2>
+                  <h2 className={styles.title}>{t("contacts")}</h2>
                   <div className={styles.sendCont}>
                     <label className={styles.inputLabel}>
                       {t("sender_name")}
@@ -242,7 +242,7 @@ const FormAnimals: React.FC<TransferProps> = ({ onClose, onBackToSelector }) => 
                   </label>
                 </div>
                 <div className={styles.formContItem}>
-                  <h2 className={styles.title}>Локація</h2>
+                  <h2 className={styles.title}>{t("location")}</h2>
                   <label className={styles.inputLabel}>
                     {t("from")}
                     <Field
@@ -279,15 +279,15 @@ const FormAnimals: React.FC<TransferProps> = ({ onClose, onBackToSelector }) => 
                   </label>
                 </div>
                 <div className={styles.formContItem}>
-                  <h2 className={styles.title}>Дані про тварину</h2>
+                  <h2 className={styles.title}>{t("date")}</h2>
                   <div className={styles.sendCont}>
                     <label className={styles.inputLabel}>
                       {t("typeAnimals")}
                       <Field as="select" name="typeAnimals" className={styles.select}>
                         <option value="">{t("typeAnimals")}</option>
-                        <option value="Кіт">Кіт</option>
-                        <option value="Собака">Собака</option>
-                        <option value="Інше">Інше</option>
+                        <option value="Кіт">Кіт (Cat)</option>
+                        <option value="Собака">Собака (Dog)</option>
+                        <option value="Інше">Інше (Other)</option>
                       </Field>
                       <ErrorMessage name="typeAnimals">
                         {(msg) => <p className={styles.error}>{t(msg)}</p>}
@@ -297,7 +297,7 @@ const FormAnimals: React.FC<TransferProps> = ({ onClose, onBackToSelector }) => 
                       {t("weightAnimals")}
                       <Field as="select" name="weightAnimals" className={styles.select}>
                         <option value="">{t("weightAnimals")}</option>
-                        <option value="9">до 10кг</option>
+                        <option value="9"> до 10кг</option>
                         <option value="11">від 10кг</option>
                       </Field>
                       <ErrorMessage name="weightAnimals">
@@ -335,6 +335,7 @@ const FormAnimals: React.FC<TransferProps> = ({ onClose, onBackToSelector }) => 
                       {fileCount > 0
                         ? `${fileCount} файлів обрано`
                         : "Обрати файли"}
+                
                       <FaDownload />
                     </span>
                     <ErrorMessage name="file">

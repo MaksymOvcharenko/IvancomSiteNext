@@ -1242,7 +1242,7 @@
         "add_shipment": "Додати відправлення"
     },
     "FormAnimals": {
-        "title": "Переїзди",
+        "title": "Відправ свого улюбленця просто разом з нами!",
         "sender_name": "Ім'я відправника",
         "sender_name_required": "Введіть ім'я відправника",
         "sender_surname": "Прізвище відправника",
@@ -1271,7 +1271,11 @@
         "upload_file": "Зaвантажити документи",
         "upload_file_required": "Потрібно звантажити файл",
         "File is too large": "Файл надто великий",
-        "choose_file": "Обрані файли"
+        "choose_file": "Обрані файли",
+        "choose_file_required": "Потрібно обрати файл",
+        "location": "Локація",
+        "contacts": "Контакти",
+        "date": "Дані про тварину"
     },
     "HeroServices": {
         "calculate": "Розрахувати вартість",
