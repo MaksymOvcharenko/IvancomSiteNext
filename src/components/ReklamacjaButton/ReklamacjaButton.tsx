@@ -17,9 +17,11 @@ const ReklamacjaButton: React.FC<CalculateButtonProps> = ({ children }) => {
 
   return (
     <>
-      <button className={styles.calcBtn} id="btnForm" onClick={() => { setIsModalOpen(true); pixelEvents.addToCart(); }}>
-        {children}
-      </button>
+      <div className={styles.calcWrapper}>
+        <button className={styles.calcBtn} id="btnForm" onClick={() => { setIsModalOpen(true); pixelEvents.addToCart(); }}>
+          {children}
+        </button>
+      </div >
 
       {isModalOpen && (
         <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>

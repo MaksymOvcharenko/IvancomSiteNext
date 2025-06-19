@@ -58,6 +58,13 @@
       "question8": {
         "question": "Jak zamówić towar z ukraińskiego sklepu internetowego do UE?",
         "answer": "<p>Podczas składania zamówienia:<ul><li>Wpisz te dane w polu dostawy:<br/><br/>Nowa Poczta, obwód lwowski, Hostyncewe, oddział nr 1 (do 1000 kg i wymiarów 70x170x300 cm).<br/>Odbiorca: FOP Kysil Ludmyła Anatolijewna<br/>EDRPOU: 3221718269<br/>+380 (95) 801-04-74.<br/><br/></li><li>Wypełnij ten formularz — dzięki temu dowiemy się, gdzie dostarczyć paczkę :)</li><li>Gdy paczka dotrze do Polski, otrzymasz SMS od IVANCOM.</li></ul></p>"
+      },
+      "question9": {
+        "question": "Co zrobić, jeśli wystąpił problem z przesyłką?",
+        "answer": "<p><strong>Jeśli coś stało się z przesyłką podczas transportu – możesz wypełnić formularz reklamacyjny</strong></p><br/<br><p><strong>Czym jest reklamacja i kiedy warto ją złożyć?</strong><br/>Reklamacja to oficjalne zgłoszenie problemu z przesyłką, które daje możliwość uzyskania odszkodowania. Dotyczy przypadków zagubienia przesyłki lub uszkodzenia jej zawartości.</p><p><br/><strong>Kto może złożyć reklamację?</strong><br/>Tylko Nadawca lub Odbiorca przesyłki. Reklamacje złożone przez inne osoby zostaną automatycznie odrzucone.</p><br/><p><strong>Kiedy i jak złożyć?</strong><ul><li>Reklamację można złożyć w ciągu 7 dni od odebrania przesyłki.</li><li>Po wypełnieniu formularza otrzymasz potwierdzenie na e-mail.</li><li>Rozpatrzenie reklamacji trwa do 30 dni.</li></ul></p><br/><p><strong>Co może być potrzebne dodatkowo?</strong><ul><li>zdjęcia przesyłki przed/po</li><li>zdjęcia uszkodzeń</li><li>paragon lub potwierdzenie wartości</li></ul></p><br/><p><strong>W jakich przypadkach reklamacja nie jest rozpatrywana:</strong><ul><li>minęło więcej niż 7 dni</li><li>niewłaściwe zapakowanie przez klienta</li><li>zabroniona zawartość w paczce</li><li>błędne dane podane przez klienta (zły adres, numer telefonu itp.)</li></ul></p><br/><p><strong>Czy otrzymam odszkodowanie?</strong><br/>Wszystkie przesyłki są ubezpieczone do zadeklarowanej przez Nadawcę wartości.<br/>Wysokość odszkodowania zależy od rodzaju problemu — zapoznaj się z plikiem poniżej z warunkami rekompensat.<br/><br/>❗️ Odszkodowanie nie może przekroczyć zadeklarowanej wartości przesyłki.</p><br/>",
+        "rules": "Przed wypełnieniem formularza upewnij się, że Twoja sytuacja kwalifikuje się do reklamacji.",
+        "form": "Złóż reklamację",
+        "download": "Jak obliczana jest kwota odszkodowania?"
       }
     },
     "delivery": {

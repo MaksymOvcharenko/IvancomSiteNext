@@ -48,6 +48,11 @@
     display: flex;
     gap: 8px;
   }
+  .switcher {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
 }
 
 /* Великі планшети і маленькі ноутбуки (від 768px) */

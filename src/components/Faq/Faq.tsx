@@ -152,7 +152,11 @@ const Faq: FC<AccordionComponentProps> = () => {
           <FormattedText>{t.raw('faq.question9.answer')}</FormattedText>
           <br /><a href="/reklamacja.pdf" target="_blank" rel="noopener noreferrer" className={styles.link1}>
                 {t('faq.question9.rules')}
-                <CiSaveDown2 size={48} />
+             
+              </a>
+              <a href="/reklamacja.pdf" target="_blank" rel="noopener noreferrer" className={styles.link2}>
+              {t('faq.question9.download')}
+                <CiSaveDown2 size={32} />
               </a>
               <br />
               <br />

@@ -58,6 +58,13 @@
       "question8": {
         "question": "How to order from a Ukrainian online store and deliver to Europe?",
         "answer": "<p>When placing your order:<ul><li>Enter this delivery info:<br/><br/>Nova Poshta, Lviv region, Hostyntseve village, branch №1 (up to 1000 kg and size 70x170x300 cm).<br/>Recipient: FOP Kysil Liudmyla Anatoliivna<br/>EDRPOU: 3221718269<br/>+380 (95) 801-04-74.<br/><br/></li><li>Fill in our form — so we’ll know where to deliver your parcel :)</li><li>When the parcel reaches Poland, you’ll get an SMS from IVANCOM.</li></ul></p>"
+      },
+      "question9": {
+        "question": "What to do if there's a problem with the parcel?",
+        "answer": "<p><strong>If something happened to your parcel during transportation – you can fill out a claim form</strong></p><br/<br><p><strong>What is a claim and when should you submit it?</strong><br/>A claim is an official statement about a parcel issue, allowing you to request compensation. It applies to lost or damaged parcels.</p><p><br/><strong>Who can submit a claim?</strong><br/>Only the Sender or the Recipient of the parcel. Claims submitted by others will be automatically rejected.</p><br/><p><strong>When and how to submit?</strong><ul><li>You can submit a claim within 7 days from receiving the parcel.</li><li>After submitting the form, you will receive a confirmation by email.</li><li>The claim is processed within 30 days.</li></ul></p><br/><p><strong>What might be needed additionally?</strong><ul><li>photos of the parcel before/after</li><li>photos of the damage</li><li>receipt or value confirmation</li></ul></p><br/><p><strong>When is the claim not considered:</strong><ul><li>more than 7 days have passed</li><li>inadequate packaging by the customer</li><li>prohibited content in the parcel</li><li>incorrect data provided by the customer (wrong address, phone, etc.)</li></ul></p><br/><p><strong>Will there be compensation?</strong><br/>All parcels are insured up to the declared value provided by the Sender.<br/>The amount of compensation depends on the type of issue — check the file below for compensation terms.<br/><br/>❗️ Compensation cannot exceed the declared value of the parcel.</p><br/>",
+        "rules": "Before filling out the form, make sure your situation qualifies for a claim.",
+        "form": "Submit a claim",
+        "download": "How is the compensation amount calculated?"
       }
     },
     "delivery": {

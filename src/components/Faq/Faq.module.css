@@ -64,6 +64,34 @@
   flex-direction: column;
   text-decoration: underline;
 }
+.link2 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 100%;
+  height: 40px;
+  background: var(--accent-blue);
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+.link2:hover {
+  box-shadow: 4px 4px 8px 0 rgba(3, 0, 214, 0.25);
+  background: #05173b;
+}
+.link2:active {
+  box-shadow: inset 4px 4px 8px 0 rgba(3, 0, 214, 0.25);
+  background: #020066;
+}
 @media (min-width: 320px) {
 }
 /* Великі планшети і маленькі ноутбуки (від 768px) */
