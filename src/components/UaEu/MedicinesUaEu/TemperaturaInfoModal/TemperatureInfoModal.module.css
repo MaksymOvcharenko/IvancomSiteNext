@@ -1,0 +1,70 @@
+.wrapper {
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.boxWarning {
+  background-color: #d5e2f145;
+  border-left: 4px solid var(--accent-blue);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.list {
+  padding-left: 20px;
+  list-style-type: disc;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.boxWarning h3 {
+  color: var(--accent-blue);
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.boxWarning p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.closeButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  z-index: 10;
+}
+
+.closeButton:hover {
+  color: #000;
+  transition: color 0.2s ease-in-out;
+  transform: rotateY(180deg);
+}

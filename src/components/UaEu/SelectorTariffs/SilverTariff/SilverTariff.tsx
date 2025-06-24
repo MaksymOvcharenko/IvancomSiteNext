@@ -44,7 +44,8 @@ const SilverTariff = () => {
         </ul>
 
        <p className={s.descr}>{t('description.snacks')}</p>
-       <p className={s.descr}>{t('description.plates')}</p>
+        <p className={s.descr}>{t('description.plates')}</p>
+        <p className={s.descr}>{t('description.onetype')}</p>
 
         {/* Disclosure 1: Доставка до Польщі */}
         <Disclosure>

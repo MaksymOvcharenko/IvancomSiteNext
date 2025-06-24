@@ -80,11 +80,11 @@ const Description: React.FC<DescriptionProps> = ({ nextStep, prevStep }) => {
               </div> */}
               <div className={styles.fieldWrapper}>
   <label className={styles.labelWithTooltip}>
-    <Field type="checkbox" name="cold" /> Доставляти в холоді (тільки до стаціонарного відділення Ivancom)
+    <Field type="checkbox" name="cold" /> Температурний режим 2-8 °C. (Для ліків)
     <div className={styles.tooltipWrapper}>
       <span className={styles.questionMark}>?</span>
       <div className={styles.tooltipText}>
-        Послуга доступна тільки для ліків які потребують спеціального температурного режиму, вартість послуги 50 злотих
+      Послуга доступна лише на території Польщі
       </div>
     </div>
   </label>

@@ -163,7 +163,8 @@
         },
         "description": {
           "snacks": "With this rate, you can send up to 2 kg of dried fish or fish snacks. If the weight is more – the GOLD rate applies.",
-          "plates": "A set of car license plates – 100 zł + 3% insurance of the declared value."
+          "plates": "A set of car license plates – 100 zł + 3% insurance of the declared value.",
+          "onetype": "One-type items are similar goods that may differ in color, size, weight, or manufacturer. For example: 5 jackets of different sizes, colors, and brands are considered one-type items. Ideal for low-cost shipments (used personal items and electronics)."
         },
         "accordion": {
           "toPoland": "Delivery to Poland",
@@ -207,7 +208,8 @@
           "crypto": "option to pay via crypto wallet"
         },
         "description": {
-          "plates": "Sending a set of license plates costs 100 zł + 3% insurance of the declared value."
+          "plates": "Sending a set of license plates costs 100 zł + 3% insurance of the declared value.",
+          "onetype": "One-type items are similar goods that may differ in color, size, weight, or manufacturer. For example: 5 jackets of different sizes, colors, and brands are considered one-type items. Ideal for low-cost shipments (used personal items and electronics)."
         },
         "accordion": {
           "toPoland": "Delivery to Poland",
@@ -297,6 +299,33 @@
       "title": "IVANCOM quickly, reliably, and at an affordable price delivers medicines from Ukraine to Poland and other European countries.",
       "notice": "Parcel shipment via InPost is carried out within 2 business days from the departure from Ukraine",
       "formBtn": "Fill out",
+      "coldService": {
+        "titlePrefix": "Additional service",
+        "title": "Cold chain delivery (2-8°C)",
+        "available": "Available only to Poland",
+        "toBranch": "To IVANCOM branch:",
+        "priceBranch": "Medicine tariff +50 zł",
+        "toInpost": "InPost parcel locker:",
+        "priceInpost": "Medicine tariff +110 zł",
+        "detailsBtn": "More details"
+      },
+      "TemperatureInfo": {
+        "close": "Close",
+        "title": "How to use the service?",
+        "steps": [
+          "Deliver the order to the IVANCOM warehouse in Ukraine with a temperature regime of 2-8 °C.",
+          "Be sure to consider the dispatch schedule and deliver the package to our warehouse on the day of the route.",
+          "When filling out the form, be sure to indicate: <strong>“Delivery in a temperature regime of 2-8°C”</strong>.",
+          "Carefully provide the address and recipient details.",
+          "Track your parcel status on our website to receive it in time."
+        ],
+        "costTitle": "The service cost includes:",
+        "cost": [
+          "To the Ivancom office — transported in a refrigerator.",
+          "InPost delivery — transported in a refrigerator to our logistics warehouse + we provide our thermal box + pack new frozen coolants (4 pcs) + InPost shipping."
+        ],
+        "attention": "If the parcel, which is then transported by InPost, arrives in Poland on a Saturday or holiday — it will be stored in a refrigerator until the next working day to ensure proper transportation conditions."
+      },
       "tariffs": [
         {
           "title": "Tablets/suppositories",
@@ -316,7 +345,7 @@
         {
           "title": "Injection-based cosmetics",
           "price": "1 package",
-          "note": "Botox (requires refrigeration) – 40 PLN\nPreparations up to 100 ml/g – 10 PLN\nfrom 100 to 250 ml/g – 12 PLN\nfrom 250 to 500 ml/g – 18 PLN\nAmpoules up to 10 ml – 6 PLN\nPreparation in syringes (fillers and beauty injections) – 30 PLN"
+          "note": "Botox  – 40 PLN\nPreparations up to 100 ml/g – 10 PLN\nfrom 100 to 250 ml/g – 12 PLN\nfrom 250 to 500 ml/g – 18 PLN\nAmpoules up to 10 ml – 6 PLN\nPreparation in syringes  – 30 PLN"
         }
       ],
       "attention": [

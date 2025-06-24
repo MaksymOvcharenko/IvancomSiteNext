@@ -163,7 +163,8 @@
         },
         "description": {
           "snacks": "W ramach tej taryfy można wysłać do 2 kg suszonej ryby lub przekąsek rybnych. Jeśli waga przekracza – obowiązuje taryfa GOLD.",
-          "plates": "Komplet tablic rejestracyjnych – 100 zł + 3% ubezpieczenia od zadeklarowanej wartości."
+          "plates": "Komplet tablic rejestracyjnych – 100 zł + 3% ubezpieczenia od zadeklarowanej wartości.",
+          "onetype": "Towary jednego typu to podobne produkty, które mogą różnić się kolorem, rozmiarem, wagą lub producentem. Na przykład: 5 kurtek o różnych rozmiarach, kolorach i markach to towary jednego typu. Idealne do tanich wysyłek (używane rzeczy osobiste i elektronika)."
         },
         "accordion": {
           "toPoland": "Dostawa do Polski",
@@ -207,7 +208,8 @@
           "crypto": "możliwość płatności kryptowalutą"
         },
         "description": {
-          "plates": "Wysyłka kompletu tablic rejestracyjnych – 100 zł + 3% od zadeklarowanej wartości."
+          "plates": "Wysyłka kompletu tablic rejestracyjnych – 100 zł + 3% od zadeklarowanej wartości.",
+          "onetype": "Towary jednego typu to podobne produkty, które mogą różnić się kolorem, rozmiarem, wagą lub producentem. Na przykład: 5 kurtek o różnych rozmiarach, kolorach i markach to towary jednego typu. Idealne do tanich wysyłek (używane rzeczy osobiste i elektronika)."
         },
         "accordion": {
           "toPoland": "Dostawa do Polski",
@@ -297,6 +299,33 @@
       "title": "IVANCOM szybko, niezawodnie i w przystępnej cenie dostarcza leki z Ukrainy do Polski i krajów Europy.",
       "notice": "Wysyłka paczek przez InPost odbywa się w ciągu 2 dni roboczych od dnia wyjazdu z Ukrainy",
       "formBtn": "Wypełnij",
+      "TemperatureInfo": {
+        "close": "Zamknij",
+        "title": "Jak skorzystać z usługi?",
+        "steps": [
+          "Dostarcz zamówienie do magazynu IVANCOM na Ukrainie z zachowaniem temperatury 2-8 °C.",
+          "Weź pod uwagę harmonogram wysyłek i dostarcz paczkę do naszego magazynu w dniu wysyłki.",
+          "W formularzu zaznacz koniecznie: <strong>“Dostawa w reżimie temperaturowym 2-8°C”</strong>.",
+          "Dokładnie podaj adres oraz dane odbiorcy.",
+          "Śledź status swojej paczki na naszej stronie, aby odebrać ją na czas."
+        ],
+        "costTitle": "Cena usługi obejmuje:",
+        "cost": [
+          "Do oddziału Ivancom — transport w lodówce.",
+          "Dostawa InPost — transport w lodówce do naszego magazynu logistycznego + zapewniamy nasz termobox + pakujemy nowy zamrożony chłodziwo (4 szt.) + wysyłka InPost."
+        ],
+        "attention": "Jeśli paczka, która ma być dalej transportowana przez InPost, dotrze do Polski w sobotę lub dzień świąteczny — zostanie przechowana w lodówce do najbliższego dnia roboczego, aby zapewnić odpowiednie warunki transportu."
+      },
+      "coldService": {
+        "titlePrefix": "Usługa dodatkowa",
+        "title": "Dostawa w reżimie temperaturowym (2-8°C)",
+        "available": "Dostępna tylko do Polski",
+        "toBranch": "Do oddziału IVANCOM:",
+        "priceBranch": "Taryfa „Leki” +50 zł",
+        "toInpost": "Paczkomat InPost:",
+        "priceInpost": "Taryfa „Leki” +110 zł",
+        "detailsBtn": "Szczegóły"
+      },
       "tariffs": [
         {
           "title": "Tabletki/czopki",
