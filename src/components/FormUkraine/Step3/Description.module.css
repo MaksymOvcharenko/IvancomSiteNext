@@ -179,7 +179,12 @@
 .tooltipWrapper:hover .tooltipText {
   visibility: visible;
 }
-
+.required {
+  color: red;
+}
+.requiredspan {
+  margin-bottom: 20px;
+}
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
   .formContainer {

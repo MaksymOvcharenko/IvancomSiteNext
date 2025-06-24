@@ -53,7 +53,7 @@ const Description: React.FC<DescriptionProps> = ({ nextStep, prevStep }) => {
               <h2 className={styles.formContTitle}>Опис посилки</h2>
               <div className={styles.inputCont}>
                 <label htmlFor="description" className={styles.label}>
-                  Вкажіть опис посилки:
+                  <p>Вкажіть опис посилки: <span className={styles.required}>*</span></p>
                   <Field
                     as="textarea"
                     id="description"
@@ -99,7 +99,7 @@ const Description: React.FC<DescriptionProps> = ({ nextStep, prevStep }) => {
               <div className={styles.fieldWrapper}>
                 <label>
                   <Field type="checkbox" name="agree" /> Я погоджуюсь з обробкою
-                  персональних даних
+                  персональних даних <span className={styles.required}>*</span>
                 </label>
                 <ErrorMessage
                   name="agree"
@@ -108,8 +108,13 @@ const Description: React.FC<DescriptionProps> = ({ nextStep, prevStep }) => {
                 />
               </div>
             </div>
-
+            <p className={styles.requiredspan}>
+            {" "}
+            Треба заповнити обов&apos;язкові поля{" "}
+            <span className={styles.required}>*</span>
+          </p>
             <div className={styles.buttonWrapper}>
+            
               <button
                 type="button"
                 onClick={prevStep}

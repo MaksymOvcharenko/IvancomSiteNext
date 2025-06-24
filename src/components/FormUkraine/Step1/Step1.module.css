@@ -11,6 +11,10 @@
     color: red;
     font-size: 14px;
   }
+  .required {
+    color: red;
+  }
+
   .formContTitle {
     font-family: var(--font-family);
     font-weight: 700;

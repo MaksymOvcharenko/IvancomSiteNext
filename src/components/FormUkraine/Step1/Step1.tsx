@@ -130,7 +130,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
           <div className={styles.sender}>
             <h4 className={styles.formContItemTitle}>{t("sender")}</h4>
             <div className={styles.inputCont}>
-              <label htmlFor="ttn">{t("ttnLabel")}</label>
+              <label htmlFor="ttn">{t("ttnLabel")}<span className={styles.required}> *</span></label>
               <Field
                 name="ttn"
                 type="text"
@@ -150,7 +150,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
 
             <div className={styles.flexCont}>
                 <div className={styles.inputCont}>
-                  <label>{t("senderNameLabel")}</label>
+                  <label>{t("senderNameLabel")}<span className={styles.required}> *</span></label>
                   <Field
                     name="senderName"
                     type="text"
@@ -170,7 +170,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                 </div>
     
                 <div className={styles.inputCont}>
-                  <label>{t("senderSurnameLabel")}</label>
+                  <label>{t("senderSurnameLabel")}<span className={styles.required}> *</span></label>
                   <Field
                     name="senderSurname"
                     type="text"
@@ -186,7 +186,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
             </div>
             <div className={styles.flexCont}>
                 <div className={styles.inputCont}>
-                  <label>{t("senderPhoneLabel")}</label>
+                  <label>{t("senderPhoneLabel")}<span className={styles.required}> *</span></label>
                   <PhoneInput
                                   country={"ua"}
                                 
@@ -203,7 +203,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                   />
                 </div>
                 <div className={styles.inputCont}>
-                  <label>{t("senderEmailLabel")}</label>
+                  <label>{t("senderEmailLabel")}<span className={styles.required}> *</span></label>
                   <Field
                     name="senderEmail"
                     type="email"
@@ -222,7 +222,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
             <h4 className={styles.formContItemTitle}>Дані Отримувача</h4>
             <div className={styles.flexCont}>
                 <div className={styles.inputCont}>
-                  <label>{t("receiverNameLabel")}</label>
+                  <label>{t("receiverNameLabel")}<span className={styles.required}> *</span></label>
                   <Field
                     name="receiverName"
                     type="text"
@@ -237,7 +237,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                 </div>
     
                 <div className={styles.inputCont}>
-                  <label>{t("receiverSurnameLabel")}</label>
+                  <label>{t("receiverSurnameLabel")}<span className={styles.required}> *</span></label>
                   <Field
                     name="receiverSurname"
                     type="text"
@@ -253,7 +253,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
             </div>
             <div className={styles.flexCont}>
                 <div className={styles.inputCont}>
-                  <label>{t("receiverPhoneLabel")}</label>
+                  <label>{t("receiverPhoneLabel")}<span className={styles.required}> *</span></label>
                   <PhoneInput
                     country={"ua"}
                   value={values.receiverPhone || receiverPhone}
@@ -277,7 +277,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                   />
                 </div>
                 <div className={styles.inputCont}>
-                  <label>{t("senderEmailLabel")}</label>
+                  <label>{t("senderEmailLabel")}<span className={styles.required}> *</span></label>
                   <Field
                     name="receiverEmail"
                     type="email"
@@ -307,7 +307,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
 </div>
             <div className={styles.inputCont}>
               <label>{t("promocodeLabel")}</label>
-              <Field name="promocode" type="text" className={styles.input} />
+              <Field name="promocode" type="text" className={styles.input} placeholder="Якщо маєш" />
               <ErrorMessage
                 name="promocode"
                 component="div"
@@ -317,7 +317,11 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
 
             
           </div>
-
+          <p className={styles.requiredspan}>
+            {" "}
+            Треба заповнити обов&apos;язкові поля{" "}
+            <span className={styles.required}>*</span>
+          </p>
           <button type="submit" className={styles.button} >
             {t("submitButton")}<SvgIcon name="sparow" />
           </button>
