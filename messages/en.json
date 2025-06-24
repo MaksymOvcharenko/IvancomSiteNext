@@ -187,8 +187,90 @@
             },
             "tables": {
               "ivankomBranch": "Delivery to IVANCOM branches in Poland",
+              "rows": [
+                {
+                  "weight": "up to 2 kg",
+                  "price": "40 zł"
+                },
+                {
+                  "weight": "2–5 kg",
+                  "price": "60 zł"
+                },
+                {
+                  "weight": "5–10 kg",
+                  "price": "80 zł"
+                },
+                {
+                  "weight": "10–15 kg",
+                  "price": "100 zł"
+                },
+                {
+                  "weight": "15–20 kg",
+                  "price": "120 zł"
+                },
+                {
+                  "weight": "20–30 kg",
+                  "price": "150 zł"
+                },
+                {
+                  "weight": "over 30 kg",
+                  "price": "5 zł / kg"
+                }
+              ],
               "courier": "IVANCOM courier service cost",
+              "rows1": [
+                {
+                  "weight": "Krakow",
+                  "price": "from 40 zł"
+                },
+                {
+                  "weight": "Warsaw",
+                  "price": "from 30 zł"
+                },
+                {
+                  "weight": "Katowice",
+                  "price": "from 30 zł"
+                },
+                {
+                  "weight": "Wroclaw",
+                  "price": "from 30 zł"
+                },
+                {
+                  "weight": "Kielce",
+                  "price": "free within the city"
+                }
+              ],
               "inpost": "Delivery by INPOST partner in Poland (courier/parcel locker)",
+              "rows2": [
+                {
+                  "weight": "up to 2 kg",
+                  "price": "60 zł"
+                },
+                {
+                  "weight": "2–5 kg",
+                  "price": "80 zł"
+                },
+                {
+                  "weight": "5–10 kg",
+                  "price": "110 zł"
+                },
+                {
+                  "weight": "10–15 kg",
+                  "price": "130 zł"
+                },
+                {
+                  "weight": "15–20 kg",
+                  "price": "150 zł"
+                },
+                {
+                  "weight": "20–30 kg",
+                  "price": "190 zł"
+                },
+                {
+                  "weight": "over 30 kg",
+                  "price": "7 zł / kg"
+                }
+              ],
               "inpostNote": "Shipment via InPost is carried out within 2 business days from the departure from Ukraine."
             }
           }

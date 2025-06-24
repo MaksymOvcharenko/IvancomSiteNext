@@ -187,8 +187,90 @@
             },
             "tables": {
               "ivankomBranch": "Dostawa do oddziałów IVANCOM w Polsce",
+              "rows": [
+                {
+                  "weight": "do 2 kg",
+                  "price": "40 zł"
+                },
+                {
+                  "weight": "2–5 kg",
+                  "price": "60 zł"
+                },
+                {
+                  "weight": "5–10 kg",
+                  "price": "80 zł"
+                },
+                {
+                  "weight": "10–15 kg",
+                  "price": "100 zł"
+                },
+                {
+                  "weight": "15–20 kg",
+                  "price": "120 zł"
+                },
+                {
+                  "weight": "20–30 kg",
+                  "price": "150 zł"
+                },
+                {
+                  "weight": "powyżej 30 kg",
+                  "price": "5 zł / kg"
+                }
+              ],
               "courier": "Koszt usług kuriera IVANCOM",
+              "rows1": [
+                {
+                  "weight": "Kraków",
+                  "price": "od 40 zł"
+                },
+                {
+                  "weight": "Warszawa",
+                  "price": "od 30 zł"
+                },
+                {
+                  "weight": "Katowice",
+                  "price": "od 30 zł"
+                },
+                {
+                  "weight": "Wrocław",
+                  "price": "od 30 zł"
+                },
+                {
+                  "weight": "Kielce",
+                  "price": "bezpłatnie w mieście"
+                }
+              ],
               "inpost": "Dostawa przez partnera INPOST na terenie Polski (kurier/paczkomat)",
+              "rows2": [
+                {
+                  "weight": "do 2 kg",
+                  "price": "60 zł"
+                },
+                {
+                  "weight": "2–5 kg",
+                  "price": "80 zł"
+                },
+                {
+                  "weight": "5–10 kg",
+                  "price": "110 zł"
+                },
+                {
+                  "weight": "10–15 kg",
+                  "price": "130 zł"
+                },
+                {
+                  "weight": "15–20 kg",
+                  "price": "150 zł"
+                },
+                {
+                  "weight": "20–30 kg",
+                  "price": "190 zł"
+                },
+                {
+                  "weight": "powyżej 30 kg",
+                  "price": "7 zł / kg"
+                }
+              ],
               "inpostNote": "Wysyłka przez InPost realizowana jest w ciągu 2 dni roboczych od wyjazdu z Ukrainy."
             }
           }
