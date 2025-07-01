@@ -100,7 +100,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
       console.log(addressData);
       if (
         city && city.trim().length > 0 &&
-        region && region.trim().length > 0 &&
+        // region && region.trim().length > 0 &&
         street && street.trim().length > 0 &&
         postalCode && postalCode.trim().length > 2 &&
         houseNumber && houseNumber.trim().length > 0 &&
