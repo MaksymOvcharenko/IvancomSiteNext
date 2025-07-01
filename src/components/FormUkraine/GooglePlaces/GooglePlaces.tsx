@@ -104,7 +104,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         street && street.trim().length > 0 &&
         postalCode && postalCode.trim().length > 2 &&
         houseNumber && houseNumber.trim().length > 0 &&
-        /^[\p{L}\p{N}\s\-]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+        /^[\p{L}\p{N}\s\-.]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
         !/^\d+$/.test(street.trim())
       ) {
         setIsAddressValid(true);
@@ -135,7 +135,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           street && street.trim().length > 0 &&
           postalCode && postalCode.trim().length > 2 &&
           houseNumber && houseNumber.trim().length > 0 &&
-          /^[\p{L}\p{N}\s\-’']+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+          /^[\p{L}\p{N}\s\-’'.]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
           !/^\d+$/.test(street.trim())
         ) {
           setIsAddressValid(true);
@@ -169,7 +169,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           street && street.trim().length > 0 &&
           postalCode && postalCode.trim().length > 2 &&
           houseNumber && houseNumber.trim().length > 0 &&
-          /^[\p{L}\p{N}\s\-]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+          /^[\p{L}\p{N}\s\-.]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
           !/^\d+$/.test(street.trim())
         ) {
           setIsAddressValid(true);
@@ -189,7 +189,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
           street && street.trim().length > 0 &&
           postalCode && postalCode.trim().length > 2 &&
           houseNumber && houseNumber.trim().length > 0 &&
-          /^[\p{L}\p{N}\s\-]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
+          /^[\p{L}\p{N}\s\-.]+$/u.test(street.trim()) &&  // Допускаем буквы всех языков, цифры, пробелы и тире
           !/^\d+$/.test(street.trim())
           
         ) {
