@@ -303,7 +303,9 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
                     value="courier"
                     className={styles.radiobtn}
                     checked={inpostMethod === "courier"}
-                    onChange={() => setInpostMethod("courier")}
+                    onChange={() => {setInpostMethod("courier"); setPaczkomat(""); console.log("inpostMethod", inpostMethod); console.log("paczkomat", paczkomat);console.log("addressData", addressData); 
+                    
+                    }}
                   />
                   Кур&apos;єр
                 </label>
