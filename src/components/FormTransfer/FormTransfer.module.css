@@ -212,6 +212,26 @@
   flex-direction: column;
   gap: 20px;
 }
+.phoneContainer {
+  width: 100%;
+}
+
+.phoneInput {
+  width: 100% !important;
+  padding-left: 58px !important; /* Враховує прапорець і код країни */
+  padding-right: 12px;
+  height: 44px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left; /* <- вирівнює цифри вправо */
+}
+
+/* .phoneInput:focus {
+  outline: none;
+  border-color: #000;
+} */
 /* Великі планшети і маленькі ноутбуки (від 768px) */
 @media (min-width: 768px) {
   .formCont {

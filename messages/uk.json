@@ -1325,7 +1325,7 @@
         "sender_email": "Електронна пошта",
         "sender_email_required": "Введіть електронну пошту",
         "sender_email_invalid": "Некоректний формат електронної пошти",
-        "sender_phone": "Номер телефону або нік у Telegram",
+        "sender_phone": "Номер телефону ",
         "sender_phone_required": "Введіть номер телефону або нік у Telegram",
         "hide_phone": "Номер не прихований у Telegram",
         "send_date": "Дата переїзду",
@@ -1336,7 +1336,9 @@
         "for_required": "Куди плануєш переїзд ?",
         "agreement": "Я погоджуюсь з умовами",
         "agreement_required": "Потрібно прийняти умови",
-        "submit": "Відправити"
+        "submit": "Відправити",
+        "sender_phone_invalid": "Некоректний номер телефону",
+        "telegram_nick": "Нік у Telegram"
     },
     "FormInfo": {
         "greeting": "Вітаємо!",

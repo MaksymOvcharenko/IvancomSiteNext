@@ -16,12 +16,22 @@ import {  clearFormData, setFormData } from '@/store/formTransferSlice';
 import StatusMessage from '../StatusMessage/StatusMessage';
 import SvgIcon from '../SvgIcon';
 import pixelEvents from '@/pixelEvents';
-
+import PhoneInput from 'react-phone-input-2';
+import { isValidPhoneNumber } from 'libphonenumber-js';
 const schema = yup.object().shape({
   senderName: yup.string().required('sender_name_required'),
   senderSurname: yup.string().required('sender_surname_required'),
   senderEmail: yup.string().email('sender_email_invalid').required('sender_email_required'),
-  senderPhone: yup.string().required('sender_phone_required'),
+  senderPhone: yup
+  .string()
+  .required('sender_phone_required')
+  .test('valid-phone', 'sender_phone_invalid', value => {
+    try {
+      return isValidPhoneNumber("+"+value || '');
+    } catch {
+      return false;
+    }
+  }),
   hidePhone: yup.boolean(),
  
 
@@ -31,6 +41,7 @@ const schema = yup.object().shape({
   for: yup.string().required('for'),
   promoCode: yup.string(),
   agreement: yup.boolean().oneOf([true], 'agreement_required'),
+  telegramNick: yup.string(),
 });
 
 type FormValues = yup.InferType<typeof schema>;
@@ -149,10 +160,33 @@ const FormTransfer: React.FC<TransferProps>= ({ onClose, onBackToSelector }) => 
           <input {...register('senderEmail')} placeholder={t("sender_email")} type="email" className={styles.input} />
           {errors.senderEmail && <p className={styles.error}>{t(errors.senderEmail.message)}</p>}
           </label>
-           <label className={styles.inputLabel}>{t("sender_phone")}
+           {/* <label className={styles.inputLabel}>{t("sender_phone")}
           <input {...register('senderPhone')} placeholder={t("sender_phone")} className={styles.input} />
           {errors.senderPhone && <p className={styles.error}>{t(errors.senderPhone.message)}</p>}
-              </label>
+              </label> */}
+          <label className={styles.inputLabel}>{t("sender_phone")}
+  <PhoneInput
+    country={'ua'}
+    value={formData.senderPhone || ''}
+    onChange={(phone) => setValue('senderPhone', phone)}
+    inputProps={{
+      name: 'senderPhone',
+      required: true,
+    }}
+    inputClass={styles.phoneInput}
+    containerClass={styles.phoneContainer}
+  />
+  {errors.senderPhone && <p className={styles.error}>{t(errors.senderPhone.message)}</p>}
+</label>
+
+<label className={styles.inputLabel}>{t("telegram_nick")}
+  <input
+    {...register('telegramNick')}
+    placeholder="@your_nick"
+    className={styles.input}
+  />
+  {errors.telegramNick && <p className={styles.error}>{t(errors.telegramNick.message)}</p>}
+</label>
           <label className={styles.checkboxLabel}>
             <input type="checkbox" {...register('hidePhone')} className={styles.checkbox} />
             {t("hide_phone")}
