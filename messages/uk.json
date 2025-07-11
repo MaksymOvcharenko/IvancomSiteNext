@@ -1276,7 +1276,7 @@
         "city": "Місто",
         "city_required": "Виберіть місто",
         "np_department": "Відділення Нової Пошти",
-        "np_department_required": "Введіть номер відділення",
+        "np_department_required": "Введіть номер відділення, максимально 50 символів",
         "currency": "Валюта",
         "currency_required": "Обери валюту",
         "currencyPay": "Спосіб оплати",

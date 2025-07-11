@@ -37,7 +37,7 @@ const schema = yup.object().shape({
   recipientPhone: yup.string().required('recipient_phone_required'),
   region: yup.string().required('region_required'),
   city: yup.string().required('city_required'),
-  npDepartment: yup.string().required('np_department_required'),
+  npDepartment: yup.string().required('np_department_required').max(50, 'np_department_required'),
   currency: yup.string().required('currency_required'),
   currencypay: yup.string().required('currencyPay_required'),
   promoCode: yup.string(),

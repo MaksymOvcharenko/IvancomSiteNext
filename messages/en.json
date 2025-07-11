@@ -1286,7 +1286,7 @@
     "city": "City",
     "city_required": "Select a city",
     "np_department": "Nova Poshta branch",
-    "np_department_required": "Enter the branch number",
+    "np_department_required": "Enter the branch number, max 50 characters",
     "currency": "Currency",
     "currency_required": "Select a currency",
     "currencyPay": "Payment method",

@@ -1286,7 +1286,7 @@
     "city": "Miasto",
     "city_required": "Wybierz miasto",
     "np_department": "Oddział Nova Poshta",
-    "np_department_required": "Wprowadź numer oddziału",
+    "np_department_required": "Wprowadź numer oddziału, max 50 znaków",
     "currency": "Waluta",
     "currency_required": "Wybierz walutę",
     "currencyPay": "Sposób płatności",
