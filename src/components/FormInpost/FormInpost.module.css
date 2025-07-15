@@ -17,6 +17,9 @@
   height: 100vh;
   border: none;
   overflow: hidden;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; /* 🧠 критично для iOS */
+  overscroll-behavior: contain;
 }
 .closeBtn {
   position: absolute;
