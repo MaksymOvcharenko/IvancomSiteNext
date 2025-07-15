@@ -29,6 +29,7 @@ const FormInpost: React.FC<FormInpostProps> = ({ onClose, onBackToSelector }) =>
       <iframe
         src="https://package-ivancom.vercel.app/" // Замініть на потрібний URL
         className={styles.form}
+        scrolling="yes"   
         allowFullScreen
       ></iframe>
       

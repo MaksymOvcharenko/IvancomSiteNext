@@ -5,7 +5,7 @@
   justify-content: center;
   margin: 0 auto;
   align-items: center;
-  overflow: hidden; /* Забороняє скролінг всередині */
+  overflow: auto; /* Забороняє скролінг всередині */
 }
 
 .form {
