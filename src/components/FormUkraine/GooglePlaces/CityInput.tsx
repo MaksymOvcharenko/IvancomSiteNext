@@ -283,16 +283,29 @@ const CityAutocomplete: React.FC<CityAutoComplete> = ({subcity , delivery, setAd
       } else {
         // Перевіряємо, чи є підміст з опціями доставки
         let found = false;
-        for (let key in linkedCities) {
-          const subCity = linkedCities[key as keyof typeof linkedCities].subCities[cityName];
-          if (subCity) {
-              console.log(`Вибрано підмісто: ${cityName}, підпорядковується місту: ${key}`);
-              subcity(key);
-            setDeliveryOptions(subCity.deliveryOptions);
-            found = true;
-            break;
-          }
-        }
+        // for (let key in linkedCities) {
+        //   const subCity = linkedCities[key as keyof typeof linkedCities].subCities[cityName];
+        //   if (subCity) {
+        //       console.log(`Вибрано підмісто: ${cityName}, підпорядковується місту: ${key}`);
+        //       subcity(key);
+        //     setDeliveryOptions(subCity.deliveryOptions);
+        //     found = true;
+        //     break;
+        //   }
+        // }
+const normalizedCityName = cityName.replace(/\s/g, "_");
+
+for (let key in linkedCities) {
+  const subCity = linkedCities[key as keyof typeof linkedCities].subCities[normalizedCityName];
+
+  if (subCity) {
+    console.log(`Вибрано підмісто: ${cityName}, підпорядковується місту: ${key}`);
+    subcity(key);
+    setDeliveryOptions(subCity.deliveryOptions);
+    found = true;
+    break;
+  }
+}
 
         // Якщо підмістів або міста не знайдено, очищуємо варіанти доставки
         if (!found) {

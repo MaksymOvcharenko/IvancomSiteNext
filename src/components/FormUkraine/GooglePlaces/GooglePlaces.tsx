@@ -9,6 +9,7 @@ import SvgIcon from "@/components/SvgIcon";
 import { useDispatch } from "react-redux";
 import { setFormData, setPackageData } from "@/store/formUatoWorld";
 import InPostGeoWidgetInt from "./inpostGeowidgetInternational";
+import { log } from "console";
 // Новий компонент для вибору міста
 // Новий компонент для вибору методу доставки
 
@@ -157,7 +158,9 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
       }
       if (deliveryMethod === "Courier Ivancom") {
         console.log(addressData);
-        
+       
+        setPaczkomat("");
+        console.log(isAddressValid);
         // if (city && region && street && postalCode && houseNumber) {
         //   setIsAddressValid(true);
         // } else {
@@ -181,9 +184,13 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         // if (city && region && street && postalCode && houseNumber) {
         //   setIsAddressValid(true);
         // } else {
-        //   setIsAddressValid(false);
+     
+        console.log   ("setIsAddressValid(false)", isAddressValid);
+     
         //   }
+       
         if (
+          
           city && city.trim().length > 0 &&
           region && region.trim().length > 0 &&
           street && street.trim().length > 0 &&
@@ -210,6 +217,7 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
         }
   };
   useEffect(() => {
+     setIsAddressValid(false);
     validateAddress(); // Викликається після кожної зміни в addressData
   }, [addressData, deliveryMethod,paczkomat, inpostMethod]);
 
@@ -292,7 +300,15 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
                     value="paczkomat"
                     className={styles.radiobtn}
                     checked={inpostMethod === "paczkomat"}
-                    onChange={() => setInpostMethod("paczkomat")}
+                    onChange={() => {
+                      setInpostMethod("paczkomat");
+                      setAddressData((prev: any) => ({
+                        ...prev,
+                        street: "",
+                        houseNumber: "",
+                        postalCode: ""
+                      }));
+                    }}
                   />
                   Paczkomat
                 </label>
@@ -304,7 +320,12 @@ const CountryInput: React.FC<CountryInputProps> = ({ nextStep, prevStep }) => {
                     className={styles.radiobtn}
                     checked={inpostMethod === "courier"}
                     onChange={() => {setInpostMethod("courier"); setPaczkomat(""); console.log("inpostMethod", inpostMethod); console.log("paczkomat", paczkomat);console.log("addressData", addressData); 
-                    
+                     setAddressData((prev: any) => ({
+                        ...prev,
+                        street: "",
+                        houseNumber: "",
+                        postalCode: ""
+                      }));
                     }}
                   />
                   Кур&apos;єр
