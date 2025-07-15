@@ -137,7 +137,12 @@ a {
 body {
   font-family: var(--font-family) !important;
 }
-
+html,
+body {
+  overscroll-behavior: none;
+  touch-action: manipulation;
+}
+/* тест */
 h1,
 h2,
 h3 {

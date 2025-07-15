@@ -14,11 +14,17 @@
   margin: 0 auto;
   min-width: 375px;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   border: none;
   overflow: hidden;
   overflow: auto;
   -webkit-overflow-scrolling: touch; /* 🧠 критично для iOS */
+  overscroll-behavior: contain;
+}
+.iframeWrapper {
+  height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
 }
 .closeBtn {
