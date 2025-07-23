@@ -1320,7 +1320,10 @@
     "payerReceiver": "Receiver",
     "payerSender": "Sender",
     "submitButton": "Next",
-    "senderEmailLabel": "Email"
+    "senderEmailLabel": "Email",
+    "companySenderLabel": "Nadawca to firma",
+    "companyNameLabel": "Nazwa firmy",
+    "companyNameRequired": "Wprowadź nazwę firmy"
   },
   "FormTransfer": {
     "title": "Relocations",

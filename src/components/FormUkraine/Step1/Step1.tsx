@@ -25,6 +25,8 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
   const [receiverSurname, setReceiverSurname] = useState("");
   const [receiverPhone, setReceiverPhone] = useState("");
   const [receiverEmail, setReceiverEmail] = useState("");
+  const [isCompany, setIsCompany] = useState(false);
+
     const dispatch = useDispatch();
     const initValues = useSelector((state: any) => state.formUatoWorld.formData) || {};
   const validationSchema = Yup.object().shape({
@@ -53,6 +55,13 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
     receiverPhone: Yup.string().required(t("fieldRequired")),
     payer: Yup.string().required(t("selectPayer")),
     promocode: Yup.string(),
+    companyName: Yup.string()
+  .max(300, "Максимум 300 символів")
+  .when("isCompany", {
+    is: true,
+    then: (schema) => schema.required(t("companyNameRequired")),
+    otherwise: (schema) => schema.notRequired(),
+  }),
   });
 
   const handleTTNChange = async (ttn: string, setFieldValue: any) => {
@@ -289,8 +298,42 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
                     component="div"
                     className={styles.error}
                   />
-                </div>
+              </div>
+              
             </div>
+            <div className={styles.inputCont}>
+  <label className={styles.radioLabel}>
+    <input
+      type="checkbox"
+      className={styles.radiobtn}
+      checked={isCompany}
+      onChange={() => setIsCompany(!isCompany)}
+    />
+    {t("companySenderLabel")}
+    
+  </label>
+</div>
+
+{isCompany && (
+  <div className={styles.inputCont}>
+    <label htmlFor="companyName">
+      {t("companyNameLabel")}
+      <span className={styles.required}> *</span>
+    </label>
+    <Field
+      name="companyName"
+      type="text"
+      className={styles.input}
+      maxLength={300}
+    />
+    <ErrorMessage
+      name="companyName"
+      component="div"
+      className={styles.error}
+    />
+  </div>
+)}
+
           </div>
 
                   <div className={styles.sender}>

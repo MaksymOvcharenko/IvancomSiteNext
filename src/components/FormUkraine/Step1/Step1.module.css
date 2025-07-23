@@ -14,6 +14,13 @@
   .required {
     color: red;
   }
+  .radioLabel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    margin-bottom: 8px;
+  }
 
   .formContTitle {
     font-family: var(--font-family);

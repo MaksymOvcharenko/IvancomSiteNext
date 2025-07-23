@@ -1314,7 +1314,10 @@
         "submitButton": "Далі",
         "senderEmailLabel": "Email",
         "invalidEmail": "Введіть Email",
-        "onlyLatin": "Тільки латинські літери"
+        "onlyLatin": "Тільки латинські літери",
+        "companySenderLabel": "Отримувач компанія",
+        "companyNameLabel": "Назва компанії",
+        "companyNameRequired": "Введіть назву компанії"
     },
     "FormTransfer": {
         "title": "Переїзди",

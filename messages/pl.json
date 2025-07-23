@@ -1322,7 +1322,10 @@
     "payerReceiver": "Odbiorca",
     "payerSender": "Nadawca",
     "submitButton": "Dalej",
-    "senderEmailLabel": "Email"
+    "senderEmailLabel": "Email",
+    "companySenderLabel": "Nadawca to firma",
+    "companyNameLabel": "Nazwa firmy",
+    "companyNameRequired": "Wprowadź nazwę firmy"
   },
   "FormTransfer": {
     "title": "Przeprowadzki",

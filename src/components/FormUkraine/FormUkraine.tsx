@@ -40,6 +40,7 @@ interface RootState {
       inpostMethod: string;
       description: string;
       agree: boolean;
+      
     };
   };
 }
