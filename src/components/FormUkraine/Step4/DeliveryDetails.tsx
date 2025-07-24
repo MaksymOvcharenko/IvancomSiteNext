@@ -31,6 +31,9 @@ interface RootState {
       description: string;
       agree: boolean;
       deliveryTypeInt: string;
+      promocode: string;
+      cold: boolean;
+      companyName: string;
     };
   };
 }
@@ -87,32 +90,44 @@ const DeliveryDetails: React.FC<DeliveryDetailsProps> = ({
         </div>
       </div>
 
-      <div className={styles.section}>
-        <h3>
-          Дані отримувача{" "}
-          <GoPencil onClick={() => setStep(1)} color="#0884d5" />
-        </h3>
-        <div className={styles.flexCont}>
-          <div className={styles.textWrapper}>
-            <div className={styles.text}>Ім&apos;я: </div>
-            {formData.receiverName}
-          </div>
-          <div className={styles.textWrapper}>
-            <div className={styles.text}>Прізвище: </div>
-            {formData.receiverSurname}
-          </div>
-        </div>
-        <div className={styles.flexCont}>
-          <div className={styles.textWrapper}>
-            <div className={styles.text}>Телефон: </div>
-            {formData.receiverPhone}
-          </div>
-          <div className={styles.textWrapper}>
-            <div className={styles.text}>E-mail: </div>
-            {formData.receiverEmail}
-          </div>
-        </div>
+     
+<div className={styles.section}>
+  <h3>
+    Дані отримувача{" "}
+    <GoPencil onClick={() => setStep(1)} color="#0884d5" />
+  </h3>
+
+  {formData.companyName && (
+    <div className={styles.flexCont}>
+      <div className={styles.textWrapper}>
+        <div className={styles.text}>Компанія: </div>
+        {formData.companyName}
       </div>
+    </div>
+  )}
+
+  <div className={styles.flexCont}>
+    <div className={styles.textWrapper}>
+      <div className={styles.text}>Ім&apos;я: </div>
+      {formData.receiverName}
+    </div>
+    <div className={styles.textWrapper}>
+      <div className={styles.text}>Прізвище: </div>
+      {formData.receiverSurname}
+    </div>
+  </div>
+
+  <div className={styles.flexCont}>
+    <div className={styles.textWrapper}>
+      <div className={styles.text}>Телефон: </div>
+      {formData.receiverPhone}
+    </div>
+    <div className={styles.textWrapper}>
+      <div className={styles.text}>E-mail: </div>
+      {formData.receiverEmail}
+    </div>
+  </div>
+</div>
 
       <div className={styles.section}>
         <h3>
@@ -124,7 +139,29 @@ const DeliveryDetails: React.FC<DeliveryDetailsProps> = ({
           {formData.payer === "sender" ? "Відправник" : "Отримувач"}
         </div>
       </div>
+<div className={styles.section}>
+  <h3>
+    Хто сплачує послуги{" "}
+    <GoPencil onClick={() => setStep(1)} color="#0884d5" />
+  </h3>
+  <div className={styles.textWrapper}>
+    <div className={styles.text}>Платник: </div>
+    {formData.payer === "sender" ? "Відправник" : "Отримувач"}
+  </div>
 
+  {formData.promocode && (
+    <div className={styles.textWrapper}>
+      <div className={styles.text}>Промокод: </div>
+      {formData.promocode}
+    </div>
+        )}
+        {formData.cold === true && (
+    <div className={styles.textWrapper}>
+      <div className={styles.text}>Доставка: </div>
+      Обрано доставку в холоді
+    </div>
+  )}
+</div>
       <div className={styles.section}>
         <h3>
           Куди прямує посилка{" "}
