@@ -129,16 +129,7 @@ const DeliveryDetails: React.FC<DeliveryDetailsProps> = ({
   </div>
 </div>
 
-      <div className={styles.section}>
-        <h3>
-          Хто сплачує послуги{" "}
-          <GoPencil onClick={() => setStep(1)} color="#0884d5" />
-        </h3>
-        <div className={styles.textWrapper}>
-          <div className={styles.text}>Платник: </div>
-          {formData.payer === "sender" ? "Відправник" : "Отримувач"}
-        </div>
-      </div>
+    
 <div className={styles.section}>
   <h3>
     Хто сплачує послуги{" "}
