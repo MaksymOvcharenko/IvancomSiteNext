@@ -76,7 +76,7 @@ const FormUkraine: React.FC<FormUkraineProps> = ({
   }, []);
   const sendData = async () => {
   
-  pixelEvents.lead();
+  // pixelEvents.lead();
     console.log(formData);
     setStep(5);
     setIsLoading(true);

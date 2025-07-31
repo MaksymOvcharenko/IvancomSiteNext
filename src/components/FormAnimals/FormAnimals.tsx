@@ -87,7 +87,7 @@ const handleSubmitForm = async (
   setStep(2);
   const formDataToSend = new FormData();
   pixelEvents.initiateCheckout();
-  pixelEvents.lead();
+  // pixelEvents.lead();
   if (values.file) {
     Array.from(values.file as FileList).forEach((file) =>
       formDataToSend.append("file", file)

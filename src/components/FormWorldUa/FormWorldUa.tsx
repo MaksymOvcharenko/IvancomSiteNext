@@ -99,7 +99,7 @@ const FormWorldUA: React.FC<FormUkraineProps> = ({ onClose, onBackToSelector }) 
   const onSubmit = async (data: FormValues) => {
     console.log("submit");
    
-  pixelEvents.lead();
+  // pixelEvents.lead();
     setStep(5);
     dispatch(setFormData(data));
     setIsLoading(true);
