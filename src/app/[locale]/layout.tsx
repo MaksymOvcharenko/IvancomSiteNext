@@ -12,6 +12,8 @@ import Loader from "@/components/SiteLoader/Loader";
 import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
 import FullScreenPopup from "@/components/FullScreenPopup/FullScreenPopup";
 import KeyCrmChatWidget from "@/components/KeyCrmChatWidget/KeyCrmChatWidget";
+import Script from "next/script";
+import GtmPageView from "@/components/analytics/GtmPageView";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +37,21 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-          <title>IVANCOM</title>
+        <title>IVANCOM</title>
+        {/* GTM head */}
+        <Script
+          id="gtm-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-K75222W');
+            `,
+          }}
+        />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c:wght@300;400;500;700&family=Inter:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&family=Montserrat:wght@300;400;500;600;700&display=swap"
@@ -66,6 +82,15 @@ export default async function RootLayout({
   </noscript>
       </head>
       <body className={inter.className}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K75222W"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+            <GtmPageView />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div>
             <ReduxProvider>
