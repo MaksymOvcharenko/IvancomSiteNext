@@ -18,6 +18,7 @@ import SvgIcon from "../SvgIcon";
 import { clearFormData, setFormData } from "@/store/formAnimals";
 import { FaDownload } from "react-icons/fa6";
 import pixelEvents from "@/pixelEvents";
+import { trackAnimalsFormSuccess } from "../analytics/formTracking";
 
 const schema = yup.object().shape({
   senderName: yup.string().required("sender_name_required"),
@@ -114,6 +115,7 @@ const handleSubmitForm = async (
     }
     const responseData = await response.json();
     console.log("Відповідь сервера:", responseData);
+    trackAnimalsFormSuccess()
     setSendStatus("success");
     resetForm();
     dispatch(clearFormData());

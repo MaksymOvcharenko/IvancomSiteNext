@@ -13,6 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import StatusMessage from "../StatusMessage/StatusMessage";
 import pixelEvents from "@/pixelEvents";
 import { clearFormData } from "@/store/formUatoWorld";
+import { trackUaPlFormSuccess } from "../analytics/formTracking";
 
 interface RootState {
   formUatoWorld: {
@@ -99,6 +100,7 @@ const FormUkraine: React.FC<FormUkraineProps> = ({
 
       const responseData = await response.json();
       console.log("Response from server:", responseData);
+      trackUaPlFormSuccess()
       dispatch(clearFormData()); // Очищення даних форми після успішної відправки
     } catch (error) {
       console.error("Error submitting form:", error);

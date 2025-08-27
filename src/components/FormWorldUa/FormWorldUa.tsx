@@ -20,6 +20,7 @@ import { clearFormData, setFormData } from '@/store/formWorldtoUaSlice';
 import StatusMessage from '../StatusMessage/StatusMessage';
 import SvgIcon from '../SvgIcon';
 import pixelEvents from '@/pixelEvents';
+import { trackPlUaFormSuccess } from '../analytics/formTracking';
 
 const schema = yup.object().shape({
   senderName: yup.string().required('sender_name_required'),
@@ -121,6 +122,7 @@ const FormWorldUA: React.FC<FormUkraineProps> = ({ onClose, onBackToSelector }) 
 
       const responseData = await response.json();
       console.log('Response from server:', responseData);
+      trackPlUaFormSuccess();
       dispatch(clearFormData());
     } catch (error) {
       setSendStatus("error");

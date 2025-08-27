@@ -18,6 +18,7 @@ import SvgIcon from '../SvgIcon';
 import pixelEvents from '@/pixelEvents';
 import PhoneInput from 'react-phone-input-2';
 import { isValidPhoneNumber } from 'libphonenumber-js';
+import { trackRelocationFormSuccess } from '../analytics/formTracking';
 const schema = yup.object().shape({
   senderName: yup.string().required('sender_name_required'),
   senderSurname: yup.string().required('sender_surname_required'),
@@ -118,6 +119,7 @@ const FormTransfer: React.FC<TransferProps>= ({ onClose, onBackToSelector }) => 
   
         const responseData = await response.json();
         console.log('Response from server:', responseData);
+        trackRelocationFormSuccess()
         dispatch(clearFormData()); // Зберігаємо дані форми в Redux
       } catch (error) {
         setSendStatus("error");
