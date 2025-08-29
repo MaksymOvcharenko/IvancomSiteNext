@@ -50,3 +50,39 @@ export function trackAnimalsFormSuccess() {
     formId: "animals",
   });
 }
+export function trackMessengerClick() {
+  pushToDataLayer({
+    event: "iv_click_messenger",
+    formId: "messenger",
+  });
+}
+
+export type BranchKey = "krakow" | "wroclaw" | "warsaw" | "katowice" | "kielce";
+export type ContactAction = "phone" | "viber" | "telegram";
+
+/**
+ * Клік у контактах (телефон/вайбер/телеграм) по відділенню
+ * Подія: iv_click_contact_<action>_<branch>
+ * formId: contacts-<branch>
+ */
+export function trackContactClick(branch: BranchKey, action: ContactAction) {
+  pushToDataLayer({
+    event: `iv_click_contact_${action}_${branch}`,
+    formId: `contacts-${branch}`,
+  });
+}
+
+/** Окремі кнопки */
+export function trackTrackingClick() {
+  pushToDataLayer({
+    event: "iv_click_tracking",
+    formId: "tracking",
+  });
+}
+
+export function trackCalculatorClick() {
+  pushToDataLayer({
+    event: "iv_click_calculator",
+    formId: "calculator",
+  });
+}

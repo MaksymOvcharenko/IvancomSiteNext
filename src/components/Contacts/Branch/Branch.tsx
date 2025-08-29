@@ -10,9 +10,11 @@ import { FaViber } from "react-icons/fa6";
 import { PiMapPinLight, PiTelegramLogoLight } from "react-icons/pi";
 import Image from "next/image";
 import pixelEvents from "@/pixelEvents";
+import { BranchKey, trackContactClick } from "@/components/analytics/formTracking";
 
 // Оголошуємо типи для пропсів
 interface Branch {
+   key: BranchKey;
   city: string;
   schedule: string;
   phone: string;
@@ -30,26 +32,59 @@ interface BranchInfoProps {
 
 const BranchInfo: React.FC<BranchInfoProps> = ({ branches }) => {
   const t = useTranslations("contacts");
-    const handleClick = () => {
-  // Твоя логіка тут
-  
-
-  // Виклик трекінгу події
-  pixelEvents.contact();
+  const handleClick = (branchKey: BranchKey) => {
+    // Твоя логіка тут
+    trackContactClick(branchKey, "phone");
+    // Виклик трекінгу події
+    pixelEvents.contact();
 };
-const mobileBranches = 
-    {
-    city: t('kielce'),
-    schedule: `${t('arrange_with_courier')}`,
-    phone: "+48 730 036 262",
-    viberLink: "viber://chat?number=%2B48730036262",
-    telegramLink: "https://t.me/+48730036262",
-    email: "",
-    address: "",
-    mapLink: "",
-    mapImage: ""
-  }
-  
+// const mobileBranches = 
+//     {
+//     city: t('kielce'),
+//     schedule: `${t('arrange_with_courier')}`,
+//     phone: "+48 730 036 262",
+//     viberLink: "viber://chat?number=%2B48730036262",
+//     telegramLink: "https://t.me/+48730036262",
+//     email: "",
+//     address: "",
+//     mapLink: "",
+//     mapImage: ""
+//   }
+//   const mobileBranches = {
+//   key: "kielce", // 👈 NEW
+//   city: t('kielce'),
+//   schedule: `${t('arrange_with_courier')}`,
+//   phone: "+48 730 036 262",
+//   viberLink: "viber://chat?number=%2B48730036262",
+//   telegramLink: "https://t.me/+48730036262",
+//   email: "",
+//   address: "",
+//   mapLink: "",
+//   mapImage: ""
+// };
+const mobileBranches: {
+  key: BranchKey;        // 👈 вместо string
+  city: string;
+  schedule: string;
+  phone: string;
+  viberLink: string;
+  telegramLink: string;  // 👈 правильный регистр
+  email: string;
+  address: string;
+  mapLink: string;
+  mapImage: string;
+} = {
+  key: "kielce",
+  city: t("kielce"),
+  schedule: `${t("arrange_with_courier")}`,
+  phone: "+48 730 036 262",
+  viberLink: "",
+  telegramLink: "",
+  email: "",
+  address: "",
+  mapLink: "",
+  mapImage: "",
+};
   return (
     <div className={styles.branchContainer}>
       <h3 className={styles.branchTitle}>{t("stationary_branches")}</h3>
@@ -65,7 +100,7 @@ const mobileBranches =
               <div className={styles.branchDetails}>
                 <p className={styles.branchSchedule}><CiClock2  size={20} />{branch.schedule}</p>
                 <p className={styles.branchPhone}>
-                  <a href={`tel:${branch.phone}`} onClick={handleClick}><BsTelephone size={20}  />{branch.phone}</a>
+                  <a href={`tel:${branch.phone}`} onClick={() => handleClick(branch.key)} ><BsTelephone size={20}  />{branch.phone}</a>
                 </p> 
                 
                 <p className={styles.branchContacts}>
@@ -73,6 +108,7 @@ const mobileBranches =
                     href={branch.viberLink}
                     target="_blank"
                     rel="noopener noreferrer"
+                     onClick={() => trackContactClick(branch.key, "viber")}
                   >
                    <FaViber  size={20} /> Viber
                   </a></p>
@@ -81,12 +117,13 @@ const mobileBranches =
                     href={branch.telegramLink}
                     target="_blank"
                     rel="noopener noreferrer"
+                     onClick={() => trackContactClick(branch.key, "telegram")}
                   >
                     <PiTelegramLogoLight size={20}  />Telegram
                   </a>
                 </p>
                 <p className={styles.branchEmail}>
-                  <a href={`mailto:${branch.email}`} onClick={handleClick}><CiMail size={20}  />{branch.email}</a>
+                  <a href={`mailto:${branch.email}`} onClick={() => handleClick(branch.key)}><CiMail size={20}  />{branch.email}</a>
                 </p>
                 <p className={styles.branchAddress}><PiMapPinLight size={24} />{branch.address}</p>
               </div>
@@ -131,7 +168,7 @@ const mobileBranches =
                       {branch.schedule}
                     </p>
                     <p className={styles.branchPhone}>
-                      <a href={`tel:${branch.phone}`} onClick={handleClick}>
+                      <a href={`tel:${branch.phone}`} onClick={() => handleClick(branch.key)}>
                         <BsTelephone size={20}  />
                         {branch.phone}
                       </a>
@@ -142,6 +179,7 @@ const mobileBranches =
                         href={branch.viberLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackContactClick(branch.key, "viber")}
                       >
                         <FaViber  size={20} />
                         Viber
@@ -152,13 +190,14 @@ const mobileBranches =
                         href={branch.telegramLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackContactClick(branch.key, "telegram")}
                       >
                         <PiTelegramLogoLight size={20}  />
                         Telegram
                       </a>
                     </p>
                     <p className={styles.branchEmail}>
-                      <a href={`mailto:${branch.email}`} onClick={handleClick}>
+                      <a href={`mailto:${branch.email}`} onClick={() => handleClick(branch.key)}>
                         <CiMail size={20}  />
                         {branch.email}
                       </a>
@@ -202,7 +241,7 @@ const mobileBranches =
          <div className={styles.mobileBranchesDetail}>
             <p className={styles.branchSchedule}><CiClock2 size={20} /><p>{t("monday_to_sunday") }</p><p>{mobileBranches.schedule}</p></p>
                       <p className={styles.branchPhone}>
-                        <a href={`tel:${mobileBranches.phone}`} onClick={handleClick}><BsTelephone size={20}  />{mobileBranches.phone}</a>
+                        <a href={`tel:${mobileBranches.phone}`} onClick={() => handleClick(mobileBranches.key)}><BsTelephone size={20}  />{mobileBranches.phone}</a>
                       </p>
          </div>
         </div>
