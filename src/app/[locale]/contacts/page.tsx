@@ -5,7 +5,20 @@ import styles from "./style.module.css"
 import HeroContacts from '@/components/Contacts/ContactsHero/ContactsHero';
 import { useTranslations } from "next-intl";
 import DeliveryInstructions from "@/components/DeliveryInstructions/DeliveryInstructions";
+export type BranchKey = "krakow" | "wroclaw" | "warsaw" | "katowice" | "kielce";
 
+export interface Branch {
+  key: BranchKey;
+  city: string;
+  schedule: string;
+  phone: string;
+  viberLink: string;
+  telegramLink: string;
+  email: string;
+  address: string;
+  mapImage: string;
+  mapLink: string;
+}
 const Services = () => {
   const t = useTranslations("contacts");
   
@@ -56,7 +69,7 @@ const Services = () => {
 //   },
   
 // ];
-const branches = [
+const branches: Branch[] =  [
   {
     key: "krakow", // 👈 NEW
     city: t('krakow'),
