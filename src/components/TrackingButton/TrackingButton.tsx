@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import styles from "./TrackingButton.module.css";
 import pixelEvents from "@/pixelEvents";
+import { trackTrackingClick } from "../analytics/formTracking";
 
 interface TrackingButtonProps {
   setModalFormIsOpen: (isOpen: boolean) => void;
@@ -13,7 +14,9 @@ export default function TrackingButton({ setModalFormIsOpen }: TrackingButtonPro
 
   const handleClick = () => {
     pixelEvents.addToCart();
+    trackTrackingClick();
     setModalFormIsOpen(true);
+
   };
 
   return (

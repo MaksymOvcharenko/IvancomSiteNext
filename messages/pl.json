@@ -799,27 +799,27 @@
         "rows": [
           {
             "weight": "do 5 kg",
-            "price": "*55 zł"
+            "price": "*60 zł"
           },
           {
             "weight": "5 – 10 kg",
-            "price": "*70 zł"
+            "price": "*80 zł"
           },
           {
             "weight": "10 – 15 kg",
-            "price": "*90 zł"
+            "price": "*100 zł"
           },
           {
             "weight": "15 – 20 kg",
-            "price": "*110 zł"
+            "price": "*120 zł"
           },
           {
             "weight": "20 – 25 kg",
-            "price": "*130 zł"
+            "price": "*145 zł"
           },
           {
             "weight": "Powyżej 25 kg",
-            "price": "*5,5 zł/kg"
+            "price": "*6 zł/kg"
           }
         ],
         "notes": [
@@ -836,12 +836,12 @@
       "tariffs": [
         {
           "title": "Kot, pies do 10 kg",
-          "price": "200€",
+          "price": "250€",
           "note": "*cena dotyczy transferu z oddziału IVANCOM w Polsce do Lwowa"
         },
         {
           "title": "Kot, pies powyżej 10 kg",
-          "price": "250€",
+          "price": "300€",
           "note": "*cena dotyczy transferu z oddziału IVANCOM w Polsce do Lwowa"
         },
         {
@@ -1033,21 +1033,21 @@
       "tariffs": [
         {
           "title": "Rower dziecięcy (rozmiar kół do R24)",
-          "price": "250 zł",
-          "note": "Taryfa obowiązuje dla wysyłek na Ukrainę",
-          "subNoteTitle": "Ubezpieczenie przesyłki:",
-          "subNoteText": "+1% od zadeklarowanej wartości"
-        },
-        {
-          "title": "Rower dla dorosłych (rozmiar kół od R25)",
           "price": "300 zł",
           "note": "Taryfa obowiązuje dla wysyłek na Ukrainę",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
           "subNoteText": "+1% od zadeklarowanej wartości"
         },
         {
+          "title": "Rower dla dorosłych (rozmiar kół od R25)",
+          "price": "350 zł",
+          "note": "Taryfa obowiązuje dla wysyłek na Ukrainę",
+          "subNoteTitle": "Ubezpieczenie przesyłki:",
+          "subNoteText": "+1% od zadeklarowanej wartości"
+        },
+        {
           "title": "Rowery elektryczne",
-          "price": "*5 zł/kg",
+          "price": "*6 zł/kg",
           "note": "Obliczane na podstawie rzeczywistej lub objętościowej wagi",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
           "subNoteText": "+1% od zadeklarowanej wartości"
@@ -1433,7 +1433,7 @@
         "title": "Skrzynka A",
         "weight": "do 5 kg",
         "size": "8×36×60 cm",
-        "price": "50 zł"
+        "price": "60 zł"
       },
       "boxB": {
         "title": "Skrzynka B",
@@ -1445,7 +1445,7 @@
         "title": "Skrzynka C",
         "weight": "do 25 kg",
         "size": "41×38×60 cm",
-        "price": "130 zł"
+        "price": "145 zł"
       },
       "warningTitle": "WAŻNE!",
       "warningDesc1": "Nie wolno wysyłać przez paczkomaty InPost na Ukrainę:",

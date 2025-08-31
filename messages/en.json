@@ -799,27 +799,27 @@
         "rows": [
           {
             "weight": "up to 5 kg",
-            "price": "*55 zł"
+            "price": "*60 zł"
           },
           {
             "weight": "5 – 10 kg",
-            "price": "*70 zł"
+            "price": "*80  zł"
           },
           {
             "weight": "10 – 15 kg",
-            "price": "*90 zł"
+            "price": "*100 zł"
           },
           {
             "weight": "15 – 20 kg",
-            "price": "*110 zł"
+            "price": "*120 zł"
           },
           {
             "weight": "20 – 25 kg",
-            "price": "*130 zł"
+            "price": "*145 zł"
           },
           {
             "weight": "Over 25 kg",
-            "price": "*5.5 zł/kg"
+            "price": "*6 zł/kg"
           }
         ],
         "notes": [
@@ -836,12 +836,12 @@
       "tariffs": [
         {
           "title": "Cat, dog up to 10 kg",
-          "price": "200€",
+          "price": "250€",
           "note": "*the price is for transfer from the IVANCOM branch in Poland to Lviv"
         },
         {
           "title": "Cat, dog over 10 kg",
-          "price": "250€",
+          "price": "300€",
           "note": "*the price is for transfer from the IVANCOM branch in Poland to Lviv"
         },
         {
@@ -1033,21 +1033,21 @@
       "tariffs": [
         {
           "title": "Children's bicycle (wheel size up to R24)",
-          "price": "250 zł",
-          "note": "Rate valid for shipments to Poland. Delivery cost to other countries should be confirmed with the manager.",
-          "subNoteTitle": "Shipment insurance:",
-          "subNoteText": "+1% of the declared value"
-        },
-        {
-          "title": "Adult bicycle (wheel size from R25)",
           "price": "300 zł",
           "note": "Rate valid for shipments to Poland. Delivery cost to other countries should be confirmed with the manager.",
           "subNoteTitle": "Shipment insurance:",
           "subNoteText": "+1% of the declared value"
         },
         {
+          "title": "Adult bicycle (wheel size from R25)",
+          "price": "350 zł",
+          "note": "Rate valid for shipments to Poland. Delivery cost to other countries should be confirmed with the manager.",
+          "subNoteTitle": "Shipment insurance:",
+          "subNoteText": "+1% of the declared value"
+        },
+        {
           "title": "Electric bicycles",
-          "price": "*5 zł/kg",
+          "price": "*6 zł/kg",
           "note": "Calculated based on actual or volumetric weight",
           "subNoteTitle": "Shipment insurance:",
           "subNoteText": "+1% of the declared value"
@@ -1431,7 +1431,7 @@
         "title": "Box A",
         "weight": "up to 5 kg",
         "size": "8×36×60 cm",
-        "price": "50 zł"
+        "price": "60 zł"
       },
       "boxB": {
         "title": "Box B",
@@ -1443,7 +1443,7 @@
         "title": "Box C",
         "weight": "up to 25 kg",
         "size": "41×38×60 cm",
-        "price": "130 zł"
+        "price": "145 zł"
       },
       "warningTitle": "IMPORTANT!",
       "warningDesc1": "It is forbidden to send the following through InPost parcel lockers to Ukraine:",

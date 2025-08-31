@@ -57,17 +57,17 @@ const CalculatorPLtoUA: React.FC = () => {
 
       let cost = 0;
       if (finalWeight <= 5) {
-        cost = 55;
+        cost = 60;
       } else if (finalWeight <= 10) {
-        cost = 70;
+        cost = 80;
       } else if (finalWeight <= 15) {
-        cost = 90;
+        cost = 100;
       } else if (finalWeight <= 20) {
-        cost = 110;
+        cost = 120;
       } else if (finalWeight <= 25) {
-        cost = 130;
+        cost = 145;
       } else {
-        cost = finalWeight * 5.5;
+        cost = finalWeight * 6;
       }
 
       let extraCharges: string[] = [];

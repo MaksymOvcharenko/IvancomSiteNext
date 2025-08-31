@@ -30,22 +30,22 @@ const tyrePrices: TyreItem[] = [
     category: "Гума",
     unit: "1 шт",
     rows: [
-      { size: "13''–14''", price: "60 zł" },
-      { size: "15''–17''", price: "85 zł" },
-      { size: "18''–19''", price: "130 zł" },
-      { size: "20''–21''", price: "140 zł" },
-      { size: "22''–23''", price: "165 zł" }
+      { size: "13''–14''", price: "75 zł" },
+      { size: "15''–17''", price: "100 zł" },
+      { size: "18''–19''", price: "150 zł" },
+      { size: "20''–21''", price: "175 zł" },
+      { size: "22''–23''", price: "205 zł" }
     ]
   },
   {
     category: "Диск",
     unit: "1 шт",
     rows: [
-      { size: "13''–14''", price: "50 zł" },
-      { size: "15''–17''", price: "85 zł" },
-      { size: "18''–19''", price: "130 zł" },
-      { size: "20''–21''", price: "170 zł" },
-      { size: "22''–23''", price: "220 zł" }
+      { size: "13''–14''", price: "65 zł" },
+      { size: "15''–17''", price: "100 zł" },
+      { size: "18''–19''", price: "150 zł" },
+      { size: "20''–21''", price: "200 zł" },
+      { size: "22''–23''", price: "275 zł" }
     ]
   },
   {
@@ -53,11 +53,11 @@ const tyrePrices: TyreItem[] = [
     unit: "1 шт",
     note: "(гума+диск+бортоване колесо)",
     rows: [
-      { size: "13''–14''", price: "95 zł" },
-      { size: "15''–17''", price: "130 zł" },
-      { size: "18''–19''", price: "180 zł" },
-      { size: "20''–21''", price: "220 zł" },
-      { size: "22''–23''", price: "300 zł" }
+      { size: "13''–14''", price: "120 zł" },
+      { size: "15''–17''", price: "150 zł" },
+      { size: "18''–19''", price: "210 zł" },
+      { size: "20''–21''", price: "275 zł" },
+      { size: "22''–23''", price: "375 zł" }
     ]
   }
 ];
