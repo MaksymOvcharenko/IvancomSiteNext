@@ -149,7 +149,7 @@ const calculate = () => {
 
   // === СТРАХОВКА ===
   if (declaredValue > 50000.01) {
-    insurance = (declaredValue / 10) * 0.01;
+    insurance = (declaredValue / 10) * 0.03;
   } else {
     insurance = (declaredValue / 10) * 0.03;
   }
