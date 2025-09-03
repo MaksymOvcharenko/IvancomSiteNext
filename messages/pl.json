@@ -329,7 +329,7 @@
       "Platinum": {
         "items": {
           "sameType": "dla wartościowych rzeczy",
-          "insurance": "ubezpieczenie: +1% od zadeklarowanej wartości na Nowej Poczcie",
+          "insurance": "ubezpieczenie: +3% od zadeklarowanej wartości na Nowej Poczcie",
           "delivery": "dostawa od 4 dni",
           "estimate": "wartość deklarowana od 50 001 UAH na jednym liście",
           "crypto": "możliwość płatności kryptowalutą",
@@ -457,12 +457,12 @@
       "tariffs": [
         {
           "title": "Kot, pies do 10 kg",
-          "price": "200€",
+          "price": "300€",
           "note": "*cena zawiera koszt wyrobienia Międzynarodowego Certyfikatu Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
         },
         {
           "title": "Kot, pies powyżej 10 kg",
-          "price": "250€",
+          "price": "350€",
           "note": "*cena zawiera koszt wyrobienia Międzynarodowego Certyfikatu Weterynaryjnego dla zwierząt domowych\n**cena dotyczy transportu ze Lwowa do punktów IVANCOM w Polsce"
         },
         {
@@ -558,14 +558,14 @@
       "tariffs": [
         {
           "title": "Rower dziecięcy (rozmiar koła do R24)",
-          "price": "250 zł",
+          "price": "300 zł",
           "note": "Ceny obowiązują dla dostaw do stacjonarnych oddziałów IVANCOM w Polsce. Koszty dostawy do innych miast i krajów zapytaj u menedżera.",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
           "subNoteText": "+3% od zadeklarowanej wartości"
         },
         {
           "title": "Rower dla dorosłych (rozmiar koła od R25)",
-          "price": "300 zł",
+          "price": "350 zł",
           "note": "Taryfa obowiązuje dla dostaw do Polski. Koszty dostawy do innych krajów zapytaj u menedżera.",
           "subNoteTitle": "Ubezpieczenie przesyłki:",
           "subNoteText": "+3% od zadeklarowanej wartości"
@@ -1078,7 +1078,7 @@
         "rows": [
           {
             "weight": "koperta z dokumentami",
-            "price": "*55 zł"
+            "price": "*60 zł"
           }
         ],
         "notes": [

@@ -329,7 +329,7 @@
       "Platinum": {
         "items": {
           "sameType": "for valuable items",
-          "insurance": "insurance: +1% of the declared value on Nova Poshta",
+          "insurance": "insurance: +3% of the declared value on Nova Poshta",
           "delivery": "delivery from 4 days",
           "estimate": "declared value from UAH 50,001 per invoice",
           "crypto": "option to pay via crypto wallet",
@@ -457,12 +457,12 @@
       "tariffs": [
         {
           "title": "Cat, dog up to 10kg",
-          "price": "€200",
+          "price": "€300",
           "note": "*the price includes the cost of issuing the International Veterinary Certificate for pets\n**the price is for transfer from Lviv to IVANCOM points in Poland"
         },
         {
           "title": "Cat, dog over 10kg",
-          "price": "€250",
+          "price": "€350",
           "note": "*the price includes the cost of issuing the International Veterinary Certificate for pets\n**the price is for transfer from Lviv to IVANCOM points in Poland"
         },
         {
@@ -558,14 +558,14 @@
       "tariffs": [
         {
           "title": "Children’s bicycle (wheel size up to R24)",
-          "price": "250 zł",
+          "price": "300 zł",
           "note": "Prices apply to shipments to IVANCOM stationary branches in Poland. For delivery to other cities or countries, please consult the manager.",
           "subNoteTitle": "Parcel insurance:",
           "subNoteText": "+3% of declared value"
         },
         {
           "title": "Adult bicycle (wheel size from R25)",
-          "price": "300 zł",
+          "price": "350 zł",
           "note": "Rate applies to shipments to Poland. For other countries, please consult the manager.",
           "subNoteTitle": "Parcel insurance:",
           "subNoteText": "+3% of declared value"
@@ -1078,7 +1078,7 @@
         "rows": [
           {
             "weight": "document envelope",
-            "price": "*55 zł"
+            "price": "*60 zł"
           }
         ],
         "notes": [
