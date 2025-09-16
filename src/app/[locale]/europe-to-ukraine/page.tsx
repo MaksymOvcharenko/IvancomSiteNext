@@ -82,7 +82,7 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
               <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
             </summary>
             <div className={styles.accordionContent}>
-              <GeneratorsEuUa />
+              <ParcelsEuEa />
             </div>
           </details>
         </section>

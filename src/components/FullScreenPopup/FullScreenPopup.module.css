@@ -34,3 +34,126 @@
     height: 1240px;
   } */
 }
+.popupContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+/* Синя кнопка */
+.popupButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background-color: #007bff; /* синій */
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.popupButton:hover {
+  background-color: #0056b3;
+}
+
+/* Адаптив */
+@media (max-width: 600px) {
+  .popupButton {
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+.popupContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+/* Хрестик */
+.closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+}
+
+/* Контейнер картинки */
+.imgWrap {
+  position: relative;
+  max-width: min(90vw, 820px);
+  border-radius: 12px;
+  overflow: hidden; /* щоб кнопка не виходила за межі */
+}
+
+/* Картинка */
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+  pointer-events: none; /* кліки проходять до кнопки */
+}
+
+/* Кнопка поверх (позиції у % як на макеті) */
+.cta {
+  position: absolute;
+  left: 8%;
+  top: 55%; /* підженеш при потребі */
+  transform: translateY(-50%);
+  display: inline-block;
+  padding: 30px 48px;
+  background: #1293e6;
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 28px;
+  font-size: clamp(14px, 2.2vw, 28px);
+  line-height: 1.1;
+  box-shadow: 0 6px 20px rgba(32, 120, 210, 0.35);
+  /* border: 2px solid rgba(255, 255, 255, 0.9); */
+  z-index: 2;
+}
+
+/* Ховер/фокус для доступності */
+.cta:hover,
+.cta:focus-visible {
+  background: #0e7cc1;
+  outline: none;
+}
+
+/* Мобілка — трохи зміщуємо та збільшуємо площу натискання */
+@media (max-width: 600px) {
+  .cta {
+    left: 6%;
+    top: 55%;
+    padding: 12px 18px;
+    border-radius: 16px;
+    font-size: clamp(14px, 2.2vw, 20px);
+  }
+}

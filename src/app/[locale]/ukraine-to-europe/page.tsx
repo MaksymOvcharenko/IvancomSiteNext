@@ -76,17 +76,17 @@ const EuropeToEuropePage = ({ searchParams }: Props) => {
           </details>
         </section>
 
-        {/* <section id="generators" className={styles.section}>
+         <section id="generators" className={styles.section}>
           <details open={openedSection === "generators"} className={styles.accordionCont}>
             <summary className={styles.accordionTitle}>
               {t("sections.generators")}
               <FiChevronDown size={32} className={styles.arrow} aria-hidden="true" />
             </summary>
             <div className={styles.accordionContent}>
-
+<ParcelsUaEu/>
             </div>
           </details>
-        </section> */}
+        </section> 
 
         <section id="move" className={styles.section}>
           <details open={openedSection === "move"} className={styles.accordionCont}>

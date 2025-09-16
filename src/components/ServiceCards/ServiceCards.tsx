@@ -18,7 +18,7 @@ const services = [
   { id: 'medicines', label: 'medicines', img: '/image/services/medicines1.png' },
   // { id: 'cosmetics', label: 'cosmetics', img: '/image/services/cosmetics.jpg' },
   { id: 'animals', label: 'animals', img: '/image/services/animals1.png' },
-  { id: 'generators', label: 'generators', img: '/image/services/generator1.png' },
+  { id: 'generators', label: 'generators', img: '/image/services/agd.jpg' },
   { id: 'move', label: 'move', img: '/image/services/move1.png' },
   { id: 'wheels', label: 'wheels', img: '/image/services/wheels1.png' },
   { id: 'bicycles', label: 'bicycles', img: '/image/services/bicycles1.png' },
