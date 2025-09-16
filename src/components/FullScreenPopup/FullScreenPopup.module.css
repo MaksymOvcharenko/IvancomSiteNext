@@ -106,7 +106,9 @@
 /* Контейнер картинки */
 .imgWrap {
   position: relative;
-  max-width: min(90vw, 820px);
+  /* max-width: min(90vw, 820px); */
+  max-width: 90vw;
+  max-width: 820px;
   border-radius: 12px;
   overflow: hidden; /* щоб кнопка не виходила за межі */
 }
