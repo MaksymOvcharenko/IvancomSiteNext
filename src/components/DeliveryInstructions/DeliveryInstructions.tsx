@@ -21,7 +21,8 @@ const DeliveryInstructions = () => {
             <p className={styles.text}>{t('step1.description')}</p>
             <p className={styles.contact}>
               <BsTelephone size={22} />
-              <a href="tel:+48570371048" className={styles.link}>+48 570 371 048</a>
+              {/* <a href="tel:+48570371048" className={styles.link}>+48 570 371 048</a> */}
+              <p  className={styles.link}>+48 570 371 048</p>
             </p>
             <p className={styles.contact}>
               <CiMail size={22} />
