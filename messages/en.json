@@ -1460,22 +1460,19 @@
       "stepsDesc": "It's very easy — just a few steps:",
       "steps": [
         {
-          "title": "Prepare your parcel for shipment.",
-          "desc": "Use a sturdy box, secure fragile items, and tape it well. Check our tips to avoid damage."
+          "title": "Prepare your parcel for the journey.",
+          "desc": "Choose a sturdy box, securely protect fragile items and seal it well. Check our tips to avoid any damage."
         },
         {
-          "title": "Fill in the shipping form"
+          "title": "Fill in the shipment form and pay online",
+          "desc": "We accept payments in any currency"
         },
         {
-          "title": "Receive a payment link",
-          "desc": "An IVANCOM operator will send you a link — just pay online."
+          "title": "Using the code sent to your email, place your parcel in the nearest InPost locker"
         },
         {
-          "title": "Use the code received by email to place your parcel in the nearest InPost parcel locker"
-        },
-        {
-          "title": "Track the delivery",
-          "desc": "You'll receive a Nova Poshta tracking number — use it to track your parcel’s route."
+          "title": "Track your delivery",
+          "desc": "You will receive a Nova Poshta tracking number — you can follow your parcel’s route on our website."
         }
       ]
     },

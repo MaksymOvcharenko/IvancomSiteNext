@@ -1462,22 +1462,19 @@
       "stepsDesc": "To bardzo proste – wystarczy kilka kroków:",
       "steps": [
         {
-          "title": "Przygotuj paczkę do wysyłki.",
-          "desc": "Wybierz solidne pudełko, dobrze zabezpiecz delikatne przedmioty i dokładnie je zaklej. Sprawdź nasze porady, aby uniknąć uszkodzeń."
+          "title": "Przygotuj paczkę do podróży.",
+          "desc": "Wybierz solidne pudełko, dobrze zabezpiecz kruche przedmioty i starannie je zaklej. Sprawdź nasze porady, aby uniknąć uszkodzeń."
         },
         {
-          "title": "Wypełnij formularz nadania"
+          "title": "Wypełnij formularz nadania i zapłać online",
+          "desc": "Akceptujemy płatności w dowolnej walucie"
         },
         {
-          "title": "Otrzymaj link do płatności",
-          "desc": "Operator IVANCOM prześle Ci link — wystarczy zapłacić online."
-        },
-        {
-          "title": "Za pomocą kodu otrzymanego na email, umieść paczkę w najbliższym paczkomacie InPost"
+          "title": "Za pomocą kodu, który otrzymasz na e-mail, włóż swoją paczkę do najbliższego paczkomatu InPost"
         },
         {
           "title": "Śledź dostawę",
-          "desc": "Otrzymasz numer przesyłki Nowej Poczty — dzięki niemu możesz śledzić trasę paczki."
+          "desc": "Otrzymasz numer przesyłki Nowa Poczta — możesz śledzić trasę paczki na naszej stronie."
         }
       ]
     },
