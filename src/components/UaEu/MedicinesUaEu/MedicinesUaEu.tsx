@@ -26,7 +26,7 @@ const MedicinesUaEu = () => {
   return (
     <div className={s.body}>
       <h3 className={s.title}>{t('title')}</h3>
-
+      <h3 className={s.description}>{t('description')}</h3>
       <div className={s.cardList}>
         {tariffs.map((tariff, index) => (
           <div className={s.card} key={index}>

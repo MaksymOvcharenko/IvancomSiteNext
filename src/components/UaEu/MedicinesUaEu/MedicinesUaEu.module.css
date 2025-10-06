@@ -34,7 +34,16 @@
   justify-content: space-between;
   width: 100%;
 }
-
+.description{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--accent-blue);
+  margin-bottom: 16px;
+}
 .title {
   font-family: var(--font-family);
   font-weight: 700;
