@@ -1189,6 +1189,104 @@
     "deliveryInPoland": "Delivery in Poland",
     "valuationLabelUA": "Estimated value (UAH):"
   },
+  
+  "CalcSwitch": {
+    "title": "Choose a calculator",
+    "tabs": { "parcel": "Parcels", "meds": "Medicines" },
+    "aria": { "calculatorType": "Calculator type" }
+  },
+  "CalcMeds": {
+  "title": "Medicines calculator from Ukraine",
+
+  "cat": {
+    "tablets": "Tablets/suppositories",
+    "liquids": "Liquids/ointments/powders",
+    "supplements": "Supplements/vitamins",
+    "injectionCosmetics": "Injectable cosmetics"
+  },
+
+  "prices": {
+    "tablets": {
+      "to20": "up to 20 pcs per pack",
+      "to50": "up to 50 pcs per pack",
+      "gt50": "from 50 pcs per pack"
+    },
+    "liquids": {
+      "to100": "up to 100 ml/g",
+      "gt100": "from 100 ml/g"
+    },
+    "supplements": {
+      "to100pcs": "up to 100 pcs",
+      "gt100pcs": "from 100 pcs"
+    },
+    "injectionCosmetics": {
+      "botoxFridge": "Botox (refrigerated)",
+      "to100": "Preparations up to 100 ml/g",
+      "100to250": "100–250 ml/g",
+      "250to500": "250–500 ml/g",
+      "ampoules": "Ampoules up to 10 ml",
+      "syringes": "Syringes/fillers/beauty injections"
+    }
+  },
+
+  "badges": {
+    "mushroomNote": "* For mushroom extracts/forms — +5 zł per item"
+  },
+
+  "selectedList": {
+    "mushroomExtra": "Contains mushroom extracts/forms (+5 zł)",
+    "qty": "Qty"
+  },
+
+  "buttons": {
+    "delete": "Delete"
+  },
+
+  "options": {
+    "temp": {
+      "title": "Temperature control (2–8°C, Poland only)",
+      "need": "Need 2–8°C",
+      "ivankom": "To IVANKOM branch (+{price} zł)",
+      "inpost": "InPost (+{price} zł)"
+    },
+    "pl": {
+      "title": "Delivery in Poland",
+      "none": "No extra charge",
+      "courier": "IVANKOM courier (city)",
+      "inpost": "InPost (+{price} zł)",
+      "cityPrice": "{city} — from {price} zł"
+    },
+    "eu": {
+      "title": "Delivery across Europe (EUR)",
+      "none": "No EU delivery",
+      "sizeA": "Size A (8×38×60)",
+      "sizeB": "Size B (19×38×60)",
+      "sizeC": "Size C (38×41×60)",
+      "note": "* Transit time is counted from the day of departure from Ukraine."
+    }
+  },
+
+  "result": {
+    "units": "Units of medicines:",
+    "itemsCost": "Service for medicines (with minimum):",
+    "temp": "Temperature control:",
+    "pl": "Delivery in Poland:",
+    "eu": "Delivery in Europe:",
+    "totalPln": "Total (PLN):"
+  },
+
+  "alert": {
+    "title": "IMPORTANT:",
+    "item1": "It is forbidden to send medicines containing narcotic substances.",
+    "item2": "For mushroom extracts/forms, the supplements/vitamins tariff applies: +5 zł per item.",
+    "item3": "Minimum service cost — 50 zł for up to 4 units of medicines.",
+    "item4": "Address courier delivery is charged additionally.",
+    "item5": "Medicines must be in original packaging (no removing from blisters)."
+  }
+}
+,
+
+
   "HeroServices": {
     "calculate": "Calculate cost",
     "apply": "Submit a request"

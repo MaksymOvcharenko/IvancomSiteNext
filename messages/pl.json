@@ -1189,6 +1189,104 @@
     "deliveryInPoland": "Dostawa w Polsce",
     "valuationLabelUA": "Wartość szacunkowa (UAH):"
   },
+  
+  "CalcSwitch": {
+    "title": "Wybierz kalkulator",
+    "tabs": { "parcel": "Paczki", "meds": "Leki" },
+    "aria": { "calculatorType": "Typ kalkulatora" }
+  },
+  "CalcMeds": {
+  "title": "Kalkulator leków z Ukrainy",
+
+  "cat": {
+    "tablets": "Tabletki/czopki",
+    "liquids": "Płyny/maści/proszki",
+    "supplements": "Suplementy/witaminy",
+    "injectionCosmetics": "Kosmetyka iniekcyjna"
+  },
+
+  "prices": {
+    "tablets": {
+      "to20": "do 20 szt w op.",
+      "to50": "do 50 szt w op.",
+      "gt50": "od 50 szt w op."
+    },
+    "liquids": {
+      "to100": "do 100 ml/g",
+      "gt100": "od 100 ml/g"
+    },
+    "supplements": {
+      "to100pcs": "do 100 szt",
+      "gt100pcs": "od 100 szt"
+    },
+    "injectionCosmetics": {
+      "botoxFridge": "Botox (lodówka)",
+      "to100": "Preparaty do 100 ml/g",
+      "100to250": "od 100 do 250 ml/g",
+      "250to500": "od 250 do 500 ml/g",
+      "ampoules": "Ampułki do 10 ml",
+      "syringes": "Strzykawki/wypełniacze/iniekcje beauty"
+    }
+  },
+
+  "badges": {
+    "mushroomNote": "* Dla ekstraktów grzybowych/form — +5 zł/pozycję"
+  },
+
+  "selectedList": {
+    "mushroomExtra": "Zawiera ekstrakty/formy grzybów (+5 zł)",
+    "qty": "Ilość"
+  },
+
+  "buttons": {
+    "delete": "Usuń"
+  },
+
+  "options": {
+    "temp": {
+      "title": "Reżim temperaturowy (2–8°C, tylko do Polski)",
+      "need": "Wymagana temp. 2–8°C",
+      "ivankom": "Do oddziału IVANKOM (+{price} zł)",
+      "inpost": "InPost (+{price} zł)"
+    },
+    "pl": {
+      "title": "Dostawa w Polsce",
+      "none": "Bez dopłaty",
+      "courier": "Kurier IVANKOM (miasto)",
+      "inpost": "InPost (+{price} zł)",
+      "cityPrice": "{city} — od {price} zł"
+    },
+    "eu": {
+      "title": "Dostawa w Europie (euro)",
+      "none": "Bez dostawy w UE",
+      "sizeA": "Rozmiar A (8×38×60)",
+      "sizeB": "Rozmiar B (19×38×60)",
+      "sizeC": "Rozmiar C (38×41×60)",
+      "note": "* Termin liczony od dnia wyjazdu z Ukrainy."
+    }
+  },
+
+  "result": {
+    "units": "Liczba jednostek leków:",
+    "itemsCost": "Usługa za leki (z minimalną):",
+    "temp": "Reżim temperaturowy:",
+    "pl": "Dostawa w Polsce:",
+    "eu": "Dostawa w Europie:",
+    "totalPln": "Razem (PLN):"
+  },
+
+  "alert": {
+    "title": "WAŻNE:",
+    "item1": "Zakaz wysyłki leków zawierających substancje narkotyczne.",
+    "item2": "Dla ekstraktów/form grzybowych obowiązuje taryfa suplementów/witamin +5 zł/pozycję.",
+    "item3": "Minimalna wartość usługi — 50 zł do 4 jednostek leków.",
+    "item4": "Dostawa kurierska pod adres płatna dodatkowo.",
+    "item5": "Leki muszą być w oryginalnym opakowaniu (bez wysypywania z blistrów)."
+  }
+}
+,
+
+
   "HeroServices": {
     "calculate": "Oblicz koszt",
     "apply": "Zostaw zgłoszenie"

@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Tilda Sans";
+  src: url("../../../../fonts/TildaSans-Light.woff2") format("woff2"),
+    url("../../../../fonts/TildaSans-Light.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tilda Sans";
+  src: url("../../../../fonts/TildaSans-Regular.woff2") format("woff2"),
+    url("../../../../fonts/TildaSans-Regular.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tilda Sans";
+  src: url("../../../../fonts/TildaSans-Medium.woff2") format("woff2"),
+    url("../../../../fonts/TildaSans-Medium.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+.title {
+  font-family: "Tilda Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+
+.cards {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+}
+/* @media (min-width: 680px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 960px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
+} */
+
+.card {
+  border: 1px solid #e9edf5;
+  border-radius: 14px;
+  background: #fff;
+  padding: 12px;
+  box-shadow: 0 2px 10px rgba(5, 23, 59, 0.04);
+}
+.cardHead {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #05173b;
+}
+.cardBody {
+  display: grid;
+  gap: 8px;
+}
+.addBtn {
+  border-radius: 8px;
+  border: 1px solid #e3e7ef;
+  background: #f8fbff;
+  padding: 8px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease,
+    border-color 0.12s ease;
+}
+.addBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.noteSmall {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #3b4660;
+}
+
+.listWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr auto auto auto;
+  align-items: center;
+  border: 1px solid #eef2f8;
+  background: #fbfdff;
+  border-radius: 10px;
+  padding: 10px;
+ 
+  
+}
+.rowLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.rowTitle {
+  font-weight: 600;
+  color: #05173b;
+  white-space: pre-line;
+}
+.inlineCheck {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 14px;
+  color: #000;
+}
+
+.rowRight {
+  display: contents;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.qtyBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.qtyInput {
+  width: 70px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #e3e7ef;
+  background: #d6e0f5;
+  text-align: center;
+  font-size: 16px;
+}
+.money {
+  text-align: right;
+}
+.priceLine {
+  font-size: 12px;
+  color: #3b4660;
+}
+.priceSum {
+  font-weight: 700;
+}
+
+.removeBtn {
+  border: none;
+  background: #ffe9e9;
+  color: #a30000;
+  font-weight: 700;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.options {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+}
+/* @media (min-width: 860px) {
+  .options { grid-template-columns: repeat(3, 1fr); }
+} */
+.optionCol {
+  border: 1px solid #eef2f8;
+  border-radius: 12px;
+  background: #fff;
+  padding: 12px;
+}
+.optTitle {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #05173b;
+}
+.radioGroup {
+  display: grid;
+  gap: 6px;
+}
+.radioItem {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.select {
+  width: 100%;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #e3e7ef;
+  background: #f8fbff;
+  padding: 6px 8px;
+  margin-top: 6px;
+}
+
+.result {
+  border: 1px solid #e9edf5;
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+}
+.resultRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+.total {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #e3e7ef;
+  font-weight: 800;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.total span {
+  color: #05173b;
+}
+
+.alert {
+  border: 1px solid #f0c9c9;
+  background: #fff8f8;
+  padding: 12px;
+  border-radius: 10px;
+  color: #3b1111;
+}
+.alert li {
+  list-style-type: none;
+}
+.badge {
+  margin-left: 6px;
+  display: inline-block;
+  min-width: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #eef3ff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+}
