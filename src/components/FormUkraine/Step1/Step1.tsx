@@ -66,7 +66,7 @@ const Step1: React.FC<Step1> = ({nextStep}) => {
 
   const handleTTNChange = async (ttn: string, setFieldValue: any) => {
   if (ttn.length === 14) {
-    const apiKey = "789c9c5769a09f148f3c306d4079bc74";
+    const apiKey = "058ede2709b4821bc076351701926af7";
     const url = "https://api.novaposhta.ua/v2.0/json/";
     const payload = {
       apiKey: apiKey,
