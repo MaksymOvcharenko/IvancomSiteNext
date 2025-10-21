@@ -53,39 +53,24 @@ export default async function RootLayout({
           }}
         />
          <Script
-          id="iframe-gtm-bridge"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function () {
-                // Дозволені origin-и айфреймів (МОЖНА масивом, якщо їх кілька)
-                var ALLOWED_IFRAME_ORIGINS = [
-                  'https://form.ivankom.pl' // ← ЗАМІНИ на свій домен айфрейма
-                ];
+  id="iframe-gtm-bridge"
+  strategy="beforeInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function () {
+        window.dataLayer = window.dataLayer || [];
+        window.addEventListener("message", function (e) {
+          var d = e.data || {};
+          if (d && d.source === "inpost-form" && d.type === "GTM_EVENT" && d.event) {
+            window.dataLayer.push({ event: d.event, ...(d.props || {}) });
+            //console.log("[PARENT→dataLayer]", d.event, d.props || {});
+          }
+        });
+      })();
+    `,
+  }}
+/>
 
-                window.dataLayer = window.dataLayer || [];
-
-                function isAllowed(origin) {
-                  try { return ALLOWED_IFRAME_ORIGINS.indexOf(origin) !== -1; }
-                  catch(e) { return false; }
-                }
-
-                window.addEventListener('message', function (e) {
-                  if (!isAllowed(e.origin)) return;
-
-                  var d = e.data || {};
-                  if (d && d.source === 'inpost-form' && d.type === 'GTM_EVENT' && d.event) {
-                    // Перекидаємо в dataLayer головного сайту
-                    window.dataLayer.push(Object.assign({ event: d.event }, d.props || {}));
-
-                    // Увімкни на час дебагу:
-                    // console.log('[PARENT→dataLayer]', e.origin, { event: d.event, ...(d.props||{}) });
-                  }
-                });
-              })();
-            `,
-          }}
-        />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c:wght@300;400;500;700&family=Inter:wght@300;400;500;700&family=Open+Sans:wght@300;400;600&family=Montserrat:wght@300;400;500;600;700&display=swap"
